@@ -12,9 +12,12 @@ class NeuroShunter {
         let shouldSuppressReply = options.suppressReply === true;
 
         // 核心：偵測 [INTERVENE] 標籤以實現觀察者模式自主介入
-        if (parsed.reply && parsed.reply.includes('[INTERVENE]')) {
+        if (rawResponse.includes('[INTERVENE]')) {
             console.log(`🚀 [NeuroShunter] 偵測到 AI 自主介入請求 [INTERVENE]！`);
             shouldSuppressReply = false;
+        }
+
+        if (parsed.reply && parsed.reply.includes('[INTERVENE]')) {
             parsed.reply = parsed.reply.replace(/\[INTERVENE\]/g, '').trim();
         }
 

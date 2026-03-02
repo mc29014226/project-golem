@@ -213,6 +213,18 @@ class UniversalContext {
             if (this.shouldMentionSender && !sendOptions.reply_to_message_id) {
                 sendOptions.reply_to_message_id = this.messageId;
             }
+
+            // [V9.0.7 降級策略] 針對觀察者模式，若回覆 ID 過期或無效，則降級為普通發言
+            try {
+                return await MessageManager.send(this, content, sendOptions);
+            } catch (e) {
+                if (e.message.includes('reply_to_message_id_invalid') || e.message.includes('message to reply not found')) {
+                    console.warn(`⚠️ [UniversalContext] 回覆 ID ${this.messageId} 失效，切換至一般發言回饋。`);
+                    delete sendOptions.reply_to_message_id;
+                    return await MessageManager.send(this, content, sendOptions);
+                }
+                throw e;
+            }
         }
 
         return await MessageManager.send(this, content, sendOptions);

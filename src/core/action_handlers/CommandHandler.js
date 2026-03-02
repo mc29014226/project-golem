@@ -8,11 +8,12 @@ class CommandHandler {
         // 1. 處理需要外部審批的情況
         if (typeof result === 'object') {
             if (result.status === 'PENDING_APPROVAL') {
-                const cmdBlock = result.cmd ? `\n\`\`\`\n${result.cmd}\n\`\`\`` : "";
+                const cmdBlock = result.cmd ? `\n\`\`\`shell\n${result.cmd}\n\`\`\`` : "";
                 await ctx.reply(
-                    `⚠️ ${result.riskLevel === 'DANGER' ? '🔴 危險指令' : '🟡 警告'}${cmdBlock}\n${result.reason}`,
+                    `⚠️ ${result.riskLevel === 'DANGER' ? '🔴 危險指令' : '🟡 警告'}\n${cmdBlock}\n\n${result.reason}`,
                     {
                         parse_mode: 'Markdown',
+                        disable_web_page_preview: true,
                         reply_markup: {
                             inline_keyboard: [[
                                 { text: '✅ 批准', callback_data: `APPROVE_${result.approvalId}` },
