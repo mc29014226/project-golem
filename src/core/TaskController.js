@@ -64,11 +64,12 @@ class TaskController {
                 this.pendingTasks.set(approvalId, {
                     steps, nextIndex: i, ctx, timestamp: Date.now()
                 });
-                const cmdBlock = cmdToRun ? `\n\`\`\`\n${cmdToRun}\n\`\`\`` : "";
+                const cmdBlock = cmdToRun ? `\n\`\`\`shell\n${cmdToRun}\n\`\`\`` : "";
                 await ctx.reply(
-                    `⚠️ ${risk.level === 'DANGER' ? '🔴 危險指令' : '🟡 警告'}${cmdBlock}\n${risk.reason}`,
+                    `⚠️ ${risk.level === 'DANGER' ? '🔴 危險指令' : '🟡 警告'}\n${cmdBlock}\n\n${risk.reason}`,
                     {
                         parse_mode: 'Markdown',
+                        disable_web_page_preview: true,
                         reply_markup: {
                             inline_keyboard: [[
                                 { text: '✅ 批准', callback_data: `APPROVE_${approvalId}` },
