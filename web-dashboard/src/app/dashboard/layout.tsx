@@ -49,7 +49,13 @@ export default function DashboardLayout({
                 <nav className="flex-1 py-4 space-y-2 overflow-hidden flex flex-col items-center">
                     {navItems.map((item) => {
                         const Icon = item.icon;
-                        const isActive = pathname === item.href;
+
+                        // Smarter isActive: 
+                        // 1. For root dashboard, must be exact (or with trailing slash)
+                        // 2. For others, startsWith is fine to catch sub-sub routes if any
+                        const isActive = item.href === "/dashboard"
+                            ? (pathname === "/dashboard" || pathname === "/dashboard/")
+                            : pathname.startsWith(item.href);
 
                         return (
                             <Link
