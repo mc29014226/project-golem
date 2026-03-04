@@ -44,6 +44,11 @@ class BrowserMemoryDriver {
             const memoryPath = 'file:///' + targetHtmlPath.replace(/\\/g, '/');
             console.log(`🧠 [Memory:Browser] 正在掛載神經海馬迴: ${memoryPath} (Golem: ${this.brain.golemId})`);
 
+            // Forward console logs from Puppeteer to the Node backend
+            this.brain.memoryPage.on('console', msg => {
+                console.log(`🧠 [Memory:Browser] ${msg.text()}`);
+            });
+
             await this.brain.memoryPage.goto(memoryPath);
             await new Promise(r => setTimeout(r, 5000));
         } catch (e) { console.error("❌ [Memory:Browser] 啟動失敗:", e.message); }
@@ -51,6 +56,9 @@ class BrowserMemoryDriver {
     async recall(query) {
         if (!this.brain.memoryPage) return [];
         return await this.brain.memoryPage.evaluate(async (txt) => {
+            if (!txt || txt.trim() === "") {
+                return window.getAllMemories ? await window.getAllMemories() : [];
+            }
             return window.queryMemory ? await window.queryMemory(txt) : [];
         }, query);
     }
