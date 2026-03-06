@@ -155,7 +155,7 @@ function DashboardContent({
     isSidebarOpen: boolean,
     setIsSidebarOpen: (v: boolean) => void
 }) {
-    const { activeGolem, activeGolemStatus, isSystemConfigured, isLoadingSystem, isLoadingGolems } = useGolem();
+    const { activeGolem, activeGolemStatus, isSystemConfigured, isLoadingSystem, isLoadingGolems, hasGolems } = useGolem();
     const router = useRouter();
     const pathname = usePathname();
 
@@ -173,7 +173,17 @@ function DashboardContent({
         }
     }, [isLoadingSystem, isSystemConfigured, pathname, router]);
 
-    const isSetupPage = pathname === '/dashboard/setup' || pathname === '/dashboard/system-setup';
+    // Golem 建立引導：系統已設定但尚無任何 Golem，導向建立 Golem 頁
+    useEffect(() => {
+        if (isLoadingSystem || isLoadingGolems) return;
+        if (!isSystemConfigured) return; // 已由上面的 guard 處理
+        const SETUP_PATHS = ['/dashboard/system-setup', '/dashboard/agents/create', '/dashboard/setup'];
+        if (!hasGolems && !SETUP_PATHS.includes(pathname)) {
+            router.push('/dashboard/agents/create');
+        }
+    }, [isLoadingSystem, isLoadingGolems, isSystemConfigured, hasGolems, pathname, router]);
+
+    const isSetupPage = pathname === '/dashboard/setup' || pathname === '/dashboard/system-setup' || pathname === '/dashboard/agents/create';
 
     return (
         <div className="flex h-screen bg-gray-950 text-white overflow-hidden">
