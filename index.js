@@ -80,6 +80,7 @@ const introspection = require('./src/services/Introspection');
 // 🎯 V9.0.7 解耦：不再於啟動時遍歷配置建立 Bot 與實體
 // TelegramBot 與 Golem 實體將由 Web Dashboard 透過 golemFactory 動態建立
 const telegramBots = new Map();
+const discordBots = new Map();
 const activeGolems = new Map();
 
 const dcClient = CONFIG.DC_TOKEN ? new Client({
@@ -121,8 +122,11 @@ function getOrCreateGolem(golemId) {
     });
 
     const boundBot = telegramBots.get(golemId) || (telegramBots.size > 0 ? telegramBots.values().next().value : null);
-    autonomy.setIntegrations(boundBot, dcClient, convoManager);
+    const boundDcBot = discordBots.get(golemId) || (discordBots.size > 0 ? discordBots.values().next().value : null);
+
+    autonomy.setIntegrations(boundBot, boundDcBot || dcClient, convoManager);
     brain.tgBot = boundBot; // expose for dashboard notifications
+    brain.dcBot = boundDcBot || dcClient;
 
     const instance = { brain, controller, autonomy, convoManager };
     activeGolems.set(golemId, instance);
@@ -206,6 +210,40 @@ function getOrCreateGolem(golemId) {
                     console.error(`❌ [Bot] 初始化 ${golemConfig.id} Telegram 失敗:`, e.message);
                 }
             }
+
+            if (golemConfig.dcToken && !discordBots.has(golemConfig.id)) {
+                try {
+                    const client = new Client({
+                        intents: [
+                            GatewayIntentBits.Guilds,
+                            GatewayIntentBits.GuildMessages,
+                            GatewayIntentBits.MessageContent,
+                            GatewayIntentBits.DirectMessages
+                        ],
+                        partials: [Partials.Channel]
+                    });
+                    client.golemConfig = golemConfig;
+                    client.once('ready', () => {
+                        console.log(`🤖 [Bot] ${golemConfig.id} Discord 已掛載 (${client.user ? client.user.tag : 'Unknown'})`);
+                    });
+
+                    // Bind per-golem Discord events directly to the global handler but force the targetId
+                    client.on('messageCreate', (msg) => {
+                        if (!msg.author.bot) handleUnifiedMessage(new UniversalContext('discord', msg, client), golemConfig.id);
+                    });
+                    client.on('interactionCreate', (interaction) => {
+                        if (interaction.isButton()) handleUnifiedCallback(new UniversalContext('discord', interaction, client), interaction.customId, golemConfig.id);
+                    });
+
+                    client.login(golemConfig.dcToken).catch(e => {
+                        console.warn(`⚠️ [Bot] ${golemConfig.id} Discord Login Failed:`, e.message);
+                    });
+                    discordBots.set(golemConfig.id, client);
+                } catch (e) {
+                    console.error(`❌ [Bot] 初始化 ${golemConfig.id} Discord 失敗:`, e.message);
+                }
+            }
+
             const instance = getOrCreateGolem(golemConfig.id);
             await ensureCoreServices();
             if (typeof instance.brain._linkDashboard === 'function') {

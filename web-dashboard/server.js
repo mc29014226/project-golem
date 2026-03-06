@@ -648,10 +648,14 @@ class WebServer {
         // ─── Create New Golem ────────────────────────────────────────────
         this.app.post('/api/golems/create', async (req, res) => {
             try {
-                const { id, tgToken, role, tgAuthMode, adminId, chatId } = req.body;
+                const {
+                    id, role,
+                    tgToken, tgAuthMode, tgAdminId, tgChatId,
+                    dcToken, dcAuthMode, dcAdminId, dcChatId
+                } = req.body;
 
-                if (!id || !tgToken) {
-                    return res.status(400).json({ error: 'Missing required fields: id, tgToken' });
+                if (!id || (!tgToken && !dcToken)) {
+                    return res.status(400).json({ error: 'Missing required fields: id, and at least one Bot Token (Telegram or Discord)' });
                 }
 
                 // Validate ID format
@@ -672,10 +676,23 @@ class WebServer {
                 }
 
                 // Build new golem config entry
-                const newGolemConfig = { id, tgToken, role: role || '' };
-                if (tgAuthMode) newGolemConfig.tgAuthMode = tgAuthMode;
-                if (tgAuthMode === 'CHAT' && chatId) newGolemConfig.chatId = chatId;
-                if ((!tgAuthMode || tgAuthMode === 'ADMIN') && adminId) newGolemConfig.adminId = adminId;
+                const newGolemConfig = { id, role: role || '' };
+
+                // Telegram
+                if (tgToken) {
+                    newGolemConfig.tgToken = tgToken;
+                    if (tgAuthMode) newGolemConfig.tgAuthMode = tgAuthMode;
+                    if (tgAuthMode === 'CHAT' && tgChatId) newGolemConfig.chatId = tgChatId;
+                    if ((!tgAuthMode || tgAuthMode === 'ADMIN') && tgAdminId) newGolemConfig.adminId = tgAdminId;
+                }
+
+                // Discord
+                if (dcToken) {
+                    newGolemConfig.dcToken = dcToken;
+                    if (dcAuthMode) newGolemConfig.dcAuthMode = dcAuthMode;
+                    if (dcAuthMode === 'CHAT' && dcChatId) newGolemConfig.dcChatId = dcChatId;
+                    if ((!dcAuthMode || dcAuthMode === 'ADMIN') && dcAdminId) newGolemConfig.dcAdminId = dcAdminId;
+                }
 
                 // Persist to golems.json
                 existingGolems.push(newGolemConfig);

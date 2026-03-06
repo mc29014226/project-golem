@@ -212,32 +212,52 @@ class AutonomyManager {
     async sendNotification(msgText) {
         if (!msgText) return;
 
-        let targetId = CONFIG.ADMIN_IDS[0];
-        let authMode = CONFIG.TG_AUTH_MODE;
-
-        // ✨ [v9.0.7] 智慧分流：優先從機器人綁定的實體配置中提取設定
+        // --- Telegram Routing ---
+        let tgTargetId = CONFIG.ADMIN_IDS[0];
+        let tgAuthMode = CONFIG.TG_AUTH_MODE;
         if (this.tgBot && this.tgBot.golemConfig) {
             const gCfg = this.tgBot.golemConfig;
-            authMode = gCfg.tgAuthMode || authMode;
-
-            if (authMode === 'CHAT' && gCfg.chatId) {
-                targetId = gCfg.chatId;
+            tgAuthMode = gCfg.tgAuthMode || tgAuthMode;
+            if (tgAuthMode === 'CHAT' && gCfg.chatId) {
+                tgTargetId = gCfg.chatId;
             } else if (gCfg.adminId) {
-                // 處理可能的多個 Admin ID (取第一個)
-                targetId = Array.isArray(gCfg.adminId) ? gCfg.adminId[0] : String(gCfg.adminId).split(',')[0].trim();
+                tgTargetId = Array.isArray(gCfg.adminId) ? gCfg.adminId[0] : String(gCfg.adminId).split(',')[0].trim();
             }
-        } else {
-            // Fallback 到全域設定
-            if (authMode === 'CHAT' && CONFIG.TG_CHAT_ID) {
-                targetId = CONFIG.TG_CHAT_ID;
+        } else if (tgAuthMode === 'CHAT' && CONFIG.TG_CHAT_ID) {
+            tgTargetId = CONFIG.TG_CHAT_ID;
+        }
+
+        // --- Discord Routing ---
+        let dcTargetId = CONFIG.DISCORD_ADMIN_ID;
+        let dcAuthMode = 'ADMIN';
+        if (this.dcClient && this.dcClient.golemConfig) {
+            const gCfg = this.dcClient.golemConfig;
+            dcAuthMode = gCfg.dcAuthMode || dcAuthMode;
+            if (dcAuthMode === 'CHAT' && gCfg.dcChatId) {
+                dcTargetId = gCfg.dcChatId;
+            } else if (gCfg.dcAdminId) {
+                dcTargetId = Array.isArray(gCfg.dcAdminId) ? gCfg.dcAdminId[0] : String(gCfg.dcAdminId).split(',')[0].trim();
             }
         }
 
-        if (this.tgBot && targetId) {
-            await this.tgBot.sendMessage(targetId, msgText).catch(e => console.error("❌ [Autonomy] TG 通知發送失敗:", e.message));
-        } else if (this.dcClient && CONFIG.DISCORD_ADMIN_ID) {
-            const user = await this.dcClient.users.fetch(CONFIG.DISCORD_ADMIN_ID);
-            await user.send(msgText).catch(e => console.error("❌ [Autonomy] DC 通知發送失敗:", e.message));
+        // --- Dispatch ---
+        let sent = false;
+        if (this.tgBot && tgTargetId) {
+            await this.tgBot.sendMessage(tgTargetId, msgText).then(() => sent = true).catch(e => console.error("❌ [Autonomy] TG 通知發送失敗:", e.message));
+        }
+
+        if (!sent && this.dcClient && dcTargetId) {
+            try {
+                if (dcAuthMode === 'CHAT') {
+                    const channel = await this.dcClient.channels.fetch(dcTargetId);
+                    if (channel) await channel.send(msgText);
+                } else {
+                    const user = await this.dcClient.users.fetch(dcTargetId);
+                    if (user) await user.send(msgText);
+                }
+            } catch (e) {
+                console.error("❌ [Autonomy] DC 通知發送失敗:", e.message);
+            }
         }
     }
 }
