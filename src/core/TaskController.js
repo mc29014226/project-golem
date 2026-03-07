@@ -14,6 +14,16 @@ class TaskController {
         this.security = new SecurityManager();
         this.multiAgent = null; // ✨ [v9.0]
         this.pendingTasks = new Map(); // Moved from global to here
+
+        // ✨ [v9.1] 防止記憶體流失: 定期清理過期的待審批任務 (5 分鐘)
+        setInterval(() => {
+            const now = Date.now();
+            for (const [id, task] of this.pendingTasks.entries()) {
+                if (now - task.timestamp > 5 * 60 * 1000) {
+                    this.pendingTasks.delete(id);
+                }
+            }
+        }, 60 * 1000);
     }
 
     // ✨ [v9.0] 處理多 Agent 請求

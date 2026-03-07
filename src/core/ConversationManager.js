@@ -23,7 +23,7 @@ class ConversationManager {
 
         // 🚨 Highest Privilege: priority tasks bypass user buffers completely and inject straight into queue
         if (options.bypassDebounce) {
-            console.log(`⚡ [Queue] 高優先級請求繞過防抖機制 (${chatId}): "${text.substring(0, 15)}..."`);
+            console.log(`⚡ [Dialogue Queue] 高優先級請求繞過防抖機制 (${chatId}): "${text.substring(0, 15)}..."`);
             this._commitDirectly(ctx, text, options.isPriority);
             return;
         }
@@ -31,7 +31,7 @@ class ConversationManager {
         let userState = this.userBuffers.get(chatId) || { text: "", timer: null, ctx: ctx };
         userState.text = userState.text ? `${userState.text}\n${text}` : text;
         userState.ctx = ctx;
-        console.log(`⏳ [Queue] 收到片段 (${chatId}): "${text.substring(0, 15)}..."`);
+        console.log(`⏳ [Dialogue Queue] 收到對話 (${chatId}): "${text.substring(0, 15)}..."`);
         if (userState.timer) clearTimeout(userState.timer);
         userState.timer = setTimeout(() => {
             this._commitToQueue(chatId);
@@ -40,7 +40,7 @@ class ConversationManager {
     }
 
     _commitDirectly(ctx, text, isPriority) {
-        console.log(`📦 [Queue] 訊息封包完成 (Direct) ${isPriority ? '[插隊 VIP]' : ''}，加入隊列。`);
+        console.log(`📦 [Dialogue Queue] 加入隊列 (Direct) ${isPriority ? '[💥VIP 插隊中]' : ''} - 準備交由大腦處理`);
         if (isPriority) {
             this.queue.unshift({ ctx, text }); // Priority goes to the front of the line
         } else {
@@ -63,7 +63,7 @@ class ConversationManager {
         this.isProcessing = true;
         const task = this.queue.shift();
         try {
-            console.log(`🚀 [Queue:${this.golemId}] 開始處理訊息...`);
+            console.log(`🚀 [Dialogue Queue:${this.golemId}] 從隊列取出，開始處理對話...`);
             console.log(`🗣️ [User->${this.golemId}] 說: ${task.text}`);
 
             // ✨ [Log] 記錄用戶輸入 (Fix missing user logs)
@@ -85,18 +85,18 @@ class ConversationManager {
             const isMentioned = task.ctx.isMentioned ? task.ctx.isMentioned(task.text) : false;
 
             if (this.silentMode && !isMentioned) {
-                console.log(`🤫 [Queue:${this.golemId}] 完全靜默模式啟動中，且未被標記，跳過大腦處理。`);
+                console.log(`🤫 [Dialogue Queue:${this.golemId}] 完全靜默模式啟動中，且未被標記，跳過大腦處理。`);
                 return;
             }
 
             const shouldSuppressReply = this.observerMode && !isMentioned;
 
             if (shouldSuppressReply) {
-                console.log(`👁️ [Queue:${this.golemId}] 觀察者模式監聽中 (背景同步上下文)...`);
+                console.log(`👁️ [Dialogue Queue:${this.golemId}] 觀察者模式監聽中 (背景同步上下文)...`);
             }
 
             if (isMentioned && (this.silentMode || this.observerMode)) {
-                console.log(`📢 [Queue:${this.golemId}] 模式中偵測到標記，強制恢復回應。`);
+                console.log(`📢 [Dialogue Queue:${this.golemId}] 模式中偵測到標記，強制恢復回應。`);
             }
 
             const raw = await this.brain.sendMessage(finalInput, false, {
@@ -105,7 +105,7 @@ class ConversationManager {
             });
             await this.NeuroShunter.dispatch(task.ctx, raw, this.brain, this.controller, { suppressReply: shouldSuppressReply });
         } catch (e) {
-            console.error("❌ [Queue] 處理失敗:", e);
+            console.error(`❌ [Dialogue Queue:${this.golemId}] 處理失敗:`, e);
             // ✅ [M-4 Fix] 對外只顯示友善錯誤，避免洩露路徑/Selector 等內部資訊
             await task.ctx.reply(`⚠️ 系統暫時無法回應，請稍後再試。`);
         } finally {

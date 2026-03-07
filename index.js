@@ -76,6 +76,7 @@ const OpticNerve = require('./src/services/OpticNerve');
 const SystemUpgrader = require('./src/managers/SystemUpgrader');
 const InteractiveMultiAgent = require('./src/core/InteractiveMultiAgent');
 const introspection = require('./src/services/Introspection');
+const ActionQueue = require('./src/core/ActionQueue'); // ✨ [v9.1] Dual-Queue Architecture
 
 // 🎯 V9.0.7 解耦：不再於啟動時遍歷配置建立 Bot 與實體
 // TelegramBot 與 Golem 實體將由 Web Dashboard 透過 golemFactory 動態建立
@@ -124,6 +125,8 @@ function getOrCreateGolem(golemId) {
         interventionLevel
     });
 
+    const actionQueue = new ActionQueue({ golemId }); // ✨ [v9.1] Action Queue 初始化
+
     const boundBot = telegramBots.get(golemId) || (telegramBots.size > 0 ? telegramBots.values().next().value : null);
     const boundDcBot = discordBots.get(golemId) || (discordBots.size > 0 ? discordBots.values().next().value : null);
 
@@ -131,7 +134,7 @@ function getOrCreateGolem(golemId) {
     brain.tgBot = boundBot; // expose for dashboard notifications
     brain.dcBot = boundDcBot || dcClient;
 
-    const instance = { brain, controller, autonomy, convoManager };
+    const instance = { brain, controller, autonomy, convoManager, actionQueue }; // ✨ [v9.1] 注入 actionQueue
     activeGolems.set(golemId, instance);
     return instance;
 }
@@ -677,45 +680,57 @@ async function handleUnifiedCallback(ctx, actionData, forceTargetId = null) {
             const util = require('util');
             const execPromise = util.promisify(require('child_process').exec);
 
-            let execResult = "";
-            let finalOutput = "";
-            try {
-                const { stdout, stderr } = await execPromise(cmd, { timeout: 45000, maxBuffer: 1024 * 1024 * 10 });
-                finalOutput = (stdout || stderr || "✅ 指令執行成功，無特殊輸出").trim();
-                execResult = `[Step ${nextIndex + 1} Success] cmd: ${cmd}\nResult:\n${finalOutput}`;
-                console.log(`✅ [Executor] 成功捕獲終端機輸出 (${finalOutput.length} 字元)`);
-            } catch (e) {
-                finalOutput = `Error: ${e.message}\n${e.stderr || ''}`;
-                execResult = `[Step ${nextIndex + 1} Failed] cmd: ${cmd}\nResult:\n${finalOutput}`;
-                console.error(`❌ [Executor] 執行錯誤: ${e.message}`);
-            }
+            // ✨ [v9.1] 將物理操作封裝並丟入行動產線 (Action Queue)
+            const actionQueue = getOrCreateGolem(targetId).actionQueue;
 
-            const MAX_LENGTH = 15000;
-            if (execResult.length > MAX_LENGTH) {
-                execResult = execResult.substring(0, MAX_LENGTH) + `\n\n... (為保護記憶體，內容已截斷，共省略 ${execResult.length - MAX_LENGTH} 字元) ...`;
-                console.log(`✂️ [System] 執行結果過長，已自動截斷為 ${MAX_LENGTH} 字元。`);
-            }
-
-            let remainingResult = "";
-            try {
-                remainingResult = await controller.runSequence(ctx, steps, nextIndex + 1) || "";
-            } catch (err) {
-                console.warn(`⚠️ [System] 執行後續步驟時發生警告: ${err.message}`);
-            }
-
-            const observation = [execResult, remainingResult].filter(Boolean).join('\n\n----------------\n\n');
-
-            if (observation) {
-                await ctx.reply(`📤 指令執行完畢 (共抓取 ${finalOutput.length} 字元)！正在將結果回傳給大腦神經進行分析...`);
-
-                const feedbackPrompt = `[System Observation]\nUser approved actions.\nExecution Result:\n${observation}\n\nPlease analyze this result and report to the user using [GOLEM_REPLY].`;
+            await actionQueue.enqueue(ctx, async () => {
+                let execResult = "";
+                let finalOutput = "";
                 try {
-                    const finalResponse = await brain.sendMessage(feedbackPrompt);
-                    await NeuroShunter.dispatch(ctx, finalResponse, brain, controller);
-                } catch (err) {
-                    await ctx.reply(`❌ 傳送結果回大腦時發生異常：${err.message}`);
+                    const { stdout, stderr } = await execPromise(cmd, { timeout: 45000, maxBuffer: 1024 * 1024 * 10 });
+                    finalOutput = (stdout || stderr || "✅ 指令執行成功，無特殊輸出").trim();
+                    execResult = `[Step ${nextIndex + 1} Success] cmd: ${cmd}\nResult:\n${finalOutput}`;
+                    console.log(`✅ [Executor] 成功捕獲終端機輸出 (${finalOutput.length} 字元)`);
+                } catch (e) {
+                    finalOutput = `Error: ${e.message}\n${e.stderr || ''}`;
+                    execResult = `[Step ${nextIndex + 1} Failed] cmd: ${cmd}\nResult:\n${finalOutput}`;
+                    console.error(`❌ [Executor] 執行錯誤: ${e.message}`);
                 }
-            }
+
+                const MAX_LENGTH = 15000;
+                if (execResult.length > MAX_LENGTH) {
+                    execResult = execResult.substring(0, MAX_LENGTH) + `\n\n... (為保護記憶體，內容已截斷，共省略 ${execResult.length - MAX_LENGTH} 字元) ...`;
+                    console.log(`✂️ [System] 執行結果過長，已自動截斷為 ${MAX_LENGTH} 字元。`);
+                }
+
+                let remainingResult = "";
+                try {
+                    remainingResult = await controller.runSequence(ctx, steps, nextIndex + 1) || "";
+                } catch (err) {
+                    console.warn(`⚠️ [System] 執行後續步驟時發生警告: ${err.message}`);
+                }
+
+                const observation = [execResult, remainingResult].filter(Boolean).join('\n\n----------------\n\n');
+
+                if (observation) {
+                    await ctx.reply(`📤 指令執行完畢 (共抓取 ${finalOutput.length} 字元)！將結果放入對話隊列 (Dialogue Queue) 等待大腦分析...`);
+
+                    const feedbackPrompt = `[System Observation]\nUser approved actions.\nExecution Result:\n${observation}\n\nPlease analyze this result and report to the user using [GOLEM_REPLY].`;
+                    try {
+                        // ✨ [v9.1] 產線串接：將加工完成的 Observation 放入對話產線 (Dialogue Queue) 取代直接呼叫 sendMessage
+                        const convoManager = getOrCreateGolem(targetId).convoManager;
+                        if (convoManager) {
+                            await convoManager.enqueue(ctx, feedbackPrompt, { isPriority: true, bypassDebounce: true });
+                        } else {
+                            // 防呆：如果退化回沒有 convoManager，則走舊路
+                            const finalResponse = await brain.sendMessage(feedbackPrompt);
+                            await NeuroShunter.dispatch(ctx, finalResponse, brain, controller);
+                        }
+                    } catch (err) {
+                        await ctx.reply(`❌ 傳送結果回大腦時發生異常：${err.message}`);
+                    }
+                }
+            });
         }
     }
 }
