@@ -9,8 +9,14 @@ class SecurityManager {
     }
     assess(cmd) {
         const safeCmd = (cmd || "").trim();
-        const baseCmd = safeCmd.split(/\s+/)[0];
         if (this.BLOCK_PATTERNS.some(regex => regex.test(safeCmd))) return { level: 'BLOCKED', reason: '毀滅性指令' };
+
+        // ✨ [v9.1] 增強檢查：若包含串聯、管線符號 (; | && ||)、重導向 (> <) 或子殼層執行 ($() ``) 則升級為 WARNING，避免惡意指令直通
+        if (/([;&|><`])|\$\(/.test(safeCmd)) {
+            return { level: 'WARNING', reason: '包含管線、重導向或子系統呼叫等複雜操作，需確認' };
+        }
+
+        const baseCmd = safeCmd.split(/\s+/)[0];
         if (this.SAFE_COMMANDS.includes(baseCmd)) return { level: 'SAFE' };
         const dangerousOps = ['rm', 'mv', 'chmod', 'chown', 'sudo', 'su', 'reboot', 'shutdown', 'npm uninstall', 'Remove-Item', 'Stop-Computer'];
         if (dangerousOps.includes(baseCmd)) return { level: 'DANGER', reason: '高風險操作' };
