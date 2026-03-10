@@ -9,6 +9,7 @@
     "start": "node index.js",
     "dashboard": "node index.js dashboard",
     "dev": "nodemon index.js dashboard",
+    "doctor": "node scripts/doctor.js",
     "// --- 跨平台安裝指令 ---": "",
     "win:setup": "setup.bat",
     "unix:setup": "chmod +x setup.sh && ./setup.sh",

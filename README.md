@@ -180,11 +180,21 @@ chmod +x setup.sh && ./setup.sh --install
 # 3. 配置環境變數
 ./setup.sh --config
 
-# 4. 啟動
+# 4. 啟動 (最推薦)
+雙擊專案目錄下的 `Start-Golem.command` (Mac/Linux) 或 `Start-Golem.bat` (Windows)，系統將會**自動判斷**是否為初次安裝並執行所有部署，安裝完成後會直接啟動 Golem。
+
+若您偏好終端機操作，也可手動執行：
 ./setup.sh --start
 ```
 
-**Windows 用戶**：雙擊 `setup.bat` 進入自動化安裝流程。
+### 🩺 環境自我診斷 (Doctor)
+
+如果您在啟動時遇到任何環境問題（如 Node.js 版本過舊、通訊埠被佔用），可以隨時執行診斷工具獲取修復建議：
+```bash
+npm run doctor
+# 或
+./setup.sh --doctor
+```
 
 ### 手動 `.env` 設定
 
