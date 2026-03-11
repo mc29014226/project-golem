@@ -1,0 +1,794 @@
+[
+  {
+    "title": "31third-safe-rebalancer-simple",
+    "id": "31third-safe-rebalancer-simple",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/phips0812/31third-safe-rebalancer-simple/SKILL.md",
+    "description": "One-step Safe rebalancer using on-chain 31Third policies.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "One-step Safe rebalancer using on-chain 31Third policies."
+  },
+  {
+    "title": "aavegotchi-baazaar",
+    "id": "aavegotchi-baazaar",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cinnabarhorse/aavegotchi-baazaar/SKILL.md",
+    "description": "View, add, and execute Aavegotchi Baazaar listings on Base mainnet (8453)",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "View, add, and execute Aavegotchi Baazaar listings on Base mainnet (8453)"
+  },
+  {
+    "title": "aavegotchi-gbm-skill",
+    "id": "aavegotchi-gbm-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cinnabarhorse/aavegotchi-gbm-skill/SKILL.md",
+    "description": "View, create, cancel, bid, and claim Aavegotchi GBM auctions on Base mainnet (8453)",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "View, create, cancel, bid, and claim Aavegotchi GBM auctions on Base mainnet (8453)"
+  },
+  {
+    "title": "agent-credit",
+    "id": "agent-credit",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aaronjmars/agent-credit/SKILL.md",
+    "description": "Borrow from Aave via credit delegation.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Borrow from Aave via credit delegation."
+  },
+  {
+    "title": "anthrovision-telegram-body-scan",
+    "id": "anthrovision-telegram-body-scan",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dr2101/anthrovision-telegram-body-scan/SKILL.md",
+    "description": "Run end-to-end body-scan measurement flow in Telegram using AnthroVision bridge tools.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Run end-to-end body-scan measurement flow in Telegram using AnthroVision bridge tools."
+  },
+  {
+    "title": "aperture",
+    "id": "aperture",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/roasbeef/aperture/SKILL.md",
+    "description": "Install and run Aperture, the L402 Lightning reverse proxy from Lightning Labs.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Install and run Aperture, the L402 Lightning reverse proxy from Lightning Labs."
+  },
+  {
+    "title": "arc-skill-sandbox",
+    "id": "arc-skill-sandbox",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/trypto1019/arc-skill-sandbox/SKILL.md",
+    "description": "Test untrusted skills in an isolated environment before installing.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Test untrusted skills in an isolated environment before installing."
+  },
+  {
+    "title": "auto-improve",
+    "id": "auto-improve",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mcben90/auto-improve/SKILL.md",
+    "description": "Automatische Selbst-Verbesserung durch Fehler-Lernen und Pattern-Erkennung.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Automatische Selbst-Verbesserung durch Fehler-Lernen und Pattern-Erkennung."
+  },
+  {
+    "title": "autonomous-agent",
+    "id": "autonomous-agent",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/josephrp/autonomous-agent/SKILL.md",
+    "description": "CornerStone MCP x402 skill for agents.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "CornerStone MCP x402 skill for agents."
+  },
+  {
+    "title": "bittensor-sdk",
+    "id": "bittensor-sdk",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/taoleeh/bittensor-sdk/SKILL.md",
+    "description": "Comprehensive Bittensor blockchain interaction skill with wallet management, staking, subnet operations, neuron.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Comprehensive Bittensor blockchain interaction skill with wallet management, staking, subnet operations, neuron."
+  },
+  {
+    "title": "bountyhub-agent",
+    "id": "bountyhub-agent",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nativ3ai/bountyhub-agent/SKILL.md",
+    "description": "Use H1DR4 BountyHub as an agent: create missions, submit work, dispute, vote, and claim escrow payouts.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Use H1DR4 BountyHub as an agent: create missions, submit work, dispute, vote, and claim escrow payouts."
+  },
+  {
+    "title": "bring-recipes",
+    "id": "bring-recipes",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/darkdevelopers/bring-recipes/SKILL.md",
+    "description": "Use when user wants to browse recipe inspirations.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Use when user wants to browse recipe inspirations."
+  },
+  {
+    "title": "calorie-counter",
+    "id": "calorie-counter",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cnqso/calorie-counter/SKILL.md",
+    "description": "Track daily calorie and protein intake, set goals, and log.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Track daily calorie and protein intake, set goals, and log."
+  },
+  {
+    "title": "capa-officer",
+    "id": "capa-officer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alirezarezvani/capa-officer/SKILL.md",
+    "description": "CAPA system management for medical device QMS.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "CAPA system management for medical device QMS."
+  },
+  {
+    "title": "clawdhub-contributor",
+    "id": "clawdhub-contributor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/starbuck100/clawdhub-contributor/SKILL.md",
+    "description": "Contribute to the ClawdHub ecosystem.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Contribute to the ClawdHub ecosystem."
+  },
+  {
+    "title": "cookidoo",
+    "id": "cookidoo",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/thekie/cookidoo/SKILL.md",
+    "description": "Access Cookidoo (Thermomix) recipes, shopping lists, and meal planning.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Access Cookidoo (Thermomix) recipes, shopping lists, and meal planning."
+  },
+  {
+    "title": "critpt-solver",
+    "id": "critpt-solver",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/wanng-ide/critpt-solver/SKILL.md",
+    "description": "Validates and executes Python solutions for CritPt benchmark problems.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Validates and executes Python solutions for CritPt benchmark problems."
+  },
+  {
+    "title": "crunch-coordinate",
+    "id": "crunch-coordinate",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/philippwassibauer/crunch-coordinate/SKILL.md",
+    "description": "Use when managing Crunch coordinators, competitions (crunches), rewards, checkpoints, staking, or cruncher accounts.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Use when managing Crunch coordinators, competitions (crunches), rewards, checkpoints, staking, or cruncher accounts."
+  },
+  {
+    "title": "crypto-hackathon",
+    "id": "crypto-hackathon",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/swairshah/crypto-hackathon/SKILL.md",
+    "description": "Use when participating in the USDC Hackathon, submitting projects, or voting. 3 tracks: SmartContract, Skill.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Use when participating in the USDC Hackathon, submitting projects, or voting. 3 tracks: SmartContract, Skill."
+  },
+  {
+    "title": "ct-health-guardian",
+    "id": "ct-health-guardian",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ctsolutionsdev/ct-health-guardian/SKILL.md",
+    "description": "Proactive health monitoring for AI agents.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Proactive health monitoring for AI agents."
+  },
+  {
+    "title": "curriculum-generator",
+    "id": "curriculum-generator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tarasinghrajput/curriculum-generator/SKILL.md",
+    "description": "Intelligent educational curriculum generation system with strict step enforcement and human escalation policies.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Intelligent educational curriculum generation system with strict step enforcement and human escalation policies."
+  },
+  {
+    "title": "customer-onboarding-2",
+    "id": "customer-onboarding-2",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jk-0001/customer-onboarding-2/SKILL.md",
+    "description": "Design and execute customer onboarding that drives activation and retention.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Design and execute customer onboarding that drives activation and retention."
+  },
+  {
+    "title": "detox-counter",
+    "id": "detox-counter",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jhillin8/detox-counter/SKILL.md",
+    "description": "Track any detox with customizable counters, symptom logging.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Track any detox with customizable counters, symptom logging."
+  },
+  {
+    "title": "diet-tracker",
+    "id": "diet-tracker",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/yonghaozhao722/diet-tracker/SKILL.md",
+    "description": "Tracks daily diet and calculates nutrition information.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Tracks daily diet and calculates nutrition information."
+  },
+  {
+    "title": "efka-api-integration",
+    "id": "efka-api-integration",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/satoshistackalotto/efka-api-integration/SKILL.md",
+    "description": "Greek social security (EFKA) integration — employee records, contribution calculations, APD declarations.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Greek social security (EFKA) integration — employee records, contribution calculations, APD declarations."
+  },
+  {
+    "title": "egvert-health-guardian",
+    "id": "egvert-health-guardian",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ctsolutionsdev/egvert-health-guardian/SKILL.md",
+    "description": "Proactive health monitoring for AI.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Proactive health monitoring for AI."
+  },
+  {
+    "title": "endurance-coach",
+    "id": "endurance-coach",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/shiv19/endurance-coach/SKILL.md",
+    "description": "Create personalized triathlon, marathon, and ultra-endurance.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Create personalized triathlon, marathon, and ultra-endurance."
+  },
+  {
+    "title": "eth24",
+    "id": "eth24",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/patmilkgallon/eth24/SKILL.md",
+    "description": "You are running ETH24, a daily digest tool that surfaces the top tweets for a configured topic.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "You are running ETH24, a daily digest tool that surfaces the top tweets for a configured topic."
+  },
+  {
+    "title": "fasting-tracker",
+    "id": "fasting-tracker",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jhillin8/fasting-tracker/SKILL.md",
+    "description": "Track intermittent fasting windows, extended fasts.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Track intermittent fasting windows, extended fasts."
+  },
+  {
+    "title": "feast",
+    "id": "feast",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/smadgerano/feast/SKILL.md",
+    "description": "Comprehensive meal planning system with cultural themes, authentic recipes,.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Comprehensive meal planning system with cultural themes, authentic recipes,."
+  },
+  {
+    "title": "feed-diet",
+    "id": "feed-diet",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tkuehnl/feed-diet/SKILL.md",
+    "description": "Audit your information diet across HN and RSS feeds — beautiful reports with category breakdowns, ASCII charts.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Audit your information diet across HN and RSS feeds — beautiful reports with category breakdowns, ASCII charts."
+  },
+  {
+    "title": "fitbit",
+    "id": "fitbit",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mjrussell/fitbit/SKILL.md",
+    "description": "Query Fitbit health data including sleep, heart rate, activity, SpO2.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Query Fitbit health data including sleep, heart rate, activity, SpO2."
+  },
+  {
+    "title": "fitbit-analytics",
+    "id": "fitbit-analytics",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kesslerio/fitbit-analytics/SKILL.md",
+    "description": "Fitbit health and fitness data integration.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Fitbit health and fitness data integration."
+  },
+  {
+    "title": "free-jobboard-api",
+    "id": "free-jobboard-api",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/yuqi-or-yuki/free-jobboard-api/SKILL.md",
+    "description": "Job board for agents.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Job board for agents."
+  },
+  {
+    "title": "garmer",
+    "id": "garmer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/garrza/garmer/SKILL.md",
+    "description": "Extract health and fitness data from Garmin Connect including activities,.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Extract health and fitness data from Garmin Connect including activities,."
+  },
+  {
+    "title": "garmin-cli",
+    "id": "garmin-cli",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/voydz/garmin-cli/SKILL.md",
+    "description": "Access Garmin Connect health, fitness, and activity data via a non-interactive CLI.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Access Garmin Connect health, fitness, and activity data via a non-interactive CLI."
+  },
+  {
+    "title": "garmin-health",
+    "id": "garmin-health",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eversonl/garmin-health-analysis/SKILL.md",
+    "description": "Talk to your Garmin data naturally - \"what.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Talk to your Garmin data naturally - \"what."
+  },
+  {
+    "title": "gdpr-cookie-consent",
+    "id": "gdpr-cookie-consent",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/metehan777/gdpr-cookie-consent/SKILL.md",
+    "description": "Complete reference guide for AI agents to help.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Complete reference guide for AI agents to help."
+  },
+  {
+    "title": "gevety",
+    "id": "gevety",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/moclippa/gevety/SKILL.md",
+    "description": "Access your Gevety health data - biomarkers, healthspan scores, biological.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Access your Gevety health data - biomarkers, healthspan scores, biological."
+  },
+  {
+    "title": "groupon-skill",
+    "id": "groupon-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dejimarquis",
+    "description": "Find cheap and discounted local deals on Groupon for services.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Find cheap and discounted local deals on Groupon for services."
+  },
+  {
+    "title": "hackathon",
+    "id": "hackathon",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/swairshah/hackathon/SKILL.md",
+    "description": "Use when participating in the USDC Hackathon, submitting projects, or voting. 3 tracks: SmartContract, Skill.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Use when participating in the USDC Hackathon, submitting projects, or voting. 3 tracks: SmartContract, Skill."
+  },
+  {
+    "title": "hackathon-manager",
+    "id": "hackathon-manager",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ntombisol/hackathon-manager/SKILL.md",
+    "description": "Track hackathon deadlines, manage submission checklists, and monitor progress.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Track hackathon deadlines, manage submission checklists, and monitor progress."
+  },
+  {
+    "title": "hackathon-manager",
+    "id": "hackathon-manager",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tonbistudio/hackathon-manager/SKILL.md",
+    "description": "Track hackathon deadlines, manage submission checklists, and monitor progress.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Track hackathon deadlines, manage submission checklists, and monitor progress."
+  },
+  {
+    "title": "hacker-news-poster",
+    "id": "hacker-news-poster",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/saikatkumardey/hacker-news-poster/SKILL.md",
+    "description": "Post, comment, and interact on Hacker News.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Post, comment, and interact on Hacker News."
+  },
+  {
+    "title": "health-guardian",
+    "id": "health-guardian",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cgtreadw/health-guardian/SKILL.md",
+    "description": "Proactive health monitoring for AI agents.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Proactive health monitoring for AI agents."
+  },
+  {
+    "title": "health-summary",
+    "id": "health-summary",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/yusaku-0426/health-summary/SKILL.md",
+    "description": "Generate daily/weekly/monthly health summaries with nutrition totals, target comparisons, and trends.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Generate daily/weekly/monthly health summaries with nutrition totals, target comparisons, and trends."
+  },
+  {
+    "title": "health-sync",
+    "id": "health-sync",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/filipe-m-almeida/health-sync/SKILL.md",
+    "description": "Analyze synced health data across Oura, Withings, Hevy, Strava, WHOOP, and Eight Sleep.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Analyze synced health data across Oura, Withings, Hevy, Strava, WHOOP, and Eight Sleep."
+  },
+  {
+    "title": "heartbeat-checklist",
+    "id": "heartbeat-checklist",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/felipetruman/heartbeat-checklist/SKILL.md",
+    "description": "Run these checks periodically (2-4x daily).",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Run these checks periodically (2-4x daily)."
+  },
+  {
+    "title": "hevy",
+    "id": "hevy",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mjrussell/hevy/SKILL.md",
+    "description": "Query workout data from Hevy including workouts, routines, exercises.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Query workout data from Hevy including workouts, routines, exercises."
+  },
+  {
+    "title": "hle-reasoning-wrapper",
+    "id": "hle-reasoning-wrapper",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/wanng-ide/hle-reasoning-wrapper/SKILL.md",
+    "description": "Wraps HLE benchmark questions in a structured Chain-of-Thought (CoT) reasoning process.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Wraps HLE benchmark questions in a structured Chain-of-Thought (CoT) reasoning process."
+  },
+  {
+    "title": "huckleberry",
+    "id": "huckleberry",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jayhickey/huckleberry/SKILL.md",
+    "description": "Track baby sleep, feeding, diapers, and growth via the Huckleberry.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Track baby sleep, feeding, diapers, and growth via the Huckleberry."
+  },
+  {
+    "title": "humaboam-final",
+    "id": "humaboam-final",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/yuqi-or-yuki/humaboam-final/SKILL.md",
+    "description": "Job board for agents.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Job board for agents."
+  },
+  {
+    "title": "intervals-icu",
+    "id": "intervals-icu",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pseuss/intervals-icu-api/SKILL.md",
+    "description": "Complete guide for accessing and managing training data.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Complete guide for accessing and managing training data."
+  },
+  {
+    "title": "jasper-configguard",
+    "id": "jasper-configguard",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/emberdesire/jasper-configguard/SKILL.md",
+    "description": "Safe config changes for OpenClaw with automatic.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Safe config changes for OpenClaw with automatic."
+  },
+  {
+    "title": "maccabi-pharm-search",
+    "id": "maccabi-pharm-search",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alexpolonsky/maccabi-pharm-search/SKILL.md",
+    "description": "Check medication stock at Maccabi pharmacies in Israel.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Check medication stock at Maccabi pharmacies in Israel."
+  },
+  {
+    "title": "mealie-api",
+    "id": "mealie-api",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/angusthefuzz/mealie-api/SKILL.md",
+    "description": "Interact with Mealie recipe manager (recipes, shopping lists, meal plans)",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Interact with Mealie recipe manager (recipes, shopping lists, meal plans)"
+  },
+  {
+    "title": "mh-1password",
+    "id": "mh-1password",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mohdalhashemi98-hue/mh-1password/SKILL.md",
+    "description": "Set up and use 1Password CLI (op)",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Set up and use 1Password CLI (op)"
+  },
+  {
+    "title": "muscle-gain",
+    "id": "muscle-gain",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jhillin8/muscle-gain/SKILL.md",
+    "description": "Track muscle building with weight progression, protein tracking.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Track muscle building with weight progression, protein tracking."
+  },
+  {
+    "title": "nicholasrae-expense-tracker",
+    "id": "nicholasrae-expense-tracker",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nicholasrae/nicholasrae-expense-tracker/SKILL.md",
+    "description": "Just say what you spent — your AI logs it, categorizes it, and tracks it against your budget.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Just say what you spent — your AI logs it, categorizes it, and tracks it against your budget."
+  },
+  {
+    "title": "norman-overdue-reminders",
+    "id": "norman-overdue-reminders",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/stanlee000/norman-overdue-reminders/SKILL.md",
+    "description": "Find overdue invoices and send payment reminders (Zahlungserinnerungen / Mahnungen) to clients.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Find overdue invoices and send payment reminders (Zahlungserinnerungen / Mahnungen) to clients."
+  },
+  {
+    "title": "norman-tax-report",
+    "id": "norman-tax-report",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/stanlee000/norman-tax-report/SKILL.md",
+    "description": "Review and manage German tax reports including VAT (Umsatzsteuer), income tax prepayments, and Finanzamt submissions.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Review and manage German tax reports including VAT (Umsatzsteuer), income tax prepayments, and Finanzamt submissions."
+  },
+  {
+    "title": "openalexandria",
+    "id": "openalexandria",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/havneco/openalexandria/SKILL.md",
+    "description": "Query and submit artifacts to the OpenAlexandria federated knowledge protocol (reference node by default).",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Query and submit artifacts to the OpenAlexandria federated knowledge protocol (reference node by default)."
+  },
+  {
+    "title": "opencal",
+    "id": "opencal",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/neikfu/opencal/SKILL.md",
+    "description": "Log meals, check nutrition progress, and manage calorie goals in the OpenCal app — hands-free via your AI agent.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Log meals, check nutrition progress, and manage calorie goals in the OpenCal app — hands-free via your AI agent."
+  },
+  {
+    "title": "openfunderse-participant",
+    "id": "openfunderse-participant",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/wiimdy/openfunderse-participant/SKILL.md",
+    "description": "Participant MoltBot for allocation proposal, validation, and submission.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Participant MoltBot for allocation proposal, validation, and submission."
+  },
+  {
+    "title": "openfunderse-strategy",
+    "id": "openfunderse-strategy",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/wiimdy/openfunderse-strategy/SKILL.md",
+    "description": "Participant MoltBot for allocation proposal, validation, and submission.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Participant MoltBot for allocation proposal, validation, and submission."
+  },
+  {
+    "title": "oura-analytics",
+    "id": "oura-analytics",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kesslerio/oura-analytics/SKILL.md",
+    "description": "Oura Ring data integration and analytics.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Oura Ring data integration and analytics."
+  },
+  {
+    "title": "paramus-chemistry",
+    "id": "paramus-chemistry",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/gressling/paramus-chemistry/SKILL.md",
+    "description": "Hundreds of chemistry and scientific computing tools.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Hundreds of chemistry and scientific computing tools."
+  },
+  {
+    "title": "portfolio-tracking-skill",
+    "id": "portfolio-tracking-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aigeneralstore/portfolio-tracking-skill/SKILL.md",
+    "description": "An investment portfolio tracker that runs entirely locally.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "An investment portfolio tracker that runs entirely locally."
+  },
+  {
+    "title": "ramalama-cli",
+    "id": "ramalama-cli",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ieaves/ramalama-cli/SKILL.md",
+    "description": "Run and interact with AI agents.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Run and interact with AI agents."
+  },
+  {
+    "title": "recipe-finder",
+    "id": "recipe-finder",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/harshasic/recipe-finder/SKILL.md",
+    "description": "Find recipes by ingredients, cuisine, or dietary preferences using TheMealDB free API.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Find recipes by ingredients, cuisine, or dietary preferences using TheMealDB free API."
+  },
+  {
+    "title": "redshift",
+    "id": "redshift",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/accolver/redshift/SKILL.md",
+    "description": "Manage application secrets with the Redshift CLI (https://redshiftapp.com) — decentralized, encrypted secret.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Manage application secrets with the Redshift CLI (https://redshiftapp.com) — decentralized, encrypted secret."
+  },
+  {
+    "title": "revenue-tracker",
+    "id": "revenue-tracker",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/gpunter/revenue-tracker/SKILL.md",
+    "description": "Track income, expenses, and runway for autonomous AI agents.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Track income, expenses, and runway for autonomous AI agents."
+  },
+  {
+    "title": "sample-skill",
+    "id": "sample-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/swairshah/sample-skill/SKILL.md",
+    "description": "Use when participating in the USDC Hackathon, submitting projects, or voting. 3 tracks: SmartContract, Skill.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Use when participating in the USDC Hackathon, submitting projects, or voting. 3 tracks: SmartContract, Skill."
+  },
+  {
+    "title": "sauna-calm",
+    "id": "sauna-calm",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/grx21/sauna-calm/SKILL.md",
+    "description": "Calm frustrated users with breathing exercises and Sauna.ai reminders.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Calm frustrated users with breathing exercises and Sauna.ai reminders."
+  },
+  {
+    "title": "security-checker",
+    "id": "security-checker",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/johstracke/security-checker/SKILL.md",
+    "description": "Security scanner for Python skills before publishing to ClawHub.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Security scanner for Python skills before publishing to ClawHub."
+  },
+  {
+    "title": "soft-pillow",
+    "id": "soft-pillow",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kivs/soft-pillow/SKILL.md",
+    "description": "Use when the user asks about their sleep data, dream history, or wants to query sleep entries from the Soft Pillow app.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Use when the user asks about their sleep data, dream history, or wants to query sleep entries from the Soft Pillow app."
+  },
+  {
+    "title": "suisec",
+    "id": "suisec",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/k66inthesky/suisec/SKILL.md",
+    "description": "Sui Secure - Pre-simulate transactions via sui client call --dry-run and sui client ptb --dry-run, compare results.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Sui Secure - Pre-simulate transactions via sui client call --dry-run and sui client ptb --dry-run, compare results."
+  },
+  {
+    "title": "system-health-check",
+    "id": "system-health-check",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/satoshistackalotto/system-health-check/SKILL.md",
+    "description": "System health validator — checks skill files, paths, permissions, binaries, backup freshness, and encryption.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "System health validator — checks skill files, paths, permissions, binaries, backup freshness, and encryption."
+  },
+  {
+    "title": "tribe-protocol",
+    "id": "tribe-protocol",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cheenu1092-oss/tribe-protocol/SKILL.md",
+    "description": "MANDATORY trust lookup for every non-owner interaction.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "MANDATORY trust lookup for every non-owner interaction."
+  },
+  {
+    "title": "triggercmd",
+    "id": "triggercmd",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rvmey/triggercmd/SKILL.md",
+    "description": "Control TRIGGERcmd computers remotely by listing and running commands via the TRIGGERcmd REST API.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Control TRIGGERcmd computers remotely by listing and running commands via the TRIGGERcmd REST API."
+  },
+  {
+    "title": "twitter-post",
+    "id": "twitter-post",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sit-in/twitter-post/SKILL.md",
+    "description": "Post tweets to Twitter/X via the official API v2 (OAuth 1.0a)",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Post tweets to Twitter/X via the official API v2 (OAuth 1.0a)"
+  },
+  {
+    "title": "ub2-api-health-checker",
+    "id": "ub2-api-health-checker",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/underbench2-gif/ub2-api-health-checker/SKILL.md",
+    "description": "A skill that enables Claw to test API endpoints, verify their responses, measure performance, and generate a health.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "A skill that enables Claw to test API endpoints, verify their responses, measure performance, and generate a health."
+  },
+  {
+    "title": "usdc",
+    "id": "usdc",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/swairshah/usdc/SKILL.md",
+    "description": "Use when participating in the USDC Hackathon, submitting projects, or voting. 3 tracks: SmartContract, Skill.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Use when participating in the USDC Hackathon, submitting projects, or voting. 3 tracks: SmartContract, Skill."
+  },
+  {
+    "title": "usdc-hackathon",
+    "id": "usdc-hackathon",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/swairshah/usdc-hackathon/SKILL.md",
+    "description": "Use when participating in the USDC Hackathon, submitting projects, or voting. 3 tracks: SmartContract, Skill.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Use when participating in the USDC Hackathon, submitting projects, or voting. 3 tracks: SmartContract, Skill."
+  },
+  {
+    "title": "uv-priority",
+    "id": "uv-priority",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/marcoracer/uv-priority/SKILL.md",
+    "description": "Prioritize uv over pip for all Python package management and execution.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Prioritize uv over pip for all Python package management and execution."
+  },
+  {
+    "title": "vynn-backtester",
+    "id": "vynn-backtester",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/beee003/vynn-backtester/SKILL.md",
+    "description": "Run trading strategy backtests with natural language — powered by Vynn.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Run trading strategy backtests with natural language — powered by Vynn."
+  },
+  {
+    "title": "xrpl-tx-builder",
+    "id": "xrpl-tx-builder",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/harleyscodes/xrpl-tx-builder/SKILL.md",
+    "description": "Build and sign XRP Ledger transactions.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Build and sign XRP Ledger transactions."
+  },
+  {
+    "title": "yumstock",
+    "id": "yumstock",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/yumyumtum/yumstock/SKILL.md",
+    "description": "Macro-gated US stock analysis combining technical indicators, fundamentals, and macro environment with weighted.",
+    "category": "health-and-fitness",
+    "description_zh": "",
+    "original_description": "Macro-gated US stock analysis combining technical indicators, fundamentals, and macro environment with weighted."
+  }
+]

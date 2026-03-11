@@ -3,8 +3,7 @@ const path = require('path');
 const https = require('https');
 
 const REPO_URL = 'https://raw.githubusercontent.com/VoltAgent/awesome-openclaw-skills/main/';
-const DATA_DIR = path.join(__dirname, '..', '..', 'data');
-const OUT_FILE = path.join(DATA_DIR, 'marketplace_skills.json');
+const DATA_DIR = path.join(__dirname, '..', '..', 'data', 'marketplace');
 
 // Map categories to fetch
 const CATEGORIES = [
@@ -54,41 +53,99 @@ async function fetchFile(url) {
     });
 }
 
+async function translateToZhTW(text) {
+    if (!text || text.trim() === '') return text;
+    try {
+        const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-tw&dt=t&q=${encodeURIComponent(text)}`;
+        const content = await fetchFile(url);
+        const parsed = JSON.parse(content);
+        if (parsed && parsed[0]) {
+            return parsed[0].map(s => s[0]).join('');
+        }
+        return text;
+    } catch (e) {
+        console.error("Translation error for text:", text, e.message);
+        return text;
+    }
+}
+
 async function run() {
-    console.log('Fetching OpenClaw Skills...');
+    console.log('Fetching & Translating OpenClaw Skills...');
     if (!fs.existsSync(DATA_DIR)) {
         fs.mkdirSync(DATA_DIR, { recursive: true });
     }
 
-    const allSkills = [];
+    let globalTotal = 0;
+    let translatedCount = 0;
 
     for (const cat of CATEGORIES) {
         try {
             const url = `${REPO_URL}categories/${cat}.md`;
-            console.log(`Fetching ${cat}...`);
+            console.log(`\nFetching ${cat}...`);
             const content = await fetchFile(url);
 
-            // Parse lines like: - [skill-name](https://github.com/...) - Description
+            const outFile = path.join(DATA_DIR, `${cat}.json`);
+            let existingMap = {};
+            if (fs.existsSync(outFile)) {
+                try {
+                    const oldData = JSON.parse(fs.readFileSync(outFile, 'utf8'));
+                    oldData.forEach(s => {
+                        existingMap[s.id] = s;
+                    });
+                } catch (e) { }
+            }
+
+            const parsedSkills = [];
             const lines = content.split('\n');
+            let catCount = 0;
+
             for (const line of lines) {
                 const match = line.match(/^- \[([^\]]+)\]\(([^)]+)\) - (.*)$/);
                 if (match) {
-                    allSkills.push({
-                        title: match[1],
-                        id: match[1].toLowerCase().replace(/[^a-z0-9_-]/g, ''),
-                        repoUrl: match[2],
-                        description: match[3],
+                    const rawTitle = match[1];
+                    const rawId = rawTitle.toLowerCase().replace(/[^a-z0-9_-]/g, '');
+                    const rawRepoUrl = match[2];
+                    const rawDesc = match[3];
+
+                    let finalDesc = rawDesc;
+                    let descZh = "";
+
+                    // Incremental Cache Check
+                    if (existingMap[rawId] && existingMap[rawId].original_description === rawDesc && existingMap[rawId].description_zh) {
+                        finalDesc = existingMap[rawId].description_zh;
+                        descZh = existingMap[rawId].description_zh;
+                    } else {
+                        // Needs translation
+                        descZh = await translateToZhTW(rawDesc);
+                        finalDesc = descZh;
+                        translatedCount++;
+                        // Small throttle to avoid Google ban
+                        await new Promise(r => setTimeout(r, 100));
+                    }
+
+                    parsedSkills.push({
+                        title: rawTitle,
+                        id: rawId,
+                        repoUrl: rawRepoUrl,
+                        description: finalDesc,
+                        original_description: rawDesc,
+                        description_zh: descZh,
                         category: cat
                     });
+                    catCount++;
                 }
             }
+
+            fs.writeFileSync(outFile, JSON.stringify(parsedSkills, null, 2));
+            console.log(`➡️  Saved ${catCount} skills to ${cat}.json`);
+            globalTotal += catCount;
+
         } catch (e) {
-            console.error(`Error fetching category ${cat}:`, e.message);
+            console.error(`Error processing category ${cat}:`, e.message);
         }
     }
 
-    fs.writeFileSync(OUT_FILE, JSON.stringify(allSkills, null, 2));
-    console.log(`Successfully saved ${allSkills.length} skills to ${OUT_FILE}`);
+    console.log(`\n✅ Finished! Read ${globalTotal} total skills. Made ${translatedCount} new translation requests.`);
 }
 
 run();

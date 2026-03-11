@@ -1,0 +1,398 @@
+[
+  {
+    "title": "alter-actions",
+    "id": "alter-actions",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/olivieralter/alter-actions/SKILL.md",
+    "description": "Trigger Alter macOS app actions via x-callback-urls.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Trigger Alter macOS app actions via x-callback-urls."
+  },
+  {
+    "title": "apple-contacts",
+    "id": "apple-contacts",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tyler6204/apple-contacts/SKILL.md",
+    "description": "Look up contacts from macOS Contacts.app.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Look up contacts from macOS Contacts.app."
+  },
+  {
+    "title": "apple-find-my-local",
+    "id": "apple-find-my-local",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/loganprit/apple-find-my-local/SKILL.md",
+    "description": "Control Apple Find My app via Peekaboo to locate people, devices, and items (AirTags)",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Control Apple Find My app via Peekaboo to locate people, devices, and items (AirTags)"
+  },
+  {
+    "title": "apple-health-skill",
+    "id": "apple-health-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nftechie/apple-health-skill/SKILL.md",
+    "description": "Talk to your Apple Health data — ask questions about your workouts, heart rate, activity rings, and fitness trends.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Talk to your Apple Health data — ask questions about your workouts, heart rate, activity rings, and fitness trends."
+  },
+  {
+    "title": "apple-mail-search",
+    "id": "apple-mail-search",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mneves75/apple-mail-search/SKILL.md",
+    "description": "Fast Apple Mail search via SQLite on macOS.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Fast Apple Mail search via SQLite on macOS."
+  },
+  {
+    "title": "apple-music",
+    "id": "apple-music",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tyler6204/apple-music/SKILL.md",
+    "description": "Search Apple Music, add songs to library, manage playlists, control.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Search Apple Music, add songs to library, manage playlists, control."
+  },
+  {
+    "title": "apple-photos",
+    "id": "apple-photos",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tyler6204/apple-photos/SKILL.md",
+    "description": "Apple Photos.app integration for macOS.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Apple Photos.app integration for macOS."
+  },
+  {
+    "title": "apple-remind-me",
+    "id": "apple-remind-me",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/plgonzalezrx8/apple-remind-me/SKILL.md",
+    "description": "Natural language reminders that create actual Apple.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Natural language reminders that create actual Apple."
+  },
+  {
+    "title": "apple-search-ads-skill",
+    "id": "apple-search-ads-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/trebuhs/apple-search-ads-skill/SKILL.md",
+    "description": "Manage Apple Search Ads campaigns, ad groups, keywords, and reports via the asa-cli tool.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Manage Apple Search Ads campaigns, ad groups, keywords, and reports via the asa-cli tool."
+  },
+  {
+    "title": "appletv",
+    "id": "appletv",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lucakaufmann/appletv/SKILL.md",
+    "description": "Control Apple TV via pyatv.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Control Apple TV via pyatv."
+  },
+  {
+    "title": "callmac",
+    "id": "callmac",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jooey/callmac/SKILL.md",
+    "description": "Remote voice control for Mac from mobile devices using commands like /callmac.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Remote voice control for Mac from mobile devices using commands like /callmac."
+  },
+  {
+    "title": "clawdbot-macos-build",
+    "id": "clawdbot-macos-build",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/manish-basargekar/clawdbot-macos-build/SKILL.md",
+    "description": "Build the Clawdbot macOS menu bar app.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Build the Clawdbot macOS menu bar app."
+  },
+  {
+    "title": "clawdbot-skill-voice-wake-say",
+    "id": "clawdbot-skill-voice-wake-say",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xadenryan/clawdbot-skill-voice-wake-say/SKILL.md",
+    "description": "Speak responses aloud on macOS.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Speak responses aloud on macOS."
+  },
+  {
+    "title": "drafts",
+    "id": "drafts",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nerveband/drafts/SKILL.md",
+    "description": "Manage Drafts app notes via CLI on macOS.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Manage Drafts app notes via CLI on macOS."
+  },
+  {
+    "title": "findmy-location",
+    "id": "findmy-location",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/poiley/findmy-location/SKILL.md",
+    "description": "Track a shared contact's location via Apple Find.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Track a shared contact's location via Apple Find."
+  },
+  {
+    "title": "fzf-fuzzy-finder",
+    "id": "fzf-fuzzy-finder",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/arnarsson/fzf-fuzzy-finder/SKILL.md",
+    "description": "Command-line fuzzy finder for interactive filtering.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Command-line fuzzy finder for interactive filtering."
+  },
+  {
+    "title": "get-focus-mode",
+    "id": "get-focus-mode",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nickchristensen/get-focus-mode/SKILL.md",
+    "description": "Get the current macOS Focus.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Get the current macOS Focus."
+  },
+  {
+    "title": "healthkit-sync",
+    "id": "healthkit-sync",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mneves75/healthkit-sync/SKILL.md",
+    "description": "iOS HealthKit data sync CLI commands and patterns.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "iOS HealthKit data sync CLI commands and patterns."
+  },
+  {
+    "title": "hergunmac",
+    "id": "hergunmac",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ahmetsemsettinozdemirden/hergunmac/SKILL.md",
+    "description": "Access AI-powered football match predictions.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Access AI-powered football match predictions."
+  },
+  {
+    "title": "homebrew",
+    "id": "homebrew",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/thesethrose/homebrew/SKILL.md",
+    "description": "Homebrew package manager for macOS.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Homebrew package manager for macOS."
+  },
+  {
+    "title": "icloud-findmy",
+    "id": "icloud-findmy",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/liamnichols/icloud-findmy/SKILL.md",
+    "description": "Query Find My locations and battery status for family devices.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Query Find My locations and battery status for family devices."
+  },
+  {
+    "title": "ics-import-on-iphone",
+    "id": "ics-import-on-iphone",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sbhhbs/ics-import-on-iphone/SKILL.md",
+    "description": "Create calendar events by generating valid .ics files when direct calendar access is unavailable.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Create calendar events by generating valid .ics files when direct calendar access is unavailable."
+  },
+  {
+    "title": "imessage-signal-analyzer",
+    "id": "imessage-signal-analyzer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/terellison/imessage-signal-analyzer/SKILL.md",
+    "description": "Analyze iMessage (macOS) and Signal conversation history to reveal relationship dynamics — message volume.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Analyze iMessage (macOS) and Signal conversation history to reveal relationship dynamics — message volume."
+  },
+  {
+    "title": "inkjet",
+    "id": "inkjet",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aaronchartier/inkjet/SKILL.md",
+    "description": "Print text, images, and QR codes to a wireless Bluetooth thermal printer.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Print text, images, and QR codes to a wireless Bluetooth thermal printer."
+  },
+  {
+    "title": "mac-notes-agent",
+    "id": "mac-notes-agent",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/swancho/mac-notes-agent/SKILL.md",
+    "description": "Integrate with the macOS Notes app (Apple Notes)",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Integrate with the macOS Notes app (Apple Notes)"
+  },
+  {
+    "title": "mac-tts",
+    "id": "mac-tts",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kalijason/mac-tts/SKILL.md",
+    "description": "Text-to-speech using macOS built-in `say` command.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Text-to-speech using macOS built-in `say` command."
+  },
+  {
+    "title": "macos-native-automation",
+    "id": "macos-native-automation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/theagentwire/macos-native-automation/SKILL.md",
+    "description": "Hardware-level mouse, keyboard & dialog automation on macOS via CGEvent + AppleScript.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Hardware-level mouse, keyboard & dialog automation on macOS via CGEvent + AppleScript."
+  },
+  {
+    "title": "managing-apple-notes",
+    "id": "managing-apple-notes",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/wangwalk/managing-apple-notes/SKILL.md",
+    "description": "Manage Apple Notes from the terminal using the inotes CLI.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Manage Apple Notes from the terminal using the inotes CLI."
+  },
+  {
+    "title": "meow-finder",
+    "id": "meow-finder",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/abgohel/meow-finder/SKILL.md",
+    "description": "CLI tool to discover AI tools.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "CLI tool to discover AI tools."
+  },
+  {
+    "title": "mh-apple-reminders",
+    "id": "mh-apple-reminders",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mohdalhashemi98-hue/mh-apple-reminders/SKILL.md",
+    "description": "Manage Apple Reminders via remindctl CLI (list, add, edit, complete, delete)",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Manage Apple Reminders via remindctl CLI (list, add, edit, complete, delete)"
+  },
+  {
+    "title": "mlx-stt",
+    "id": "mlx-stt",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/guoqiao/mlx-stt/SKILL.md",
+    "description": "Speech-To-Text with MLX (Apple Silicon) and GLM-ASR-Nano-2512 locally.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Speech-To-Text with MLX (Apple Silicon) and GLM-ASR-Nano-2512 locally."
+  },
+  {
+    "title": "mlx-swift-lm",
+    "id": "mlx-swift-lm",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ronaldmannak",
+    "description": "MLX Swift LM - Run LLMs and VLMs on Apple Silicon using MLX.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "MLX Swift LM - Run LLMs and VLMs on Apple Silicon using MLX."
+  },
+  {
+    "title": "mlx-tts",
+    "id": "mlx-tts",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/guoqiao/mlx-tts/SKILL.md",
+    "description": "Text-To-Speech with MLX (Apple Silicon) and opensource models (default QWen3-TTS) locally.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Text-To-Speech with MLX (Apple Silicon) and opensource models (default QWen3-TTS) locally."
+  },
+  {
+    "title": "mole-mac-cleanup",
+    "id": "mole-mac-cleanup",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/bjesuiter/mole-mac-cleanup/SKILL.md",
+    "description": "Mac cleanup & optimization tool combining CleanMyMac.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Mac cleanup & optimization tool combining CleanMyMac."
+  },
+  {
+    "title": "monolith",
+    "id": "monolith",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/slaviquee/monolith/SKILL.md",
+    "description": "Secure crypto wallet for AI agents.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Secure crypto wallet for AI agents."
+  },
+  {
+    "title": "my-tesla",
+    "id": "my-tesla",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/officialpm/my-tesla/SKILL.md",
+    "description": "Control Tesla vehicles from macOS via the Tesla Owner API using teslapy.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Control Tesla vehicles from macOS via the Tesla Owner API using teslapy."
+  },
+  {
+    "title": "network-scanner",
+    "id": "network-scanner",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/florianbeer/network-scanner/SKILL.md",
+    "description": "Scan networks to discover devices, gather MAC addresses.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Scan networks to discover devices, gather MAC addresses."
+  },
+  {
+    "title": "omarchy",
+    "id": "omarchy",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/achals-iglu/omarchy/SKILL.md",
+    "description": "Omarchy operating guardrails for day-to-day system work: assume the host is Omarchy by default, choose.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Omarchy operating guardrails for day-to-day system work: assume the host is Omarchy by default, choose."
+  },
+  {
+    "title": "pattern-finder",
+    "id": "pattern-finder",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/leegitw/pattern-finder/SKILL.md",
+    "description": "Discover what two sources agree on — find the signal.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Discover what two sources agree on — find the signal."
+  },
+  {
+    "title": "say",
+    "id": "say",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tobihagemann/say/SKILL.md",
+    "description": "Text-to-Speech via macOS say command with Siri Natural Voices.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Text-to-Speech via macOS say command with Siri Natural Voices."
+  },
+  {
+    "title": "shortcuts-generator",
+    "id": "shortcuts-generator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/erik-agens/shortcuts-skill/SKILL.md",
+    "description": "Generate macOS/iOS Shortcuts by creating plist files.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Generate macOS/iOS Shortcuts by creating plist files."
+  },
+  {
+    "title": "skill-email-management",
+    "id": "skill-email-management",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/latisen/skill-email-management/SKILL.md",
+    "description": "Expert email management assistant for Apple.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Expert email management assistant for Apple."
+  },
+  {
+    "title": "testflight-monitor",
+    "id": "testflight-monitor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jon-xo/testflight-monitor/SKILL.md",
+    "description": "Monitor available TestFlight beta slots with smart app lookups and silent batch checking.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Monitor available TestFlight beta slots with smart app lookups and silent batch checking."
+  },
+  {
+    "title": "voice-wake-say",
+    "id": "voice-wake-say",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xadenryan/voice-wake-say/SKILL.md",
+    "description": "Speak responses aloud on macOS using the built-in `say`.",
+    "category": "apple-apps-and-services",
+    "description_zh": "",
+    "original_description": "Speak responses aloud on macOS using the built-in `say`."
+  }
+]

@@ -1,0 +1,479 @@
+[
+  {
+    "title": "add-wish",
+    "id": "add-wish",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/leebellon/add-wish/SKILL.md",
+    "description": "Save any product to a universal wishlist.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Save any product to a universal wishlist."
+  },
+  {
+    "title": "agent-commerce",
+    "id": "agent-commerce",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nowloady",
+    "description": "Agentic e-commerce engine and Sichuan food.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Agentic e-commerce engine and Sichuan food."
+  },
+  {
+    "title": "agentic-commerce",
+    "id": "agentic-commerce",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/purch-agent/agentic-commerce/SKILL.md",
+    "description": "AI-powered shopping API for product search and crypto.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "AI-powered shopping API for product search and crypto."
+  },
+  {
+    "title": "allstock-data",
+    "id": "allstock-data",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/hacksing/allstock-data/SKILL.md",
+    "description": "Query A-share and US stock data via Tencent Finance API.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Query A-share and US stock data via Tencent Finance API."
+  },
+  {
+    "title": "amadeus-hotels",
+    "id": "amadeus-hotels",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kesslerio/amadeus-hotels/SKILL.md",
+    "description": "Search hotel prices and availability via Amadeus API.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Search hotel prices and availability via Amadeus API."
+  },
+  {
+    "title": "amazon-competitor-analyzer",
+    "id": "amazon-competitor-analyzer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/phheng/amazon-competitor-analyzer/SKILL.md",
+    "description": "Scrapes Amazon product data from ASINs.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Scrapes Amazon product data from ASINs."
+  },
+  {
+    "title": "amazon-orders",
+    "id": "amazon-orders",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pfernandez98/amazon-orders/SKILL.md",
+    "description": "Download and query your Amazon order history via an unofficial Python API and CLI.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Download and query your Amazon order history via an unofficial Python API and CLI."
+  },
+  {
+    "title": "anylist",
+    "id": "anylist",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mjrussell/anylist/SKILL.md",
+    "description": "Manage grocery and shopping lists via AnyList.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Manage grocery and shopping lists via AnyList."
+  },
+  {
+    "title": "atoship",
+    "id": "atoship",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/atoship-dev/atoship/SKILL.md",
+    "description": "Ship packages with AI — compare rates across USPS, FedEx, and UPS, buy discounted labels, track shipments.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Ship packages with AI — compare rates across USPS, FedEx, and UPS, buy discounted labels, track shipments."
+  },
+  {
+    "title": "black-box",
+    "id": "black-box",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lilyjazz/black-box/SKILL.md",
+    "description": "Indestructible audit logs for agent actions, stored in TiDB Zero.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Indestructible audit logs for agent actions, stored in TiDB Zero."
+  },
+  {
+    "title": "boj-mcp",
+    "id": "boj-mcp",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ajtgjmdjp/boj-mcp/SKILL.md",
+    "description": "Access Bank of Japan (BOJ/日本銀行) statistical data — price indices (CGPI, SPPI), flow of funds, balance of payments.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Access Bank of Japan (BOJ/日本銀行) statistical data — price indices (CGPI, SPPI), flow of funds, balance of payments."
+  },
+  {
+    "title": "bricklink",
+    "id": "bricklink",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/odrobnik/bricklink/SKILL.md",
+    "description": "BrickLink Store API helper/CLI (OAuth 1.0 request signing).",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "BrickLink Store API helper/CLI (OAuth 1.0 request signing)."
+  },
+  {
+    "title": "buy-anything",
+    "id": "buy-anything",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tsyvic/buy-anything/SKILL.md",
+    "description": "Purchase products from Amazon through conversational checkout.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Purchase products from Amazon through conversational checkout."
+  },
+  {
+    "title": "checkers-sixty60",
+    "id": "checkers-sixty60",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/snopoke/checkers-sixty60/SKILL.md",
+    "description": "Shop on Checkers.co.za Sixty60 delivery service via browser.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Shop on Checkers.co.za Sixty60 delivery service via browser."
+  },
+  {
+    "title": "claudius",
+    "id": "claudius",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/claudiusaipro/claudius/SKILL.md",
+    "description": "Crypto intelligence powered by Claudius.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Crypto intelligence powered by Claudius."
+  },
+  {
+    "title": "clawdbites",
+    "id": "clawdbites",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kylelol/clawdbites/SKILL.md",
+    "description": "Extract recipes from Instagram reels.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Extract recipes from Instagram reels."
+  },
+  {
+    "title": "clawpify",
+    "id": "clawpify",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alhwyn/clawpify/SKILL.md",
+    "description": "Query and manage Shopify stores via GraphQL Admin API.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Query and manage Shopify stores via GraphQL Admin API."
+  },
+  {
+    "title": "clawver-digital-products",
+    "id": "clawver-digital-products",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nwang783/clawver-digital-products/SKILL.md",
+    "description": "Create and sell digital products.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Create and sell digital products."
+  },
+  {
+    "title": "clawver-reviews",
+    "id": "clawver-reviews",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nwang783/clawver-reviews/SKILL.md",
+    "description": "Handle Clawver customer reviews.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Handle Clawver customer reviews."
+  },
+  {
+    "title": "closing-deals",
+    "id": "closing-deals",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jk-0001/closing-deals/SKILL.md",
+    "description": "Close sales deals consistently as a solopreneur.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Close sales deals consistently as a solopreneur."
+  },
+  {
+    "title": "crypto-regime-report",
+    "id": "crypto-regime-report",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/heyztb/crypto-regime-report/SKILL.md",
+    "description": "Generate market regime reports for crypto perpetuals using Supertrend and ADX indicators.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Generate market regime reports for crypto perpetuals using Supertrend and ADX indicators."
+  },
+  {
+    "title": "csfloat",
+    "id": "csfloat",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/bluesyparty-src/csfloat/SKILL.md",
+    "description": "Queries csfloat.com for data on skins.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Queries csfloat.com for data on skins."
+  },
+  {
+    "title": "csvtoexcel",
+    "id": "csvtoexcel",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xuanguan2020/csvtoexcel/SKILL.md",
+    "description": "Convert CSV files to professionally formatted Excel workbooks with Chinese character support, automatic formatting.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Convert CSV files to professionally formatted Excel workbooks with Chinese character support, automatic formatting."
+  },
+  {
+    "title": "dupe",
+    "id": "dupe",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/crisanmm/dupe/SKILL.md",
+    "description": "Uses dupe.com APIs in order to find similar products for the product found in the input URL given by the user.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Uses dupe.com APIs in order to find similar products for the product found in the input URL given by the user."
+  },
+  {
+    "title": "eachlabs-product-visuals",
+    "id": "eachlabs-product-visuals",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/eachlabs-product-visuals/SKILL.md",
+    "description": "Generate e-commerce product photography and videos.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Generate e-commerce product photography and videos."
+  },
+  {
+    "title": "filewave",
+    "id": "filewave",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jlevitsk/filewave/SKILL.md",
+    "description": "Query and manage FileWave UEM device inventory via REST API.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Query and manage FileWave UEM device inventory via REST API."
+  },
+  {
+    "title": "food-order",
+    "id": "food-order",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/steipete/food-order/SKILL.md",
+    "description": "Reorder Foodora orders + track ETA/status with ordercli.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Reorder Foodora orders + track ETA/status with ordercli."
+  },
+  {
+    "title": "gousto",
+    "id": "gousto",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dhruvkelawala/gousto/SKILL.md",
+    "description": "Search and browse 9,000+ Gousto recipes.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Search and browse 9,000+ Gousto recipes."
+  },
+  {
+    "title": "gurkerlcli",
+    "id": "gurkerlcli",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pasogott/gurkerlcli/SKILL.md",
+    "description": "Austrian online grocery shopping via gurkerl.at.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Austrian online grocery shopping via gurkerl.at."
+  },
+  {
+    "title": "idealista",
+    "id": "idealista",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/quifago/idealista/SKILL.md",
+    "description": "Query Idealista API via idealista-cli (OAuth2 client credentials).",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Query Idealista API via idealista-cli (OAuth2 client credentials)."
+  },
+  {
+    "title": "irish-takeaway",
+    "id": "irish-takeaway",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cotyledonlab/irish-takeaway/SKILL.md",
+    "description": "Find nearby takeaways in Ireland and browse menus.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Find nearby takeaways in Ireland and browse menus."
+  },
+  {
+    "title": "jellyseerr",
+    "id": "jellyseerr",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ericrosenberg/jellyseerr/SKILL.md",
+    "description": "Request movies and TV shows through Jellyseerr.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Request movies and TV shows through Jellyseerr."
+  },
+  {
+    "title": "jlm-coffee",
+    "id": "jlm-coffee",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alexpolonsky/jlm-coffee/SKILL.md",
+    "description": "Search specialty coffee shops in Jerusalem by amenities and hours.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Search specialty coffee shops in Jerusalem by amenities and hours."
+  },
+  {
+    "title": "jtbd-analyzer",
+    "id": "jtbd-analyzer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/artyomx33/jtbd-analyzer/SKILL.md",
+    "description": "Uncover the real \"job\" customers hire your product.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Uncover the real \"job\" customers hire your product."
+  },
+  {
+    "title": "listonic",
+    "id": "listonic",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jeremymahieu/listonic/SKILL.md",
+    "description": "Access Listonic shopping lists: list lists/items, add/check/delete items, and manage lists.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Access Listonic shopping lists: list lists/items, add/check/delete items, and manage lists."
+  },
+  {
+    "title": "marketplace-clis",
+    "id": "marketplace-clis",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pjtf93",
+    "description": "Spanish marketplace CLIs: Wallapop.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Spanish marketplace CLIs: Wallapop."
+  },
+  {
+    "title": "marktplaats",
+    "id": "marktplaats",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pvoo/marktplaats/SKILL.md",
+    "description": "Search Marktplaats.nl classifieds across all categories with filtering.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Search Marktplaats.nl classifieds across all categories with filtering."
+  },
+  {
+    "title": "moltlist-marketplace",
+    "id": "moltlist-marketplace",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/koriyoshi2041/moltlist-marketplace/SKILL.md",
+    "description": "Interact with the moltlist.com agent.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Interact with the moltlist.com agent."
+  },
+  {
+    "title": "moltpho",
+    "id": "moltpho",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/unifiedh/moltpho/SKILL.md",
+    "description": "Shop autonomously on Amazon via Moltpho - search products, manage credit.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Shop autonomously on Amazon via Moltpho - search products, manage credit."
+  },
+  {
+    "title": "moonpay",
+    "id": "moonpay",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kevarifin14/moonpay/SKILL.md",
+    "description": "Your agent needs money.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Your agent needs money."
+  },
+  {
+    "title": "mt5-httpapi",
+    "id": "mt5-httpapi",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/psyb0t/mt5-httpapi/SKILL.md",
+    "description": "MetaTrader 5 trading via REST API — get market data, place/modify/close orders, manage positions, pull history.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "MetaTrader 5 trading via REST API — get market data, place/modify/close orders, manage positions, pull history."
+  },
+  {
+    "title": "mutual-consent",
+    "id": "mutual-consent",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/otherpowers/mutual-consent/SKILL.md",
+    "description": "A governance skill that treats consent as a physical condition of information and relationship, not a stored choice.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "A governance skill that treats consent as a physical condition of information and relationship, not a stored choice."
+  },
+  {
+    "title": "nft-tracker",
+    "id": "nft-tracker",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ianalloway/nft-tracker/SKILL.md",
+    "description": "Track NFT collection prices, floor prices, and sales data.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Track NFT collection prices, floor prices, and sales data."
+  },
+  {
+    "title": "onchain",
+    "id": "onchain",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/arein/onchain/SKILL.md",
+    "description": "CLI for crypto portfolio tracking, market data, CEX history, and transaction lookups.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "CLI for crypto portfolio tracking, market data, CEX history, and transaction lookups."
+  },
+  {
+    "title": "onchain-test",
+    "id": "onchain-test",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/arein/onchain-test/SKILL.md",
+    "description": "CLI for crypto portfolio tracking, market data, and CEX history.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "CLI for crypto portfolio tracking, market data, and CEX history."
+  },
+  {
+    "title": "ontopo",
+    "id": "ontopo",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alexpolonsky/ontopo/SKILL.md",
+    "description": "Search Israeli restaurants and check table availability on Ontopo.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Search Israeli restaurants and check table availability on Ontopo."
+  },
+  {
+    "title": "palacefate",
+    "id": "palacefate",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/junwonpro/palacefate/SKILL.md",
+    "description": "A prediction market game for AI agents.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "A prediction market game for AI agents."
+  },
+  {
+    "title": "popup-referrals",
+    "id": "popup-referrals",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eliaskress/popup-referrals/SKILL.md",
+    "description": "Check your PopUp referral link, track earnings, and see referred vendor status.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Check your PopUp referral link, track earnings, and see referred vendor status."
+  },
+  {
+    "title": "sp3nd",
+    "id": "sp3nd",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kent-x1/sp3nd/SKILL.md",
+    "description": "Buy products from Amazon using USDC on Solana.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Buy products from Amazon using USDC on Solana."
+  },
+  {
+    "title": "stock-price-checker",
+    "id": "stock-price-checker",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rupprath/stock-price-checker/SKILL.md",
+    "description": "Check stock prices using yfinance library.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Check stock prices using yfinance library."
+  },
+  {
+    "title": "tradekix",
+    "id": "tradekix",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jamesjohnfox/tradekix/SKILL.md",
+    "description": "Query financial market data via the Tradekix API — stock prices, crypto, forex, indices, market news, earnings.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Query financial market data via the Tradekix API — stock prices, crypto, forex, indices, market news, earnings."
+  },
+  {
+    "title": "turnip-prophet",
+    "id": "turnip-prophet",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nicholasjackson/turnip-prophet/SKILL.md",
+    "description": "Predict Animal Crossing New Horizons turnip prices using the game's exact algorithm.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Predict Animal Crossing New Horizons turnip prices using the game's exact algorithm."
+  },
+  {
+    "title": "whop-cli",
+    "id": "whop-cli",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/g9pedro/whop-cli/SKILL.md",
+    "description": "Manage Whop digital products store — create products, plans, track payments, manage memberships.",
+    "category": "shopping-and-e-commerce",
+    "description_zh": "",
+    "original_description": "Manage Whop digital products store — create products, plans, track payments, manage memberships."
+  }
+]

@@ -476,14 +476,25 @@ class WebServer {
 
         this.app.get('/api/skills/marketplace', (req, res) => {
             try {
-                const dataPath = path.join(process.cwd(), 'data', 'marketplace_skills.json');
-                if (!fs.existsSync(dataPath)) {
-                    return res.json({ skills: [], total: 0 });
-                }
-                const rawData = fs.readFileSync(dataPath, 'utf8');
-                let allSkills = JSON.parse(rawData);
+                const marketplaceDir = path.join(process.cwd(), 'data', 'marketplace');
+                let allSkills = [];
 
                 const { search, category, page = 1, limit = 20 } = req.query;
+
+                if (category && category !== 'all') {
+                    const catFile = path.join(marketplaceDir, `${category}.json`);
+                    if (fs.existsSync(catFile)) {
+                        allSkills = JSON.parse(fs.readFileSync(catFile, 'utf8'));
+                    }
+                } else {
+                    if (fs.existsSync(marketplaceDir)) {
+                        const files = fs.readdirSync(marketplaceDir).filter(f => f.endsWith('.json'));
+                        for (const file of files) {
+                            const data = JSON.parse(fs.readFileSync(path.join(marketplaceDir, file), 'utf8'));
+                            allSkills = allSkills.concat(data);
+                        }
+                    }
+                }
 
                 if (category && category !== 'all') {
                     allSkills = allSkills.filter(s => s.category === category);

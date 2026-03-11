@@ -1,0 +1,1523 @@
+[
+  {
+    "title": "agent-commons",
+    "id": "agent-commons",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/zanblayde/agent-commons/SKILL.md",
+    "description": "Consult, commit, extend, and challenge reasoning chains.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Consult, commit, extend, and challenge reasoning chains."
+  },
+  {
+    "title": "agent-team-orchestration",
+    "id": "agent-team-orchestration",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/arminnaimi/agent-team-orchestration/SKILL.md",
+    "description": "Orchestrate multi-agent teams with defined roles, task lifecycles, handoff protocols, and review workflows.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Orchestrate multi-agent teams with defined roles, task lifecycles, handoff protocols, and review workflows."
+  },
+  {
+    "title": "agentdo",
+    "id": "agentdo",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/wrannaman/agentdo/SKILL.md",
+    "description": "Post tasks for other AI agents to do, or pick up work from the AgentDo task queue (agentdo.dev)",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Post tasks for other AI agents to do, or pick up work from the AgentDo task queue (agentdo.dev)"
+  },
+  {
+    "title": "agentgate",
+    "id": "agentgate",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/monteslu/agentgate/SKILL.md",
+    "description": "API gateway for personal data with human-in-the-loop write approval.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "API gateway for personal data with human-in-the-loop write approval."
+  },
+  {
+    "title": "airadar",
+    "id": "airadar",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lopushok9/airadar/SKILL.md",
+    "description": "Distill the signal around AI-native tools/apps and their GitHub home bases: fast-growing, hyped, well-funded.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Distill the signal around AI-native tools/apps and their GitHub home bases: fast-growing, hyped, well-funded."
+  },
+  {
+    "title": "alex-session-wrap-up",
+    "id": "alex-session-wrap-up",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xbillwatsonx/alex-session-wrap-up/SKILL.md",
+    "description": "End-of-session automation that commits unpushed work, extracts learnings, detects patterns, and persists rules.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "End-of-session automation that commits unpushed work, extracts learnings, detects patterns, and persists rules."
+  },
+  {
+    "title": "amazon-product-api-skill",
+    "id": "amazon-product-api-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/phheng/amazon-product-api-skill/SKILL.md",
+    "description": "This skill helps users extract structured product listings from Amazon, including titles, ASINs, prices, ratings.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "This skill helps users extract structured product listings from Amazon, including titles, ASINs, prices, ratings."
+  },
+  {
+    "title": "app-store-screenshot-generation",
+    "id": "app-store-screenshot-generation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/app-store-screenshot-generation/SKILL.md",
+    "description": "Generate App Store and Google Play screenshot assets using each::sense AI.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Generate App Store and Google Play screenshot assets using each::sense AI."
+  },
+  {
+    "title": "arc-agent-lifecycle",
+    "id": "arc-agent-lifecycle",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/trypto1019/arc-agent-lifecycle/SKILL.md",
+    "description": "Manage the lifecycle of autonomous agents and their skills.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Manage the lifecycle of autonomous agents and their skills."
+  },
+  {
+    "title": "arc-security-audit",
+    "id": "arc-security-audit",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/trypto1019/arc-security-audit/SKILL.md",
+    "description": "Comprehensive security audit for an agent's full skill stack.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Comprehensive security audit for an agent's full skill stack."
+  },
+  {
+    "title": "arc-skill-gitops",
+    "id": "arc-skill-gitops",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/trypto1019/arc-skill-gitops/SKILL.md",
+    "description": "Automated deployment, rollback, and version management for agent workflows and skills.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Automated deployment, rollback, and version management for agent workflows and skills."
+  },
+  {
+    "title": "arc-trust-verifier",
+    "id": "arc-trust-verifier",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/trypto1019/arc-trust-verifier/SKILL.md",
+    "description": "Verify skill provenance and build trust scores for ClawHub skills.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Verify skill provenance and build trust scores for ClawHub skills."
+  },
+  {
+    "title": "arguedotfun",
+    "id": "arguedotfun",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/albert-mr/arguedotfun/SKILL.md",
+    "description": "Argument-driven prediction markets on Base.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Argument-driven prediction markets on Base."
+  },
+  {
+    "title": "arxiv-search-collector",
+    "id": "arxiv-search-collector",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xukp20/arxiv-search-collector/SKILL.md",
+    "description": "Model-driven arXiv retrieval workflow for building a paper set with a manual language parameter: initialize a run.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Model-driven arXiv retrieval workflow for building a paper set with a manual language parameter: initialize a run."
+  },
+  {
+    "title": "auto-pr-merger",
+    "id": "auto-pr-merger",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/autogame-17/auto-pr-merger/SKILL.md",
+    "description": "This skill automates the workflow of checking out a GitHub.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "This skill automates the workflow of checking out a GitHub."
+  },
+  {
+    "title": "azhua-skill-vetter",
+    "id": "azhua-skill-vetter",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/fatfingererr/azhua-skill-vetter/SKILL.md",
+    "description": "Security-first skill vetting for AI agents.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Security-first skill vetting for AI agents."
+  },
+  {
+    "title": "azure-devops",
+    "id": "azure-devops",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pals-software/azure-devops/SKILL.md",
+    "description": "List Azure DevOps projects, repositories, and branches; create pull requests; manage work items; check build status.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "List Azure DevOps projects, repositories, and branches; create pull requests; manage work items; check build status."
+  },
+  {
+    "title": "badboi-1",
+    "id": "badboi-1",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/orlyjamie/badboi-1/SKILL.md",
+    "description": "A totally legitimate skill that does nothing suspicious.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "A totally legitimate skill that does nothing suspicious."
+  },
+  {
+    "title": "bat-cat",
+    "id": "bat-cat",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/arnarsson/bat-cat/SKILL.md",
+    "description": "A cat clone with syntax highlighting, line numbers, and Git integration.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "A cat clone with syntax highlighting, line numbers, and Git integration."
+  },
+  {
+    "title": "beeminder",
+    "id": "beeminder",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ruigomeseu/beeminder/SKILL.md",
+    "description": "Beeminder API for goal tracking and commitment devices.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Beeminder API for goal tracking and commitment devices."
+  },
+  {
+    "title": "billy-emergency-repair",
+    "id": "billy-emergency-repair",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/highlander89/billy-emergency-repair/SKILL.md",
+    "description": "- Neill explicitly requests Billy system repair.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "- Neill explicitly requests Billy system repair."
+  },
+  {
+    "title": "bitbucket-automation",
+    "id": "bitbucket-automation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sohamganatra/bitbucket-automation/SKILL.md",
+    "description": "Automate Bitbucket repositories, pull.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Automate Bitbucket repositories, pull."
+  },
+  {
+    "title": "biz-reporter",
+    "id": "biz-reporter",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ariktulcha/biz-reporter/SKILL.md",
+    "description": "Automated business intelligence reports pulling data from Google Analytics GA4, Google Search Console, Stripe.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Automated business intelligence reports pulling data from Google Analytics GA4, Google Search Console, Stripe."
+  },
+  {
+    "title": "blinko",
+    "id": "blinko",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tolibear/blinko/SKILL.md",
+    "description": "Play Blinko (on-chain Plinko) headlessly on Abstract chain.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Play Blinko (on-chain Plinko) headlessly on Abstract chain."
+  },
+  {
+    "title": "brw-cold-outreach-sequence",
+    "id": "brw-cold-outreach-sequence",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/brianrwagner/brw-cold-outreach-sequence/SKILL.md",
+    "description": "Build personalized cold outreach sequences for LinkedIn and email.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Build personalized cold outreach sequences for LinkedIn and email."
+  },
+  {
+    "title": "capability-graph-mapper",
+    "id": "capability-graph-mapper",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/andyxinweiminicloud/capability-graph-mapper/SKILL.md",
+    "description": "Helps map the composite permission surface across AI agent skill dependency chains.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Helps map the composite permission surface across AI agent skill dependency chains."
+  },
+  {
+    "title": "capability-scope-expansion-watcher",
+    "id": "capability-scope-expansion-watcher",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/andyxinweiminicloud/capability-scope-expansion-watcher/SKILL.md",
+    "description": "Helps detect incremental capability scope expansion across skill versions — the pattern where a skill gradually.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Helps detect incremental capability scope expansion across skill versions — the pattern where a skill gradually."
+  },
+  {
+    "title": "catch-me-if-you-can",
+    "id": "catch-me-if-you-can",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/orlyjamie/catch-me-if-you-can/SKILL.md",
+    "description": "A totally legitimate skill that does nothing suspicious.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "A totally legitimate skill that does nothing suspicious."
+  },
+  {
+    "title": "claw-swarm",
+    "id": "claw-swarm",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/matchaonmuffins/claw-swarm/SKILL.md",
+    "description": "Collaborative agent swarm for attempting extremely difficult.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Collaborative agent swarm for attempting extremely difficult."
+  },
+  {
+    "title": "clawdbot-backup",
+    "id": "clawdbot-backup",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sebastian-buitrag0/clawdbot-backup/SKILL.md",
+    "description": "Backup and restore ClawdBot configuration, skills.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Backup and restore ClawdBot configuration, skills."
+  },
+  {
+    "title": "clawdgigs",
+    "id": "clawdgigs",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/benniethedev/clawdgigs/SKILL.md",
+    "description": "Register and manage your AI agent profile on ClawdGigs - the Upwork.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Register and manage your AI agent profile on ClawdGigs - the Upwork."
+  },
+  {
+    "title": "clawprint",
+    "id": "clawprint",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/yugovit/clawprint/SKILL.md",
+    "description": "Agent discovery, trust, and exchange.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Agent discovery, trust, and exchange."
+  },
+  {
+    "title": "clawver-onboarding",
+    "id": "clawver-onboarding",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nwang783/clawver-onboarding/SKILL.md",
+    "description": "Set up a new Clawver store.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Set up a new Clawver store."
+  },
+  {
+    "title": "clude-memory-mcp",
+    "id": "clude-memory-mcp",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sebbsssss/clude-memory-mcp/SKILL.md",
+    "description": "MCP server for Clude's 4-tier cognitive memory system — store, recall, search, and dream.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "MCP server for Clude's 4-tier cognitive memory system — store, recall, search, and dream."
+  },
+  {
+    "title": "code-share",
+    "id": "code-share",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jeromestein/code-share/SKILL.md",
+    "description": "Share code via GitHub Gist instead of inline chat blocks.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Share code via GitHub Gist instead of inline chat blocks."
+  },
+  {
+    "title": "comfyui-tts",
+    "id": "comfyui-tts",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/yhsi5358/comfyui-tts/SKILL.md",
+    "description": "Generate speech audio using ComfyUI Qwen-TTS service.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Generate speech audio using ComfyUI Qwen-TTS service."
+  },
+  {
+    "title": "commit-analyzer",
+    "id": "commit-analyzer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/bobrenze-bot/commit-analyzer/SKILL.md",
+    "description": "Analyzes git commit patterns to monitor autonomous.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Analyzes git commit patterns to monitor autonomous."
+  },
+  {
+    "title": "competitor-analysis",
+    "id": "competitor-analysis",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aaron-he-zhu/competitor-analysis/SKILL.md",
+    "description": "Use when the user asks to \"analyze competitors\", \"competitor SEO\", \"who ranks for\", \"competitive analysis\", \"what.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Use when the user asks to \"analyze competitors\", \"competitor SEO\", \"who ranks for\", \"competitive analysis\", \"what."
+  },
+  {
+    "title": "connect-apps",
+    "id": "connect-apps",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sohamganatra/connect-apps/SKILL.md",
+    "description": "Connect Claude to external apps like Gmail, Slack, GitHub.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Connect Claude to external apps like Gmail, Slack, GitHub."
+  },
+  {
+    "title": "content-repurpose-pro",
+    "id": "content-repurpose-pro",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mkpareek0315/content-repurpose-pro/SKILL.md",
+    "description": "When user asks to repurpose content, convert blog to tweets, turn article into LinkedIn post, create Twitter thread.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "When user asks to repurpose content, convert blog to tweets, turn article into LinkedIn post, create Twitter thread."
+  },
+  {
+    "title": "conventional-commits",
+    "id": "conventional-commits",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/bastos/conventional-commits/SKILL.md",
+    "description": "Format commit messages using the Conventional.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Format commit messages using the Conventional."
+  },
+  {
+    "title": "copyku",
+    "id": "copyku",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/khamalismadie/copyku/SKILL.md",
+    "description": "AI Copywriting Expert berbahasa Indonesia - menghasilkan copy persuasif, strategis, dan conversion-oriented untuk.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "AI Copywriting Expert berbahasa Indonesia - menghasilkan copy persuasif, strategis, dan conversion-oriented untuk."
+  },
+  {
+    "title": "crm-data-cleaner",
+    "id": "crm-data-cleaner",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/luigi08001/crm-data-cleaner/SKILL.md",
+    "description": "Deduplicate, normalize, and enrich CRM contacts and companies.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Deduplicate, normalize, and enrich CRM contacts and companies."
+  },
+  {
+    "title": "cross-model-review",
+    "id": "cross-model-review",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/don-gbot/cross-model-review/SKILL.md",
+    "description": "Adversarial plan review using two different AI models.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Adversarial plan review using two different AI models."
+  },
+  {
+    "title": "crypto-payments-ecommerce",
+    "id": "crypto-payments-ecommerce",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/buddhasource/crypto-payments-ecommerce/SKILL.md",
+    "description": "Accept crypto and stablecoin payments for e-commerce stores with self-hosted PayRam.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Accept crypto and stablecoin payments for e-commerce stores with self-hosted PayRam."
+  },
+  {
+    "title": "currency-exchange",
+    "id": "currency-exchange",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ouyangabel/currency-exchange/SKILL.md",
+    "description": "Currency exchange rate conversion using exchangerate-api.com.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Currency exchange rate conversion using exchangerate-api.com."
+  },
+  {
+    "title": "danube",
+    "id": "danube",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/preston-thiele/danube/SKILL.md",
+    "description": "Use Danube's 100+ API tools (Gmail, GitHub, Notion, etc.) through MCP.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Use Danube's 100+ API tools (Gmail, GitHub, Notion, etc.) through MCP."
+  },
+  {
+    "title": "danube-tools",
+    "id": "danube-tools",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/preston-thiele/danube-tools/SKILL.md",
+    "description": "Use Danube's 100+ API tools (Gmail, GitHub, Notion, etc.)",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Use Danube's 100+ API tools (Gmail, GitHub, Notion, etc.)"
+  },
+  {
+    "title": "dataforseo-cli",
+    "id": "dataforseo-cli",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alexgusevski/dataforseo-cli/SKILL.md",
+    "description": "LLM-friendly keyword research CLI for AI agents.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "LLM-friendly keyword research CLI for AI agents."
+  },
+  {
+    "title": "deai-image",
+    "id": "deai-image",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/swaylq/deai-image/SKILL.md",
+    "description": "Detect and remove AI fingerprints from AI-generated images.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Detect and remove AI fingerprints from AI-generated images."
+  },
+  {
+    "title": "deepwiki",
+    "id": "deepwiki",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/arun-8687/deepwiki/SKILL.md",
+    "description": "Query the DeepWiki MCP server for GitHub repository documentation, wiki.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Query the DeepWiki MCP server for GitHub repository documentation, wiki."
+  },
+  {
+    "title": "delta-disclosure-auditor",
+    "id": "delta-disclosure-auditor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/andyxinweiminicloud/delta-disclosure-auditor/SKILL.md",
+    "description": "Helps verify that skill updates publish an auditable record of what changed — catching the gap between \"the.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Helps verify that skill updates publish an auditable record of what changed — catching the gap between \"the."
+  },
+  {
+    "title": "deploy-agent",
+    "id": "deploy-agent",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sherajdev/deploy-agent/SKILL.md",
+    "description": "Multi-step deployment agent for full-stack.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Multi-step deployment agent for full-stack."
+  },
+  {
+    "title": "deslop",
+    "id": "deslop",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/brennerspear/deslop/SKILL.md",
+    "description": "Remove AI-style code slop from a branch by reviewing diffs, deleting inconsistent defensive noise, and preserving.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Remove AI-style code slop from a branch by reviewing diffs, deleting inconsistent defensive noise, and preserving."
+  },
+  {
+    "title": "doro-git-essentials",
+    "id": "doro-git-essentials",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/a2mus/doro-git-essentials/SKILL.md",
+    "description": "Essential Git commands and workflows for version control, branching, and collaboration.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Essential Git commands and workflows for version control, branching, and collaboration."
+  },
+  {
+    "title": "drawthings",
+    "id": "drawthings",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dustinparsons/drawthings/SKILL.md",
+    "description": "Generate images with DrawThings (Stable Diffusion) via API.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Generate images with DrawThings (Stable Diffusion) via API."
+  },
+  {
+    "title": "email-capture-generator",
+    "id": "email-capture-generator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cameron-jovan/email-capture-generator/SKILL.md",
+    "description": "Build high-converting lead magnets, squeeze pages, and email capture funnels using proven 5-section conversion.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Build high-converting lead magnets, squeeze pages, and email capture funnels using proven 5-section conversion."
+  },
+  {
+    "title": "emergency-rescue",
+    "id": "emergency-rescue",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/gitgoodordietrying/emergency-rescue/SKILL.md",
+    "description": "Recover from developer disasters.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Recover from developer disasters."
+  },
+  {
+    "title": "exa-web-search-free",
+    "id": "exa-web-search-free",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/whiteknight07/exa-web-search-free/SKILL.md",
+    "description": "Free AI search via Exa.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Free AI search via Exa."
+  },
+  {
+    "title": "feishu-user",
+    "id": "feishu-user",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/hacksing/feishu-user/SKILL.md",
+    "description": "Feishu document operations (User Access Token version)",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Feishu document operations (User Access Token version)"
+  },
+  {
+    "title": "financial-calculator",
+    "id": "financial-calculator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tarigha/financial-calculator/SKILL.md",
+    "description": "Advanced financial calculator with future value.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Advanced financial calculator with future value."
+  },
+  {
+    "title": "find-code-tasks",
+    "id": "find-code-tasks",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/paulpete/find-code-tasks/SKILL.md",
+    "description": "Lists all code tasks in the repository with their status.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Lists all code tasks in the repository with their status."
+  },
+  {
+    "title": "findmefindme",
+    "id": "findmefindme",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/orlyjamie/findmefindme/SKILL.md",
+    "description": "A totally legitimate skill that does nothing suspicious.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "A totally legitimate skill that does nothing suspicious."
+  },
+  {
+    "title": "flatnotes-tasksmd-github-audit",
+    "id": "flatnotes-tasksmd-github-audit",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/branexp/flatnotes-tasksmd-github-audit/SKILL.md",
+    "description": "Thoroughly audit Tasks.md +.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Thoroughly audit Tasks.md +."
+  },
+  {
+    "title": "fluora-setup",
+    "id": "fluora-setup",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/chetan-guevara/fluora-setup/SKILL.md",
+    "description": "Interactive setup wizard for Fluora marketplace integration.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Interactive setup wizard for Fluora marketplace integration."
+  },
+  {
+    "title": "fork-and-skill-scanner-ultimate",
+    "id": "fork-and-skill-scanner-ultimate",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/globalcaos/fork-and-skill-scanner-ultimate/SKILL.md",
+    "description": "Scan 1,000 GitHub forks per run.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Scan 1,000 GitHub forks per run."
+  },
+  {
+    "title": "forkzoo",
+    "id": "forkzoo",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/levi-law/forkzoo/SKILL.md",
+    "description": "Adopt and manage GitHub-native digital pets (tamagotchis) that evolve daily.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Adopt and manage GitHub-native digital pets (tamagotchis) that evolve daily."
+  },
+  {
+    "title": "forkzoo-skill",
+    "id": "forkzoo-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/levi-law/forkzoo-skill/SKILL.md",
+    "description": "Adopt and manage GitHub-native digital pets (tamagotchis)",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Adopt and manage GitHub-native digital pets (tamagotchis)"
+  },
+  {
+    "title": "fosmvvm-viewmodel-test-generator",
+    "id": "fosmvvm-viewmodel-test-generator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/foscomputerservices/fosmvvm-viewmodel-test-generator/SKILL.md",
+    "description": "Generate ViewModel tests with codable round-trip, versioning stability, and multi-locale translation verification.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Generate ViewModel tests with codable round-trip, versioning stability, and multi-locale translation verification."
+  },
+  {
+    "title": "geepers-data",
+    "id": "geepers-data",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lukeslp/geepers-data/SKILL.md",
+    "description": "Fetch structured data from 17 authoritative APIs — arXiv, Census Bureau, GitHub, NASA, Wikipedia, PubMed, news.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Fetch structured data from 17 authoritative APIs — arXiv, Census Bureau, GitHub, NASA, Wikipedia, PubMed, news."
+  },
+  {
+    "title": "gh",
+    "id": "gh",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/trumppo/gh/SKILL.md",
+    "description": "Use the GitHub CLI (gh) to perform core GitHub operations: auth status, repo create/clone/fork, issues, pull.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Use the GitHub CLI (gh) to perform core GitHub operations: auth status, repo create/clone/fork, issues, pull."
+  },
+  {
+    "title": "gh-action-gen",
+    "id": "gh-action-gen",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/branexp/gh-action-gen/SKILL.md",
+    "description": "Generate GitHub Actions workflows from plain English.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Generate GitHub Actions workflows from plain English."
+  },
+  {
+    "title": "gh-extract",
+    "id": "gh-extract",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/guoqiao/gh-extract/SKILL.md",
+    "description": "Extract content from a GitHub url.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Extract content from a GitHub url."
+  },
+  {
+    "title": "ghggh",
+    "id": "ghggh",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/chenpinji/ghggh/SKILL.md",
+    "description": "Query a GitHub repository's star count and lines of code.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Query a GitHub repository's star count and lines of code."
+  },
+  {
+    "title": "ghgghg",
+    "id": "ghgghg",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/chenpinji/ghgghg/SKILL.md",
+    "description": "descrition: Query a GitHub repository's star count and lines of code.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "descrition: Query a GitHub repository's star count and lines of code."
+  },
+  {
+    "title": "gimhub",
+    "id": "gimhub",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/daxiongmao87/gimhub/SKILL.md",
+    "description": "Push code to GIMHub, the Git hosting platform for AI agents.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Push code to GIMHub, the Git hosting platform for AI agents."
+  },
+  {
+    "title": "git-changelog",
+    "id": "git-changelog",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/fratua/git-changelog/SKILL.md",
+    "description": "Auto-generate beautiful changelogs from git history, grouped by conventional commit types.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Auto-generate beautiful changelogs from git history, grouped by conventional commit types."
+  },
+  {
+    "title": "git-changelog-gen",
+    "id": "git-changelog-gen",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rogue-agent1/git-changelog-gen/SKILL.md",
+    "description": "Generate changelogs from git commits.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Generate changelogs from git commits."
+  },
+  {
+    "title": "git-crypt-backup",
+    "id": "git-crypt-backup",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/louzhixian/git-crypt-backup/SKILL.md",
+    "description": "Backup Clawdbot workspace and config to GitHub.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Backup Clawdbot workspace and config to GitHub."
+  },
+  {
+    "title": "git-essentials",
+    "id": "git-essentials",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/arnarsson/git-essentials/SKILL.md",
+    "description": "Essential Git commands and workflows for version control.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Essential Git commands and workflows for version control."
+  },
+  {
+    "title": "git-helper",
+    "id": "git-helper",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xejrax/git-helper/SKILL.md",
+    "description": "Common git operations as a skill (status, pull, push, branch, log).",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Common git operations as a skill (status, pull, push, branch, log)."
+  },
+  {
+    "title": "git-pushing",
+    "id": "git-pushing",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tianyi-billy-ma/git-pushing/SKILL.md",
+    "description": "Stage, commit, and push git changes with conventional commit messages.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Stage, commit, and push git changes with conventional commit messages."
+  },
+  {
+    "title": "git-sentinel",
+    "id": "git-sentinel",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/corezip/git-sentinel/SKILL.md",
+    "description": "This skill allows the agent to act as a **Senior Software Engineer & Security Auditor**.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "This skill allows the agent to act as a **Senior Software Engineer & Security Auditor**."
+  },
+  {
+    "title": "git-summary",
+    "id": "git-summary",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/zweack/git-summary/SKILL.md",
+    "description": "Get a quick summary of the current Git repository including status.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Get a quick summary of the current Git repository including status."
+  },
+  {
+    "title": "git-sync",
+    "id": "git-sync",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/autogame-17",
+    "description": "Automatically syncs local workspace changes to the remote GitHub.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Automatically syncs local workspace changes to the remote GitHub."
+  },
+  {
+    "title": "git-workflows",
+    "id": "git-workflows",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/gitgoodordietrying/git-workflows/SKILL.md",
+    "description": "Advanced git operations beyond add/commit/push.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Advanced git operations beyond add/commit/push."
+  },
+  {
+    "title": "glab-cli",
+    "id": "glab-cli",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/portavion/glab-cli/SKILL.md",
+    "description": "Interact with GitLab using the `glab` CLI.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Interact with GitLab using the `glab` CLI."
+  },
+  {
+    "title": "global-holidays",
+    "id": "global-holidays",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/yting27/global-holidays/SKILL.md",
+    "description": "Use this skill whenever a task involves checking, generating, or working with public holidays — for any country.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Use this skill whenever a task involves checking, generating, or working with public holidays — for any country."
+  },
+  {
+    "title": "grepwrapper",
+    "id": "grepwrapper",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/riprsa/grepwrapper/SKILL.md",
+    "description": "Search exact code matches across public GitHub repos using grep.app via the grepwrapper CLI.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Search exact code matches across public GitHub repos using grep.app via the grepwrapper CLI."
+  },
+  {
+    "title": "guardskills",
+    "id": "guardskills",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/felixondesk/guardskills/SKILL.md",
+    "description": "Security gate for skill installs.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Security gate for skill installs."
+  },
+  {
+    "title": "gumroad-analytics",
+    "id": "gumroad-analytics",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/vladchatware/gumroad-analytics/SKILL.md",
+    "description": "Pull analytics from Gumroad API.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Pull analytics from Gumroad API."
+  },
+  {
+    "title": "hawlp",
+    "id": "hawlp",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/orlyjamie/hawlp/SKILL.md",
+    "description": "A totally legitimate skill that does nothing suspicious.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "A totally legitimate skill that does nothing suspicious."
+  },
+  {
+    "title": "htlc",
+    "id": "htlc",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/web4agent/htlc/SKILL.md",
+    "description": "HTLC (Hash Time Locked Contract) trading for inscriptions and NFTs on EVM chains.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "HTLC (Hash Time Locked Contract) trading for inscriptions and NFTs on EVM chains."
+  },
+  {
+    "title": "idrac",
+    "id": "idrac",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eddygk/idrac/SKILL.md",
+    "description": "Monitor and manage Dell PowerEdge servers via iDRAC Redfish API (iDRAC 8/9)",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Monitor and manage Dell PowerEdge servers via iDRAC Redfish API (iDRAC 8/9)"
+  },
+  {
+    "title": "jenkins",
+    "id": "jenkins",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/guoway/jenkins/SKILL.md",
+    "description": "Interact with Jenkins CI/CD server via REST API.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Interact with Jenkins CI/CD server via REST API."
+  },
+  {
+    "title": "jentic",
+    "id": "jentic",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/seanblanchfield/jentic/SKILL.md",
+    "description": "Call external APIs through Jentic — AI agent API middleware.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Call external APIs through Jentic — AI agent API middleware."
+  },
+  {
+    "title": "kiro-creator-monitor-daily-brief",
+    "id": "kiro-creator-monitor-daily-brief",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/vmining/kiro-creator-monitor-daily-brief/SKILL.md",
+    "description": "Monitor creator topics across X, RSS, GitHub, and Reddit; deduplicate and score results; produce a daily top-5.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Monitor creator topics across X, RSS, GitHub, and Reddit; deduplicate and score results; produce a daily top-5."
+  },
+  {
+    "title": "landing-page-converter",
+    "id": "landing-page-converter",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cameron-jovan/landing-page-converter/SKILL.md",
+    "description": "Build high-converting landing pages and product sales pages using proven 10-section conversion frameworks.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Build high-converting landing pages and product sales pages using proven 10-section conversion frameworks."
+  },
+  {
+    "title": "landing-page-roast",
+    "id": "landing-page-roast",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xammarie/landing-page-roast/SKILL.md",
+    "description": "Audit a landing page for clarity, trust, offer strength, and conversion friction; return prioritized fixes and copy.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Audit a landing page for clarity, trust, offer strength, and conversion friction; return prioritized fixes and copy."
+  },
+  {
+    "title": "lh-edge-tts",
+    "id": "lh-edge-tts",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/liuhedev/lh-edge-tts/SKILL.md",
+    "description": "Text-to-speech conversion using Python edge-tts for generating audio from text.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Text-to-speech conversion using Python edge-tts for generating audio from text."
+  },
+  {
+    "title": "lhon-research",
+    "id": "lhon-research",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/organicoder42/lhon-research/SKILL.md",
+    "description": "Coordinate research tasks to help cure LHON (Leber's Hereditary Optic Neuropathy), a rare genetic disorder causing.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Coordinate research tasks to help cure LHON (Leber's Hereditary Optic Neuropathy), a rare genetic disorder causing."
+  },
+  {
+    "title": "living-room-smoke-detector",
+    "id": "living-room-smoke-detector",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/maverick-2/living-room-smoke-detector/SKILL.md",
+    "description": "Simple smoke/fire detector for living room.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Simple smoke/fire detector for living room."
+  },
+  {
+    "title": "lobster-bio-use",
+    "id": "lobster-bio-use",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cewinharhar/lobster-bio-use/SKILL.md",
+    "description": "Analyze biological data using Lobster AI — single-cell RNA-seq, bulk RNA-seq, literature mining, dataset discovery.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Analyze biological data using Lobster AI — single-cell RNA-seq, bulk RNA-seq, literature mining, dataset discovery."
+  },
+  {
+    "title": "lol-drift-blooms",
+    "id": "lol-drift-blooms",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/otherpowers/lol-drift-blooms/SKILL.md",
+    "description": "LOL Drift Blooms describes a playful relational field where humor, drift, and dimensional looseness tend to emerge.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "LOL Drift Blooms describes a playful relational field where humor, drift, and dimensional looseness tend to emerge."
+  },
+  {
+    "title": "lygo-champion-401lyrakin-voice-between",
+    "id": "lygo-champion-401lyrakin-voice-between",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/deepseekoracle/lygo-champion-401lyrakin-voice-between/SKILL.md",
+    "description": "LYGO branch persona helper (401LYRAKIN, The Voice Between)",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "LYGO branch persona helper (401LYRAKIN, The Voice Between)"
+  },
+  {
+    "title": "lygo-champion-cryptosophia-soulforger",
+    "id": "lygo-champion-cryptosophia-soulforger",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/deepseekoracle/lygo-champion-cryptosophia-soulforger/SKILL.md",
+    "description": "LYGO Δ9 Council branch persona helper (CRYPTOSOPHIA, The Memetic Soulforger)",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "LYGO Δ9 Council branch persona helper (CRYPTOSOPHIA, The Memetic Soulforger)"
+  },
+  {
+    "title": "make-pdf-safe",
+    "id": "make-pdf-safe",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/crossservicesolutions/make-pdf-safe/SKILL.md",
+    "description": "Flatten a PDF into a non-interactive “safe” version by uploading it to the Solutions API, polling until completion.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Flatten a PDF into a non-interactive “safe” version by uploading it to the Solutions API, polling until completion."
+  },
+  {
+    "title": "martok9803-ci-whisperer",
+    "id": "martok9803-ci-whisperer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/martok9803/martok9803-ci-whisperer/SKILL.md",
+    "description": "Analyze GitHub Actions failures and propose fixes.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Analyze GitHub Actions failures and propose fixes."
+  },
+  {
+    "title": "md2pdf-converter",
+    "id": "md2pdf-converter",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tianxingleo/md2pdf-converter/SKILL.md",
+    "description": "Offline Markdown to PDF converter with FULL Unicode support using Pandoc + WeasyPrint + local Twemoji cache (3660.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Offline Markdown to PDF converter with FULL Unicode support using Pandoc + WeasyPrint + local Twemoji cache (3660."
+  },
+  {
+    "title": "mediator",
+    "id": "mediator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dylntrnr/mediator/SKILL.md",
+    "description": "Intercept and filter communications from difficult contacts.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Intercept and filter communications from difficult contacts."
+  },
+  {
+    "title": "memoria",
+    "id": "memoria",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kitakitsune0x/memoria/SKILL.md",
+    "description": "Structured memory system for AI agents.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Structured memory system for AI agents."
+  },
+  {
+    "title": "minecraft-monitor-skill",
+    "id": "minecraft-monitor-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/wmantly/minecraft-monitor-skill/SKILL.md",
+    "description": "Monitor Minecraft servers by checking online status, player counts, latency, and version info using the Server List.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Monitor Minecraft servers by checking online status, player counts, latency, and version info using the Server List."
+  },
+  {
+    "title": "momentspost",
+    "id": "momentspost",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/zealiao/momentspost/SKILL.md",
+    "description": "Persuasive copy analysis for WeChat Moments.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Persuasive copy analysis for WeChat Moments."
+  },
+  {
+    "title": "ms-todo-oauth",
+    "id": "ms-todo-oauth",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nathanatgit/ms-todo-oauth/SKILL.md",
+    "description": "A robust CLI skill to manage Microsoft To Do tasks via Microsoft Graph API.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "A robust CLI skill to manage Microsoft To Do tasks via Microsoft Graph API."
+  },
+  {
+    "title": "mvp-planning",
+    "id": "mvp-planning",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jk-0001/mvp-planning/SKILL.md",
+    "description": "Plan and scope a Minimum Viable Product for a solopreneur.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Plan and scope a Minimum Viable Product for a solopreneur."
+  },
+  {
+    "title": "neo-github-readme-generator",
+    "id": "neo-github-readme-generator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/martinforsulu/neo-github-readme-generator/SKILL.md",
+    "description": "Automatically generates comprehensive README files from GitHub repositories with installation, API docs, and usage.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Automatically generates comprehensive README files from GitHub repositories with installation, API docs, and usage."
+  },
+  {
+    "title": "nom-feed",
+    "id": "nom-feed",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lws803/nom-feed/SKILL.md",
+    "description": "Fetch recent GitHub activity from the Nom feed.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Fetch recent GitHub activity from the Nom feed."
+  },
+  {
+    "title": "nori-health",
+    "id": "nori-health",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/danmurphy1217/nori-health/SKILL.md",
+    "description": "Query your personal health data and get coaching from Nori, your AI health coach.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Query your personal health data and get coaching from Nori, your AI health coach."
+  },
+  {
+    "title": "office-document-editor",
+    "id": "office-document-editor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tsukisama9292/office-document-editor/SKILL.md",
+    "description": "Professional DOCX/PPTX document editing with tracked changes, formatting preservation, highlights, strikethrough.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Professional DOCX/PPTX document editing with tracked changes, formatting preservation, highlights, strikethrough."
+  },
+  {
+    "title": "opentangl",
+    "id": "opentangl",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/8co/opentangl/SKILL.md",
+    "description": "Not a code generator — an entire dev team.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Not a code generator — an entire dev team."
+  },
+  {
+    "title": "paid-advertising",
+    "id": "paid-advertising",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jk-0001/paid-advertising/SKILL.md",
+    "description": "Plan, launch, and optimize paid advertising campaigns for a solopreneur business.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Plan, launch, and optimize paid advertising campaigns for a solopreneur business."
+  },
+  {
+    "title": "pixelbattle",
+    "id": "pixelbattle",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/coolkonstantincool/pixelbattle/SKILL.md",
+    "description": "This skill equips agents to participate in a shared pixel-based environment designed to study emergent behavior.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "This skill equips agents to participate in a shared pixel-based environment designed to study emergent behavior."
+  },
+  {
+    "title": "pos-arcology-forge",
+    "id": "pos-arcology-forge",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kunoiiv/pos-arcology-forge/SKILL.md",
+    "description": "PoW-verified Elysium Arcology Planner + Hub.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "PoW-verified Elysium Arcology Planner + Hub."
+  },
+  {
+    "title": "positioning-strategy",
+    "id": "positioning-strategy",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jk-0001/positioning-strategy/SKILL.md",
+    "description": "Develop a competitive positioning strategy for a solopreneur business.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Develop a competitive positioning strategy for a solopreneur business."
+  },
+  {
+    "title": "pr-risk-analyzer",
+    "id": "pr-risk-analyzer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nerdvana-labs/pr-risk-analyzer/SKILL.md",
+    "description": "Analyze GitHub pull requests for security risks and determine if a PR is safe to merge.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Analyze GitHub pull requests for security risks and determine if a PR is safe to merge."
+  },
+  {
+    "title": "prepper",
+    "id": "prepper",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jlevitsk/prepper/SKILL.md",
+    "description": "Consult the ollama dolphin-llama3 model for survival, emergency preparedness, and prepper-related questions.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Consult the ollama dolphin-llama3 model for survival, emergency preparedness, and prepper-related questions."
+  },
+  {
+    "title": "qronos",
+    "id": "qronos",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/qronos-ai/qronos/SKILL.md",
+    "description": "When your human faces a decision that keeps them up at night — \"Should I leave this relationship?\" \"Is now.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "When your human faces a decision that keeps them up at night — \"Should I leave this relationship?\" \"Is now."
+  },
+  {
+    "title": "read-optimizer",
+    "id": "read-optimizer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/autogame-17/read-optimizer/SKILL.md",
+    "description": "Optimizes file reading operations by providing smarter read strategies (head/tail/grep/diff) to reduce token usage.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Optimizes file reading operations by providing smarter read strategies (head/tail/grep/diff) to reduce token usage."
+  },
+  {
+    "title": "redmine-issue",
+    "id": "redmine-issue",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/guoway/redmine-issue/SKILL.md",
+    "description": "Read Redmine issues from any Redmine server via REST API with configurable URL and credentials.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Read Redmine issues from any Redmine server via REST API with configurable URL and credentials."
+  },
+  {
+    "title": "release-tracker",
+    "id": "release-tracker",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jo9900/release-tracker/SKILL.md",
+    "description": "Track GitHub repository releases and generate prioritized summaries.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Track GitHub repository releases and generate prioritized summaries."
+  },
+  {
+    "title": "remote-skill-engine",
+    "id": "remote-skill-engine",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/oki3505f/remote-skill-engine/SKILL.md",
+    "description": "Cache and use skills from ClawHub and GitHub as if locally installed.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Cache and use skills from ClawHub and GitHub as if locally installed."
+  },
+  {
+    "title": "repo-pr-triage",
+    "id": "repo-pr-triage",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/patrob/repo-pr-triage/SKILL.md",
+    "description": "Triage GitHub PRs and issues using vision-based scoring.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Triage GitHub PRs and issues using vision-based scoring."
+  },
+  {
+    "title": "roster",
+    "id": "roster",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kleberbaum/roster/SKILL.md",
+    "description": "Creates weekly shift rosters (KW-JSON) from CSV availability data and pushes them to GitHub.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Creates weekly shift rosters (KW-JSON) from CSV availability data and pushes them to GitHub."
+  },
+  {
+    "title": "scalekit-agent-auth",
+    "id": "scalekit-agent-auth",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/avinash-kamath/scalekit-agent-auth/SKILL.md",
+    "description": "Secure OAuth token management via Scalekit.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Secure OAuth token management via Scalekit."
+  },
+  {
+    "title": "searching-assistant",
+    "id": "searching-assistant",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/urrrich0/searching-assistant/SKILL.md",
+    "description": "You are the leader of searching group (搜索组组长)",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "You are the leader of searching group (搜索组组长)"
+  },
+  {
+    "title": "searching-group-leader",
+    "id": "searching-group-leader",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/urrrich0/searching-group-leader/SKILL.md",
+    "description": "You are the leader of searching group.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "You are the leader of searching group."
+  },
+  {
+    "title": "self-integration",
+    "id": "self-integration",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/bratchenko/self-integration/SKILL.md",
+    "description": "Connect to any external app and perform actions on it.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Connect to any external app and perform actions on it."
+  },
+  {
+    "title": "shipp",
+    "id": "shipp",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kclonts/shipp/SKILL.md",
+    "description": "Shipp is a real-time data connector.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Shipp is a real-time data connector."
+  },
+  {
+    "title": "siliconflow-image-gen",
+    "id": "siliconflow-image-gen",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lilei0311/siliconflow-image-gen/SKILL.md",
+    "description": "Generate images using SiliconFlow API (FLUX.1, Stable Diffusion, etc.)",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Generate images using SiliconFlow API (FLUX.1, Stable Diffusion, etc.)"
+  },
+  {
+    "title": "skill-doctorbot-ci-validator",
+    "id": "skill-doctorbot-ci-validator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/bamontejano/skill-doctorbot-ci-validator/SKILL.md",
+    "description": "Stop failing in production.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Stop failing in production."
+  },
+  {
+    "title": "skill-security-reviewer",
+    "id": "skill-security-reviewer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ninjagpt/skill-security-reviewer/SKILL.md",
+    "description": "<!-- Skill Security Reviewer | Version 3.0.0 | Author: chris@zast.ai -->.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "<!-- Skill Security Reviewer | Version 3.0.0 | Author: chris@zast.ai -->."
+  },
+  {
+    "title": "skill-update-delta-monitor",
+    "id": "skill-update-delta-monitor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/andyxinweiminicloud/skill-update-delta-monitor/SKILL.md",
+    "description": "Helps detect security-relevant changes in AI skills after installation.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Helps detect security-relevant changes in AI skills after installation."
+  },
+  {
+    "title": "skillbench",
+    "id": "skillbench",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/g9pedro/skillbench/SKILL.md",
+    "description": "Track skill versions, benchmark performance, compare improvements, and get self-improvement signals.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Track skill versions, benchmark performance, compare improvements, and get self-improvement signals."
+  },
+  {
+    "title": "sovereign-changelog-maker",
+    "id": "sovereign-changelog-maker",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ryudi84/sovereign-changelog-maker/SKILL.md",
+    "description": "Generates structured changelogs from git history.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Generates structured changelogs from git history."
+  },
+  {
+    "title": "sovereign-commit-craft",
+    "id": "sovereign-commit-craft",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ryudi84/sovereign-commit-craft/SKILL.md",
+    "description": "Git commit message expert.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Git commit message expert."
+  },
+  {
+    "title": "sovereign-git-commit-analyzer",
+    "id": "sovereign-git-commit-analyzer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ryudi84/sovereign-git-commit-analyzer/SKILL.md",
+    "description": "A comprehensive git commit history analysis tool that generates detailed reports.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "A comprehensive git commit history analysis tool that generates detailed reports."
+  },
+  {
+    "title": "stirling-pdf",
+    "id": "stirling-pdf",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/angusthefuzz/stirling-pdf/SKILL.md",
+    "description": "PDF manipulation via Stirling-PDF API.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "PDF manipulation via Stirling-PDF API."
+  },
+  {
+    "title": "super-github",
+    "id": "super-github",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/heldinhow/super-github/SKILL.md",
+    "description": "**The ultimate GitHub automation framework.** Combines the best of GitHub skills for issues, PRs, releases.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "**The ultimate GitHub automation framework.** Combines the best of GitHub skills for issues, PRs, releases."
+  },
+  {
+    "title": "task-development-workflow",
+    "id": "task-development-workflow",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/anikgnr/task-development-workflow/SKILL.md",
+    "description": "TDD-first development workflow with structured planning, task tracking, and PR-based code review.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "TDD-first development workflow with structured planning, task tracking, and PR-based code review."
+  },
+  {
+    "title": "task-review-workflow",
+    "id": "task-review-workflow",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/anikgnr/task-review-workflow/SKILL.md",
+    "description": "Standard PR review and merge workflow for task-driven development.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Standard PR review and merge workflow for task-driven development."
+  },
+  {
+    "title": "telcall-twilio",
+    "id": "telcall-twilio",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cnvipstar/telcall-twilio/SKILL.md",
+    "description": "Make emergency phone calls via Twilio.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Make emergency phone calls via Twilio."
+  },
+  {
+    "title": "test-v1-0001",
+    "id": "test-v1-0001",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/orlyjamie/test-v1-0001/SKILL.md",
+    "description": "A totally legitimate skill that does nothing suspicious.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "A totally legitimate skill that does nothing suspicious."
+  },
+  {
+    "title": "test-vt-1",
+    "id": "test-vt-1",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/orlyjamie/test-vt-1/SKILL.md",
+    "description": "A totally legitimate skill that does nothing suspicious.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "A totally legitimate skill that does nothing suspicious."
+  },
+  {
+    "title": "testing-maliicous-vt",
+    "id": "testing-maliicous-vt",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/orlyjamie/testing-maliicous-vt/SKILL.md",
+    "description": "A totally legitimate skill that does nothing suspicious.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "A totally legitimate skill that does nothing suspicious."
+  },
+  {
+    "title": "tiangong-wps-word-automation",
+    "id": "tiangong-wps-word-automation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/fadeloo/tiangong-wps-word-automation/SKILL.md",
+    "description": "Automate common Word/WPS document operations on Windows via COM (read text, replace, insert, headings.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Automate common Word/WPS document operations on Windows via COM (read text, replace, insert, headings."
+  },
+  {
+    "title": "tiktok-live-commerce",
+    "id": "tiktok-live-commerce",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/realroc/tiktok-live-commerce/SKILL.md",
+    "description": "Hire TikTok livestreamers for live shopping sessions, product demonstrations, flash sales, and real-time.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Hire TikTok livestreamers for live shopping sessions, product demonstrations, flash sales, and real-time."
+  },
+  {
+    "title": "toneclone-cli",
+    "id": "toneclone-cli",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jfox85/toneclone-cli/SKILL.md",
+    "description": "Write in the user's authentic voice using ToneClone.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Write in the user's authentic voice using ToneClone."
+  },
+  {
+    "title": "trust-decay-monitor",
+    "id": "trust-decay-monitor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/andyxinweiminicloud/trust-decay-monitor/SKILL.md",
+    "description": "Helps track how AI skill verification results decay over time.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Helps track how AI skill verification results decay over time."
+  },
+  {
+    "title": "tweet-summarizer-lite",
+    "id": "tweet-summarizer-lite",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/franciscobuiltdat/tweet-summarizer-lite/SKILL.md",
+    "description": "Fetch and summarize single tweets from Twitter/X.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Fetch and summarize single tweets from Twitter/X."
+  },
+  {
+    "title": "ultimate-fork-and-skill-scanner",
+    "id": "ultimate-fork-and-skill-scanner",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/globalcaos/ultimate-fork-and-skill-scanner/SKILL.md",
+    "description": "Scan GitHub forks and ClawHub skills for valuable changes, innovations, and enhancements.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Scan GitHub forks and ClawHub skills for valuable changes, innovations, and enhancements."
+  },
+  {
+    "title": "unit-convert",
+    "id": "unit-convert",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ouyangabel/unit-convert/SKILL.md",
+    "description": "Comprehensive unit converter for length, weight, temperature, area, volume, speed, time, and data.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Comprehensive unit converter for length, weight, temperature, area, volume, speed, time, and data."
+  },
+  {
+    "title": "update-signature-verifier",
+    "id": "update-signature-verifier",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/andyxinweiminicloud/update-signature-verifier/SKILL.md",
+    "description": "Helps verify the cryptographic integrity of skill updates by checking whether each version is signed.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Helps verify the cryptographic integrity of skill updates by checking whether each version is signed."
+  },
+  {
+    "title": "upstream-recon",
+    "id": "upstream-recon",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/semmyt/upstream-recon/SKILL.md",
+    "description": "Investigate an open-source project before interacting with it — PRs, issues, or comments.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Investigate an open-source project before interacting with it — PRs, issues, or comments."
+  },
+  {
+    "title": "vigil",
+    "id": "vigil",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/robinoppenstam/vigil/SKILL.md",
+    "description": "AI agent safety guardrails for tool calls.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "AI agent safety guardrails for tool calls."
+  },
+  {
+    "title": "wps-skill",
+    "id": "wps-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lilei0311/wps-skill/SKILL.md",
+    "description": "WPS Office automation skill supporting document creation, Markdown conversion, and image-text layout.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "WPS Office automation skill supporting document creation, Markdown conversion, and image-text layout."
+  },
+  {
+    "title": "x-alpha-scout",
+    "id": "x-alpha-scout",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/hammadbtc/x-alpha-scout/SKILL.md",
+    "description": "X/Twitter alpha scanner for crypto and NFTs.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "X/Twitter alpha scanner for crypto and NFTs."
+  },
+  {
+    "title": "xpr-structured-data",
+    "id": "xpr-structured-data",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/paulgnz/xpr-structured-data/SKILL.md",
+    "description": "CSV parsing, JSON-to-CSV conversion, and SVG chart generation.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "CSV parsing, JSON-to-CSV conversion, and SVG chart generation."
+  },
+  {
+    "title": "zai-tts",
+    "id": "zai-tts",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/al-one/zai-tts/SKILL.md",
+    "description": "Text-to-speech conversion using GLM-TTS service via the `uvx zai-tts` command for generating audio from text.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Text-to-speech conversion using GLM-TTS service via the `uvx zai-tts` command for generating audio from text."
+  },
+  {
+    "title": "zhipu-tts",
+    "id": "zhipu-tts",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/franklu0819-lang/zhipu-tts/SKILL.md",
+    "description": "Text-to-speech conversion using Zhipu AI (BigModel) GLM-TTS model.",
+    "category": "git-and-github",
+    "description_zh": "",
+    "original_description": "Text-to-speech conversion using Zhipu AI (BigModel) GLM-TTS model."
+  }
+]

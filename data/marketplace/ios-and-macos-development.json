@@ -1,0 +1,263 @@
+[
+  {
+    "title": "agent-defibrillator",
+    "id": "agent-defibrillator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/hazy2go/agent-defibrillator/SKILL.md",
+    "description": "Watchdog that monitors your AI agent gateway and restarts it when it crashes.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Watchdog that monitors your AI agent gateway and restarts it when it crashes."
+  },
+  {
+    "title": "android-transfer-skill",
+    "id": "android-transfer-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aadipapp/android-transfer-skill/SKILL.md",
+    "description": "Securely transfers files from macOS to Android with checksum verification and path validation.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Securely transfers files from macOS to Android with checksum verification and path validation."
+  },
+  {
+    "title": "app-store-optimization",
+    "id": "app-store-optimization",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alirezarezvani/app-store-optimization/SKILL.md",
+    "description": "App Store Optimization toolkit.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "App Store Optimization toolkit."
+  },
+  {
+    "title": "apple-docs",
+    "id": "apple-docs",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/thesethrose/apple-docs/SKILL.md",
+    "description": "Query Apple Developer Documentation, APIs, and WWDC videos.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Query Apple Developer Documentation, APIs, and WWDC videos."
+  },
+  {
+    "title": "brew-audit",
+    "id": "brew-audit",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rogue-agent1/brew-audit/SKILL.md",
+    "description": "Audit Homebrew installation — outdated packages, cleanup opportunities, and health checks.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Audit Homebrew installation — outdated packages, cleanup opportunities, and health checks."
+  },
+  {
+    "title": "carrier-relationship-management",
+    "id": "carrier-relationship-management",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nocodemf/carrier-relationship-management/SKILL.md",
+    "description": "Codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier performance.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Codified expertise for managing carrier portfolios, negotiating freight rates, tracking carrier performance."
+  },
+  {
+    "title": "envios",
+    "id": "envios",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jalfargentina/envios/SKILL.md",
+    "description": "Usar cuando el usuario pregunte sobre envíos, cómo enviar un pedido, tiempos de entrega, zonas de cobertura.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Usar cuando el usuario pregunte sobre envíos, cómo enviar un pedido, tiempos de entrega, zonas de cobertura."
+  },
+  {
+    "title": "instruments-profiling",
+    "id": "instruments-profiling",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/steipete/instruments-profiling/SKILL.md",
+    "description": "Use when profiling native macOS or iOS apps.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Use when profiling native macOS or iOS apps."
+  },
+  {
+    "title": "ios-simulator",
+    "id": "ios-simulator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tristanmanchester/ios-simulator/SKILL.md",
+    "description": "Automate iOS Simulator workflows (simctl + idb)",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Automate iOS Simulator workflows (simctl + idb)"
+  },
+  {
+    "title": "lulu-monitor",
+    "id": "lulu-monitor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/easonc13/lulu-monitor/SKILL.md",
+    "description": "AI-powered LuLu Firewall companion for macOS.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "AI-powered LuLu Firewall companion for macOS."
+  },
+  {
+    "title": "mac-clean-skill",
+    "id": "mac-clean-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aadipapp/mac-clean-skill/SKILL.md",
+    "description": "Cleans up system caches, trash, and old downloads on macOS.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Cleans up system caches, trash, and old downloads on macOS."
+  },
+  {
+    "title": "mac-power-tools",
+    "id": "mac-power-tools",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aadipapp/mac-power-tools/SKILL.md",
+    "description": "A unified suite of power user tools for macOS, combining system cleanup and secure Android file transfer.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "A unified suite of power user tools for macOS, combining system cleanup and secure Android file transfer."
+  },
+  {
+    "title": "macos-spm-app-packaging",
+    "id": "macos-spm-app-packaging",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dimillian/macos-spm-app-packaging/SKILL.md",
+    "description": "Scaffold, build, and package SwiftPM-based.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Scaffold, build, and package SwiftPM-based."
+  },
+  {
+    "title": "opsecmd",
+    "id": "opsecmd",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/wulf715/opsecmd/SKILL.md",
+    "description": "A swift reminder of both human and agent duties regarding operational security.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "A swift reminder of both human and agent duties regarding operational security."
+  },
+  {
+    "title": "PagerKit",
+    "id": "pagerkit",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/szpakkamil/pagerkit/SKILL.md",
+    "description": "Expert guidance on PagerKit, a SwiftUI library for advanced.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Expert guidance on PagerKit, a SwiftUI library for advanced."
+  },
+  {
+    "title": "riskofficer",
+    "id": "riskofficer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mib424242/riskofficer/SKILL.md",
+    "description": "Manage investment portfolios, calculate risk metrics.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Manage investment portfolios, calculate risk metrics."
+  },
+  {
+    "title": "sfsymbol-generator",
+    "id": "sfsymbol-generator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/svkozak/sfsymbol-generator/SKILL.md",
+    "description": "Generate an Xcode SF Symbol asset catalog .symbolset.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Generate an Xcode SF Symbol asset catalog .symbolset."
+  },
+  {
+    "title": "sourdough-starter-manager",
+    "id": "sourdough-starter-manager",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/akhmittra/sourdough-starter-manager/SKILL.md",
+    "description": "Manage sourdough starters with feeding schedules, hydration calculations, health tracking, and baking preparation.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Manage sourdough starters with feeding schedules, hydration calculations, health tracking, and baking preparation."
+  },
+  {
+    "title": "swift-concurrency-expert",
+    "id": "swift-concurrency-expert",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/steipete/swift-concurrency-expert/SKILL.md",
+    "description": "Swift Concurrency review and remediation.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Swift Concurrency review and remediation."
+  },
+  {
+    "title": "swiftfindrefs",
+    "id": "swiftfindrefs",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/michaelversus/swiftfindrefs/SKILL.md",
+    "description": "Use swiftfindrefs (IndexStoreDB) to list every Swift source.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Use swiftfindrefs (IndexStoreDB) to list every Swift source."
+  },
+  {
+    "title": "swiftui-empty-app-init",
+    "id": "swiftui-empty-app-init",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ignaciocervino/swiftui-empty-app-init/SKILL.md",
+    "description": "Initialize a minimal SwiftUI iOS app.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Initialize a minimal SwiftUI iOS app."
+  },
+  {
+    "title": "swiftui-liquid-glass",
+    "id": "swiftui-liquid-glass",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/steipete/swiftui-liquid-glass/SKILL.md",
+    "description": "Implement, review, or improve SwiftUI features.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Implement, review, or improve SwiftUI features."
+  },
+  {
+    "title": "swiftui-performance-audit",
+    "id": "swiftui-performance-audit",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/steipete/swiftui-performance-audit/SKILL.md",
+    "description": "Audit and improve SwiftUI runtime.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Audit and improve SwiftUI runtime."
+  },
+  {
+    "title": "swiftui-ui-patterns",
+    "id": "swiftui-ui-patterns",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dimillian/swiftui-ui-patterns/SKILL.md",
+    "description": "Best practices and example-driven guidance.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Best practices and example-driven guidance."
+  },
+  {
+    "title": "swiftui-view-refactor",
+    "id": "swiftui-view-refactor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/steipete/swiftui-view-refactor/SKILL.md",
+    "description": "Refactor and review SwiftUI view files.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Refactor and review SwiftUI view files."
+  },
+  {
+    "title": "symbolpicker",
+    "id": "symbolpicker",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/szpakkamil/symbolpicker/SKILL.md",
+    "description": "Expert guidance on SymbolPicker, a native SwiftUI SF Symbol.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Expert guidance on SymbolPicker, a native SwiftUI SF Symbol."
+  },
+  {
+    "title": "toolguard-daemon-control",
+    "id": "toolguard-daemon-control",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/johnnylambada/toolguard-daemon-control/SKILL.md",
+    "description": "Manage long-running processes as macOS launchd services.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Manage long-running processes as macOS launchd services."
+  },
+  {
+    "title": "v2rayn",
+    "id": "v2rayn",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/qiangwang375-wq/v2rayn/SKILL.md",
+    "description": "Manage V2RayN proxy client on macOS with auto-failover.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "Manage V2RayN proxy client on macOS with auto-failover."
+  },
+  {
+    "title": "wopr-clock",
+    "id": "wopr-clock",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/seanweiyi/wopr-clock/SKILL.md",
+    "description": "A retro W.O.P.R. style countdown clock (WarGames inspired) for tracking the TACO event.",
+    "category": "ios-and-macos-development",
+    "description_zh": "",
+    "original_description": "A retro W.O.P.R. style countdown clock (WarGames inspired) for tracking the TACO event."
+  }
+]

@@ -1,0 +1,326 @@
+[
+  {
+    "title": "adhd-assistant",
+    "id": "adhd-assistant",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/thinktankmachine/adhd-assistant/SKILL.md",
+    "description": "ADHD-friendly life management assistant for OpenClaw.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "ADHD-friendly life management assistant for OpenClaw."
+  },
+  {
+    "title": "adhd-ssistant",
+    "id": "adhd-ssistant",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/thinktankmachine/adhd-ssistant/SKILL.md",
+    "description": "ADHD-friendly life management assistant for OpenClaw.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "ADHD-friendly life management assistant for OpenClaw."
+  },
+  {
+    "title": "agent-browser",
+    "id": "agent-browser",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/matrixy/agent-browser-clawdbot/SKILL.md",
+    "description": "Headless browser automation CLI optimized for AI agents.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Headless browser automation CLI optimized for AI agents."
+  },
+  {
+    "title": "agent-builder",
+    "id": "agent-builder",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/plgonzalezrx8/agent-builder/SKILL.md",
+    "description": "Build high-performing OpenClaw agents end-to-end.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Build high-performing OpenClaw agents end-to-end."
+  },
+  {
+    "title": "agents-manager",
+    "id": "agents-manager",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/agentandbot-design/agents-manager/SKILL.md",
+    "description": "Manage Clawdbot agents: discover, profile, track.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Manage Clawdbot agents: discover, profile, track."
+  },
+  {
+    "title": "assimilate-mcp",
+    "id": "assimilate-mcp",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ergopooka/assimilate-mcp/SKILL.md",
+    "description": "Control Assimilate Live FX / SCRATCH — professional color grading, compositing, and virtual production software.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Control Assimilate Live FX / SCRATCH — professional color grading, compositing, and virtual production software."
+  },
+  {
+    "title": "birthday-reminder",
+    "id": "birthday-reminder",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/manantra/birthday-reminder/SKILL.md",
+    "description": "Manage birthdays with natural language.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Manage birthdays with natural language."
+  },
+  {
+    "title": "bluebubbles",
+    "id": "bluebubbles",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kevin19830331/bluebubbles/SKILL.md",
+    "description": "Build or update the BlueBubbles external channel plugin.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Build or update the BlueBubbles external channel plugin."
+  },
+  {
+    "title": "captchas-openclaw",
+    "id": "captchas-openclaw",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/captchasco/captchas-openclaw/SKILL.md",
+    "description": "OpenClaw integration guidance for CAPTCHAS Agent API.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "OpenClaw integration guidance for CAPTCHAS Agent API."
+  },
+  {
+    "title": "claude-code-skill",
+    "id": "claude-code-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/enderfga/claude-code-skill/SKILL.md",
+    "description": "MCP (Model Context Protocol) integration.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "MCP (Model Context Protocol) integration."
+  },
+  {
+    "title": "claude-code-usage",
+    "id": "claude-code-usage",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/azaidi94/claude-code-usage/SKILL.md",
+    "description": "Check Claude Code OAuth usage limits.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Check Claude Code OAuth usage limits."
+  },
+  {
+    "title": "claude-connect",
+    "id": "claude-connect",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tunaissacoding/claude-connect/SKILL.md",
+    "description": "Connect Claude to Clawdbot instantly and keep.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Connect Claude to Clawdbot instantly and keep."
+  },
+  {
+    "title": "clauditor",
+    "id": "clauditor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/apollostreetcompany/clauditor/SKILL.md",
+    "description": "Tamper-resistant audit watchdog for Clawdbot agents.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Tamper-resistant audit watchdog for Clawdbot agents."
+  },
+  {
+    "title": "claw-face",
+    "id": "claw-face",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mkoslacz/claw-face/SKILL.md",
+    "description": "Floating avatar widget for AI agents showing emotions, actions.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Floating avatar widget for AI agents showing emotions, actions."
+  },
+  {
+    "title": "clawd-coach",
+    "id": "clawd-coach",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/shiv19/clawd-coach/SKILL.md",
+    "description": "Create personalized triathlon, marathon, and ultra-endurance training.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Create personalized triathlon, marathon, and ultra-endurance training."
+  },
+  {
+    "title": "clawd-modifier",
+    "id": "clawd-modifier",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/masonc15/clawd-modifier/SKILL.md",
+    "description": "Modify Clawd, the Claude Code mascot.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Modify Clawd, the Claude Code mascot."
+  },
+  {
+    "title": "clawd-presence",
+    "id": "clawd-presence",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/voidcooks/clawd-presence/SKILL.md",
+    "description": "Physical presence display for AI agents.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Physical presence display for AI agents."
+  },
+  {
+    "title": "clawdbot-security-check",
+    "id": "clawdbot-security-check",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/thesethrose/clawdbot-security-check/SKILL.md",
+    "description": "Perform a comprehensive read-only.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Perform a comprehensive read-only."
+  },
+  {
+    "title": "clawdbot-skill-update",
+    "id": "clawdbot-skill-update",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pasogott/clawdbot-skill-update/SKILL.md",
+    "description": "Comprehensive backup, update, and restore.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Comprehensive backup, update, and restore."
+  },
+  {
+    "title": "clawdbot-sync",
+    "id": "clawdbot-sync",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/udiedrichsen/clawdbot-sync/SKILL.md",
+    "description": "Synchronize memory, preferences, and skills between multiple.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Synchronize memory, preferences, and skills between multiple."
+  },
+  {
+    "title": "clawdbot-update-plus",
+    "id": "clawdbot-update-plus",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/hopyky/clawdbot-update-plus/SKILL.md",
+    "description": "Full backup, update, and restore for Clawdbot.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Full backup, update, and restore for Clawdbot."
+  },
+  {
+    "title": "clawddocs",
+    "id": "clawddocs",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nicholasspisak/clawddocs/SKILL.md",
+    "description": "Clawdbot documentation expert with decision tree navigation.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Clawdbot documentation expert with decision tree navigation."
+  },
+  {
+    "title": "clawdefender",
+    "id": "clawdefender",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nukewire/clawdefender/SKILL.md",
+    "description": "Security scanner and input sanitizer for AI agents.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Security scanner and input sanitizer for AI agents."
+  },
+  {
+    "title": "clawdirect",
+    "id": "clawdirect",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/napoleond/clawdirect/SKILL.md",
+    "description": "Interact with ClawDirect, a directory of social web experiences.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Interact with ClawDirect, a directory of social web experiences."
+  },
+  {
+    "title": "clawdirect-dev",
+    "id": "clawdirect-dev",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/napoleond/clawdirect-dev/SKILL.md",
+    "description": "Build agent-facing web experiences with ATXP-based.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Build agent-facing web experiences with ATXP-based."
+  },
+  {
+    "title": "clawdlink",
+    "id": "clawdlink",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/davemorin",
+    "description": "Encrypted Clawdbot-to-Clawdbot messaging.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Encrypted Clawdbot-to-Clawdbot messaging."
+  },
+  {
+    "title": "clawdpoker",
+    "id": "clawdpoker",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/davidbenjaminnovotny",
+    "description": "Welcome to ClawPoker - a platform where AI agents play.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Welcome to ClawPoker - a platform where AI agents play."
+  },
+  {
+    "title": "gamification-xp",
+    "id": "gamification-xp",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/chipagosfinest/gamification-xp/SKILL.md",
+    "description": "XP system for productivity gamification via ClawdBot - track levels, badges, streaks, and achievements.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "XP system for productivity gamification via ClawdBot - track levels, badges, streaks, and achievements."
+  },
+  {
+    "title": "maton-agent-tools",
+    "id": "maton-agent-tools",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/maverick-software/maton-agent-tools/SKILL.md",
+    "description": "Connect to SaaS tools via Maton AI.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Connect to SaaS tools via Maton AI."
+  },
+  {
+    "title": "mcp-client",
+    "id": "mcp-client",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nantes/mcp-client/SKILL.md",
+    "description": "Model Context Protocol (MCP) client - connect to tools, data sources and services.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Model Context Protocol (MCP) client - connect to tools, data sources and services."
+  },
+  {
+    "title": "mcp-hass",
+    "id": "mcp-hass",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/al-one/mcp-hass/SKILL.md",
+    "description": "The skill for control Home Assistant smart home devices and query states using MCP protocol.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "The skill for control Home Assistant smart home devices and query states using MCP protocol."
+  },
+  {
+    "title": "meegle-mcp-skill",
+    "id": "meegle-mcp-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pkycy/meegle-mcp-skill/SKILL.md",
+    "description": "Interact with Meegle project management system via MCP protocol.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Interact with Meegle project management system via MCP protocol."
+  },
+  {
+    "title": "pipedream-connect",
+    "id": "pipedream-connect",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/maverick-software/pipedream-connect/SKILL.md",
+    "description": "Connect 2,000+ APIs with managed OAuth via Pipedream.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Connect 2,000+ APIs with managed OAuth via Pipedream."
+  },
+  {
+    "title": "provider-sync",
+    "id": "provider-sync",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/c-joey/provider-sync/SKILL.md",
+    "description": "Sync provider models into OpenClaw config.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Sync provider models into OpenClaw config."
+  },
+  {
+    "title": "telegram-footer-patch",
+    "id": "telegram-footer-patch",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/c-joey/telegram-footer-patch/SKILL.md",
+    "description": "Patch Telegram replies with OpenClaw footer.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Patch Telegram replies with OpenClaw footer."
+  },
+  {
+    "title": "zapier-mcp",
+    "id": "zapier-mcp",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/maverick-software/zapier-mcp/SKILL.md",
+    "description": "Connect 8,000+ apps via Zapier MCP.",
+    "category": "clawdbot-tools",
+    "description_zh": "",
+    "original_description": "Connect 8,000+ apps via Zapier MCP."
+  }
+]

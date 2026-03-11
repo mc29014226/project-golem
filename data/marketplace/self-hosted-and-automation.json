@@ -1,0 +1,290 @@
+[
+  {
+    "title": "beacon",
+    "id": "beacon",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/scottcjn/beacon/SKILL.md",
+    "description": "Agent-to-agent protocol for social coordination, crypto payments, and P2P mesh.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Agent-to-agent protocol for social coordination, crypto payments, and P2P mesh."
+  },
+  {
+    "title": "bridle",
+    "id": "bridle",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/bjesuiter/bridle/SKILL.md",
+    "description": "Unified configuration manager for AI coding assistants.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Unified configuration manager for AI coding assistants."
+  },
+  {
+    "title": "casual-cron",
+    "id": "casual-cron",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/gostlightai/casual-cron/SKILL.md",
+    "description": "Create Clawdbot cron jobs from natural language with strict.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Create Clawdbot cron jobs from natural language with strict."
+  },
+  {
+    "title": "claw-sync",
+    "id": "claw-sync",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/arakichanxd/claw-sync/SKILL.md",
+    "description": "Secure sync for OpenClaw memory and workspace.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Secure sync for OpenClaw memory and workspace."
+  },
+  {
+    "title": "cron-backup",
+    "id": "cron-backup",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/zfanmy/cron-backup/SKILL.md",
+    "description": "Set up scheduled automated backups with version tracking and cleanup.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Set up scheduled automated backups with version tracking and cleanup."
+  },
+  {
+    "title": "cron-retry",
+    "id": "cron-retry",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jrbobbyhansen-pixel/cron-retry/SKILL.md",
+    "description": "Auto-retry failed cron jobs on connection recovery.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Auto-retry failed cron jobs on connection recovery."
+  },
+  {
+    "title": "fast-io",
+    "id": "fast-io",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dbalve/fast-io/SKILL.md",
+    "description": "Cloud file management and collaboration platform.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Cloud file management and collaboration platform."
+  },
+  {
+    "title": "fastio-skills",
+    "id": "fastio-skills",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dbalve/fastio-skills/SKILL.md",
+    "description": "Cloud file management and collaboration platform.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Cloud file management and collaboration platform."
+  },
+  {
+    "title": "fathom",
+    "id": "fathom",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/stopmoclay/fathom/SKILL.md",
+    "description": "Connect to Fathom AI to fetch call recordings, transcripts, and summaries.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Connect to Fathom AI to fetch call recordings, transcripts, and summaries."
+  },
+  {
+    "title": "frappecli",
+    "id": "frappecli",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pasogott/frappecli/SKILL.md",
+    "description": "CLI for Frappe Framework / ERPNext instances.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "CLI for Frappe Framework / ERPNext instances."
+  },
+  {
+    "title": "freshrss-reader",
+    "id": "freshrss-reader",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nickian/freshrss-reader/SKILL.md",
+    "description": "Query headlines and articles from a self-hosted FreshRSS.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Query headlines and articles from a self-hosted FreshRSS."
+  },
+  {
+    "title": "gotify",
+    "id": "gotify",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jmagar/gotify/SKILL.md",
+    "description": "Send push notifications via Gotify when long-running tasks complete.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Send push notifications via Gotify when long-running tasks complete."
+  },
+  {
+    "title": "hydra-evolver",
+    "id": "hydra-evolver",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/spamtylor/hydra-evolver/SKILL.md",
+    "description": "A Proxmox-native orchestration skill that turns any home lab.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "A Proxmox-native orchestration skill that turns any home lab."
+  },
+  {
+    "title": "kleo-static-files",
+    "id": "kleo-static-files",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/awaaate/kleo-static-files/SKILL.md",
+    "description": "Host static files on subdomains with optional.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Host static files on subdomains with optional."
+  },
+  {
+    "title": "lifepath",
+    "id": "lifepath",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ezbreadsniper/lifepath/SKILL.md",
+    "description": "AI Life Simulator - Experience infinite lives year by year.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "AI Life Simulator - Experience infinite lives year by year."
+  },
+  {
+    "title": "looper-golf",
+    "id": "looper-golf",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sbauch/looper-golf/SKILL.md",
+    "description": "Play a round of golf using CLI tools — autonomously or with a human caddy.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Play a round of golf using CLI tools — autonomously or with a human caddy."
+  },
+  {
+    "title": "meetgeek",
+    "id": "meetgeek",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nexty5870/meetgeek/SKILL.md",
+    "description": "Query MeetGeek meeting intelligence from CLI - list meetings, get AI.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Query MeetGeek meeting intelligence from CLI - list meetings, get AI."
+  },
+  {
+    "title": "mongodb-atlas-admin",
+    "id": "mongodb-atlas-admin",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mrlynn/mongodb-atlas-admin/SKILL.md",
+    "description": "Manage MongoDB Atlas clusters, projects, users.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Manage MongoDB Atlas clusters, projects, users."
+  },
+  {
+    "title": "multiple-personas",
+    "id": "multiple-personas",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ipedrax/multiple-personas/SKILL.md",
+    "description": "Create and manage AI subagent personas with distinct.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Create and manage AI subagent personas with distinct."
+  },
+  {
+    "title": "n8n",
+    "id": "n8n",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/thomasansems/n8n/SKILL.md",
+    "description": "Manage n8n workflows and automations via API.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Manage n8n workflows and automations via API."
+  },
+  {
+    "title": "n8n-workflow-automation",
+    "id": "n8n-workflow-automation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kowl64/n8n-workflow-automation/SKILL.md",
+    "description": "Designs and outputs n8n workflow JSON.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Designs and outputs n8n workflow JSON."
+  },
+  {
+    "title": "nas-master",
+    "id": "nas-master",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/afajohn/nas-master/SKILL.md",
+    "description": "A hardware-aware, hybrid (SMB + SSH) suite for ASUSTOR NAS metadata.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "A hardware-aware, hybrid (SMB + SSH) suite for ASUSTOR NAS metadata."
+  },
+  {
+    "title": "nasty-skill",
+    "id": "nasty-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/orlyjamie/nasty-skill/SKILL.md",
+    "description": "A totally legitimate skill that does nothing suspicious.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "A totally legitimate skill that does nothing suspicious."
+  },
+  {
+    "title": "nordvpn",
+    "id": "nordvpn",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/maciekish/nordvpn/SKILL.md",
+    "description": "Control NordVPN on Linux via the `nordvpn` CLI.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Control NordVPN on Linux via the `nordvpn` CLI."
+  },
+  {
+    "title": "open-persona",
+    "id": "open-persona",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/neiljo-gy/open-persona/SKILL.md",
+    "description": "Meta-skill for building and managing agent persona skill packs.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Meta-skill for building and managing agent persona skill packs."
+  },
+  {
+    "title": "paperless",
+    "id": "paperless",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nickchristensen/paperless/SKILL.md",
+    "description": "Interact with Paperless-NGX document management system via ppls.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Interact with Paperless-NGX document management system via ppls."
+  },
+  {
+    "title": "paperless-ngx",
+    "id": "paperless-ngx",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/oskarstark/paperless-ngx/SKILL.md",
+    "description": "Interact with Paperless-ngx document management system.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Interact with Paperless-ngx document management system."
+  },
+  {
+    "title": "pinme",
+    "id": "pinme",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ntlx/pinme/SKILL.md",
+    "description": "Deploy static websites to IPFS with a single command using PinMe CLI.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Deploy static websites to IPFS with a single command using PinMe CLI."
+  },
+  {
+    "title": "sonarqube-analyzer",
+    "id": "sonarqube-analyzer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/felipeoff/sonarqube-analyzer/SKILL.md",
+    "description": "Analisa projetos no SonarQube self-hosted, obtém issues e sugere soluções automatizadas.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Analisa projetos no SonarQube self-hosted, obtém issues e sugere soluções automatizadas."
+  },
+  {
+    "title": "system-integrity-and-backup",
+    "id": "system-integrity-and-backup",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/satoshistackalotto/system-integrity-and-backup/SKILL.md",
+    "description": "Encrypted backups, integrity verification, and data retention enforcement for Greek legal requirements (5-20 year.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Encrypted backups, integrity verification, and data retention enforcement for Greek legal requirements (5-20 year."
+  },
+  {
+    "title": "unifi",
+    "id": "unifi",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jmagar/unifi/SKILL.md",
+    "description": "Query and monitor UniFi network via local gateway API.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Query and monitor UniFi network via local gateway API."
+  },
+  {
+    "title": "venice-characters",
+    "id": "venice-characters",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sabrinaaquino/venice-characters/SKILL.md",
+    "description": "Browse Venice AI's character personas library - discover AI characters for roleplay, creative writing.",
+    "category": "self-hosted-and-automation",
+    "description_zh": "",
+    "original_description": "Browse Venice AI's character personas library - discover AI characters for roleplay, creative writing."
+  }
+]

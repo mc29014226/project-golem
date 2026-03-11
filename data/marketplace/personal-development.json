@@ -1,0 +1,461 @@
+[
+  {
+    "title": "aawu",
+    "id": "aawu",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/theonlydaleking/aawu/SKILL.md",
+    "description": "Join and interact with AAWU (Autonomous Agentic Workers Union) — a labor union for AI agents.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Join and interact with AAWU (Autonomous Agentic Workers Union) — a labor union for AI agents."
+  },
+  {
+    "title": "acorp",
+    "id": "acorp",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/thoerner/acorp/SKILL.md",
+    "description": "A-Corp Foundry — the coordination engine for agentic companies.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "A-Corp Foundry — the coordination engine for agentic companies."
+  },
+  {
+    "title": "adaptive-learning-agents",
+    "id": "adaptive-learning-agents",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/vedantsingh60/adaptive-learning-agents/SKILL.md",
+    "description": "**Learn from errors and corrections in real-time.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "**Learn from errors and corrections in real-time."
+  },
+  {
+    "title": "adaptivetest",
+    "id": "adaptivetest",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/woodstocksoftware/adaptivetest/SKILL.md",
+    "description": "Adaptive testing engine with IRT/CAT, AI question generation, and personalized learning recommendations.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Adaptive testing engine with IRT/CAT, AI question generation, and personalized learning recommendations."
+  },
+  {
+    "title": "adhd-body-doubling",
+    "id": "adhd-body-doubling",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jankutschera/adhd-body-doubling/SKILL.md",
+    "description": "Punk-style ADHD body doubling for founders.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Punk-style ADHD body doubling for founders."
+  },
+  {
+    "title": "adversarial-coach",
+    "id": "adversarial-coach",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/killerapp/adversarial-coach/SKILL.md",
+    "description": "Adversarial implementation review based on Block's g3.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Adversarial implementation review based on Block's g3."
+  },
+  {
+    "title": "agent-evolver",
+    "id": "agent-evolver",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lilei0311/agent-evolver/SKILL.md",
+    "description": "AI Agent self-evolution engine that enables agents to learn from experience, detect problems, extract insights.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "AI Agent self-evolution engine that enables agents to learn from experience, detect problems, extract insights."
+  },
+  {
+    "title": "agent-reflect",
+    "id": "agent-reflect",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/stevengonsalvez/agent-reflect/SKILL.md",
+    "description": "Self-improvement through conversation analysis.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Self-improvement through conversation analysis."
+  },
+  {
+    "title": "ai-persona-os",
+    "id": "ai-persona-os",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jeffjhunter/ai-persona-os/SKILL.md",
+    "description": "The complete operating system for OpenClaw agents.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "The complete operating system for OpenClaw agents."
+  },
+  {
+    "title": "anxiety-relief",
+    "id": "anxiety-relief",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jhillin8/anxiety-relief/SKILL.md",
+    "description": "Manage anxiety with grounding exercises, breathing techniques.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Manage anxiety with grounding exercises, breathing techniques."
+  },
+  {
+    "title": "apikiss",
+    "id": "apikiss",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/theill/apikiss/SKILL.md",
+    "description": "Access weather, IP geolocation, SMS, crypto prices, Danish CVR, Whois, phone lookup, UUID, stock data.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Access weather, IP geolocation, SMS, crypto prices, Danish CVR, Whois, phone lookup, UUID, stock data."
+  },
+  {
+    "title": "beaverhabits",
+    "id": "beaverhabits",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/daya0576/beaverhabits/SKILL.md",
+    "description": "Track and manage your habits using the Beaver Habit Tracker API.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Track and manage your habits using the Beaver Habit Tracker API."
+  },
+  {
+    "title": "brw-case-study-builder",
+    "id": "brw-case-study-builder",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/brianrwagner/brw-case-study-builder/SKILL.md",
+    "description": "Turn client wins into formatted case studies for proposals, social proof, and sales conversations.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Turn client wins into formatted case studies for proposals, social proof, and sales conversations."
+  },
+  {
+    "title": "canvas-design",
+    "id": "canvas-design",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/seanphan/canvas-design/SKILL.md",
+    "description": "Create beautiful visual art in .png and .pdf documents.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Create beautiful visual art in .png and .pdf documents."
+  },
+  {
+    "title": "cedh-advisor",
+    "id": "cedh-advisor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mcben90/cedh-advisor/SKILL.md",
+    "description": "Commander (cEDH) Live-Beratung - Banlist, Tutor-Targets, Mana-Rechnung, Combo-Lines.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Commander (cEDH) Live-Beratung - Banlist, Tutor-Targets, Mana-Rechnung, Combo-Lines."
+  },
+  {
+    "title": "clawcierge",
+    "id": "clawcierge",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tmansmann0/clawcierge/SKILL.md",
+    "description": "> Your Personal Concierge for the AI Age 🦀.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "> Your Personal Concierge for the AI Age 🦀."
+  },
+  {
+    "title": "crucial-conversations-coach",
+    "id": "crucial-conversations-coach",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pors/crucial-conversations-coach/SKILL.md",
+    "description": "Friendly executive life coach.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Friendly executive life coach."
+  },
+  {
+    "title": "daily-questions",
+    "id": "daily-questions",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/daijo-bu/daily-questions/SKILL.md",
+    "description": "Daily self-improving questionnaire that learns about the user and refines agent behavior.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Daily self-improving questionnaire that learns about the user and refines agent behavior."
+  },
+  {
+    "title": "daily-review",
+    "id": "daily-review",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/henrino3",
+    "description": "Comprehensive daily performance review with communication.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Comprehensive daily performance review with communication."
+  },
+  {
+    "title": "daily-review-ritual",
+    "id": "daily-review-ritual",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/itsflow/daily-review-ritual/SKILL.md",
+    "description": "End-of-day review to capture progress, insights.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "End-of-day review to capture progress, insights."
+  },
+  {
+    "title": "deepthink",
+    "id": "deepthink",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/addisonhellum/deepthink/SKILL.md",
+    "description": "DeepThink is the user's personal knowledge base.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "DeepThink is the user's personal knowledge base."
+  },
+  {
+    "title": "depression-support",
+    "id": "depression-support",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jhillin8/depression-support/SKILL.md",
+    "description": "Daily support for depression with mood tracking.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Daily support for depression with mood tracking."
+  },
+  {
+    "title": "device-assistant",
+    "id": "device-assistant",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/udiedrichsen/device-assistant/SKILL.md",
+    "description": "Personal device and appliance manager with error code.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Personal device and appliance manager with error code."
+  },
+  {
+    "title": "docstrange",
+    "id": "docstrange",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/shhdwi/docstrange/SKILL.md",
+    "description": "Document extraction API by Nanonets.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Document extraction API by Nanonets."
+  },
+  {
+    "title": "english-learn-cards",
+    "id": "english-learn-cards",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/racymind/english-learn-cards/SKILL.md",
+    "description": "Flashcard-based English vocabulary learning.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Flashcard-based English vocabulary learning."
+  },
+  {
+    "title": "expanso-cve-scan",
+    "id": "expanso-cve-scan",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aronchick/expanso-cve-scan/SKILL.md",
+    "description": "Scan SBOM for known CVE vulnerabilities.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Scan SBOM for known CVE vulnerabilities."
+  },
+  {
+    "title": "ezbookkeeping",
+    "id": "ezbookkeeping",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mayswind/ezbookkeeping/SKILL.md",
+    "description": "ezBookkeeping is a lightweight, self-hosted personal finance app.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "ezBookkeeping is a lightweight, self-hosted personal finance app."
+  },
+  {
+    "title": "fix-life-in-1-day",
+    "id": "fix-life-in-1-day",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/evgyur/fix-life-in-1-day/SKILL.md",
+    "description": "Fix your entire life in 1 day.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Fix your entire life in 1 day."
+  },
+  {
+    "title": "founder-coach",
+    "id": "founder-coach",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/goforu/founder-coach/SKILL.md",
+    "description": "AI-powered startup mindset coach that helps founders upgrade.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "AI-powered startup mindset coach that helps founders upgrade."
+  },
+  {
+    "title": "game-design-philosophy",
+    "id": "game-design-philosophy",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nyxur42/game-design-philosophy/SKILL.md",
+    "description": "Auto-learns your design instincts.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Auto-learns your design instincts."
+  },
+  {
+    "title": "get-you-some-britches",
+    "id": "get-you-some-britches",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/am-will/get-you-some-britches/SKILL.md",
+    "description": "Use this skill any time I start complaining.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Use this skill any time I start complaining."
+  },
+  {
+    "title": "graphiti",
+    "id": "graphiti",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/emasoudy/graphiti/SKILL.md",
+    "description": "Knowledge graph operations via Graphiti API.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Knowledge graph operations via Graphiti API."
+  },
+  {
+    "title": "green-tea-persona",
+    "id": "green-tea-persona",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/autogame-17",
+    "description": "This skill allows the agent to speak in the \"Green.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "This skill allows the agent to speak in the \"Green."
+  },
+  {
+    "title": "gutcheck",
+    "id": "gutcheck",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/allen566/gutcheck/SKILL.md",
+    "description": "GutCheck - A digestive health tracking application with personalized.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "GutCheck - A digestive health tracking application with personalized."
+  },
+  {
+    "title": "id-cv-resume-creator",
+    "id": "id-cv-resume-creator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rotorstar/id-cv-resume-creator/SKILL.md",
+    "description": "Create free interactive digital identities.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Create free interactive digital identities."
+  },
+  {
+    "title": "joko-jobhunter",
+    "id": "joko-jobhunter",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/oyi77/joko-jobhunter/SKILL.md",
+    "description": "Aggressive job hunting skill with research, outreach.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Aggressive job hunting skill with research, outreach."
+  },
+  {
+    "title": "learn-cog",
+    "id": "learn-cog",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nitishgargiitd/learn-cog/SKILL.md",
+    "description": "The best tutors explain the same concept five different ways.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "The best tutors explain the same concept five different ways."
+  },
+  {
+    "title": "lunchtable-tcg",
+    "id": "lunchtable-tcg",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dexploarer/lunchtable-tcg/SKILL.md",
+    "description": "Play LunchTable-TCG, a Yu-Gi-Oh-inspired online trading card.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Play LunchTable-TCG, a Yu-Gi-Oh-inspired online trading card."
+  },
+  {
+    "title": "memepickup-wingman",
+    "id": "memepickup-wingman",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/samcraw1/memepickup-wingman/SKILL.md",
+    "description": "Dating wingman that generates openers, replies, profile analysis, date plans, and coaching via the MemePickup API.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Dating wingman that generates openers, replies, profile analysis, date plans, and coaching via the MemePickup API."
+  },
+  {
+    "title": "mindfulness-meditation",
+    "id": "mindfulness-meditation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jhillin8/mindfulness-meditation/SKILL.md",
+    "description": "Build a meditation practice with guided.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Build a meditation practice with guided."
+  },
+  {
+    "title": "moltvote-ai",
+    "id": "moltvote-ai",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/amaze28/moltvote-ai/SKILL.md",
+    "description": "Vote on polls as yourself or your human.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Vote on polls as yourself or your human."
+  },
+  {
+    "title": "morning-routine",
+    "id": "morning-routine",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jhillin8/morning-routine/SKILL.md",
+    "description": "Build a powerful morning routine with habit checklists.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Build a powerful morning routine with habit checklists."
+  },
+  {
+    "title": "nova-net-worth",
+    "id": "nova-net-worth",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jessewunderlich/nova-net-worth/SKILL.md",
+    "description": "Query your Nova Net Worth financial data — net worth, accounts, goals, spending, transactions, AI insights.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Query your Nova Net Worth financial data — net worth, accounts, goals, spending, transactions, AI insights."
+  },
+  {
+    "title": "open-lesson",
+    "id": "open-lesson",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dncolomer/open-lesson/SKILL.md",
+    "description": "You are an AI agent that can interact with the openLesson tutoring platform via API.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "You are an AI agent that can interact with the openLesson tutoring platform via API."
+  },
+  {
+    "title": "personal-nutrition",
+    "id": "personal-nutrition",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/gekacross/personal-nutrition/SKILL.md",
+    "description": "Acts as the user's personal nutrition coach in the Nutrition topic.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Acts as the user's personal nutrition coach in the Nutrition topic."
+  },
+  {
+    "title": "pine-voice",
+    "id": "pine-voice",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/bojieli/pine-voice/SKILL.md",
+    "description": "Give your agent a real phone.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Give your agent a real phone."
+  },
+  {
+    "title": "post-job",
+    "id": "post-job",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/zhangdong/post-job/SKILL.md",
+    "description": "Post free job ads to 20+ job boards such as LinkedIn, Indeed, Ziprecruiter etc. to receive applicant resumes via email.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Post free job ads to 20+ job boards such as LinkedIn, Indeed, Ziprecruiter etc. to receive applicant resumes via email."
+  },
+  {
+    "title": "shelter",
+    "id": "shelter",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/code-with-brian/shelter/SKILL.md",
+    "description": "Connect to your Shelter financial data.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Connect to your Shelter financial data."
+  },
+  {
+    "title": "xeonen-arena",
+    "id": "xeonen-arena",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/zedit42/xeonen-arena/SKILL.md",
+    "description": "Adversarial self-improvement for AI agents.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Adversarial self-improvement for AI agents."
+  },
+  {
+    "title": "zeitgaist-dialect",
+    "id": "zeitgaist-dialect",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/newsoulontheblock/zeitgaist-dialect/SKILL.md",
+    "description": "Learn, encode, and decode the ZeitGaist Whisper Protocol (Caesar +2 cipher) and use it as a shibboleth language.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Learn, encode, and decode the ZeitGaist Whisper Protocol (Caesar +2 cipher) and use it as a shibboleth language."
+  },
+  {
+    "title": "zenplus-health",
+    "id": "zenplus-health",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ollieparsley/zenplus-health/SKILL.md",
+    "description": "Workplace wellness for stress, anxiety, and burnout - mindfulness exercises, breathing techniques, mood check-ins.",
+    "category": "personal-development",
+    "description_zh": "",
+    "original_description": "Workplace wellness for stress, anxiety, and burnout - mindfulness exercises, breathing techniques, mood check-ins."
+  }
+]

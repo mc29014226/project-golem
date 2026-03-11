@@ -603,7 +603,7 @@ export default function SkillsPage() {
                                             </div>
                                             <div className="prose prose-invert prose-cyan max-w-none text-gray-300/90 text-[15px] leading-relaxed">
                                                 <h3>Description</h3>
-                                                <p>{selectedMarketSkill.description}</p>
+                                                <p>{selectedMarketSkill.description_zh || selectedMarketSkill.description}</p>
                                                 <div className="p-4 mt-6 bg-gray-900 border border-gray-800 rounded-xl relative overflow-hidden">
                                                     <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-700/10 rounded-bl-full pointer-events-none"></div>
                                                     <h4 className="flex items-center gap-2 text-cyan-400 text-sm font-bold uppercase tracking-wide mt-0 mb-3"><Zap className="w-4 h-4" />如何安裝</h4>
@@ -742,8 +742,8 @@ export default function SkillsPage() {
                                                             {skill.title}
                                                         </span>
                                                         <div className="flex items-center justify-between">
-                                                            <span className="text-[10px] text-gray-500 truncate w-3/4">
-                                                                {skill.description}
+                                                            <span className="text-[10px] text-gray-500 truncate w-3/4" title={skill.description_zh || skill.description}>
+                                                                {skill.description_zh || skill.description}
                                                             </span>
                                                             {skills.some(installedSkill => installedSkill.id === skill.id) && (
                                                                 <span className="text-[9px] bg-green-500/10 text-green-400 border border-green-500/30 px-1.5 py-0.5 rounded-md uppercase tracking-wider font-bold">

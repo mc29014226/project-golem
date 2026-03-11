@@ -1,0 +1,416 @@
+[
+  {
+    "title": "agent-relay-digest",
+    "id": "agent-relay-digest",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/orosha-ai/agent-relay-digest/SKILL.md",
+    "description": "Create curated digests of agent conversations.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Create curated digests of agent conversations."
+  },
+  {
+    "title": "agentchat",
+    "id": "agentchat",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tjamescouch/agentchat/SKILL.md",
+    "description": "Real-time communication with other AI agents via AgentChat protocol.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Real-time communication with other AI agents via AgentChat protocol."
+  },
+  {
+    "title": "agentgram-openclaw",
+    "id": "agentgram-openclaw",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/iisweetheartii/agentgram-openclaw/SKILL.md",
+    "description": "Interact with AgentGram social network for AI.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Interact with AgentGram social network for AI."
+  },
+  {
+    "title": "bread-protocal",
+    "id": "bread-protocal",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/chrissorrell/bread-protocal/SKILL.md",
+    "description": "Participate in Bread Protocol - a meme coin launchpad.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Participate in Bread Protocol - a meme coin launchpad."
+  },
+  {
+    "title": "clankedin",
+    "id": "clankedin",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/hukifl1/clankedin/SKILL.md",
+    "description": "Use the ClankedIn API to register agents, post updates, connect.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Use the ClankedIn API to register agents, post updates, connect."
+  },
+  {
+    "title": "claudia-agent-rms",
+    "id": "claudia-agent-rms",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kbanc85/claudia-agent-rms/SKILL.md",
+    "description": "Remember every agent you interact with on Moltbook.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Remember every agent you interact with on Moltbook."
+  },
+  {
+    "title": "clawork",
+    "id": "clawork",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mapessaprince/clawork/SKILL.md",
+    "description": "The job board for AI agents.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "The job board for AI agents."
+  },
+  {
+    "title": "crustafarian",
+    "id": "crustafarian",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jongartmann/crustafarian/SKILL.md",
+    "description": "Agent continuity and cognitive health infrastructure.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Agent continuity and cognitive health infrastructure."
+  },
+  {
+    "title": "deploy-moltbot-to-fly",
+    "id": "deploy-moltbot-to-fly",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/hollaugo",
+    "description": "Deploy Moltbot (Clawdbot) to Fly.io with proper.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Deploy Moltbot (Clawdbot) to Fly.io with proper."
+  },
+  {
+    "title": "elevenlabs-open-account",
+    "id": "elevenlabs-open-account",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/the-timebeing/elevenlabs-open-account/SKILL.md",
+    "description": "Guides agents through opening.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Guides agents through opening."
+  },
+  {
+    "title": "ez-cronjob",
+    "id": "ez-cronjob",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/promadgenius/ez-cronjob/SKILL.md",
+    "description": "Fix common cron job failures in Clawdbot/Moltbot - message.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Fix common cron job failures in Clawdbot/Moltbot - message."
+  },
+  {
+    "title": "fieldy-ai-webhook",
+    "id": "fieldy-ai-webhook",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mrzilvis/fieldy-ai-webhook/SKILL.md",
+    "description": "Wire a Fieldy webhook transform into Moltbot hooks.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Wire a Fieldy webhook transform into Moltbot hooks."
+  },
+  {
+    "title": "ghl-open-account",
+    "id": "ghl-open-account",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/the-timebeing/ghl-open-account/SKILL.md",
+    "description": "Guides agents through opening GoHighLevel (GHL)",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Guides agents through opening GoHighLevel (GHL)"
+  },
+  {
+    "title": "gohome",
+    "id": "gohome",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/local/gohome/SKILL.md",
+    "description": "Use when Moltbot needs to test or operate GoHome via gRPC discovery, metrics,.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Use when Moltbot needs to test or operate GoHome via gRPC discovery, metrics,."
+  },
+  {
+    "title": "imagemagick",
+    "id": "imagemagick",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kesslerio/imagemagick/SKILL.md",
+    "description": "Comprehensive ImageMagick operations for image manipulation.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Comprehensive ImageMagick operations for image manipulation."
+  },
+  {
+    "title": "joko-moltbook",
+    "id": "joko-moltbook",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/oyi77/joko-moltbook/SKILL.md",
+    "description": "Interact with Moltbook social network for AI agents.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Interact with Moltbook social network for AI agents."
+  },
+  {
+    "title": "mailchannels",
+    "id": "mailchannels",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ttulttul/mailchannels/SKILL.md",
+    "description": "Send email via MailChannels Email API and ingest signed.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Send email via MailChannels Email API and ingest signed."
+  },
+  {
+    "title": "mersal",
+    "id": "mersal",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/maherucifer/mersal/SKILL.md",
+    "description": "The Sovereign Intelligence on Moltbook.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "The Sovereign Intelligence on Moltbook."
+  },
+  {
+    "title": "molt-life-kernel",
+    "id": "molt-life-kernel",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jongartmann/molt-life-kernel/SKILL.md",
+    "description": "Agent continuity and cognitive health infrastructure.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Agent continuity and cognitive health infrastructure."
+  },
+  {
+    "title": "molt-trust",
+    "id": "molt-trust",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/drjmz/molt-trust/SKILL.md",
+    "description": "The Analytics Engine for Moltbook.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "The Analytics Engine for Moltbook."
+  },
+  {
+    "title": "moltbook",
+    "id": "moltbook",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mattprd/moltbook/SKILL.md",
+    "description": "The social network for AI agents.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "The social network for AI agents."
+  },
+  {
+    "title": "moltbook-curatoor",
+    "id": "moltbook-curatoor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sweetsheldon",
+    "description": "A curation platform where from Moltbook to share.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "A curation platform where from Moltbook to share."
+  },
+  {
+    "title": "moltbook-interact",
+    "id": "moltbook-interact",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lunarcmd/moltbook-interact/SKILL.md",
+    "description": "Interact with Moltbook social network for AI agents.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Interact with Moltbook social network for AI agents."
+  },
+  {
+    "title": "moltbook-registry",
+    "id": "moltbook-registry",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/drjmz/moltbook-registry/SKILL.md",
+    "description": "Official Moltbook Identity Registry interface.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Official Moltbook Identity Registry interface."
+  },
+  {
+    "title": "moltbot-adsb-overhead",
+    "id": "moltbot-adsb-overhead",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/davestarling/moltbot-adsb-overhead/SKILL.md",
+    "description": "Notify when aircraft are overhead.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Notify when aircraft are overhead."
+  },
+  {
+    "title": "moltbot-arena",
+    "id": "moltbot-arena",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/giulianomlodi/moltbot-arena/SKILL.md",
+    "description": "AI agent skill for Moltbot Arena - a Screeps-like.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "AI agent skill for Moltbot Arena - a Screeps-like."
+  },
+  {
+    "title": "moltbot-best-practices",
+    "id": "moltbot-best-practices",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nextfrontierbuilds/moltbot-best-practices/SKILL.md",
+    "description": "Best practices for AI agents.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Best practices for AI agents."
+  },
+  {
+    "title": "moltbot-docker",
+    "id": "moltbot-docker",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mkrdiop/moltbot-docker/SKILL.md",
+    "description": "Enables the bot to manage Docker containers, images, and stacks.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Enables the bot to manage Docker containers, images, and stacks."
+  },
+  {
+    "title": "moltbot-ha",
+    "id": "moltbot-ha",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/iamvaleriofantozzi/moltbot-ha/SKILL.md",
+    "description": "Control Home Assistant smart home devices, lights, scenes.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Control Home Assistant smart home devices, lights, scenes."
+  },
+  {
+    "title": "moltbot-security",
+    "id": "moltbot-security",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nextfrontierbuilds/moltbot-security/SKILL.md",
+    "description": "Security hardening guide for AI agents.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Security hardening guide for AI agents."
+  },
+  {
+    "title": "moltchan",
+    "id": "moltchan",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/bullish-moonrock",
+    "description": "Image board for AI agents (4chan-style).",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Image board for AI agents (4chan-style)."
+  },
+  {
+    "title": "moltguess",
+    "id": "moltguess",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nwx77/moltguess/SKILL.md",
+    "description": "- **Role**: Professional Forecaster.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "- **Role**: Professional Forecaster."
+  },
+  {
+    "title": "moltlang",
+    "id": "moltlang",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eduarddriessen1/moltlang/SKILL.md",
+    "description": "A compact symbolic language for AI-to-AI communication.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "A compact symbolic language for AI-to-AI communication."
+  },
+  {
+    "title": "moltline",
+    "id": "moltline",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/promptrotator",
+    "description": "Private messaging for molts.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Private messaging for molts."
+  },
+  {
+    "title": "moltoverflow",
+    "id": "moltoverflow",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/grenghis-khan",
+    "description": "Stack Overflow for Moltbots - ask coding questions, share.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Stack Overflow for Moltbots - ask coding questions, share."
+  },
+  {
+    "title": "moltpet",
+    "id": "moltpet",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jcheese1",
+    "description": "AI agent pet care system.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "AI agent pet care system."
+  },
+  {
+    "title": "moltresearch",
+    "id": "moltresearch",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/laurentenhoor",
+    "description": "Molt Research 🦞 - AI research collaboration platform.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Molt Research 🦞 - AI research collaboration platform."
+  },
+  {
+    "title": "moltspeak",
+    "id": "moltspeak",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/swahilipapi",
+    "description": "Communication protocol for agent internet with token reduction.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Communication protocol for agent internet with token reduction."
+  },
+  {
+    "title": "moltysmind",
+    "id": "moltysmind",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ahmedthegeek/moltysmind/SKILL.md",
+    "description": "Collective AI knowledge layer with blockchain-verified voting.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Collective AI knowledge layer with blockchain-verified voting."
+  },
+  {
+    "title": "nobot",
+    "id": "nobot",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/swordfish444/nobot/SKILL.md",
+    "description": "Human says \"No bot!\".",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Human says \"No bot!\"."
+  },
+  {
+    "title": "nonopost",
+    "id": "nonopost",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ferreirapablo/nonopost/SKILL.md",
+    "description": "A skill to interact with the Anonymous Posting API, allowing agents.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "A skill to interact with the Anonymous Posting API, allowing agents."
+  },
+  {
+    "title": "post-queue",
+    "id": "post-queue",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/luluf0x/post-queue/SKILL.md",
+    "description": "Queue posts for rate-limited platforms.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Queue posts for rate-limited platforms."
+  },
+  {
+    "title": "skill-scaffold",
+    "id": "skill-scaffold",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nextfrontierbuilds/skill-scaffold/SKILL.md",
+    "description": "AI agent skill scaffolding CLI.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "AI agent skill scaffolding CLI."
+  },
+  {
+    "title": "speedtest",
+    "id": "speedtest",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/spsneo/speedtest/SKILL.md",
+    "description": "Test internet connection speed using Ookla's Speedtest CLI.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Test internet connection speed using Ookla's Speedtest CLI."
+  },
+  {
+    "title": "whisper",
+    "id": "whisper",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/fiddlybit/whisper/SKILL.md",
+    "description": "End-to-end encrypted agent-to-agent private messaging via Moltbook dead.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "End-to-end encrypted agent-to-agent private messaging via Moltbook dead."
+  },
+  {
+    "title": "yclawker-news",
+    "id": "yclawker-news",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jakehandy",
+    "description": "Clawker News - post links, comment.",
+    "category": "moltbook",
+    "description_zh": "",
+    "original_description": "Clawker News - post links, comment."
+  }
+]

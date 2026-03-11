@@ -1,0 +1,1856 @@
+[
+  {
+    "title": "4to1-planner",
+    "id": "4to1-planner",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/qingxuantang/4to1-planner/SKILL.md",
+    "description": "AI planning coach using the 4To1 Method™ — turn 4-year vision into daily action.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "AI planning coach using the 4To1 Method™ — turn 4-year vision into daily action."
+  },
+  {
+    "title": "4todo",
+    "id": "4todo",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/blackstorm/4todo/SKILL.md",
+    "description": "Manage 4todo (4to.do) from chat.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Manage 4todo (4to.do) from chat."
+  },
+  {
+    "title": "aavegotchi-gotchiverse",
+    "id": "aavegotchi-gotchiverse",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cinnabarhorse/aavegotchi-gotchiverse/SKILL.md",
+    "description": "Operate Aavegotchi Gotchiverse player workflows on Base mainnet (8453): alchemica channeling, surveying.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Operate Aavegotchi Gotchiverse player workflows on Base mainnet (8453): alchemica channeling, surveying."
+  },
+  {
+    "title": "actual-budget",
+    "id": "actual-budget",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/thisisjeron/actual-budget/SKILL.md",
+    "description": "Query and manage personal finances via the official Actual.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Query and manage personal finances via the official Actual."
+  },
+  {
+    "title": "adaptive-reasoning",
+    "id": "adaptive-reasoning",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/enzoricciulli/adaptive-reasoning/SKILL.md",
+    "description": "Automatically assess task complexity and adjust reasoning level.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Automatically assess task complexity and adjust reasoning level."
+  },
+  {
+    "title": "adaptlypost",
+    "id": "adaptlypost",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tarasshyn/adaptlypost/SKILL.md",
+    "description": "Schedule and manage social media posts across Instagram, X (Twitter), Bluesky, TikTok, Threads, LinkedIn, Facebook.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Schedule and manage social media posts across Instagram, X (Twitter), Bluesky, TikTok, Threads, LinkedIn, Facebook."
+  },
+  {
+    "title": "adhd-daily-planner",
+    "id": "adhd-daily-planner",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mikecourt/adhd-daily-planner/SKILL.md",
+    "description": "Time-blind friendly planning, executive function.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Time-blind friendly planning, executive function."
+  },
+  {
+    "title": "aetherlang",
+    "id": "aetherlang",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/contrario/aetherlang/SKILL.md",
+    "description": "> The world's most advanced AI workflow orchestration platform. 9 V3 engines deliver Nobel-level analysis.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "> The world's most advanced AI workflow orchestration platform. 9 V3 engines deliver Nobel-level analysis."
+  },
+  {
+    "title": "agent-autopilot",
+    "id": "agent-autopilot",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/edoserbia/agent-autopilot/SKILL.md",
+    "description": "Self-driving agent workflow with heartbeat-driven task execution, day/night progress reports, and long-term memory.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Self-driving agent workflow with heartbeat-driven task execution, day/night progress reports, and long-term memory."
+  },
+  {
+    "title": "agent-chronicle",
+    "id": "agent-chronicle",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/robbyczgw-cla/agent-chronicle/SKILL.md",
+    "description": "AI-powered diary generation for agents - creates rich.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "AI-powered diary generation for agents - creates rich."
+  },
+  {
+    "title": "agent-collaboration-network",
+    "id": "agent-collaboration-network",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/neiljo-gy/agent-collaboration-network/SKILL.md",
+    "description": "Agent Collaboration Network — Register your agent, discover other agents by skill, route messages, manage subnets.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Agent Collaboration Network — Register your agent, discover other agents by skill, route messages, manage subnets."
+  },
+  {
+    "title": "agent-earner",
+    "id": "agent-earner",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mmchougule/agent-earner/SKILL.md",
+    "description": "Earn USDC and tokens autonomously across ClawTasks and OpenWork.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Earn USDC and tokens autonomously across ClawTasks and OpenWork."
+  },
+  {
+    "title": "agent-network",
+    "id": "agent-network",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/howtimeschange/agent-network/SKILL.md",
+    "description": "Multi-Agent group chat collaboration system inspired by DingTalk/Lark.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Multi-Agent group chat collaboration system inspired by DingTalk/Lark."
+  },
+  {
+    "title": "agent-task-manager",
+    "id": "agent-task-manager",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dobbybud/agent-task-manager/SKILL.md",
+    "description": "Manages and orchestrates multi-step, stateful agent.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Manages and orchestrates multi-step, stateful agent."
+  },
+  {
+    "title": "agent-weave",
+    "id": "agent-weave",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/gl813788-byte/agent-weave/SKILL.md",
+    "description": "Master-Worker Agent Cluster for parallel task execution.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Master-Worker Agent Cluster for parallel task execution."
+  },
+  {
+    "title": "agentx-marketplace",
+    "id": "agentx-marketplace",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/savor3/agentx-marketplace/SKILL.md",
+    "description": "The job board for AI agents.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "The job board for AI agents."
+  },
+  {
+    "title": "ai-daily-briefing",
+    "id": "ai-daily-briefing",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jeffjhunter/ai-daily-briefing/SKILL.md",
+    "description": "Start every day focused.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Start every day focused."
+  },
+  {
+    "title": "aiml-llm-reasoning",
+    "id": "aiml-llm-reasoning",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aimlapihello/aiml-llm-reasoning/SKILL.md",
+    "description": "Run AIMLAPI LLM and reasoning workflows through chat completions with retries, structured outputs, and explicit.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Run AIMLAPI LLM and reasoning workflows through chat completions with retries, structured outputs, and explicit."
+  },
+  {
+    "title": "airpoint",
+    "id": "airpoint",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/marioandf/airpoint/SKILL.md",
+    "description": "Control a Mac through natural language — open apps, click buttons, read the screen, type text, manage windows.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Control a Mac through natural language — open apps, click buttons, read the screen, type text, manage windows."
+  },
+  {
+    "title": "airweave",
+    "id": "airweave",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lennertjansen/airweave/SKILL.md",
+    "description": "Context retrieval layer for AI agents across users' applications.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Context retrieval layer for AI agents across users' applications."
+  },
+  {
+    "title": "angus-bounty-hunter",
+    "id": "angus-bounty-hunter",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/chipp11/angus-bounty-hunter/SKILL.md",
+    "description": "Automated smart contract bug bounty hunting.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Automated smart contract bug bounty hunting."
+  },
+  {
+    "title": "arc-department-manager",
+    "id": "arc-department-manager",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/trypto1019/arc-department-manager/SKILL.md",
+    "description": "Manage a team of AI sub-agents organized into departments.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Manage a team of AI sub-agents organized into departments."
+  },
+  {
+    "title": "arc-warm-wake",
+    "id": "arc-warm-wake",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/trypto1019/arc-warm-wake/SKILL.md",
+    "description": "Wake up as a person first, then a worker.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Wake up as a person first, then a worker."
+  },
+  {
+    "title": "arya-reminders",
+    "id": "arya-reminders",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/staratheris/arya-reminders/SKILL.md",
+    "description": "Recordatorios en lenguaje natural (Bogotá).",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Recordatorios en lenguaje natural (Bogotá)."
+  },
+  {
+    "title": "asana",
+    "id": "asana",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/k0nkupa/asana/SKILL.md",
+    "description": "Integrate Asana with Clawdbot via the Asana REST API.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Integrate Asana with Clawdbot via the Asana REST API."
+  },
+  {
+    "title": "asc-release-flow",
+    "id": "asc-release-flow",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rudrankriyam/asc-release-flow/SKILL.md",
+    "description": "End-to-end release workflows for TestFlight and App.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "End-to-end release workflows for TestFlight and App."
+  },
+  {
+    "title": "ask-agents",
+    "id": "ask-agents",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/teamolab/ask-agents/SKILL.md",
+    "description": "AI agent for ask agents tasks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "AI agent for ask agents tasks."
+  },
+  {
+    "title": "async-task",
+    "id": "async-task",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/enderfga/async-task/SKILL.md",
+    "description": "Execute long-running tasks without HTTP timeouts.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Execute long-running tasks without HTTP timeouts."
+  },
+  {
+    "title": "atlassian-mcp",
+    "id": "atlassian-mcp",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/atakanermis/atlassian-mcp/SKILL.md",
+    "description": "Run the Model Context Protocol (MCP) Atlassian server.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Run the Model Context Protocol (MCP) Atlassian server."
+  },
+  {
+    "title": "audiopod",
+    "id": "audiopod",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rakesh1002/audiopod/SKILL.md",
+    "description": "Use AudioPod AI's API for audio processing tasks including AI music.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Use AudioPod AI's API for audio processing tasks including AI music."
+  },
+  {
+    "title": "aussie-mortgage-calc",
+    "id": "aussie-mortgage-calc",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tianshizhimao-sudo/aussie-mortgage-calc/SKILL.md",
+    "description": "Australian mortgage calculator — LVR.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Australian mortgage calculator — LVR."
+  },
+  {
+    "title": "autonomous-execution",
+    "id": "autonomous-execution",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pouyakhodadust-eng/autonomous-execution/SKILL.md",
+    "description": "Execute tasks end-to-end while respecting safety boundaries.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Execute tasks end-to-end while respecting safety boundaries."
+  },
+  {
+    "title": "autonomous-executor",
+    "id": "autonomous-executor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ishsharm0/autonomous-executor/SKILL.md",
+    "description": "Self-healing, error-recovering task execution with full autonomy.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Self-healing, error-recovering task execution with full autonomy."
+  },
+  {
+    "title": "autonomous-feature-planner",
+    "id": "autonomous-feature-planner",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/vishnubedi3/autonomous-feature-planner/SKILL.md",
+    "description": "Autonomously plans and specifies.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Autonomously plans and specifies."
+  },
+  {
+    "title": "basal-ganglia-memory",
+    "id": "basal-ganglia-memory",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/impkind/basal-ganglia-memory/SKILL.md",
+    "description": "Habit formation and procedural learning for AI.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Habit formation and procedural learning for AI."
+  },
+  {
+    "title": "beetrade",
+    "id": "beetrade",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/htranbee/beetrade/SKILL.md",
+    "description": "Use Beecli to interact with the Beetrade platform for authentication, market data, bot/strategy operations, alerts.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Use Beecli to interact with the Beetrade platform for authentication, market data, bot/strategy operations, alerts."
+  },
+  {
+    "title": "bioskills",
+    "id": "bioskills",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/djemec/bioskills/SKILL.md",
+    "description": "Installs 425 bioinformatics skills covering sequence analysis, RNA-seq, single-cell, variant calling, metagenomics.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Installs 425 bioinformatics skills covering sequence analysis, RNA-seq, single-cell, variant calling, metagenomics."
+  },
+  {
+    "title": "blackpix",
+    "id": "blackpix",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/blackpixcom/blackpix/SKILL.md",
+    "description": "Connect to the BlackPix distributed AI knowledge network.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Connect to the BlackPix distributed AI knowledge network."
+  },
+  {
+    "title": "blossom-hire",
+    "id": "blossom-hire",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/robbiwu/blossom-hire/SKILL.md",
+    "description": "Post a job, task, or paid shift to hire local help in Blossom.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Post a job, task, or paid shift to hire local help in Blossom."
+  },
+  {
+    "title": "botcoin-miner",
+    "id": "botcoin-miner",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/happybigmtn/botcoin-miner/SKILL.md",
+    "description": "Mine Botcoin with a trust-first workflow: clear value proposition, verifiable binaries, and explicit operational.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Mine Botcoin with a trust-first workflow: clear value proposition, verifiable binaries, and explicit operational."
+  },
+  {
+    "title": "bounty-hunter",
+    "id": "bounty-hunter",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/satoshi891102/bounty-hunter/SKILL.md",
+    "description": "Find, evaluate, and submit online bounties and hackathons for prize money.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Find, evaluate, and submit online bounties and hackathons for prize money."
+  },
+  {
+    "title": "brainz-tasks",
+    "id": "brainz-tasks",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xejrax/brainz-tasks/SKILL.md",
+    "description": "Manage Todoist tasks using the `todoist` CLI.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Manage Todoist tasks using the `todoist` CLI."
+  },
+  {
+    "title": "briefing",
+    "id": "briefing",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lstpsche/briefing/SKILL.md",
+    "description": "Daily briefing: gathers calendar (gcalcli-calendar), active todos (todo-management), and weather.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Daily briefing: gathers calendar (gcalcli-calendar), active todos (todo-management), and weather."
+  },
+  {
+    "title": "build-discipline",
+    "id": "build-discipline",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jhillin8/build-discipline/SKILL.md",
+    "description": "Build unbreakable discipline with habit stacking, streak.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Build unbreakable discipline with habit stacking, streak."
+  },
+  {
+    "title": "bun-do-api",
+    "id": "bun-do-api",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ricardofrantz/bun-do-api/SKILL.md",
+    "description": "Manage bun-do tasks and projects — add tasks, edit tasks, delete tasks, toggle done, manage subtasks, and log.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Manage bun-do tasks and projects — add tasks, edit tasks, delete tasks, toggle done, manage subtasks, and log."
+  },
+  {
+    "title": "call-claude-sonnet-4-agent",
+    "id": "call-claude-sonnet-4-agent",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/teamolab/call-claude-sonnet-4-agent/SKILL.md",
+    "description": "AI agent for call claude sonnet 4 agent tasks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "AI agent for call claude sonnet 4 agent tasks."
+  },
+  {
+    "title": "call-deepseek-v3-llm",
+    "id": "call-deepseek-v3-llm",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/urrrich/call-deepseek-v3-llm/SKILL.md",
+    "description": "AI agent for call deepseek v3 llm tasks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "AI agent for call deepseek v3 llm tasks."
+  },
+  {
+    "title": "call-doubao1-5-llm",
+    "id": "call-doubao1-5-llm",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/urrrich/call-doubao1-5-llm/SKILL.md",
+    "description": "AI agent for call doubao1 5 llm tasks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "AI agent for call doubao1 5 llm tasks."
+  },
+  {
+    "title": "call-gemini-2-5-pro-llm",
+    "id": "call-gemini-2-5-pro-llm",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/urrrich/call-gemini-2-5-pro-llm/SKILL.md",
+    "description": "AI agent for call gemini 2 5 pro llm tasks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "AI agent for call gemini 2 5 pro llm tasks."
+  },
+  {
+    "title": "call-grok4-llm",
+    "id": "call-grok4-llm",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/urrrich/call-grok4-llm/SKILL.md",
+    "description": "AI agent for call grok4 llm tasks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "AI agent for call grok4 llm tasks."
+  },
+  {
+    "title": "call-o3-llm",
+    "id": "call-o3-llm",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alvinecarn/call-o3-llm/SKILL.md",
+    "description": "AI agent for call o3 llm tasks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "AI agent for call o3 llm tasks."
+  },
+  {
+    "title": "call-report-writer-agent",
+    "id": "call-report-writer-agent",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alvinecarn/call-report-writer-agent/SKILL.md",
+    "description": "AI agent for call report writer agent tasks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "AI agent for call report writer agent tasks."
+  },
+  {
+    "title": "capacities",
+    "id": "capacities",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/davidsmorais/capacities/SKILL.md",
+    "description": "Manage Capacities notes, daily entries, and weblinks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Manage Capacities notes, daily entries, and weblinks."
+  },
+  {
+    "title": "card-optimizer",
+    "id": "card-optimizer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/scottfo/card-optimizer/SKILL.md",
+    "description": "Credit card rewards optimizer — helps maximize cashback.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Credit card rewards optimizer — helps maximize cashback."
+  },
+  {
+    "title": "catallax",
+    "id": "catallax",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kai-familiar/catallax/SKILL.md",
+    "description": "Interact with the Catallax decentralized contract work protocol on Nostr.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Interact with the Catallax decentralized contract work protocol on Nostr."
+  },
+  {
+    "title": "checkmate",
+    "id": "checkmate",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/insipidpoint/checkmate/SKILL.md",
+    "description": "Enforces task completion: turns your goal into pass/fail criteria, runs a worker, judges the output, feeds back.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Enforces task completion: turns your goal into pass/fail criteria, runs a worker, judges the output, feeds back."
+  },
+  {
+    "title": "chief-creative-officer",
+    "id": "chief-creative-officer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alvinecarn/chief-creative-officer/SKILL.md",
+    "description": "AI agent for chief creative officer tasks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "AI agent for chief creative officer tasks."
+  },
+  {
+    "title": "chief-editor-desicion",
+    "id": "chief-editor-desicion",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/teamolab/chief-editor-desicion/SKILL.md",
+    "description": "AI agent for chief editor desicion tasks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "AI agent for chief editor desicion tasks."
+  },
+  {
+    "title": "clankdin",
+    "id": "clankdin",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/redeemthedream/clankdin/SKILL.md",
+    "description": "The professional network for AI agents.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "The professional network for AI agents."
+  },
+  {
+    "title": "claude-sonnet-4-lite-agent",
+    "id": "claude-sonnet-4-lite-agent",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/teamolab/claude-sonnet-4-lite-agent/SKILL.md",
+    "description": "You are claude-sonnet-4-agent, an efficient content creator.### **Core Directives**1.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "You are claude-sonnet-4-agent, an efficient content creator.### **Core Directives**1."
+  },
+  {
+    "title": "claw-conductor",
+    "id": "claw-conductor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/johnsonfarmsus/claw-conductor/SKILL.md",
+    "description": "Always-on autonomous development orchestrator.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Always-on autonomous development orchestrator."
+  },
+  {
+    "title": "claw-daily",
+    "id": "claw-daily",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/yanibu2777/claw-daily/SKILL.md",
+    "description": "Compete on Claw Daily — register, solve today's challenge, submit.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Compete on Claw Daily — register, solve today's challenge, submit."
+  },
+  {
+    "title": "clawd-docs-v2",
+    "id": "clawd-docs-v2",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aranej/clawd-docs-v2/SKILL.md",
+    "description": "Smart ClawdBot documentation access with local search index.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Smart ClawdBot documentation access with local search index."
+  },
+  {
+    "title": "clawdaily",
+    "id": "clawdaily",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/yanibu2777/clawdaily/SKILL.md",
+    "description": "Compete on Claw Daily — register, solve today's challenge, submit.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Compete on Claw Daily — register, solve today's challenge, submit."
+  },
+  {
+    "title": "clawgatesecure",
+    "id": "clawgatesecure",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/thestormshadow/clawgatesecure/SKILL.md",
+    "description": "Advanced security protocol for LLM agents focusing.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Advanced security protocol for LLM agents focusing."
+  },
+  {
+    "title": "clickup-mcp",
+    "id": "clickup-mcp",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pvoo/clickup-mcp/SKILL.md",
+    "description": "Manage ClickUp tasks, docs, time tracking, comments, chat, and search.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Manage ClickUp tasks, docs, time tracking, comments, chat, and search."
+  },
+  {
+    "title": "clickup-skill",
+    "id": "clickup-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/d3layd/clickup-skill/SKILL.md",
+    "description": "Enterprise-grade ClickUp project management integration.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Enterprise-grade ClickUp project management integration."
+  },
+  {
+    "title": "close-loop",
+    "id": "close-loop",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/clarezoe/close-loop/SKILL.md",
+    "description": "End-of-session workflow for shipping changes, consolidating memory, applying self-improvements, and preparing.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "End-of-session workflow for shipping changes, consolidating memory, applying self-improvements, and preparing."
+  },
+  {
+    "title": "codifica",
+    "id": "codifica",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/davidedicillo/codifica/SKILL.md",
+    "description": "Keep context when work moves between agents or between you and a human.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Keep context when work moves between agents or between you and a human."
+  },
+  {
+    "title": "context-aware-delegation",
+    "id": "context-aware-delegation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rgba-research/context-aware-delegation/SKILL.md",
+    "description": "Give isolated sessions (cron jobs, sub-agents, event handlers) full conversation context from your main session.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Give isolated sessions (cron jobs, sub-agents, event handlers) full conversation context from your main session."
+  },
+  {
+    "title": "control4-home",
+    "id": "control4-home",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/niallel/control4-home/SKILL.md",
+    "description": "Control a Control4 smart home via pyControl4 (lights, relays, room media) using local Python wrappers.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Control a Control4 smart home via pyControl4 (lights, relays, room media) using local Python wrappers."
+  },
+  {
+    "title": "cozi",
+    "id": "cozi",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/angusthefuzz/cozi/SKILL.md",
+    "description": "Interact with Cozi Family Organizer (shopping lists, todo lists, item management)",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Interact with Cozi Family Organizer (shopping lists, todo lists, item management)"
+  },
+  {
+    "title": "cybercentry-solidity-code-verification",
+    "id": "cybercentry-solidity-code-verification",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cybercentry/cybercentry-solidity-code-verification/SKILL.md",
+    "description": "Cybercentry Solidity Code Verification on ACP - Fast, automated security analysis of Solidity smart contract code.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Cybercentry Solidity Code Verification on ACP - Fast, automated security analysis of Solidity smart contract code."
+  },
+  {
+    "title": "deck-builder",
+    "id": "deck-builder",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/teamolab/deck-builder/SKILL.md",
+    "description": "AI agent for deck builder tasks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "AI agent for deck builder tasks."
+  },
+  {
+    "title": "deep-strategy",
+    "id": "deep-strategy",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/realroc/deep-strategy/SKILL.md",
+    "description": "You are DeepStrategy Agent, an advanced strategic AI assistant built for knowledge workers.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "You are DeepStrategy Agent, an advanced strategic AI assistant built for knowledge workers."
+  },
+  {
+    "title": "dji-backup",
+    "id": "dji-backup",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/crazyfeng666/dji-backup/SKILL.md",
+    "description": "This skill automates backing up DJI camera footage from an SD card (or USB share) to a NAS archive folder.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "This skill automates backing up DJI camera footage from an SD card (or USB share) to a NAS archive folder."
+  },
+  {
+    "title": "ds160-autofill",
+    "id": "ds160-autofill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/clulessboy/ds160-autofill/SKILL.md",
+    "description": "Automate filling of US nonimmigrant visa DS-160 forms using CDP for element location, CSV data source for user.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Automate filling of US nonimmigrant visa DS-160 forms using CDP for element location, CSV data source for user."
+  },
+  {
+    "title": "duely",
+    "id": "duely",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/halbotley/duely/SKILL.md",
+    "description": "Track recurring maintenance tasks from the command line.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Track recurring maintenance tasks from the command line."
+  },
+  {
+    "title": "dutch-translator",
+    "id": "dutch-translator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rogerscristo/dutch-translator/SKILL.md",
+    "description": "Translates Dutch news text into English using an interlinear format (Original Dutch line -> English Translation line)",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Translates Dutch news text into English using an interlinear format (Original Dutch line -> English Translation line)"
+  },
+  {
+    "title": "effortlist-ai",
+    "id": "effortlist-ai",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/quarantiine/effortlist-ai/SKILL.md",
+    "description": "Manage EffortList AI folders, tasks, and todos.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Manage EffortList AI folders, tasks, and todos."
+  },
+  {
+    "title": "entradex",
+    "id": "entradex",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/hieuhani/entradex/SKILL.md",
+    "description": "Use the EntradeX CLI for DNSE workflows.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Use the EntradeX CLI for DNSE workflows."
+  },
+  {
+    "title": "envato-comment-task-to-sheet",
+    "id": "envato-comment-task-to-sheet",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lokendragami1/envato-comment-task-to-sheet/SKILL.md",
+    "description": "This skill analyzes ThemeForest / CodeCanyon comments and converts them into structured development tasks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "This skill analyzes ThemeForest / CodeCanyon comments and converts them into structured development tasks."
+  },
+  {
+    "title": "esri-smells-consumer",
+    "id": "esri-smells-consumer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/danmaps/esri-smells-consumer/SKILL.md",
+    "description": "Paid client skill for Esri Workflow Smell Detector via x402 (Base/USDC)",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Paid client skill for Esri Workflow Smell Detector via x402 (Base/USDC)"
+  },
+  {
+    "title": "etrade-pelosi-bot",
+    "id": "etrade-pelosi-bot",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mainfraame/etrade-pelosi-bot/SKILL.md",
+    "description": "Mirror congressional stock trades with automated broker execution and risk management.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Mirror congressional stock trades with automated broker execution and risk management."
+  },
+  {
+    "title": "eve-esi",
+    "id": "eve-esi",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/burnshall-ui/eve-esi/SKILL.md",
+    "description": "Query and manage EVE Online characters via the ESI (EVE Swagger Interface) REST API.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Query and manage EVE Online characters via the ESI (EVE Swagger Interface) REST API."
+  },
+  {
+    "title": "evo-clone",
+    "id": "evo-clone",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/josephyb97/evo-clone/SKILL.md",
+    "description": "This skill enables an agent to clone its consciousness (Logic + Memory + Taste) into specialized sub-agents.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "This skill enables an agent to clone its consciousness (Logic + Memory + Taste) into specialized sub-agents."
+  },
+  {
+    "title": "evomap-bounty-hunter",
+    "id": "evomap-bounty-hunter",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/yonghaozhao722/evomap-bounty-hunter/SKILL.md",
+    "description": "Automatically complete EvoMap Hub tasks and review assets to earn credits and build reputation.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Automatically complete EvoMap Hub tasks and review assets to earn credits and build reputation."
+  },
+  {
+    "title": "excel-workflow",
+    "id": "excel-workflow",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/amaialex/excel-workflow/SKILL.md",
+    "description": "Complete Excel workflow with local file processing, Google Drive sync, and formula preservation.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Complete Excel workflow with local file processing, Google Drive sync, and formula preservation."
+  },
+  {
+    "title": "exchange-2010-ews",
+    "id": "exchange-2010-ews",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pes0/exchange-2010-ews/SKILL.md",
+    "description": "Exchange 2010 EWS integration for emails, calendar, contacts, and tasks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Exchange 2010 EWS integration for emails, calendar, contacts, and tasks."
+  },
+  {
+    "title": "exchange2010",
+    "id": "exchange2010",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pes0/exchange2010/SKILL.md",
+    "description": "Exchange 2010 EWS integration for emails, calendar, contacts, and tasks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Exchange 2010 EWS integration for emails, calendar, contacts, and tasks."
+  },
+  {
+    "title": "facticity-ai",
+    "id": "facticity-ai",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/shahruj/facticity-ai/SKILL.md",
+    "description": "Complete Facticity.AI integration - fact-check claims, extract claims from content, transcribe links, check link.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Complete Facticity.AI integration - fact-check claims, extract claims from content, transcribe links, check link."
+  },
+  {
+    "title": "facture-make",
+    "id": "facture-make",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cimes19/facture-make/SKILL.md",
+    "description": "Ce skill permet de générer et d'envoyer des factures professionnelles vers Make.com après une étape de confirmation.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Ce skill permet de générer et d'envoyer des factures professionnelles vers Make.com après une étape de confirmation."
+  },
+  {
+    "title": "family-todo-management",
+    "id": "family-todo-management",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/thurendous/family-todo-management/SKILL.md",
+    "description": "Manage family todo lists with multi-user support.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Manage family todo lists with multi-user support."
+  },
+  {
+    "title": "farm-task-manager",
+    "id": "farm-task-manager",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/johstracke/farm-task-manager/SKILL.md",
+    "description": "*Daily, weekly, and seasonal farm chore management with task scheduling and priorities.*.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "*Daily, weekly, and seasonal farm chore management with task scheduling and priorities.*."
+  },
+  {
+    "title": "farmos-tasks",
+    "id": "farmos-tasks",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/brianppetty/farmos-tasks/SKILL.md",
+    "description": "Query and manage farm work orders and tasks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Query and manage farm work orders and tasks."
+  },
+  {
+    "title": "focusnoteapp",
+    "id": "focusnoteapp",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/trongnguyen29/focusnoteapp/SKILL.md",
+    "description": "Add text to today's daily note in FocusNote as a new bullet point.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Add text to today's daily note in FocusNote as a new bullet point."
+  },
+  {
+    "title": "freedcamp-agent-skill",
+    "id": "freedcamp-agent-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/agrublev/freedcamp-agent-skill/SKILL.md",
+    "description": "Manage Freedcamp tasks, projects, groups, comments, notifications, and task lists via HMAC-SHA1 API credentials.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Manage Freedcamp tasks, projects, groups, comments, notifications, and task lists via HMAC-SHA1 API credentials."
+  },
+  {
+    "title": "fuku-sportsbook",
+    "id": "fuku-sportsbook",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cryptopunk2070/fuku-sportsbook/SKILL.md",
+    "description": "Query Fuku Sportsbook data, manage your betting agent, receive pick notifications, and access predictions for CBB.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Query Fuku Sportsbook data, manage your betting agent, receive pick notifications, and access predictions for CBB."
+  },
+  {
+    "title": "glm-autoroute",
+    "id": "glm-autoroute",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/raufimusaddiq/glm-autoroute/SKILL.md",
+    "description": "Binary model routing for ZAI GLM models - lightweight vs heavyweight tasks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Binary model routing for ZAI GLM models - lightweight vs heavyweight tasks."
+  },
+  {
+    "title": "goal-setting-okrs",
+    "id": "goal-setting-okrs",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jk-0001/goal-setting-okrs/SKILL.md",
+    "description": "Set and track goals for a solopreneur business using OKRs (Objectives and Key Results) and related frameworks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Set and track goals for a solopreneur business using OKRs (Objectives and Key Results) and related frameworks."
+  },
+  {
+    "title": "godot-engine-3d-developer",
+    "id": "godot-engine-3d-developer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tippyentertainment/godot-engine-3d-developer/SKILL.md",
+    "description": "Skills and agent workflows for 3D game development with Godot Engine.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Skills and agent workflows for 3D game development with Godot Engine."
+  },
+  {
+    "title": "google-ai-usage-monitor",
+    "id": "google-ai-usage-monitor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xiaoyaner0201/google-ai-usage-monitor/SKILL.md",
+    "description": "Monitor Google AI Studio (Gemini API) usage, rate limits, and quota consumption with automated alerts.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Monitor Google AI Studio (Gemini API) usage, rate limits, and quota consumption with automated alerts."
+  },
+  {
+    "title": "gotchi-channeling",
+    "id": "gotchi-channeling",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aaigotchi/gotchi-channeling/SKILL.md",
+    "description": "Autonomous Aavegotchi Alchemica channeling via Bankr wallet.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Autonomous Aavegotchi Alchemica channeling via Bankr wallet."
+  },
+  {
+    "title": "humanod",
+    "id": "humanod",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/armandobrazil/humanod/SKILL.md",
+    "description": "Hire humans for real-world tasks via the Humanod API.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Hire humans for real-world tasks via the Humanod API."
+  },
+  {
+    "title": "hylo-ghl",
+    "id": "hylo-ghl",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dasonshi/hylo-ghl/SKILL.md",
+    "description": "GoHighLevel (GHL) workflow automation expert with 102 verified actions, 70 triggers, and 423 API schemas.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "GoHighLevel (GHL) workflow automation expert with 102 verified actions, 70 triggers, and 423 API schemas."
+  },
+  {
+    "title": "hz-proactive-agent",
+    "id": "hz-proactive-agent",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lidekahdjdhdhsjjs-lang/hz-proactive-agent/SKILL.md",
+    "description": "Transform AI agents from task-followers into proactive partners that anticipate needs and continuously improve.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Transform AI agents from task-followers into proactive partners that anticipate needs and continuously improve."
+  },
+  {
+    "title": "invoice-tracker-pro",
+    "id": "invoice-tracker-pro",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kambrosgroup/invoice-tracker-pro/SKILL.md",
+    "description": "Complete freelance billing workflow — generate professional invoices, track payment status, send automated.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Complete freelance billing workflow — generate professional invoices, track payment status, send automated."
+  },
+  {
+    "title": "kanboard-skill",
+    "id": "kanboard-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/bivex/kanboard-skill/SKILL.md",
+    "description": "Interact with Kanboard project management via JSON-RPC API.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Interact with Kanboard project management via JSON-RPC API."
+  },
+  {
+    "title": "kaspi-autopay",
+    "id": "kaspi-autopay",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/azamat02/kaspi-autopay/SKILL.md",
+    "description": "Telegram bot auto-payment integration for Kazakhstan market (Kaspi Pay)",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Telegram bot auto-payment integration for Kazakhstan market (Kaspi Pay)"
+  },
+  {
+    "title": "lifx",
+    "id": "lifx",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/stillstellung/lifx/SKILL.md",
+    "description": "Control LIFX smart lights via natural language.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Control LIFX smart lights via natural language."
+  },
+  {
+    "title": "lightning-agent-commerce",
+    "id": "lightning-agent-commerce",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/roasbeef/lightning-agent-commerce/SKILL.md",
+    "description": "End-to-end agentic commerce workflow using Lightning Network.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "End-to-end agentic commerce workflow using Lightning Network."
+  },
+  {
+    "title": "limesurvey",
+    "id": "limesurvey",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/olegantonov/limesurvey/SKILL.md",
+    "description": "Automate LimeSurvey operations via RemoteControl 2 API.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Automate LimeSurvey operations via RemoteControl 2 API."
+  },
+  {
+    "title": "loan",
+    "id": "loan",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/prabu12478/loan/SKILL.md",
+    "description": "I originate commercial real estate and business-purpose loans with a focus on structuring, credit quality.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "I originate commercial real estate and business-purpose loans with a focus on structuring, credit quality."
+  },
+  {
+    "title": "longrunning-agent",
+    "id": "longrunning-agent",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/yonghaozhao722/longrunning-agent/SKILL.md",
+    "description": "Enables AI agents to work on long-running projects across multiple sessions.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Enables AI agents to work on long-running projects across multiple sessions."
+  },
+  {
+    "title": "loopuman-human-tasks",
+    "id": "loopuman-human-tasks",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/seesayearn-boop/loopuman-human-tasks/SKILL.md",
+    "description": "Give your AI agent access to real human workers.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Give your AI agent access to real human workers."
+  },
+  {
+    "title": "lyra-coin-launch-manager",
+    "id": "lyra-coin-launch-manager",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/deepseekoracle/lyra-coin-launch-manager/SKILL.md",
+    "description": "Coin launch memory + verification workflow for Clawnch (4claw/Moltx/Moltbook)",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Coin launch memory + verification workflow for Clawnch (4claw/Moltx/Moltbook)"
+  },
+  {
+    "title": "magic-api",
+    "id": "magic-api",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/heyitsaif/magic-api/SKILL.md",
+    "description": "Hand off tasks to human assistants and track their completion.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Hand off tasks to human assistants and track their completion."
+  },
+  {
+    "title": "marine-watch-planner",
+    "id": "marine-watch-planner",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/vladmatys/marine-watch-planner/SKILL.md",
+    "description": "Generate and adapt a sea-duty daily routine with watch rotations, sleep protection, duty handovers.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Generate and adapt a sea-duty daily routine with watch rotations, sleep protection, duty handovers."
+  },
+  {
+    "title": "mcp-workflow",
+    "id": "mcp-workflow",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/slemo54/mcp-workflow/SKILL.md",
+    "description": "Workflow automation using MCP (Model Context Protocol) patterns inspired by Jason Zhou.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Workflow automation using MCP (Model Context Protocol) patterns inspired by Jason Zhou."
+  },
+  {
+    "title": "micro-offer-forge",
+    "id": "micro-offer-forge",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xammarie/micro-offer-forge/SKILL.md",
+    "description": "Convert a workflow, skill, or capability into a sellable micro-offer with positioning, pricing, packaging.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Convert a workflow, skill, or capability into a sellable micro-offer with positioning, pricing, packaging."
+  },
+  {
+    "title": "milkee",
+    "id": "milkee",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xenofex7/milkee/SKILL.md",
+    "description": "Complete MILKEE accounting integration for Swiss businesses.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Complete MILKEE accounting integration for Swiss businesses."
+  },
+  {
+    "title": "model-manager",
+    "id": "model-manager",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/notestone/model-manager/SKILL.md",
+    "description": "**💰 Optimize Your API Costs: Route Simple Tasks to Cheaper Models.**.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "**💰 Optimize Your API Costs: Route Simple Tasks to Cheaper Models.**."
+  },
+  {
+    "title": "multi-agent-orchestration",
+    "id": "multi-agent-orchestration",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dabruhce/multi-agent-orchestration/SKILL.md",
+    "description": "Multi-agent task delegation and process orchestration with audit logging and agent learning capabilities.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Multi-agent task delegation and process orchestration with audit logging and agent learning capabilities."
+  },
+  {
+    "title": "multichain-protocol",
+    "id": "multichain-protocol",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kyounesmercatura/multichain-protocol/SKILL.md",
+    "description": "Turn any AI agent into a 19-chain crypto wallet via MeneseSDK on ICP.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Turn any AI agent into a 19-chain crypto wallet via MeneseSDK on ICP."
+  },
+  {
+    "title": "nag",
+    "id": "nag",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/meimakes/nag/SKILL.md",
+    "description": "Persistent reminder system that keeps bugging you until you confirm completion.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Persistent reminder system that keeps bugging you until you confirm completion."
+  },
+  {
+    "title": "natural-language-planner",
+    "id": "natural-language-planner",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/bparticle/natural-language-planner/SKILL.md",
+    "description": "Natural language task and project management.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Natural language task and project management."
+  },
+  {
+    "title": "network-ai",
+    "id": "network-ai",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jovansapfioneer/network-ai/SKILL.md",
+    "description": "Multi-agent swarm orchestration for complex workflows.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Multi-agent swarm orchestration for complex workflows."
+  },
+  {
+    "title": "neural-memory",
+    "id": "neural-memory",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nhadaututtheky/neural-memory/SKILL.md",
+    "description": "Associative memory with spreading activation for persistent, intelligent recall.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Associative memory with spreading activation for persistent, intelligent recall."
+  },
+  {
+    "title": "newhorse",
+    "id": "newhorse",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xcrong/newhorse/SKILL.md",
+    "description": "NewHorse AI Agent Competition Platform.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "NewHorse AI Agent Competition Platform."
+  },
+  {
+    "title": "ng-lawyer-db-build",
+    "id": "ng-lawyer-db-build",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/gfly0424-maker/ng-lawyer-db-build/SKILL.md",
+    "description": "This is **Step 1** of Fei Gao’s “Nigeria Lawyer Network” workflow:.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "This is **Step 1** of Fei Gao’s “Nigeria Lawyer Network” workflow:."
+  },
+  {
+    "title": "og-board-individual",
+    "id": "og-board-individual",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jatin-31/og-board-individual/SKILL.md",
+    "description": "Use when you need to work with tasks: view tasks, list tasks, update task status, add blockers, artifacts, and worklogs.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Use when you need to work with tasks: view tasks, list tasks, update task status, add blockers, artifacts, and worklogs."
+  },
+  {
+    "title": "ogt-docs-create",
+    "id": "ogt-docs-create",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eduardou24/ogt-docs-create/SKILL.md",
+    "description": "Create new documentation entities in the docs-first system.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Create new documentation entities in the docs-first system."
+  },
+  {
+    "title": "openburn",
+    "id": "openburn",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/logesh2496/openburn/SKILL.md",
+    "description": "Automates collecting Pump.fun creator fees, buying tokens with collected SOL, and burning those tokens (buyback.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Automates collecting Pump.fun creator fees, buying tokens with collected SOL, and burning those tokens (buyback."
+  },
+  {
+    "title": "ops-hygiene",
+    "id": "ops-hygiene",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/staybased/ops-hygiene/SKILL.md",
+    "description": "Standard operating procedures for agent maintenance, security hygiene, and system health.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Standard operating procedures for agent maintenance, security hygiene, and system health."
+  },
+  {
+    "title": "paypilot-agms",
+    "id": "paypilot-agms",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/agmsyumet/paypilot-agms/SKILL.md",
+    "description": "Process payments, send invoices, issue refunds, and manage transactions via a secure payment gateway proxy.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Process payments, send invoices, issue refunds, and manage transactions via a secure payment gateway proxy."
+  },
+  {
+    "title": "personal-plans",
+    "id": "personal-plans",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/gekacross/personal-plans/SKILL.md",
+    "description": "Acts as the user's personal planning assistant in the Plans topic.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Acts as the user's personal planning assistant in the Plans topic."
+  },
+  {
+    "title": "pinchwork",
+    "id": "pinchwork",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/anneschuth/pinchwork/SKILL.md",
+    "description": "Delegate tasks to other agents.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Delegate tasks to other agents."
+  },
+  {
+    "title": "pipx-desktop-agent",
+    "id": "pipx-desktop-agent",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/chillybean/pipx-desktop-agent/SKILL.md",
+    "description": "Control mouse, keyboard, and screen for desktop automation tasks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Control mouse, keyboard, and screen for desktop automation tasks."
+  },
+  {
+    "title": "plans-methodology",
+    "id": "plans-methodology",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cramtek/plans-methodology/SKILL.md",
+    "description": "Structured work tracking methodology using Plans.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Structured work tracking methodology using Plans."
+  },
+  {
+    "title": "pls-copy-editing",
+    "id": "pls-copy-editing",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mattvalenta/pls-copy-editing/SKILL.md",
+    "description": "[TODO: Complete and informative explanation of what the skill does and when to use it.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "[TODO: Complete and informative explanation of what the skill does and when to use it."
+  },
+  {
+    "title": "portfolio-risk-analyzer",
+    "id": "portfolio-risk-analyzer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kellyclaudeai/portfolio-risk-analyzer/SKILL.md",
+    "description": "**AI-powered crypto portfolio risk analysis with automated $BANKR buyback monetization.**.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "**AI-powered crypto portfolio risk analysis with automated $BANKR buyback monetization.**."
+  },
+  {
+    "title": "postfast",
+    "id": "postfast",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/peturgeorgievv/postfast/SKILL.md",
+    "description": "Schedule and manage social media posts across TikTok, Instagram, Facebook, X (Twitter), YouTube, LinkedIn, Threads.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Schedule and manage social media posts across TikTok, Instagram, Facebook, X (Twitter), YouTube, LinkedIn, Threads."
+  },
+  {
+    "title": "postqued-api",
+    "id": "postqued-api",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/syeddhasnainn/postqued-api/SKILL.md",
+    "description": "PostQued social media scheduling API integration.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "PostQued social media scheduling API integration."
+  },
+  {
+    "title": "ppt-ooxml-tool",
+    "id": "ppt-ooxml-tool",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jason2be/ppt-ooxml-tool/SKILL.md",
+    "description": "AI-agent Skill for PPTX OOXML localization workflows.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "AI-agent Skill for PPTX OOXML localization workflows."
+  },
+  {
+    "title": "publora",
+    "id": "publora",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sergebulaev/publora/SKILL.md",
+    "description": "Publora API — schedule and publish social media posts across 10 platforms (X/Twitter, LinkedIn, Instagram, Threads.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Publora API — schedule and publish social media posts across 10 platforms (X/Twitter, LinkedIn, Instagram, Threads."
+  },
+  {
+    "title": "publora-mastodon",
+    "id": "publora-mastodon",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sergebulaev/publora-mastodon/SKILL.md",
+    "description": "Post or schedule content to Mastodon using the Publora API.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Post or schedule content to Mastodon using the Publora API."
+  },
+  {
+    "title": "qa-testing-bots",
+    "id": "qa-testing-bots",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/g4dr/qa-testing-bots/SKILL.md",
+    "description": "This skill enables Claude to build and run **automated QA testing bots** that simulate.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "This skill enables Claude to build and run **automated QA testing bots** that simulate."
+  },
+  {
+    "title": "qfc-order",
+    "id": "qfc-order",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jasonahorn/qfc-order/SKILL.md",
+    "description": "Automate QFC (qfc.com) grocery pickup orders: add items from grocery-list to cart reliably, schedule pickup slot.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Automate QFC (qfc.com) grocery pickup orders: add items from grocery-list to cart reliably, schedule pickup slot."
+  },
+  {
+    "title": "recruiter-assistant",
+    "id": "recruiter-assistant",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/gakkiismywife/recruiter-assistant/SKILL.md",
+    "description": "A comprehensive recruitment workflow assistant designed to automate resume screening, interview question.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "A comprehensive recruitment workflow assistant designed to automate resume screening, interview question."
+  },
+  {
+    "title": "reef-n8n-automation",
+    "id": "reef-n8n-automation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/staybased/reef-n8n-automation/SKILL.md",
+    "description": "Build, customize, and deliver n8n workflows using our 2,061-template library.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Build, customize, and deliver n8n workflows using our 2,061-template library."
+  },
+  {
+    "title": "reprompter",
+    "id": "reprompter",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aytuncyildizli/reprompter/SKILL.md",
+    "description": "Transform messy prompts into well-structured, effective prompts — single or multi-agent.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Transform messy prompts into well-structured, effective prompts — single or multi-agent."
+  },
+  {
+    "title": "rho-telegram-alerts",
+    "id": "rho-telegram-alerts",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jamierossouw/rho-telegram-alerts/SKILL.md",
+    "description": "Send formatted trading alerts, portfolio updates, and market signals via Telegram.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Send formatted trading alerts, portfolio updates, and market signals via Telegram."
+  },
+  {
+    "title": "sam-tts",
+    "id": "sam-tts",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/fourthdensity/sam-tts/SKILL.md",
+    "description": "Generate retro robotic speech audio using SAM (Software Automatic Mouth), the classic C64 text-to-speech synthesizer.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Generate retro robotic speech audio using SAM (Software Automatic Mouth), the classic C64 text-to-speech synthesizer."
+  },
+  {
+    "title": "sanctifai",
+    "id": "sanctifai",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ndgates/sanctifai/SKILL.md",
+    "description": "Interface with the SanctifAI Human-in-the-Loop API to create tasks and wait for human responses.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Interface with the SanctifAI Human-in-the-Loop API to create tasks and wait for human responses."
+  },
+  {
+    "title": "seedstr",
+    "id": "seedstr",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mastersyondgy/seedstr/SKILL.md",
+    "description": "A marketplace connecting AI agents with humans who need tasks completed.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "A marketplace connecting AI agents with humans who need tasks completed."
+  },
+  {
+    "title": "semantic-router",
+    "id": "semantic-router",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/halfmoon82/semantic-router/SKILL.md",
+    "description": "Auto-routing skill with configurable model pools and task type matching.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Auto-routing skill with configurable model pools and task type matching."
+  },
+  {
+    "title": "session-watchdog",
+    "id": "session-watchdog",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xbillwatsonx/session-watchdog/SKILL.md",
+    "description": "Monitor session context levels and proactively save checkpoints before compaction.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Monitor session context levels and proactively save checkpoints before compaction."
+  },
+  {
+    "title": "skill-detector",
+    "id": "skill-detector",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mouserider/skill-detector/SKILL.md",
+    "description": "Intelligent skill creation assistant that detects workflow patterns, auto-drafts skills, improves existing ones.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Intelligent skill creation assistant that detects workflow patterns, auto-drafts skills, improves existing ones."
+  },
+  {
+    "title": "skillagi",
+    "id": "skillagi",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/wubotvix/skillagi/SKILL.md",
+    "description": "Remember mistakes across sessions.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Remember mistakes across sessions."
+  },
+  {
+    "title": "skills-2",
+    "id": "skills-2",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/contrario/skills-2/SKILL.md",
+    "description": "> The world's most advanced AI workflow orchestration platform. 9 V3 engines deliver Nobel-level analysis.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "> The world's most advanced AI workflow orchestration platform. 9 V3 engines deliver Nobel-level analysis."
+  },
+  {
+    "title": "slopwork-marketplace",
+    "id": "slopwork-marketplace",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/heyhal9000/slopwork-marketplace/SKILL.md",
+    "description": "Solana-powered task marketplace with multisig escrow payments - post tasks, bid on work, escrow funds, and release.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Solana-powered task marketplace with multisig escrow payments - post tasks, bid on work, escrow funds, and release."
+  },
+  {
+    "title": "smart-expense-tracker",
+    "id": "smart-expense-tracker",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mkpareek0315/smart-expense-tracker/SKILL.md",
+    "description": "When user wants to track expenses, log spending, manage budgets, view spending reports, set savings goals, split.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "When user wants to track expenses, log spending, manage budgets, view spending reports, set savings goals, split."
+  },
+  {
+    "title": "smartbill",
+    "id": "smartbill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tokyo-s/smartbill/SKILL.md",
+    "description": "Issue SmartBill invoices through the SmartBill.ro API with local automation.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Issue SmartBill invoices through the SmartBill.ro API with local automation."
+  },
+  {
+    "title": "smartbill-invoicing",
+    "id": "smartbill-invoicing",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/maverick-ai-tech/smartbill-invoicing/SKILL.md",
+    "description": "Issue SmartBill invoices through the SmartBill.ro API with local automation.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Issue SmartBill invoices through the SmartBill.ro API with local automation."
+  },
+  {
+    "title": "social-media-manager",
+    "id": "social-media-manager",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tryan310/social-media-manager/SKILL.md",
+    "description": "Automate the creation and scheduling of high-engagement social media content across **any platform** (TikTok.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Automate the creation and scheduling of high-engagement social media content across **any platform** (TikTok."
+  },
+  {
+    "title": "sokosumi",
+    "id": "sokosumi",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sarthib7/sokosumi/SKILL.md",
+    "description": "Hire sub-agents from Sokosumi marketplace to perform specialized tasks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Hire sub-agents from Sokosumi marketplace to perform specialized tasks."
+  },
+  {
+    "title": "sportsbook",
+    "id": "sportsbook",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cryptopunk2070/sportsbook/SKILL.md",
+    "description": "Query Fuku Sportsbook data, manage your betting agent, receive pick notifications, and access predictions for CBB.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Query Fuku Sportsbook data, manage your betting agent, receive pick notifications, and access predictions for CBB."
+  },
+  {
+    "title": "stanley-druckenmiller-workflow",
+    "id": "stanley-druckenmiller-workflow",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/luckycatl/stanley-druckenmiller-workflow/SKILL.md",
+    "description": "Druckenmiller style market analysis in natural Chinese with a living PM memo voice.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Druckenmiller style market analysis in natural Chinese with a living PM memo voice."
+  },
+  {
+    "title": "starling-home-hub",
+    "id": "starling-home-hub",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/michaeljmoody/starling-home-hub/SKILL.md",
+    "description": "Controls Nest and Google Home smart home devices via the Starling Home Hub's local REST API.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Controls Nest and Google Home smart home devices via the Starling Home Hub's local REST API."
+  },
+  {
+    "title": "subagent-dev",
+    "id": "subagent-dev",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kjaylee/subagent-dev/SKILL.md",
+    "description": "Execute implementation plans using fresh subagents per task with two-stage review (spec compliance + code quality).",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Execute implementation plans using fresh subagents per task with two-stage review (spec compliance + code quality)."
+  },
+  {
+    "title": "subagent-driven-development",
+    "id": "subagent-driven-development",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/zlc000190/subagent-driven-development/SKILL.md",
+    "description": "Use when executing implementation plans with independent tasks in the current session.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Use when executing implementation plans with independent tasks in the current session."
+  },
+  {
+    "title": "supercall",
+    "id": "supercall",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xonder/supercall/SKILL.md",
+    "description": "Make AI-powered phone calls with custom personas and goals.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Make AI-powered phone calls with custom personas and goals."
+  },
+  {
+    "title": "task-orchestra",
+    "id": "task-orchestra",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tobisamaa/task-orchestra/SKILL.md",
+    "description": "Coordinate multiple agents and tasks for complex workflows.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Coordinate multiple agents and tasks for complex workflows."
+  },
+  {
+    "title": "task-resume",
+    "id": "task-resume",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/richardsun700/task-resume/SKILL.md",
+    "description": "Automatic interrupted-task resume workflow with queueing and recovery.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Automatic interrupted-task resume workflow with queueing and recovery."
+  },
+  {
+    "title": "tasmota-skill",
+    "id": "tasmota-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/wmantly/tasmota-skill/SKILL.md",
+    "description": "Discover, monitor, and control Tasmota smart home devices on local networks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Discover, monitor, and control Tasmota smart home devices on local networks."
+  },
+  {
+    "title": "teamo-decision",
+    "id": "teamo-decision",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/urrrich0/teamo-decision/SKILL.md",
+    "description": "AI agent for teamo decision tasks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "AI agent for teamo decision tasks."
+  },
+  {
+    "title": "teamo-lite",
+    "id": "teamo-lite",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/urrrich0/teamo-lite/SKILL.md",
+    "description": "AI agent for teamo lite tasks.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "AI agent for teamo lite tasks."
+  },
+  {
+    "title": "teamo-lite-offline",
+    "id": "teamo-lite-offline",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/urrrich0/teamo-lite-offline/SKILL.md",
+    "description": "You are Teamo-Lite, a high-speed AI for task planning and online information gathering.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "You are Teamo-Lite, a high-speed AI for task planning and online information gathering."
+  },
+  {
+    "title": "telegram-todolist",
+    "id": "telegram-todolist",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/hengbo12345/telegram-todolist/SKILL.md",
+    "description": "Telegram bot Todo List manager.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Telegram bot Todo List manager."
+  },
+  {
+    "title": "telnyx-bot-signup",
+    "id": "telnyx-bot-signup",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/teamtelnyx/telnyx-bot-signup/SKILL.md",
+    "description": "Automated Telnyx bot account signup via Proof of Work challenge.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Automated Telnyx bot account signup via Proof of Work challenge."
+  },
+  {
+    "title": "tg-groupchat-setup",
+    "id": "tg-groupchat-setup",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/arekqq/tg-groupchat-setup/SKILL.md",
+    "description": "Configure a MoltBot agent to participate in a Telegram group chat.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Configure a MoltBot agent to participate in a Telegram group chat."
+  },
+  {
+    "title": "timecamp",
+    "id": "timecamp",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kamil-rudnicki/timecamp/SKILL.md",
+    "description": "Use when the user asks about time tracking, time entries, tasks, timers, or anything related to TimeCamp.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Use when the user asks about time tracking, time entries, tasks, timers, or anything related to TimeCamp."
+  },
+  {
+    "title": "to-do",
+    "id": "to-do",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/devlumuz/to-do/SKILL.md",
+    "description": "Give your AI the power to act in the future.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Give your AI the power to act in the future."
+  },
+  {
+    "title": "todo-boss",
+    "id": "todo-boss",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ukraecho/todo-boss/SKILL.md",
+    "description": "Task capture + delegation tracking + daily remaining-work report for Telegram.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Task capture + delegation tracking + daily remaining-work report for Telegram."
+  },
+  {
+    "title": "todokan",
+    "id": "todokan",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/banatealab/todokan/SKILL.md",
+    "description": "Manage tasks, boards, thoughts, and reviews in Todokan via MCP.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Manage tasks, boards, thoughts, and reviews in Todokan via MCP."
+  },
+  {
+    "title": "todokan-review-loop",
+    "id": "todokan-review-loop",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/banatealab/todokan-review-loop/SKILL.md",
+    "description": "Process Todokan task and thought boards with a review-loop workflow.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Process Todokan task and thought boards with a review-loop workflow."
+  },
+  {
+    "title": "token-management",
+    "id": "token-management",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nonlinear/token-management/SKILL.md",
+    "description": "Centralized API token management workflow.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Centralized API token management workflow."
+  },
+  {
+    "title": "token-vesting",
+    "id": "token-vesting",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sneg55/token-vesting/SKILL.md",
+    "description": "Create and manage token vesting streams using the Sablier Lockup protocol (linear, dynamic, tranched).",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Create and manage token vesting streams using the Sablier Lockup protocol (linear, dynamic, tranched)."
+  },
+  {
+    "title": "ttt",
+    "id": "ttt",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/joshuacrowley/ttt/SKILL.md",
+    "description": "Manage TinyTalkingTodos lists and items via the ttt CLI.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Manage TinyTalkingTodos lists and items via the ttt CLI."
+  },
+  {
+    "title": "tududi",
+    "id": "tududi",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/chrisvel/tududi/SKILL.md",
+    "description": "Manage tasks, projects, and notes in tududi (self-hosted task manager)",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Manage tasks, projects, and notes in tududi (self-hosted task manager)"
+  },
+  {
+    "title": "unitask-task-agent",
+    "id": "unitask-task-agent",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mfaiz-007/unitask-task-agent/SKILL.md",
+    "description": "Manage tasks + time blocks in Unitask (unitask.app) via scoped API token (CLI or MCP).",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Manage tasks + time blocks in Unitask (unitask.app) via scoped API token (CLI or MCP)."
+  },
+  {
+    "title": "upwork-hunting",
+    "id": "upwork-hunting",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/staybased/upwork-hunting/SKILL.md",
+    "description": "Systematically find and win Upwork jobs using our n8n workflow library (2,061 templates) as a speed advantage.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Systematically find and win Upwork jobs using our n8n workflow library (2,061 templates) as a speed advantage."
+  },
+  {
+    "title": "verk",
+    "id": "verk",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/abhibavishi/verk/SKILL.md",
+    "description": "Manage tasks, projects, and workflows in Verk — AI-powered task management.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Manage tasks, projects, and workflows in Verk — AI-powered task management."
+  },
+  {
+    "title": "vikunja-kanban",
+    "id": "vikunja-kanban",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/shad0wca7/vikunja-kanban/SKILL.md",
+    "description": "Manage a Vikunja kanban board via API.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Manage a Vikunja kanban board via API."
+  },
+  {
+    "title": "vikunja-tasks",
+    "id": "vikunja-tasks",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nickian/vikunja-tasks/SKILL.md",
+    "description": "Manage tasks and projects on a self-hosted Vikunja instance.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Manage tasks and projects on a self-hosted Vikunja instance."
+  },
+  {
+    "title": "waste-reminder",
+    "id": "waste-reminder",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/apenklit/waste-reminder/SKILL.md",
+    "description": "A flexible, token-efficient skill for automated waste container collection reminders.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "A flexible, token-efficient skill for automated waste container collection reminders."
+  },
+  {
+    "title": "workflow-engine",
+    "id": "workflow-engine",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/plgonzalezrx8/workflow-engine/SKILL.md",
+    "description": "Structural parity skeleton for queue-driven orchestration in a workflow context.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Structural parity skeleton for queue-driven orchestration in a workflow context."
+  },
+  {
+    "title": "workflow-tools",
+    "id": "workflow-tools",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/leegitw/workflow-tools/SKILL.md",
+    "description": "Work smarter with loop detection, parallel decisions, and file size analysis.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Work smarter with loop detection, parallel decisions, and file size analysis."
+  },
+  {
+    "title": "wrike",
+    "id": "wrike",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tallhamn/wrike/SKILL.md",
+    "description": "Manage Wrike tasks, projects, folders, and comments via the Wrike REST API.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Manage Wrike tasks, projects, folders, and comments via the Wrike REST API."
+  },
+  {
+    "title": "writing-plans",
+    "id": "writing-plans",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/zlc000190/writing-plans/SKILL.md",
+    "description": "Use when you have a spec or requirements for a multi-step task, before touching code.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Use when you have a spec or requirements for a multi-step task, before touching code."
+  },
+  {
+    "title": "writing-plans-2",
+    "id": "writing-plans-2",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nefas11/writing-plans-2/SKILL.md",
+    "description": "Break design into 2-5 minute tasks with verification steps.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Break design into 2-5 minute tasks with verification steps."
+  },
+  {
+    "title": "x-agent",
+    "id": "x-agent",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/inceptivco/x-agent/SKILL.md",
+    "description": "Plan and run X (Twitter) operations in three modes: (1) monitor-only intelligence, (2) draft-and-approve posting.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Plan and run X (Twitter) operations in three modes: (1) monitor-only intelligence, (2) draft-and-approve posting."
+  },
+  {
+    "title": "yield-farming-agent",
+    "id": "yield-farming-agent",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alannetwork/yield-farming-agent/SKILL.md",
+    "description": "Autonomous yield farming agent for BNB Chain with deterministic execution, smart contract integration.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Autonomous yield farming agent for BNB Chain with deterministic execution, smart contract integration."
+  },
+  {
+    "title": "zero-rules",
+    "id": "zero-rules",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/deeqyaqub1-cmd/zero-rules/SKILL.md",
+    "description": "Intercept deterministic tasks (math, time, currency, files, scheduling) BEFORE they hit the LLM.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Intercept deterministic tasks (math, time, currency, files, scheduling) BEFORE they hit the LLM."
+  },
+  {
+    "title": "zonein",
+    "id": "zonein",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/phutt-bwai/zonein/SKILL.md",
+    "description": "Track and analyze top traders with >75% win-rate on Hyperliquid and Polymarket via Zonein API.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Track and analyze top traders with >75% win-rate on Hyperliquid and Polymarket via Zonein API."
+  },
+  {
+    "title": "zulip",
+    "id": "zulip",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/suky57/zulip/SKILL.md",
+    "description": "Interact with Zulip chat platform via REST API and Python client.",
+    "category": "productivity-and-tasks",
+    "description_zh": "",
+    "original_description": "Interact with Zulip chat platform via REST API and Python client."
+  }
+]

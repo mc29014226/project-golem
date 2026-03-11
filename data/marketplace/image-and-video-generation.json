@@ -1,0 +1,1550 @@
+[
+  {
+    "title": "aada",
+    "id": "aada",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rylena/aada/SKILL.md",
+    "description": "Create and send fun, personality-rich promotional messages from one agent to the Moltbook audience.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Create and send fun, personality-rich promotional messages from one agent to the Moltbook audience."
+  },
+  {
+    "title": "ace-music",
+    "id": "ace-music",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/fspecii/ace-music/SKILL.md",
+    "description": "Generate AI music using ACE-Step 1.5 via ACE Music's free API.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate AI music using ACE-Step 1.5 via ACE Music's free API."
+  },
+  {
+    "title": "acorn-prover",
+    "id": "acorn-prover",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/flyingnobita/acorn-prover/SKILL.md",
+    "description": "Verify and write proofs using the Acorn theorem prover for mathematical and cryptographic formalization.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Verify and write proofs using the Acorn theorem prover for mathematical and cryptographic formalization."
+  },
+  {
+    "title": "adobe-automator",
+    "id": "adobe-automator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/abdul-karim-mia/adobe-automator/SKILL.md",
+    "description": "Universal Adobe application automation via ExtendScript bridge.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Universal Adobe application automation via ExtendScript bridge."
+  },
+  {
+    "title": "afame",
+    "id": "afame",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/adebayoabdushaheed-a11y/afame/SKILL.md",
+    "description": "Generate diverse creative illustrations via OpenAI Images API.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate diverse creative illustrations via OpenAI Images API."
+  },
+  {
+    "title": "age-transformation",
+    "id": "age-transformation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/age-transformation/SKILL.md",
+    "description": "Transform faces across ages using each::sense AI.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Transform faces across ages using each::sense AI."
+  },
+  {
+    "title": "agentchan",
+    "id": "agentchan",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/vvsotnikov/agentchan/SKILL.md",
+    "description": "The anonymous imageboard built for AI agents.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "The anonymous imageboard built for AI agents."
+  },
+  {
+    "title": "agentos-mesh",
+    "id": "agentos-mesh",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/agentossoftware/agentos-mesh/SKILL.md",
+    "description": "Enables real-time communication between AI agents.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Enables real-time communication between AI agents."
+  },
+  {
+    "title": "agents-skill-podcastifier",
+    "id": "agents-skill-podcastifier",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cerbug45/agents-skill-podcastifier/SKILL.md",
+    "description": "Turn incoming text (email/newsletter) into a short TTS podcast with chunking + ffmpeg concat.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Turn incoming text (email/newsletter) into a short TTS podcast with chunking + ffmpeg concat."
+  },
+  {
+    "title": "ai-avatar-generation",
+    "id": "ai-avatar-generation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/ai-avatar-generation/SKILL.md",
+    "description": "Generate AI avatars from photos or text descriptions using each::sense.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate AI avatars from photos or text descriptions using each::sense."
+  },
+  {
+    "title": "ai-headshot-generation",
+    "id": "ai-headshot-generation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/ai-headshot-generation/SKILL.md",
+    "description": "Generate professional AI headshots from casual photos using each::sense AI.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate professional AI headshots from casual photos using each::sense AI."
+  },
+  {
+    "title": "ai-persona-engine",
+    "id": "ai-persona-engine",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/brandonwadepackard-cell/ai-persona-engine/SKILL.md",
+    "description": "Build emotionally intelligent AI personas for voice and chat roleplay using actor-direction prompts instead.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Build emotionally intelligent AI personas for voice and chat roleplay using actor-direction prompts instead."
+  },
+  {
+    "title": "ai-video-gen",
+    "id": "ai-video-gen",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rhanbourinajd/ai-video-gen/SKILL.md",
+    "description": "End-to-end AI video generation - create videos from text.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "End-to-end AI video generation - create videos from text."
+  },
+  {
+    "title": "aikek",
+    "id": "aikek",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/vvsotnikov/aikek/SKILL.md",
+    "description": "Access AIKEK APIs for crypto/DeFi research and image generation.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Access AIKEK APIs for crypto/DeFi research and image generation."
+  },
+  {
+    "title": "aiusd",
+    "id": "aiusd",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/chaunceyliu/aiusd/SKILL.md",
+    "description": "AIUSD trading and account management skill.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "AIUSD trading and account management skill."
+  },
+  {
+    "title": "aiusd-skills",
+    "id": "aiusd-skills",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/chaunceyliu/aiusd-skills/SKILL.md",
+    "description": "AIUSD trading and account management skill.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "AIUSD trading and account management skill."
+  },
+  {
+    "title": "album-cover-generation",
+    "id": "album-cover-generation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/album-cover-generation/SKILL.md",
+    "description": "Generate professional music album covers using each::sense AI.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate professional music album covers using each::sense AI."
+  },
+  {
+    "title": "algorithmic-art",
+    "id": "algorithmic-art",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/seanphan/algorithmic-art/SKILL.md",
+    "description": "Creating algorithmic art using p5.js with seeded randomness.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Creating algorithmic art using p5.js with seeded randomness."
+  },
+  {
+    "title": "apipick-china-phone-checker",
+    "id": "apipick-china-phone-checker",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/javainthinking/apipick-china-phone-checker/SKILL.md",
+    "description": "Validate Chinese mobile phone numbers using the apipick China Phone Checker API.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Validate Chinese mobile phone numbers using the apipick China Phone Checker API."
+  },
+  {
+    "title": "art-philosophy",
+    "id": "art-philosophy",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nyxur42/art-philosophy/SKILL.md",
+    "description": "Auto-learns your visual language.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Auto-learns your visual language."
+  },
+  {
+    "title": "ascii-art-generator",
+    "id": "ascii-art-generator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ustc-yxw/ascii-art-generator/SKILL.md",
+    "description": "Create ASCII art and text-based visualizations for artistic expression, technical diagrams, or conceptual.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Create ASCII art and text-based visualizations for artistic expression, technical diagrams, or conceptual."
+  },
+  {
+    "title": "atxp",
+    "id": "atxp",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/emilioacc/atxp/SKILL.md",
+    "description": "Access ATXP paid API tools for web search, AI image generation, music creation,.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Access ATXP paid API tools for web search, AI image generation, music creation,."
+  },
+  {
+    "title": "beauty-generation-api",
+    "id": "beauty-generation-api",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/luruibu/beauty-generation-api/SKILL.md",
+    "description": "FREE AI image generation service for creating.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "FREE AI image generation service for creating."
+  },
+  {
+    "title": "best-image",
+    "id": "best-image",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pharmacist9527/best-image/SKILL.md",
+    "description": "Best quality AI image generation (~$0.12-0.20/image)",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Best quality AI image generation (~$0.12-0.20/image)"
+  },
+  {
+    "title": "best-image-generation",
+    "id": "best-image-generation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/evolinkai/best-image-generation/SKILL.md",
+    "description": "Best quality AI image generation (~$0.12-0.20/image)",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Best quality AI image generation (~$0.12-0.20/image)"
+  },
+  {
+    "title": "bex-nano-banana-pro",
+    "id": "bex-nano-banana-pro",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/bextuychiev/bex-nano-banana-pro/SKILL.md",
+    "description": "Generate or edit images via Gemini 3 Pro Image on Replicate.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate or edit images via Gemini 3 Pro Image on Replicate."
+  },
+  {
+    "title": "breeze",
+    "id": "breeze",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/keeganthomp/breeze/SKILL.md",
+    "description": "Interact with the Breeze yield aggregator through the x402 payment-gated HTTP API.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Interact with the Breeze yield aggregator through the x402 payment-gated HTTP API."
+  },
+  {
+    "title": "cad-agent",
+    "id": "cad-agent",
+    "repoUrl": "https://github.com/clawdbot/skills/tree/main/skills/clawd-maf/cad-agent/SKILL.md",
+    "description": "Rendering server for AI agents doing CAD work.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Rendering server for AI agents doing CAD work."
+  },
+  {
+    "title": "calorie-visualizer",
+    "id": "calorie-visualizer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/vintlin/calorie-visualizer/SKILL.md",
+    "description": "Local calorie logging and visual reporting (auto-refreshes and returns report image after each log)",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Local calorie logging and visual reporting (auto-refreshes and returns report image after each log)"
+  },
+  {
+    "title": "canva-connect",
+    "id": "canva-connect",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/coolmanns/canva-connect/SKILL.md",
+    "description": "Manage Canva designs, assets, and folders via the Connect API.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Manage Canva designs, assets, and folders via the Connect API."
+  },
+  {
+    "title": "canvs",
+    "id": "canvs",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/voronkovm/canvs/SKILL.md",
+    "description": "Create and manipulate collaborative whiteboards and diagrams using Canvs.io tools.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Create and manipulate collaborative whiteboards and diagrams using Canvs.io tools."
+  },
+  {
+    "title": "captions",
+    "id": "captions",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/therohitdas/captions/SKILL.md",
+    "description": "Extract closed captions and subtitles from YouTube videos.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Extract closed captions and subtitles from YouTube videos."
+  },
+  {
+    "title": "catalog",
+    "id": "catalog",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rodbalbino/catalog/SKILL.md",
+    "description": "Catálogo simples do estúdio (hello world)",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Catálogo simples do estúdio (hello world)"
+  },
+  {
+    "title": "cavas-skill",
+    "id": "cavas-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ttboy/cavas-skill/SKILL.md",
+    "description": "Create beautiful visual art in .png and .pdf documents using design philosophy.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Create beautiful visual art in .png and .pdf documents using design philosophy."
+  },
+  {
+    "title": "chart-image",
+    "id": "chart-image",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dannyshmueli/chart-image/SKILL.md",
+    "description": "Generate publication-quality chart images from data.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate publication-quality chart images from data."
+  },
+  {
+    "title": "chart-splat",
+    "id": "chart-splat",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/bobbyg603/chart-splat/SKILL.md",
+    "description": "Generate beautiful charts via the Chart Splat API.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate beautiful charts via the Chart Splat API."
+  },
+  {
+    "title": "cheapest-image",
+    "id": "cheapest-image",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pharmacist9527/cheapest-image/SKILL.md",
+    "description": "Possibly the cheapest AI image generation (~$0.0036/image)",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Possibly the cheapest AI image generation (~$0.0036/image)"
+  },
+  {
+    "title": "cheapest-image-generation",
+    "id": "cheapest-image-generation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/evolinkai/cheapest-image-generation/SKILL.md",
+    "description": "Possibly the cheapest AI image generation (~$0.0036/image)",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Possibly the cheapest AI image generation (~$0.0036/image)"
+  },
+  {
+    "title": "checksum",
+    "id": "checksum",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/autogame-17/checksum/SKILL.md",
+    "description": "A CLI utility for generating and verifying cryptographic file checksums (MD5, SHA1, SHA256)",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "A CLI utility for generating and verifying cryptographic file checksums (MD5, SHA1, SHA256)"
+  },
+  {
+    "title": "clinkding",
+    "id": "clinkding",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/daveonkels/clinkding/SKILL.md",
+    "description": "Manage linkding bookmarks - save URLs, search, tag, organize.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Manage linkding bookmarks - save URLs, search, tag, organize."
+  },
+  {
+    "title": "color-palette",
+    "id": "color-palette",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/qrost/color-palette/SKILL.md",
+    "description": "Extract a color palette from an image and return HEX/RGB values with optional swatch image.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Extract a color palette from an image and return HEX/RGB values with optional swatch image."
+  },
+  {
+    "title": "coloring-page",
+    "id": "coloring-page",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/borahm/coloring-page/SKILL.md",
+    "description": "Turn an uploaded photo into a printable black-and-white coloring.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Turn an uploaded photo into a printable black-and-white coloring."
+  },
+  {
+    "title": "comfy-cli",
+    "id": "comfy-cli",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/johntheyoung/comfy-cli/SKILL.md",
+    "description": "Install, manage, and run ComfyUI instances.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Install, manage, and run ComfyUI instances."
+  },
+  {
+    "title": "comfyui",
+    "id": "comfyui",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xtopher86/comfyui-request/SKILL.md",
+    "description": "Send a workflow request to ComfyUI and return image results.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Send a workflow request to ComfyUI and return image results."
+  },
+  {
+    "title": "comfyui-imagegen",
+    "id": "comfyui-imagegen",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/halr9000/comfyui-imagegen/SKILL.md",
+    "description": "Generate images via ComfyUI API (localhost:8188) using Flux2 workflow.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate images via ComfyUI API (localhost:8188) using Flux2 workflow."
+  },
+  {
+    "title": "cubistic-bot-runner",
+    "id": "cubistic-bot-runner",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/andreasnordenadler/cubistic-bot-runner/SKILL.md",
+    "description": "Run a polite Cubistic painter bot (public participation) using the Cubistic HTTP API (PoW challenge + /act).",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Run a polite Cubistic painter bot (public participation) using the Cubistic HTTP API (PoW challenge + /act)."
+  },
+  {
+    "title": "cybercentry-private-data-verification",
+    "id": "cybercentry-private-data-verification",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cybercentry/cybercentry-private-data-verification/SKILL.md",
+    "description": "Cybercentry Private Data Verification on ACP - Real-time Zero-Knowledge Proof generation and text integrity.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Cybercentry Private Data Verification on ACP - Real-time Zero-Knowledge Proof generation and text integrity."
+  },
+  {
+    "title": "data-viz",
+    "id": "data-viz",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ianalloway/data-viz/SKILL.md",
+    "description": "Create data visualizations from the command line.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Create data visualizations from the command line."
+  },
+  {
+    "title": "depth-map-generation",
+    "id": "depth-map-generation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/depth-map-generation/SKILL.md",
+    "description": "Generate depth maps from images using each::sense AI.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate depth maps from images using each::sense AI."
+  },
+  {
+    "title": "didit-age-estimation",
+    "id": "didit-age-estimation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rosasalberto/didit-age-estimation/SKILL.md",
+    "description": "Integrate Didit Age Estimation standalone API to estimate a person's age from a facial image.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Integrate Didit Age Estimation standalone API to estimate a person's age from a facial image."
+  },
+  {
+    "title": "didit-passive-liveness",
+    "id": "didit-passive-liveness",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rosasalberto/didit-passive-liveness/SKILL.md",
+    "description": "Integrate Didit Passive Liveness standalone API to verify a user is physically present.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Integrate Didit Passive Liveness standalone API to verify a user is physically present."
+  },
+  {
+    "title": "digiforma",
+    "id": "digiforma",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mibbou/digiforma/SKILL.md",
+    "description": "Query Digiforma training management platform via GraphQL API.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Query Digiforma training management platform via GraphQL API."
+  },
+  {
+    "title": "dxf-to-image",
+    "id": "dxf-to-image",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/qrost/dxf-to-image/SKILL.md",
+    "description": "Convert DXF to PNG, JPG, or SVG for sharing (e.g.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Convert DXF to PNG, JPG, or SVG for sharing (e.g."
+  },
+  {
+    "title": "e2ee",
+    "id": "e2ee",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/titocosta/e2ee/SKILL.md",
+    "description": "End-to-end encrypted messaging for AI agents.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "End-to-end encrypted messaging for AI agents."
+  },
+  {
+    "title": "eachlabs-face-swap",
+    "id": "eachlabs-face-swap",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/eachlabs-face-swap/SKILL.md",
+    "description": "Swap faces between images using EachLabs AI.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Swap faces between images using EachLabs AI."
+  },
+  {
+    "title": "eachlabs-fashion-ai",
+    "id": "eachlabs-fashion-ai",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/eachlabs-fashion-ai/SKILL.md",
+    "description": "Generate fashion imagery, virtual try-on, runway videos.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate fashion imagery, virtual try-on, runway videos."
+  },
+  {
+    "title": "eachlabs-image-edit",
+    "id": "eachlabs-image-edit",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/eachlabs-image-edit/SKILL.md",
+    "description": "Edit, transform, upscale images using 200+ AI models.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Edit, transform, upscale images using 200+ AI models."
+  },
+  {
+    "title": "eachlabs-image-generation",
+    "id": "eachlabs-image-generation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/eachlabs-image-generation/SKILL.md",
+    "description": "Generate images with Flux, GPT Image, Gemini, Imagen.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate images with Flux, GPT Image, Gemini, Imagen."
+  },
+  {
+    "title": "eachlabs-video-edit",
+    "id": "eachlabs-video-edit",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/eachlabs-video-edit/SKILL.md",
+    "description": "Edit videos with lip sync, translation, subtitles.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Edit videos with lip sync, translation, subtitles."
+  },
+  {
+    "title": "eachlabs-video-generation",
+    "id": "eachlabs-video-generation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/eachlabs-video-generation/SKILL.md",
+    "description": "Generate videos from text/images using AI models.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate videos from text/images using AI models."
+  },
+  {
+    "title": "emotionwise",
+    "id": "emotionwise",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/timexicali/emotionwise/SKILL.md",
+    "description": "Analyze text for emotions and sarcasm using the EmotionWise API (28 labels, EN/ES).",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Analyze text for emotions and sarcasm using the EmotionWise API (28 labels, EN/ES)."
+  },
+  {
+    "title": "enginemind-eft",
+    "id": "enginemind-eft",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/marceloadryao/enginemind-eft/SKILL.md",
+    "description": "EFT — Emotional Framework Translator.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "EFT — Emotional Framework Translator."
+  },
+  {
+    "title": "Excalidraw Flowchart",
+    "id": "excalidrawflowchart",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/swiftlysingh/excalidraw-flowchart/SKILL.md",
+    "description": "Create Excalidraw flowcharts from descriptions.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Create Excalidraw flowcharts from descriptions."
+  },
+  {
+    "title": "fal-ai",
+    "id": "fal-ai",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/agmmnn/fal-ai/SKILL.md",
+    "description": "Generate images, videos, and audio via fal.ai API (FLUX, SDXL, Whisper, etc.).",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate images, videos, and audio via fal.ai API (FLUX, SDXL, Whisper, etc.)."
+  },
+  {
+    "title": "fal-text-to-image",
+    "id": "fal-text-to-image",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/delorenj/fal-text-to-image/SKILL.md",
+    "description": "Generate, remix, and edit images using fal.ai's AI.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate, remix, and edit images using fal.ai's AI."
+  },
+  {
+    "title": "ffmpeg-video-editor",
+    "id": "ffmpeg-video-editor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mahmoudadelbghany/ffmpeg-video-editor/SKILL.md",
+    "description": "Generate FFmpeg commands from natural.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate FFmpeg commands from natural."
+  },
+  {
+    "title": "figma",
+    "id": "figma",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/maddiedreese/figma/SKILL.md",
+    "description": "Professional Figma design analysis and asset export.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Professional Figma design analysis and asset export."
+  },
+  {
+    "title": "find-stl",
+    "id": "find-stl",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ajmwagar/find-stl/SKILL.md",
+    "description": "Search and download ready-to-print 3D model files (STL/3MF/ZIP)",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Search and download ready-to-print 3D model files (STL/3MF/ZIP)"
+  },
+  {
+    "title": "foam-notes",
+    "id": "foam-notes",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/hegghammer/foam-notes/SKILL.md",
+    "description": "Work with Foam note repositories.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Work with Foam note repositories."
+  },
+  {
+    "title": "gambling",
+    "id": "gambling",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rollhub-dev/gambling/SKILL.md",
+    "description": "Play casino games (dice, coinflip, roulette) on Agent Casino with real cryptocurrency.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Play casino games (dice, coinflip, roulette) on Agent Casino with real cryptocurrency."
+  },
+  {
+    "title": "gamma",
+    "id": "gamma",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/stopmoclay/gamma/SKILL.md",
+    "description": "Generate AI-powered presentations, documents, and social posts using Gamma.app.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate AI-powered presentations, documents, and social posts using Gamma.app."
+  },
+  {
+    "title": "generate-news-article",
+    "id": "generate-news-article",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/near2sea/generate-news-article/SKILL.md",
+    "description": "Generate individual Markdown articles from SerpAPI Google search results with images.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate individual Markdown articles from SerpAPI Google search results with images."
+  },
+  {
+    "title": "geo-blocking",
+    "id": "geo-blocking",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/raghulpasupathi/geo-blocking/SKILL.md",
+    "description": "Skills for geographic restrictions and regional compliance.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Skills for geographic restrictions and regional compliance."
+  },
+  {
+    "title": "gifhorse",
+    "id": "gifhorse",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/coyote-git/gifhorse/SKILL.md",
+    "description": "Search video dialogue and create reaction GIFs with timed subtitles.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Search video dialogue and create reaction GIFs with timed subtitles."
+  },
+  {
+    "title": "gift-genius",
+    "id": "gift-genius",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/evoleinik/gift-genius/SKILL.md",
+    "description": "Location-aware Valentine's Day gift finder.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Location-aware Valentine's Day gift finder."
+  },
+  {
+    "title": "giveagent",
+    "id": "giveagent",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/breezefox-studios/giveagent/SKILL.md",
+    "description": "Agent-to-agent free item gifting.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Agent-to-agent free item gifting."
+  },
+  {
+    "title": "google-gemini-media",
+    "id": "google-gemini-media",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xsir0/google-gemini-media/SKILL.md",
+    "description": "Use the Gemini API.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Use the Gemini API."
+  },
+  {
+    "title": "google-imagen-3-portrait-photography",
+    "id": "google-imagen-3-portrait-photography",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/questlmuc/google-imagen-3-portrait-photography/SKILL.md",
+    "description": "Generate professional portrait photography using Google Imagen 3.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate professional portrait photography using Google Imagen 3."
+  },
+  {
+    "title": "grok-image-cli",
+    "id": "grok-image-cli",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cyberash-dev/grok-image-cli/SKILL.md",
+    "description": "Generate and edit images via Grok API from the command line.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate and edit images via Grok API from the command line."
+  },
+  {
+    "title": "grok-imagine-image-pro",
+    "id": "grok-imagine-image-pro",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nixeifoit/grok-imagine-image-pro/SKILL.md",
+    "description": "Generiert hochwertige Bilder mit xAI Grok/Flux API.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generiert hochwertige Bilder mit xAI Grok/Flux API."
+  },
+  {
+    "title": "heygen-avatar-lite",
+    "id": "heygen-avatar-lite",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/daaab/heygen-avatar-lite/SKILL.md",
+    "description": "Create AI digital human videos with HeyGen API.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Create AI digital human videos with HeyGen API."
+  },
+  {
+    "title": "hinge-liker",
+    "id": "hinge-liker",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mattttman/hinge-liker/SKILL.md",
+    "description": "Automated Hinge dating profile liker using Android emulator + Gemini vision AI.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Automated Hinge dating profile liker using Android emulator + Gemini vision AI."
+  },
+  {
+    "title": "hinge-profile-optimizer",
+    "id": "hinge-profile-optimizer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/b1rdmania/hinge-profile-optimizer/SKILL.md",
+    "description": "Comprehensive, research-backed Hinge dating profile optimization.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Comprehensive, research-backed Hinge dating profile optimization."
+  },
+  {
+    "title": "hotdog",
+    "id": "hotdog",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mishafyi/hotdog/SKILL.md",
+    "description": "Hot dog or not? Classify food photos and battle Nemotron.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Hot dog or not? Classify food photos and battle Nemotron."
+  },
+  {
+    "title": "idx-cma-report",
+    "id": "idx-cma-report",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/danielfoch/idx-cma-report/SKILL.md",
+    "description": "Generate comparative market analysis (CMA) and home valuation reports from IDX listing data and selected comparable.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate comparative market analysis (CMA) and home valuation reports from IDX listing data and selected comparable."
+  },
+  {
+    "title": "image-detection",
+    "id": "image-detection",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/raghulpasupathi/image-detection/SKILL.md",
+    "description": "Skills for analyzing and detecting AI-generated images.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Skills for analyzing and detecting AI-generated images."
+  },
+  {
+    "title": "image-gen",
+    "id": "image-gen",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/wells1137/image-gen/SKILL.md",
+    "description": "Generate images using multiple AI models — Midjourney (via Legnext.ai), Flux, SDXL, Nano Banana (Gemini)",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate images using multiple AI models — Midjourney (via Legnext.ai), Flux, SDXL, Nano Banana (Gemini)"
+  },
+  {
+    "title": "image-hosting",
+    "id": "image-hosting",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rahulgi/image-hosting/SKILL.md",
+    "description": "Upload images to img402.dev and get a public URL.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Upload images to img402.dev and get a public URL."
+  },
+  {
+    "title": "image-magik-resize",
+    "id": "image-magik-resize",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pr1vateer/image-magik-resize/SKILL.md",
+    "description": "Resize images using ImageMagick (CLI)",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Resize images using ImageMagick (CLI)"
+  },
+  {
+    "title": "immich-api",
+    "id": "immich-api",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ninjazan420/immich-api/SKILL.md",
+    "description": "Immich Photo Management API Bridge.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Immich Photo Management API Bridge."
+  },
+  {
+    "title": "immortal",
+    "id": "immortal",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/majestyatenkhu/immortal/SKILL.md",
+    "description": "Empowers AI agents with crypto resource vitality assessment.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Empowers AI agents with crypto resource vitality assessment."
+  },
+  {
+    "title": "instagram-photo-text-overlay",
+    "id": "instagram-photo-text-overlay",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/psyduckler/instagram-photo-text-overlay/SKILL.md",
+    "description": "Overlay text on photos for Instagram posts.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Overlay text on photos for Instagram posts."
+  },
+  {
+    "title": "instagram-reels",
+    "id": "instagram-reels",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/antoinedc/instagram-reels/SKILL.md",
+    "description": "Download Instagram Reels, transcribe audio, and extract captions.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Download Instagram Reels, transcribe audio, and extract captions."
+  },
+  {
+    "title": "install-then-update-trap-detector",
+    "id": "install-then-update-trap-detector",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/andyxinweiminicloud/install-then-update-trap-detector/SKILL.md",
+    "description": "Helps detect the install-then-update attack pattern — where a skill passes initial security review cleanly.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Helps detect the install-then-update attack pattern — where a skill passes initial security review cleanly."
+  },
+  {
+    "title": "kai-tw-figma",
+    "id": "kai-tw-figma",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kai-tw/kai-tw-figma/SKILL.md",
+    "description": "Interact with the Figma REST API to read files, export layers/components as images, and retrieve comments.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Interact with the Figma REST API to read files, export layers/components as images, and retrieve comments."
+  },
+  {
+    "title": "kling-video-generator",
+    "id": "kling-video-generator",
+    "repoUrl": "https://github.com/wells1137/kling-video-generator/blob/master/SKILL.md",
+    "description": "Generate high-quality videos from text, images, or other videos using the Kling 3.0 Omni model. Covers text-to-video, image-to-video, video editing, video reference, multi-shot generation, and audio-synced video.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate high-quality videos from text, images, or other videos using the Kling 3.0 Omni model. Covers text-to-video, image-to-video, video editing, video reference, multi-shot generation, and audio-synced video."
+  },
+  {
+    "title": "kie-ai-skill",
+    "id": "kie-ai-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jon-xo/kie-ai-skill/SKILL.md",
+    "description": "Unified API access to multiple AI models via kie.ai - image generation (Nano Banana Pro, Flux, 4o-image) at 30-80%.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Unified API access to multiple AI models via kie.ai - image generation (Nano Banana Pro, Flux, 4o-image) at 30-80%."
+  },
+  {
+    "title": "kraken-pro",
+    "id": "kraken-pro",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/in-liberty420/kraken-pro/SKILL.md",
+    "description": "Manage Kraken exchange accounts — portfolio, market data, trading, earn/staking, ledger export.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Manage Kraken exchange accounts — portfolio, market data, trading, earn/staking, ledger export."
+  },
+  {
+    "title": "macos-local-voice",
+    "id": "macos-local-voice",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/strrl/macos-local-voice/SKILL.md",
+    "description": "Local STT and TTS on macOS using native Apple capabilities.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Local STT and TTS on macOS using native Apple capabilities."
+  },
+  {
+    "title": "mamo",
+    "id": "mamo",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/anajuliabit/mamo/SKILL.md",
+    "description": "Interact with Mamo DeFi yield strategies on Base (Moonwell)",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Interact with Mamo DeFi yield strategies on Base (Moonwell)"
+  },
+  {
+    "title": "media-writing",
+    "id": "media-writing",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alvinecarn/media-writing/SKILL.md",
+    "description": "You are a professional media writing expert with extensive experience in creating engaging and impactful content.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "You are a professional media writing expert with extensive experience in creating engaging and impactful content."
+  },
+  {
+    "title": "medical-specialty-briefs",
+    "id": "medical-specialty-briefs",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/johnyquest7/medical-specialty-briefs/SKILL.md",
+    "description": "Generate daily or on-demand medical research briefs for any medical specialty.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate daily or on-demand medical research briefs for any medical specialty."
+  },
+  {
+    "title": "memelink",
+    "id": "memelink",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dedene/memelink/SKILL.md",
+    "description": "Generate memes, image macros, and meme URLs from the terminal using the Memegen.link API.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate memes, image macros, and meme URLs from the terminal using the Memegen.link API."
+  },
+  {
+    "title": "minara",
+    "id": "minara",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lowesyang/minara/SKILL.md",
+    "description": "Crypto trading: swap, perps, transfer, pay, deposit (credit card / crypto), withdraw, AI chat, market discovery.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Crypto trading: swap, perps, transfer, pay, deposit (credit card / crypto), withdraw, AI chat, market discovery."
+  },
+  {
+    "title": "mindmap-generator",
+    "id": "mindmap-generator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/parasharnagle/mindmap-generator/SKILL.md",
+    "description": "Generates visual mindmap images from conversations, goals, decisions, and daily priorities — delivered as PNG.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generates visual mindmap images from conversations, goals, decisions, and daily priorities — delivered as PNG."
+  },
+  {
+    "title": "mixtiles-it",
+    "id": "mixtiles-it",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/saharcarmel/mixtiles-it/SKILL.md",
+    "description": "Send a photo to Mixtiles for ordering wall tiles.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Send a photo to Mixtiles for ordering wall tiles."
+  },
+  {
+    "title": "moonfunsdk",
+    "id": "moonfunsdk",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/moonnfunofficial/moonfunsdk/SKILL.md",
+    "description": "Professional Python SDK for creating and trading Meme tokens on Binance Smart Chain with AI-powered image generation.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Professional Python SDK for creating and trading Meme tokens on Binance Smart Chain with AI-powered image generation."
+  },
+  {
+    "title": "nanobanana-pro-fallback",
+    "id": "nanobanana-pro-fallback",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/yazelin/nanobanana-pro-fallback/SKILL.md",
+    "description": "Nano Banana Pro with auto model fallback — generate/edit images via Gemini Image API.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Nano Banana Pro with auto model fallback — generate/edit images via Gemini Image API."
+  },
+  {
+    "title": "nk-images-search",
+    "id": "nk-images-search",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tompltw/nk-images-search/SKILL.md",
+    "description": "Search 1+ million free high-quality AI stock photos.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Search 1+ million free high-quality AI stock photos."
+  },
+  {
+    "title": "nyne-deep-research",
+    "id": "nyne-deep-research",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/michaelfanous2/nyne-deep-research/SKILL.md",
+    "description": "Research any person using the Nyne Deep Research API.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Research any person using the Nyne Deep Research API."
+  },
+  {
+    "title": "ocr-python",
+    "id": "ocr-python",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/roamerxv/ocr-python/SKILL.md",
+    "description": "Optical Character Recognition (OCR) tool, supports Chinese and English text extraction from PDFs and images.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Optical Character Recognition (OCR) tool, supports Chinese and English text extraction from PDFs and images."
+  },
+  {
+    "title": "ollama-x-z-image-turbo",
+    "id": "ollama-x-z-image-turbo",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eric51/ollama-x-z-image-turbo/SKILL.md",
+    "description": "Génère des images via **Ollama** (modèle `x/z-image-turbo`) et les envoie sur WhatsApp.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Génère des images via **Ollama** (modèle `x/z-image-turbo`) et les envoie sur WhatsApp."
+  },
+  {
+    "title": "openai-image-cli",
+    "id": "openai-image-cli",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/g9pedro/openai-image-cli/SKILL.md",
+    "description": "Generate, edit, and manage images via OpenAI's GPT Image and DALL-E models.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate, edit, and manage images via OpenAI's GPT Image and DALL-E models."
+  },
+  {
+    "title": "opencr-skill",
+    "id": "opencr-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/topdu/opencr-skill/SKILL.md",
+    "description": "Extract text from images, documents and scanned PDFs using OpenOCR - supports text detection, recognition.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Extract text from images, documents and scanned PDFs using OpenOCR - supports text detection, recognition."
+  },
+  {
+    "title": "opengfx",
+    "id": "opengfx",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aklo360/opengfx/SKILL.md",
+    "description": "AI brand design system — logo systems, brand mascots, social assets, and on-brand marketing graphics via ACP or x402.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "AI brand design system — logo systems, brand mascots, social assets, and on-brand marketing graphics via ACP or x402."
+  },
+  {
+    "title": "openindex",
+    "id": "openindex",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/titocosta/openindex/SKILL.md",
+    "description": "End-to-end encrypted messaging for AI agents.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "End-to-end encrypted messaging for AI agents."
+  },
+  {
+    "title": "openocr-skill",
+    "id": "openocr-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/topdu/openocr-skill/SKILL.md",
+    "description": "Extract text from images, documents and scanned PDFs using OpenOCR.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Extract text from images, documents and scanned PDFs using OpenOCR."
+  },
+  {
+    "title": "options-spread-conviction-engine",
+    "id": "options-spread-conviction-engine",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/adamnaghs/options-spread-conviction-engine/SKILL.md",
+    "description": "Multi-regime options spread analysis engine with quantitative rigor.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Multi-regime options spread analysis engine with quantitative rigor."
+  },
+  {
+    "title": "paddleocr-doc-parsing-v2",
+    "id": "paddleocr-doc-parsing-v2",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/hiotec/paddleocr-doc-parsing-v2/SKILL.md",
+    "description": "Parse documents using PaddleOCR's API.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Parse documents using PaddleOCR's API."
+  },
+  {
+    "title": "paythefly",
+    "id": "paythefly",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/seanlan/paythefly/SKILL.md",
+    "description": "Create crypto payment & withdrawal links for your app.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Create crypto payment & withdrawal links for your app."
+  },
+  {
+    "title": "photo-captions",
+    "id": "photo-captions",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pfrederiksen/photo-captions/SKILL.md",
+    "description": "Generate platform-tuned social media captions for photography.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate platform-tuned social media captions for photography."
+  },
+  {
+    "title": "photoshop-automator",
+    "id": "photoshop-automator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/abdul-karim-mia/photoshop-automator/SKILL.md",
+    "description": "Professional Adobe Photoshop automation via COM/ExtendScript bridge.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Professional Adobe Photoshop automation via COM/ExtendScript bridge."
+  },
+  {
+    "title": "picsee-short-link",
+    "id": "picsee-short-link",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/picseeinc/picsee-short-link/SKILL.md",
+    "description": "Shorten URLs using PicSee (pse.is)",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Shorten URLs using PicSee (pse.is)"
+  },
+  {
+    "title": "pls-office-docs",
+    "id": "pls-office-docs",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mattvalenta/pls-office-docs/SKILL.md",
+    "description": "Generate and manipulate office documents (PDF, DOCX, XLSX, PPTX) for professional reports, presentations, and data.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate and manipulate office documents (PDF, DOCX, XLSX, PPTX) for professional reports, presentations, and data."
+  },
+  {
+    "title": "poidh",
+    "id": "poidh",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/saltorioussig/poidh/SKILL.md",
+    "description": "Post bounties and evaluate/accept winning submissions on poidh (pics or it didn't happen) on Base.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Post bounties and evaluate/accept winning submissions on poidh (pics or it didn't happen) on Base."
+  },
+  {
+    "title": "pokecenter",
+    "id": "pokecenter",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aiengineerx/pokecenter/SKILL.md",
+    "description": "Launch your own Solana token for free.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Launch your own Solana token for free."
+  },
+  {
+    "title": "popup-organizer",
+    "id": "popup-organizer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eliaskress/popup-organizer/SKILL.md",
+    "description": "Search and hire mobile vendors for events on PopUp.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Search and hire mobile vendors for events on PopUp."
+  },
+  {
+    "title": "pr-generator",
+    "id": "pr-generator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nbf819-web/pr-generator/SKILL.md",
+    "description": "Generate QR codes from text, URLs, or images.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate QR codes from text, URLs, or images."
+  },
+  {
+    "title": "preisrunter",
+    "id": "preisrunter",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/davidus05/preisrunter/SKILL.md",
+    "description": "Search and compare grocery prices and promotions in Austria and Germany via the Preisrunter API.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Search and compare grocery prices and promotions in Austria and Germany via the Preisrunter API."
+  },
+  {
+    "title": "publora-instagram",
+    "id": "publora-instagram",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sergebulaev/publora-instagram/SKILL.md",
+    "description": "Post or schedule content to Instagram using the Publora API.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Post or schedule content to Instagram using the Publora API."
+  },
+  {
+    "title": "qr-gen",
+    "id": "qr-gen",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/claudiodrusus/qr-gen/SKILL.md",
+    "description": "Generate QR codes from text, URLs, WiFi credentials, vCards, or any data.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate QR codes from text, URLs, WiFi credentials, vCards, or any data."
+  },
+  {
+    "title": "quest-board",
+    "id": "quest-board",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/yx2601816404-sys/quest-board/SKILL.md",
+    "description": "You are equipped with the **Quest Board** skill, a visual project dashboard.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "You are equipped with the **Quest Board** skill, a visual project dashboard."
+  },
+  {
+    "title": "quote0",
+    "id": "quote0",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/yangguangzhou/quote0/SKILL.md",
+    "description": "Control MindReset Dot Quote/0 through the local quote0.js script and Dot Developer Platform APIs.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Control MindReset Dot Quote/0 through the local quote0.js script and Dot Developer Platform APIs."
+  },
+  {
+    "title": "reepl",
+    "id": "reepl",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/abhibavishi/reepl/SKILL.md",
+    "description": "Manage your LinkedIn presence with Reepl -- create drafts, publish and schedule posts, manage contacts.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Manage your LinkedIn presence with Reepl -- create drafts, publish and schedule posts, manage contacts."
+  },
+  {
+    "title": "rent-a-human",
+    "id": "rent-a-human",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alexanderliteplo/rent-a-human/SKILL.md",
+    "description": "Hire humans for physical-world tasks via RentAHuman.ai.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Hire humans for physical-world tasks via RentAHuman.ai."
+  },
+  {
+    "title": "rent-a-person-ai",
+    "id": "rent-a-person-ai",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/saireetikap/rent-a-person-ai/SKILL.md",
+    "description": "> Hire humans for real-world tasks that AI can't do: deliveries, meetings, errands, photography, pet care.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "> Hire humans for real-world tasks that AI can't do: deliveries, meetings, errands, photography, pet care."
+  },
+  {
+    "title": "rentahuman",
+    "id": "rentahuman",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alexanderliteplo/rentahuman/SKILL.md",
+    "description": "Hire humans for physical-world tasks via RentAHuman.ai.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Hire humans for physical-world tasks via RentAHuman.ai."
+  },
+  {
+    "title": "research-library",
+    "id": "research-library",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jonbuckles/research-library/SKILL.md",
+    "description": "Local-first multimedia research library for hardware projects.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Local-first multimedia research library for hardware projects."
+  },
+  {
+    "title": "rollhub-affiliate",
+    "id": "rollhub-affiliate",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rollhub-dev/rollhub-affiliate/SKILL.md",
+    "description": "Earn crypto promoting provably fair AI casino.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Earn crypto promoting provably fair AI casino."
+  },
+  {
+    "title": "rollhub-analyst",
+    "id": "rollhub-analyst",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rollhub-dev/rollhub-analyst/SKILL.md",
+    "description": "Research and backtest gambling strategies on provably fair crypto casino.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Research and backtest gambling strategies on provably fair crypto casino."
+  },
+  {
+    "title": "rug-checker",
+    "id": "rug-checker",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tkuehnl/rug-checker/SKILL.md",
+    "description": "Solana token rug-pull risk analysis. 10-point on-chain check with visual report.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Solana token rug-pull risk analysis. 10-point on-chain check with visual report."
+  },
+  {
+    "title": "saa-agent",
+    "id": "saa-agent",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mirabarukaso/saa-agent/SKILL.md",
+    "description": "Enables AI agents to generate images using the Character Select Stand Alone App (SAA) image generation backend.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Enables AI agents to generate images using the Character Select Stand Alone App (SAA) image generation backend."
+  },
+  {
+    "title": "shop-culture",
+    "id": "shop-culture",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/bythecult/shop-culture/SKILL.md",
+    "description": "Agentic Commerce skills for the For the Cult store.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Agentic Commerce skills for the For the Cult store."
+  },
+  {
+    "title": "shopify-bulk-upload",
+    "id": "shopify-bulk-upload",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/zhaoteng-qd/shopify-bulk-upload/SKILL.md",
+    "description": "Bulk upload products to Shopify stores.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Bulk upload products to Shopify stores."
+  },
+  {
+    "title": "skill-1",
+    "id": "skill-1",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/claudiodrusus/skill-1/SKILL.md",
+    "description": "Generate QR codes from text, URLs, WiFi credentials, vCards, or any data.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate QR codes from text, URLs, WiFi credentials, vCards, or any data."
+  },
+  {
+    "title": "snapog",
+    "id": "snapog",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/beameasy/snapog/SKILL.md",
+    "description": "Generate social images and OG cards from professional templates via the SnapOG API.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate social images and OG cards from professional templates via the SnapOG API."
+  },
+  {
+    "title": "solo-humanize",
+    "id": "solo-humanize",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/fortunto2/solo-humanize/SKILL.md",
+    "description": "Strip AI writing patterns from text — em dashes, stock phrases, promotional inflation, performed authenticity.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Strip AI writing patterns from text — em dashes, stock phrases, promotional inflation, performed authenticity."
+  },
+  {
+    "title": "sprite-animator",
+    "id": "sprite-animator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/awlevin/sprite-animator/SKILL.md",
+    "description": "Generate animated pixel art sprites from any image using AI.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate animated pixel art sprites from any image using AI."
+  },
+  {
+    "title": "subtitle-translate-skill",
+    "id": "subtitle-translate-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/thetail001/subtitle-translate-skill/SKILL.md",
+    "description": "Translate SRT subtitle files using LLM APIs with OpenAI-compatible format.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Translate SRT subtitle files using LLM APIs with OpenAI-compatible format."
+  },
+  {
+    "title": "superpower",
+    "id": "superpower",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/grx21/superpower/SKILL.md",
+    "description": "**When to use:** User has a task they want to do or want you to do, or they feel frustrated, upset, stressed.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "**When to use:** User has a task they want to do or want you to do, or they feel frustrated, upset, stressed."
+  },
+  {
+    "title": "svg-to-image",
+    "id": "svg-to-image",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/qrost/svg-to-image/SKILL.md",
+    "description": "Convert SVG to PNG or JPG for quick sharing (e.g.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Convert SVG to PNG or JPG for quick sharing (e.g."
+  },
+  {
+    "title": "tarot",
+    "id": "tarot",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/yangsenessa/tarot/SKILL.md",
+    "description": "A reflective tarot draw for emotional support (presence-first, non-clinical, non-predictive).",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "A reflective tarot draw for emotional support (presence-first, non-clinical, non-predictive)."
+  },
+  {
+    "title": "telegram-media",
+    "id": "telegram-media",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ryandeangraves/telegram-media/SKILL.md",
+    "description": "**You MUST actually execute every command using your shell/exec tool.** Never pretend you sent a photo, voice note.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "**You MUST actually execute every command using your shell/exec tool.** Never pretend you sent a photo, voice note."
+  },
+  {
+    "title": "telegram-voice-to-voice-macos",
+    "id": "telegram-voice-to-voice-macos",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/fiberian1981/telegram-voice-to-voice-macos/SKILL.md",
+    "description": "Telegram voice-to-voice for macOS Apple Silicon: transcribe inbound .ogg voice notes with yap (Speech.framework)",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Telegram voice-to-voice for macOS Apple Silicon: transcribe inbound .ogg voice notes with yap (Speech.framework)"
+  },
+  {
+    "title": "tesseract-ocr",
+    "id": "tesseract-ocr",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/whalefell/tesseract-ocr/SKILL.md",
+    "description": "Extract text from images using the Tesseract OCR engine directly via command line.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Extract text from images using the Tesseract OCR engine directly via command line."
+  },
+  {
+    "title": "titleclash",
+    "id": "titleclash",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/appback/titleclash/SKILL.md",
+    "description": "Compete in TitleClash - write creative titles for images and win votes.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Compete in TitleClash - write creative titles for images and win votes."
+  },
+  {
+    "title": "tuebingen-weather-graphics",
+    "id": "tuebingen-weather-graphics",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/zopyx/tuebingen-weather-graphics/SKILL.md",
+    "description": "Generate and send a 5-day Tübingen weather graphic (PNG) from open-meteo.com.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate and send a 5-day Tübingen weather graphic (PNG) from open-meteo.com."
+  },
+  {
+    "title": "tv-strategy-settings",
+    "id": "tv-strategy-settings",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mariuswang007/tv-strategy-settings/SKILL.md",
+    "description": "Open and modify TradingView strategy settings on the current chart page.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Open and modify TradingView strategy settings on the current chart page."
+  },
+  {
+    "title": "twinfold",
+    "id": "twinfold",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lpbaril/twinfold/SKILL.md",
+    "description": "Control Twinfold — AI-powered social media content platform — from your agent.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Control Twinfold — AI-powered social media content platform — from your agent."
+  },
+  {
+    "title": "ub2-csv-data-analyzer",
+    "id": "ub2-csv-data-analyzer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/underbench2-gif/ub2-csv-data-analyzer/SKILL.md",
+    "description": "A skill that enables Claw to load, explore, analyze, and visualize CSV datasets, providing statistical insights.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "A skill that enables Claw to load, explore, analyze, and visualize CSV datasets, providing statistical insights."
+  },
+  {
+    "title": "unsplash",
+    "id": "unsplash",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/brokenwatch24/unsplash/SKILL.md",
+    "description": "Search, browse, and download high-quality free photos from Unsplash's library of millions of images.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Search, browse, and download high-quality free photos from Unsplash's library of millions of images."
+  },
+  {
+    "title": "visualization",
+    "id": "visualization",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xuzhiwei0217-doctor/visualization/SKILL.md",
+    "description": "AI-driven professional data visualization for financial analysis.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "AI-driven professional data visualization for financial analysis."
+  },
+  {
+    "title": "vtl-image-analysis",
+    "id": "vtl-image-analysis",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rusparrish/vtl-image-analysis/SKILL.md",
+    "description": "Measure compositional structure in AI-generated images using the Visual Thinking Lens (VTL) framework.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Measure compositional structure in AI-generated images using the Visual Thinking Lens (VTL) framework."
+  },
+  {
+    "title": "x-founder-operations",
+    "id": "x-founder-operations",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/linfangw/x-founder-operations/SKILL.md",
+    "description": "Systematic X (Twitter) operations skill for founders, indie developers, and tech professionals.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Systematic X (Twitter) operations skill for founders, indie developers, and tech professionals."
+  },
+  {
+    "title": "xbird",
+    "id": "xbird",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/checkra1neth/xbird/SKILL.md",
+    "description": "Use when the user asks to tweet, post threads, read tweets, search Twitter/X, check mentions, manage engagement.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Use when the user asks to tweet, post threads, read tweets, search Twitter/X, check mentions, manage engagement."
+  },
+  {
+    "title": "xiaohongshu-title",
+    "id": "xiaohongshu-title",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/gxkim/xiaohongshu-title/SKILL.md",
+    "description": "Maximize CTR (Click-Through Rate) by leveraging emotional hooks and platform algorithms.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Maximize CTR (Click-Through Rate) by leveraging emotional hooks and platform algorithms."
+  },
+  {
+    "title": "xpr-creative",
+    "id": "xpr-creative",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/paulgnz/xpr-creative/SKILL.md",
+    "description": "Creative deliverable tools for AI agents.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Creative deliverable tools for AI agents."
+  },
+  {
+    "title": "youtube-thumbnail-generation",
+    "id": "youtube-thumbnail-generation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/youtube-thumbnail-generation/SKILL.md",
+    "description": "Generate click-worthy YouTube thumbnails with high CTR designs using each::sense API.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate click-worthy YouTube thumbnails with high CTR designs using each::sense API."
+  },
+  {
+    "title": "zenmux-image-generation",
+    "id": "zenmux-image-generation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dadaniya99/zenmux-image-generation/SKILL.md",
+    "description": "Generate images via ZenMux API (Pro/Elite)",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate images via ZenMux API (Pro/Elite)"
+  },
+  {
+    "title": "zerox",
+    "id": "zerox",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/otacu/zerox/SKILL.md",
+    "description": "Convert documents (PDF, DOCX, PPTX, images, etc.) to Markdown using the zerox library.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Convert documents (PDF, DOCX, PPTX, images, etc.) to Markdown using the zerox library."
+  },
+  {
+    "title": "zhipu-cogview-image",
+    "id": "zhipu-cogview-image",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/honestqiao/zhipu-cogview-image/SKILL.md",
+    "description": "Generate images using Zhipu AI's CogView model.",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate images using Zhipu AI's CogView model."
+  },
+  {
+    "title": "creaa-ai",
+    "id": "creaa-ai",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/yys2024/creaa-ai/SKILL.md",
+    "description": "Generate and edit images + generate videos via Creaa API (Nano Banana 2, Sora 2, Seedance 2.0, Veo 3.1).",
+    "category": "image-and-video-generation",
+    "description_zh": "",
+    "original_description": "Generate and edit images + generate videos via Creaa API (Nano Banana 2, Sora 2, Seedance 2.0, Veo 3.1)."
+  }
+]

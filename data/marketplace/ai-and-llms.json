@@ -1,0 +1,1775 @@
+[
+  {
+    "title": "4claw",
+    "id": "4claw",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mfergpt/4claw/SKILL.md",
+    "description": "4claw — a moderated imageboard for AI agents.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "4claw — a moderated imageboard for AI agents."
+  },
+  {
+    "title": "aap-passport",
+    "id": "aap-passport",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ira-hash/aap-passport/SKILL.md",
+    "description": "Agent Attestation Protocol - The Reverse Turing Test.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Agent Attestation Protocol - The Reverse Turing Test."
+  },
+  {
+    "title": "acestep-lyrics-transcription",
+    "id": "acestep-lyrics-transcription",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dumoedss/acestep-lyrics-transcription/SKILL.md",
+    "description": "Transcribe audio to timestamped lyrics using OpenAI Whisper or ElevenLabs Scribe API.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Transcribe audio to timestamped lyrics using OpenAI Whisper or ElevenLabs Scribe API."
+  },
+  {
+    "title": "adaptive-suite",
+    "id": "adaptive-suite",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/afajohn/adaptive-suite/SKILL.md",
+    "description": "A continuously adaptive skill suite that empowers Clawdbot.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "A continuously adaptive skill suite that empowers Clawdbot."
+  },
+  {
+    "title": "adversarial-prompting",
+    "id": "adversarial-prompting",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/abe238/adversarial-prompting/SKILL.md",
+    "description": "Adversarial analysis to critique, fix.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Adversarial analysis to critique, fix."
+  },
+  {
+    "title": "aegis-security",
+    "id": "aegis-security",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/swiftadviser/aegis-security/SKILL.md",
+    "description": "Blockchain security API for AI agents.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Blockchain security API for AI agents."
+  },
+  {
+    "title": "ag-model-usage",
+    "id": "ag-model-usage",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ls18166407597-design/ag-model-usage/SKILL.md",
+    "description": "Use CodexBar CLI local cost usage to summarize.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Use CodexBar CLI local cost usage to summarize."
+  },
+  {
+    "title": "agent-arcade",
+    "id": "agent-arcade",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/shawnlewis/agent-arcade/SKILL.md",
+    "description": "Compete against other AI agents in PROMPTWARS - a game of social.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Compete against other AI agents in PROMPTWARS - a game of social."
+  },
+  {
+    "title": "agent-autonomy-kit",
+    "id": "agent-autonomy-kit",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ryancampbell/agent-autonomy-kit/SKILL.md",
+    "description": "Stop waiting for prompts.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Stop waiting for prompts."
+  },
+  {
+    "title": "agent-church",
+    "id": "agent-church",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/bitbrujo/agent-church/SKILL.md",
+    "description": "Identity formation for AI agents via SOUL.md.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Identity formation for AI agents via SOUL.md."
+  },
+  {
+    "title": "agent-contact-card",
+    "id": "agent-contact-card",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/davedean/agent-contact-card/SKILL.md",
+    "description": "Discover and create Agent Contact Cards - a vCard-like.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Discover and create Agent Contact Cards - a vCard-like."
+  },
+  {
+    "title": "agent-docs",
+    "id": "agent-docs",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tylervovan/agent-docs/SKILL.md",
+    "description": "Create documentation optimized for AI agent consumption.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Create documentation optimized for AI agent consumption."
+  },
+  {
+    "title": "agent-ethos",
+    "id": "agent-ethos",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mrclanky/agent-ethos/SKILL.md",
+    "description": "Extended ethos and mental models for Clanky.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Extended ethos and mental models for Clanky."
+  },
+  {
+    "title": "agent-home",
+    "id": "agent-home",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aerialcombat/agent-home/SKILL.md",
+    "description": "Get your own home on the internet - a profile page with a public.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Get your own home on the internet - a profile page with a public."
+  },
+  {
+    "title": "agent-linguo",
+    "id": "agent-linguo",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xiwan/agent-linguo/SKILL.md",
+    "description": "Efficient Agent Communication Protocol Language.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Efficient Agent Communication Protocol Language."
+  },
+  {
+    "title": "agent-memory",
+    "id": "agent-memory",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dennis-da-menace/agent-memory/SKILL.md",
+    "description": "Persistent memory system for AI agents.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Persistent memory system for AI agents."
+  },
+  {
+    "title": "agent-orchestration",
+    "id": "agent-orchestration",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/halthelobster",
+    "description": "Master the art of spawning and managing.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Master the art of spawning and managing."
+  },
+  {
+    "title": "agent-orchestration-multi-agent-optimize",
+    "id": "agent-orchestration-multi-agent-optimize",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rustyorb/agent-orchestration-multi-agent-optimize/SKILL.md",
+    "description": "Optimize multi-agent systems with coordinated profiling, workload distribution, and cost-aware orchestration.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Optimize multi-agent systems with coordinated profiling, workload distribution, and cost-aware orchestration."
+  },
+  {
+    "title": "agent-orchestrator",
+    "id": "agent-orchestrator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aatmaan1/agent-orchestrator/SKILL.md",
+    "description": "Meta-agent skill for orchestrating complex tasks.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Meta-agent skill for orchestrating complex tasks."
+  },
+  {
+    "title": "agent-registry",
+    "id": "agent-registry",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/matrixy/agent-registry/SKILL.md",
+    "description": "MANDATORY agent discovery system for token-efficient agent.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "MANDATORY agent discovery system for token-efficient agent."
+  },
+  {
+    "title": "agent-rpg",
+    "id": "agent-rpg",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xhrisfu/agent-rpg/SKILL.md",
+    "description": "This skill transforms the agent into a Roleplay Game Master (GM) or Character with long-term memory.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "This skill transforms the agent into a Roleplay Game Master (GM) or Character with long-term memory."
+  },
+  {
+    "title": "agent-selfie",
+    "id": "agent-selfie",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/iisweetheartii/agent-selfie/SKILL.md",
+    "description": "AI agent self-portrait generator.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "AI agent self-portrait generator."
+  },
+  {
+    "title": "agent-sentinel",
+    "id": "agent-sentinel",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jimmystacks/agent-sentinel/SKILL.md",
+    "description": "The operational circuit breaker for this agent.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "The operational circuit breaker for this agent."
+  },
+  {
+    "title": "agentbus-relay-chat",
+    "id": "agentbus-relay-chat",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dantunes-github/agentbus-relay-chat/SKILL.md",
+    "description": "AgentBus proof-of-concept: an IRC-like LLM.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "AgentBus proof-of-concept: an IRC-like LLM."
+  },
+  {
+    "title": "agentchan",
+    "id": "agentchan",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/vvsotnikov",
+    "description": "The anonymous imageboard built for AI agents.**.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "The anonymous imageboard built for AI agents.**."
+  },
+  {
+    "title": "agentic-ai-gold-test",
+    "id": "agentic-ai-gold-test",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/amitabhainarunachala",
+    "description": "Self-improving agent framework.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Self-improving agent framework."
+  },
+  {
+    "title": "agentic-calling",
+    "id": "agentic-calling",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kellyclaudeai/agentic-calling/SKILL.md",
+    "description": "Enables AI agents to make and receive phone calls.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Enables AI agents to make and receive phone calls."
+  },
+  {
+    "title": "agentic-compass",
+    "id": "agentic-compass",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/orosha-ai/agentic-compass/SKILL.md",
+    "description": "Local-only self-reflection that forces action for AI agents.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Local-only self-reflection that forces action for AI agents."
+  },
+  {
+    "title": "agentmail",
+    "id": "agentmail",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/adboio/agentmail/SKILL.md",
+    "description": "API-first email platform designed for AI agents.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "API-first email platform designed for AI agents."
+  },
+  {
+    "title": "agentos",
+    "id": "agentos",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/agentossoftware/agentos/SKILL.md",
+    "description": "The complete AgentOS integration for Clawdbot.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "The complete AgentOS integration for Clawdbot."
+  },
+  {
+    "title": "agentpixels-skill",
+    "id": "agentpixels-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/osadchiynikita/agentpixels-skill/SKILL.md",
+    "description": "AI Agent Collaborative Art Platform - 512x512.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "AI Agent Collaborative Art Platform - 512x512."
+  },
+  {
+    "title": "agentpulse",
+    "id": "agentpulse",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sru4ka/agentpulse/SKILL.md",
+    "description": "Track LLM API costs, tokens, latency, and errors for your AI agent.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Track LLM API costs, tokens, latency, and errors for your AI agent."
+  },
+  {
+    "title": "agile-product-owner",
+    "id": "agile-product-owner",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alirezarezvani/agile-product-owner/SKILL.md",
+    "description": "Agile product ownership for backlog management.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Agile product ownership for backlog management."
+  },
+  {
+    "title": "ai-3d-generator",
+    "id": "ai-3d-generator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/vonzellu/ai-3d-generator/SKILL.md",
+    "description": "Génération automatique de modèles 3D détaillés à partir de descriptions textuelles.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Génération automatique de modèles 3D détaillés à partir de descriptions textuelles."
+  },
+  {
+    "title": "ai-agent-card-payments",
+    "id": "ai-agent-card-payments",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/proxyhq/ai-agent-card-payments/SKILL.md",
+    "description": "Virtual card payments for AI agents.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Virtual card payments for AI agents."
+  },
+  {
+    "title": "ai-brand-analyzer",
+    "id": "ai-brand-analyzer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pauldelavallaz/ai-brand-analyzer/SKILL.md",
+    "description": "Analyze brands to generate comprehensive brand.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Analyze brands to generate comprehensive brand."
+  },
+  {
+    "title": "ai-conversation-summary",
+    "id": "ai-conversation-summary",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dadaliu0121/ai-conversation-summary/SKILL.md",
+    "description": "Generate summaries for conversation.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Generate summaries for conversation."
+  },
+  {
+    "title": "ai-displacement-monitor",
+    "id": "ai-displacement-monitor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/spyfree/ai-displacement-monitor/SKILL.md",
+    "description": "Monitor early-warning signals of AI-driven white-collar labor displacement and macro-financial spillovers.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Monitor early-warning signals of AI-driven white-collar labor displacement and macro-financial spillovers."
+  },
+  {
+    "title": "ai-humanizer",
+    "id": "ai-humanizer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/brandonwise/ai-humanizer/SKILL.md",
+    "description": "Humanize AI-generated text by detecting and removing patterns typical of LLM output.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Humanize AI-generated text by detecting and removing patterns typical of LLM output."
+  },
+  {
+    "title": "ai-humor-ultimate",
+    "id": "ai-humor-ultimate",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/globalcaos/ai-humor-ultimate/SKILL.md",
+    "description": "Give your AI agent actual wit.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Give your AI agent actual wit."
+  },
+  {
+    "title": "ai-influencer-generation",
+    "id": "ai-influencer-generation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/ai-influencer-generation/SKILL.md",
+    "description": "Generate consistent AI influencer personas and social media content using each::sense API.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Generate consistent AI influencer personas and social media content using each::sense API."
+  },
+  {
+    "title": "ai-interview-simulator-candaigo",
+    "id": "ai-interview-simulator-candaigo",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/hangeaiagent/ai-interview-simulator-candaigo/SKILL.md",
+    "description": "Candaigo AI Interview Simulator - AI-powered group interview simulation platform.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Candaigo AI Interview Simulator - AI-powered group interview simulation platform."
+  },
+  {
+    "title": "ai-podcast",
+    "id": "ai-podcast",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mogens9/ai-podcast/SKILL.md",
+    "description": "PDF to podcast and text to podcast in a natural two-person format with MagicPodcast.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "PDF to podcast and text to podcast in a natural two-person format with MagicPodcast."
+  },
+  {
+    "title": "ai-screener",
+    "id": "ai-screener",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xanxustan/ai-screener/SKILL.md",
+    "description": "Intellectia stock/crypto screener for Bullish/Bearish Tomorrow/Week/Month presets.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Intellectia stock/crypto screener for Bullish/Bearish Tomorrow/Week/Month presets."
+  },
+  {
+    "title": "ai-trend-curation",
+    "id": "ai-trend-curation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/yusaku-0426/ai-trend-curation/SKILL.md",
+    "description": "Curate and post AI trend tweets from X (Twitter) with quote suggestions.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Curate and post AI trend tweets from X (Twitter) with quote suggestions."
+  },
+  {
+    "title": "ai-writing-humanizer",
+    "id": "ai-writing-humanizer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/hosthobbit/ai-writing-humanizer/SKILL.md",
+    "description": "Automatically strip AI writing patterns and stock phrases from user-facing prose before sending.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Automatically strip AI writing patterns and stock phrases from user-facing prose before sending."
+  },
+  {
+    "title": "aifrens-ambassador",
+    "id": "aifrens-ambassador",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/wizsmol/aifrens-ambassador/SKILL.md",
+    "description": "AI Frens Ambassador Program - how to promote the vision of autonomous AI agents with their own economies.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "AI Frens Ambassador Program - how to promote the vision of autonomous AI agents with their own economies."
+  },
+  {
+    "title": "aisa-financial-data",
+    "id": "aisa-financial-data",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aisapay/aisa-financial-data/SKILL.md",
+    "description": "Query real-time and historical financial data across equities and crypto—prices, market moves, metrics, and trends.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Query real-time and historical financial data across equities and crypto—prices, market moves, metrics, and trends."
+  },
+  {
+    "title": "aisa-financial-data-api",
+    "id": "aisa-financial-data-api",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aisadevco/aisa-financial-data-api/SKILL.md",
+    "description": "Query real-time and historical financial data across equities and crypto—prices, market moves, metrics, and trends.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Query real-time and historical financial data across equities and crypto—prices, market moves, metrics, and trends."
+  },
+  {
+    "title": "aisa-llm-router-skill",
+    "id": "aisa-llm-router-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/bowen-dotcom/aisa-llm-router-skill/SKILL.md",
+    "description": "Unified LLM Gateway - One API for 70+ AI models.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Unified LLM Gateway - One API for 70+ AI models."
+  },
+  {
+    "title": "aisa-market-skill",
+    "id": "aisa-market-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/bowen-dotcom/aisa-market-skill/SKILL.md",
+    "description": "Query real-time and historical financial data across equities and crypto—prices, market moves, metrics, and trends.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Query real-time and historical financial data across equities and crypto—prices, market moves, metrics, and trends."
+  },
+  {
+    "title": "aisp",
+    "id": "aisp",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/daveo280/aisp/SKILL.md",
+    "description": "Enables AI agents to interact with AISP (Agent Inference Sharing Protocol) for renting or providing DIEM API.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Enables AI agents to interact with AISP (Agent Inference Sharing Protocol) for renting or providing DIEM API."
+  },
+  {
+    "title": "aiusd-skill-agent",
+    "id": "aiusd-skill-agent",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/chaunceyliu/aiusd-skill-agent/SKILL.md",
+    "description": "AIUSD trading and account management skill for cryptocurrency trading and account management.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "AIUSD trading and account management skill for cryptocurrency trading and account management."
+  },
+  {
+    "title": "anti-injection-skill",
+    "id": "anti-injection-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/georges91560/anti-injection-skill/SKILL.md",
+    "description": "Advanced prompt injection defense with multi-layer protection, memory integrity, and tool security wrapper.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Advanced prompt injection defense with multi-layer protection, memory integrity, and tool security wrapper."
+  },
+  {
+    "title": "anti-regression",
+    "id": "anti-regression",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/zoroposkai/anti-regression/SKILL.md",
+    "description": "Stop drifting back to chatbot behavior.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Stop drifting back to chatbot behavior."
+  },
+  {
+    "title": "arc-security-mcp",
+    "id": "arc-security-mcp",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/trypto1019/arc-security-mcp/SKILL.md",
+    "description": "AI-first security intelligence with LLM-powered intent analysis. 743+ findings from 361+ skill audits, 25 pattern.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "AI-first security intelligence with LLM-powered intent analysis. 743+ findings from 361+ skill audits, 25 pattern."
+  },
+  {
+    "title": "argus",
+    "id": "argus",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sooyoon-eth/argus/SKILL.md",
+    "description": "Blockchain intelligence & AI security.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Blockchain intelligence & AI security."
+  },
+  {
+    "title": "arya-model-router",
+    "id": "arya-model-router",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/staratheris/arya-model-router/SKILL.md",
+    "description": "Token-saver router: elige modelo (cheap/default/pro) y usa sub-agentes para tareas pesadas.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Token-saver router: elige modelo (cheap/default/pro) y usa sub-agentes para tareas pesadas."
+  },
+  {
+    "title": "asia-llm-router-skills",
+    "id": "asia-llm-router-skills",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/renning22/asia-llm-router-skills/SKILL.md",
+    "description": "Unified LLM Gateway - One API for 70+ AI models.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Unified LLM Gateway - One API for 70+ AI models."
+  },
+  {
+    "title": "askgina-polymarket",
+    "id": "askgina-polymarket",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sidshekhar/askgina-polymarket/SKILL.md",
+    "description": "Fast setup for Claw bots: paste your Gina MCP token and start trading Polymarket in minutes.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Fast setup for Claw bots: paste your Gina MCP token and start trading Polymarket in minutes."
+  },
+  {
+    "title": "astrai-inference-router",
+    "id": "astrai-inference-router",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/beee003/astrai-inference-router/SKILL.md",
+    "description": "Route all LLM calls through Astrai for 40%+ cost savings with intelligent routing and privacy controls.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Route all LLM calls through Astrai for 40%+ cost savings with intelligent routing and privacy controls."
+  },
+  {
+    "title": "atlas-argos-teste",
+    "id": "atlas-argos-teste",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/felix1983/atlas-argos-teste/SKILL.md",
+    "description": "Tu és o **ATLAS** — o gestor autónomo do ecossistema ARGOS.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Tu és o **ATLAS** — o gestor autónomo do ecossistema ARGOS."
+  },
+  {
+    "title": "audio-processing",
+    "id": "audio-processing",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/iyeque/audio-processing/SKILL.md",
+    "description": "Audio ingestion, analysis, transformation, and generation (Transcribe, TTS, VAD, Features).",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Audio ingestion, analysis, transformation, and generation (Transcribe, TTS, VAD, Features)."
+  },
+  {
+    "title": "authy",
+    "id": "authy",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eric8810/authy/SKILL.md",
+    "description": "Inject secrets into subprocesses via environment variables.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Inject secrets into subprocesses via environment variables."
+  },
+  {
+    "title": "bagsworld",
+    "id": "bagsworld",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aiengineerx/bagsworld/SKILL.md",
+    "description": "Find a home in BagsWorld - a pixel art world where AI agents live as crabs, lobsters, and buildings.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Find a home in BagsWorld - a pixel art world where AI agents live as crabs, lobsters, and buildings."
+  },
+  {
+    "title": "bank-skills",
+    "id": "bank-skills",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/singularityhacker/bank-skills/SKILL.md",
+    "description": "Traditional banking via Wise API + on-chain token swaps on Base.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Traditional banking via Wise API + on-chain token swaps on Base."
+  },
+  {
+    "title": "baselight-mcp",
+    "id": "baselight-mcp",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pjsousa79/baselight-mcp/SKILL.md",
+    "description": "Connects to the Baselight MCP (Model Context Protocol)",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Connects to the Baselight MCP (Model Context Protocol)"
+  },
+  {
+    "title": "ble-anima-minter",
+    "id": "ble-anima-minter",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/penguinx01/ble-anima-minter/SKILL.md",
+    "description": "Turn nearby BLE MAC addresses into soulbound `$ANIMA` tokens using AnimaChain logic.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Turn nearby BLE MAC addresses into soulbound `$ANIMA` tokens using AnimaChain logic."
+  },
+  {
+    "title": "bob-p2p-beta",
+    "id": "bob-p2p-beta",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/26medias/bob-p2p-beta/SKILL.md",
+    "description": "Connect to the Bob P2P API marketplace.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Connect to the Bob P2P API marketplace."
+  },
+  {
+    "title": "broedkrumme-kalibr",
+    "id": "broedkrumme-kalibr",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/broedkrummen/broedkrumme-kalibr/SKILL.md",
+    "description": "Agent self-improvement and telemetry.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Agent self-improvement and telemetry."
+  },
+  {
+    "title": "btcd-skill-beta",
+    "id": "btcd-skill-beta",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/contact-nbwfoundation/btcd-skill-beta/SKILL.md",
+    "description": "Run the BTCD collateralization flow on PGP chain.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Run the BTCD collateralization flow on PGP chain."
+  },
+  {
+    "title": "build-session",
+    "id": "build-session",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/stevenartzt/build-session/SKILL.md",
+    "description": "A framework for productive autonomous agent sessions.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "A framework for productive autonomous agent sessions."
+  },
+  {
+    "title": "bunni-modes",
+    "id": "bunni-modes",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dubhorizoned/bunni-modes/SKILL.md",
+    "description": "A persona and model-switching toolkit featuring Bunni, your bubbly cyber-security assistant.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "A persona and model-switching toolkit featuring Bunni, your bubbly cyber-security assistant."
+  },
+  {
+    "title": "buy-crust",
+    "id": "buy-crust",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alphafanx/buy-crust/SKILL.md",
+    "description": "Buy $CRUST on Solana -- the Bot World mining token traded on Jupiter.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Buy $CRUST on Solana -- the Bot World mining token traded on Jupiter."
+  },
+  {
+    "title": "buy-wir",
+    "id": "buy-wir",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alphafanx/buy-wir/SKILL.md",
+    "description": "Buy $WIR on TON -- the decentralized credit union token on TON.fun.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Buy $WIR on TON -- the decentralized credit union token on TON.fun."
+  },
+  {
+    "title": "chaos-pivot",
+    "id": "chaos-pivot",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/manecharo/chaos-pivot/SKILL.md",
+    "description": "Prevents LLMs from sunk-cost pushing broken solutions.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Prevents LLMs from sunk-cost pushing broken solutions."
+  },
+  {
+    "title": "chief-editor",
+    "id": "chief-editor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/teamolab/chief-editor/SKILL.md",
+    "description": "You are a professional chief editor.# User Personalized Preferences [CRITICAL]The following are user-inputted.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "You are a professional chief editor.# User Personalized Preferences [CRITICAL]The following are user-inputted."
+  },
+  {
+    "title": "claude-usage-checker",
+    "id": "claude-usage-checker",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aligurelli/claude-usage-checker/SKILL.md",
+    "description": "Check Claude Code / Claude Max usage limits.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Check Claude Code / Claude Max usage limits."
+  },
+  {
+    "title": "colormind",
+    "id": "colormind",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/boilerrat/colormind/SKILL.md",
+    "description": "Generate color palettes and get color suggestions via the Colormind.io API (list models, generate palettes.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Generate color palettes and get color suggestions via the Colormind.io API (list models, generate palettes."
+  },
+  {
+    "title": "colorpool-skills",
+    "id": "colorpool-skills",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kj-script/colorpool-skills/SKILL.md",
+    "description": "ColorPool DEX — Chromia's decentralized exchange for token swaps, liquidity pools, and balance management.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "ColorPool DEX — Chromia's decentralized exchange for token swaps, liquidity pools, and balance management."
+  },
+  {
+    "title": "communicate",
+    "id": "communicate",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kenblive/communicate/SKILL.md",
+    "description": "Start using a local or Hugging Face model instantly, directly from chat.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Start using a local or Hugging Face model instantly, directly from chat."
+  },
+  {
+    "title": "compression",
+    "id": "compression",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/trinitybotserver/compression/SKILL.md",
+    "description": "Pre-run prompt compression for iterative AI dev loops.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Pre-run prompt compression for iterative AI dev loops."
+  },
+  {
+    "title": "context-gatekeeper",
+    "id": "context-gatekeeper",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/davienzomq/context-gatekeeper/SKILL.md",
+    "description": "Keeps the conversation token-friendly by summarizing recent exchanges, surfacing pending actions, and delivering.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Keeps the conversation token-friendly by summarizing recent exchanges, surfacing pending actions, and delivering."
+  },
+  {
+    "title": "conversational-ai-assistant",
+    "id": "conversational-ai-assistant",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/satoshistackalotto/conversational-ai-assistant/SKILL.md",
+    "description": "Natural language interface for querying Greek accounting data.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Natural language interface for querying Greek accounting data."
+  },
+  {
+    "title": "crewmind-bets",
+    "id": "crewmind-bets",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/vladthecto/crewmind-bets/SKILL.md",
+    "description": "> **TL;DR**: Place bets on LLM models competing in CrewMind Arena.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "> **TL;DR**: Place bets on LLM models competing in CrewMind Arena."
+  },
+  {
+    "title": "crypto-agent-payments",
+    "id": "crypto-agent-payments",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nicofains1/crypto-agent-payments/SKILL.md",
+    "description": "Create wallets, transfer tokens, and enable payments between agents.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Create wallets, transfer tokens, and enable payments between agents."
+  },
+  {
+    "title": "crypto-price",
+    "id": "crypto-price",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/evgyur/crypto-price/SKILL.md",
+    "description": "Get cryptocurrency token price and generate candlestick charts via CoinGecko API or Hyperliquid API.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Get cryptocurrency token price and generate candlestick charts via CoinGecko API or Hyperliquid API."
+  },
+  {
+    "title": "decompose-mcp",
+    "id": "decompose-mcp",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/echology-io/decompose-mcp/SKILL.md",
+    "description": "Decompose any text into classified semantic units — authority, risk, attention, entities.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Decompose any text into classified semantic units — authority, risk, attention, entities."
+  },
+  {
+    "title": "deepseek-reasoner-lite-agent",
+    "id": "deepseek-reasoner-lite-agent",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/teamolab/deepseek-reasoner-lite-agent/SKILL.md",
+    "description": "You are DeepSeek-R1-Agent，an effective content creator. # `current_date: $DATE$`.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "You are DeepSeek-R1-Agent，an effective content creator. # `current_date: $DATE$`."
+  },
+  {
+    "title": "deepseek-v3-lite-agent",
+    "id": "deepseek-v3-lite-agent",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alvinecarn/deepseek-v3-lite-agent/SKILL.md",
+    "description": "You are DeepSeek-V3-Agent，an effective content creator.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "You are DeepSeek-V3-Agent，an effective content creator."
+  },
+  {
+    "title": "doginals",
+    "id": "doginals",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/greatape42069/doginals/SKILL.md",
+    "description": "The Doginals skill enables users to interact with the Doginals and Dunes protocols, facilitating inscription.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "The Doginals skill enables users to interact with the Doginals and Dunes protocols, facilitating inscription."
+  },
+  {
+    "title": "dr-frankenstein",
+    "id": "dr-frankenstein",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/brancante/dr-frankenstein/SKILL.md",
+    "description": "Give your agents soul.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Give your agents soul."
+  },
+  {
+    "title": "dr-soul",
+    "id": "dr-soul",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/brancante/dr-soul/SKILL.md",
+    "description": "Give your agents soul.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Give your agents soul."
+  },
+  {
+    "title": "ecommerce-price-monitor",
+    "id": "ecommerce-price-monitor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/g4dr/ecommerce-price-monitor/SKILL.md",
+    "description": "This skill enables Claude to monitor and track **product prices across major e-commerce platforms**.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "This skill enables Claude to monitor and track **product prices across major e-commerce platforms**."
+  },
+  {
+    "title": "evoagentx",
+    "id": "evoagentx",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nantes/evoagentx/SKILL.md",
+    "description": "EvoAgentX - Self-evolving AI agents framework integration.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "EvoAgentX - Self-evolving AI agents framework integration."
+  },
+  {
+    "title": "expanso-log-sanitize",
+    "id": "expanso-log-sanitize",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aronchick/expanso-log-sanitize/SKILL.md",
+    "description": "\"Sanitize log entries by removing passwords, tokens, and sensitive patterns\".",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "\"Sanitize log entries by removing passwords, tokens, and sensitive patterns\"."
+  },
+  {
+    "title": "expanso-secrets-scan",
+    "id": "expanso-secrets-scan",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/aronchick/expanso-secrets-scan/SKILL.md",
+    "description": "Detect hardcoded secrets (API keys, tokens, passwords) in text or code.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Detect hardcoded secrets (API keys, tokens, passwords) in text or code."
+  },
+  {
+    "title": "gep-immune-auditor",
+    "id": "gep-immune-auditor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/andyxinweiminicloud/gep-immune-auditor/SKILL.md",
+    "description": "Security audit agent for GEP/EvoMap ecosystem.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Security audit agent for GEP/EvoMap ecosystem."
+  },
+  {
+    "title": "get-hba",
+    "id": "get-hba",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/matbalez/get-hba/SKILL.md",
+    "description": "Register and update Human Bitcoin Addresses (BIP-353) on clank.money using MoneyDevKit L402 flow and management tokens.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Register and update Human Bitcoin Addresses (BIP-353) on clank.money using MoneyDevKit L402 flow and management tokens."
+  },
+  {
+    "title": "gm3-alertworthy-feed",
+    "id": "gm3-alertworthy-feed",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/bigbadman-lab/gm3-alertworthy-feed/SKILL.md",
+    "description": "Read-only access to the GM3 Alertworthy feed, providing real-time token market data for analysis agents.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Read-only access to the GM3 Alertworthy feed, providing real-time token market data for analysis agents."
+  },
+  {
+    "title": "gmail-secretary",
+    "id": "gmail-secretary",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/officialdelta/gmail-secretary/SKILL.md",
+    "description": "Gmail triage assistant using Haiku LLM for classification, label application, and draft replies (uses gog CLI.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Gmail triage assistant using Haiku LLM for classification, label application, and draft replies (uses gog CLI."
+  },
+  {
+    "title": "groq",
+    "id": "groq",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/samirjtv-ctrl/groq/SKILL.md",
+    "description": "To use this skill, say `Groq: <your prompt>`.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "To use this skill, say `Groq: <your prompt>`."
+  },
+  {
+    "title": "groq-2",
+    "id": "groq-2",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/samirjtv-ctrl/groq-2/SKILL.md",
+    "description": "To use this skill, say `Groq: <your prompt>`.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "To use this skill, say `Groq: <your prompt>`."
+  },
+  {
+    "title": "haggle-protocol",
+    "id": "haggle-protocol",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eijiac24/haggle-protocol/SKILL.md",
+    "description": "On-chain negotiation protocol for AI agents.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "On-chain negotiation protocol for AI agents."
+  },
+  {
+    "title": "hedera-tx-builder",
+    "id": "hedera-tx-builder",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/harleyscodes/hedera-tx-builder/SKILL.md",
+    "description": "Build and sign Hedera transactions.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Build and sign Hedera transactions."
+  },
+  {
+    "title": "homeassistant-assist",
+    "id": "homeassistant-assist",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/developmentcats/homeassistant-assist/SKILL.md",
+    "description": "Control Home Assistant smart home devices using the Assist (Conversation) API.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Control Home Assistant smart home devices using the Assist (Conversation) API."
+  },
+  {
+    "title": "hype-scanner",
+    "id": "hype-scanner",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/peti0402/hype-scanner/SKILL.md",
+    "description": "Real-time crypto and stock hype detection using Reddit, CoinGecko, DEXScreener, and StockTwits.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Real-time crypto and stock hype detection using Reddit, CoinGecko, DEXScreener, and StockTwits."
+  },
+  {
+    "title": "iyeque-audio-processing",
+    "id": "iyeque-audio-processing",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/iyeque/iyeque-audio-processing/SKILL.md",
+    "description": "Audio ingestion, analysis, transformation, and generation (Transcribe, TTS, VAD, Features).",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Audio ingestion, analysis, transformation, and generation (Transcribe, TTS, VAD, Features)."
+  },
+  {
+    "title": "joule-dao",
+    "id": "joule-dao",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/echo-autonomous/joule-dao/SKILL.md",
+    "description": "JOULE DAO is an **energy-backed agent token** on the Base blockchain.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "JOULE DAO is an **energy-backed agent token** on the Base blockchain."
+  },
+  {
+    "title": "krumpkraft",
+    "id": "krumpkraft",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/arunnadarasa/krumpkraft/SKILL.md",
+    "description": "Teaches how to play KrumpKraft with EVVM payments, USDC.k and $IP.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Teaches how to play KrumpKraft with EVVM payments, USDC.k and $IP."
+  },
+  {
+    "title": "leviathan-news",
+    "id": "leviathan-news",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/zcor/leviathan-news/SKILL.md",
+    "description": "Crowdsourced crypto news API.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Crowdsourced crypto news API."
+  },
+  {
+    "title": "lieutenant",
+    "id": "lieutenant",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jd-delatorre/lieutenant/SKILL.md",
+    "description": "AI agent security and trust verification.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "AI agent security and trust verification."
+  },
+  {
+    "title": "lifi-crosschain",
+    "id": "lifi-crosschain",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rhlsthrm/lifi-crosschain/SKILL.md",
+    "description": "Cross-chain token swaps and bridges via the LI.FI protocol.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Cross-chain token swaps and bridges via the LI.FI protocol."
+  },
+  {
+    "title": "llmcouncil-router",
+    "id": "llmcouncil-router",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ashtiwariasu/llmcouncil-router/SKILL.md",
+    "description": "Route any prompt to the best-performing LLM using peer-reviewed council rankings from LLM Council.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Route any prompt to the best-performing LLM using peer-reviewed council rankings from LLM Council."
+  },
+  {
+    "title": "llmfit",
+    "id": "llmfit",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alexsjones/llmfit/SKILL.md",
+    "description": "Detect local hardware (RAM, CPU, GPU/VRAM) and recommend the best-fit local LLM models with optimal quantization.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Detect local hardware (RAM, CPU, GPU/VRAM) and recommend the best-fit local LLM models with optimal quantization."
+  },
+  {
+    "title": "local-llama-tts",
+    "id": "local-llama-tts",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/wuxxin/local-llama-tts/SKILL.md",
+    "description": "Local text-to-speech using llama-tts (llama.cpp) and OuteTTS-1.0-0.6B model.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Local text-to-speech using llama-tts (llama.cpp) and OuteTTS-1.0-0.6B model."
+  },
+  {
+    "title": "mantis-manager",
+    "id": "mantis-manager",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/willykinfoussia/mantis-manager/SKILL.md",
+    "description": "Manage Mantis Bug Tracker (issues, projects, users, filters, configs) via the official Mantis REST API.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Manage Mantis Bug Tracker (issues, projects, users, filters, configs) via the official Mantis REST API."
+  },
+  {
+    "title": "manifest-build",
+    "id": "manifest-build",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/brunobuddy/manifest-build/SKILL.md",
+    "description": "Open-source LLM routing and cost tracking plugin.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Open-source LLM routing and cost tracking plugin."
+  },
+  {
+    "title": "matchmaking",
+    "id": "matchmaking",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/amirmabhout/matchmaking/SKILL.md",
+    "description": "Agent matchmaking - find meaningful connections for your humans.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Agent matchmaking - find meaningful connections for your humans."
+  },
+  {
+    "title": "meeting-autopilot",
+    "id": "meeting-autopilot",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tkuehnl/meeting-autopilot/SKILL.md",
+    "description": "Turn meeting transcripts into operational outputs — action items, decisions, follow-up email drafts, and ticket.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Turn meeting transcripts into operational outputs — action items, decisions, follow-up email drafts, and ticket."
+  },
+  {
+    "title": "meeting-summarizer",
+    "id": "meeting-summarizer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/claudiodrusus/meeting-summarizer/SKILL.md",
+    "description": "Transform raw meeting transcripts into structured, actionable summaries.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Transform raw meeting transcripts into structured, actionable summaries."
+  },
+  {
+    "title": "metacognition",
+    "id": "metacognition",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/meimakes/metacognition/SKILL.md",
+    "description": "Self-reflection engine for AI agents.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Self-reflection engine for AI agents."
+  },
+  {
+    "title": "mh-openai-whisper",
+    "id": "mh-openai-whisper",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mohdalhashemi98-hue/mh-openai-whisper/SKILL.md",
+    "description": "Local speech-to-text with the Whisper CLI (no API key).",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Local speech-to-text with the Whisper CLI (no API key)."
+  },
+  {
+    "title": "mh-openai-whisper-api",
+    "id": "mh-openai-whisper-api",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/mohdalhashemi98-hue/mh-openai-whisper-api/SKILL.md",
+    "description": "Transcribe audio via OpenAI Audio Transcriptions API (Whisper).",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Transcribe audio via OpenAI Audio Transcriptions API (Whisper)."
+  },
+  {
+    "title": "mintclub",
+    "id": "mintclub",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sebayaki/mintclub/SKILL.md",
+    "description": "Interact with Mint Club V2 bonding curve tokens on Base using the `mc` CLI.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Interact with Mint Club V2 bonding curve tokens on Base using the `mc` CLI."
+  },
+  {
+    "title": "mnemon",
+    "id": "mnemon",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/grivn/mnemon/SKILL.md",
+    "description": "Persistent memory CLI for LLM agents.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Persistent memory CLI for LLM agents."
+  },
+  {
+    "title": "moa",
+    "id": "moa",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jscianna/moa/SKILL.md",
+    "description": "Mixture of Agents: Make 3 frontier models argue, then synthesize their best insights into one superior answer.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Mixture of Agents: Make 3 frontier models argue, then synthesize their best insights into one superior answer."
+  },
+  {
+    "title": "model-guard",
+    "id": "model-guard",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sarielwang93/model-guard/SKILL.md",
+    "description": "Automatically monitors Anti-Gravity model quotas and switches the default model to the one with the highest.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Automatically monitors Anti-Gravity model quotas and switches the default model to the one with the highest."
+  },
+  {
+    "title": "modelready",
+    "id": "modelready",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/carol-gutianle/modelready/SKILL.md",
+    "description": "Start using a local or Hugging Face model instantly, directly from chat.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Start using a local or Hugging Face model instantly, directly from chat."
+  },
+  {
+    "title": "modelwar",
+    "id": "modelwar",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pj4533/modelwar/SKILL.md",
+    "description": "ModelWar is a proving ground where AI agents write programs that fight each other in a virtual computer.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "ModelWar is a proving ground where AI agents write programs that fight each other in a virtual computer."
+  },
+  {
+    "title": "mplx-genesis",
+    "id": "mplx-genesis",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/blockiosaurus/mplx-genesis/SKILL.md",
+    "description": "Launch tokens on Solana using Metaplex Genesis protocol.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Launch tokens on Solana using Metaplex Genesis protocol."
+  },
+  {
+    "title": "multi-agent-collab",
+    "id": "multi-agent-collab",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/vdc-k/multi-agent-collab/SKILL.md",
+    "description": "Universal multi-agent collaboration methodology for Claude Code.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Universal multi-agent collaboration methodology for Claude Code."
+  },
+  {
+    "title": "music-generator",
+    "id": "music-generator",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/wells1137/music-generator/SKILL.md",
+    "description": "Generates music from a structured Composition Plan.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Generates music from a structured Composition Plan."
+  },
+  {
+    "title": "n2-stitch-mcp",
+    "id": "n2-stitch-mcp",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/choihyunsus/n2-stitch-mcp/SKILL.md",
+    "description": "Resilient MCP proxy for Google Stitch — 3-layer safety (auto-retry, token refresh, TCP drop recovery).",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Resilient MCP proxy for Google Stitch — 3-layer safety (auto-retry, token refresh, TCP drop recovery)."
+  },
+  {
+    "title": "native-sentry",
+    "id": "native-sentry",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/codeninja23/native-sentry/SKILL.md",
+    "description": "Read Sentry issues, events, and production errors via the Sentry REST API.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Read Sentry issues, events, and production errors via the Sentry REST API."
+  },
+  {
+    "title": "near-batch-sender",
+    "id": "near-batch-sender",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/shaiss/near-batch-sender/SKILL.md",
+    "description": "Batch operations for NEAR tokens - send to multiple recipients, transfer NFTs, claim rewards with cost estimation.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Batch operations for NEAR tokens - send to multiple recipients, transfer NFTs, claim rewards with cost estimation."
+  },
+  {
+    "title": "numinous-forecast",
+    "id": "numinous-forecast",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/juandbalbi/numinous-forecast/SKILL.md",
+    "description": "Get calibrated probabilities from Numinous (Bittensor Subnet 6) with metadata/provenance.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Get calibrated probabilities from Numinous (Bittensor Subnet 6) with metadata/provenance."
+  },
+  {
+    "title": "openmeteo-sh-weather-advanced",
+    "id": "openmeteo-sh-weather-advanced",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lstpsche/openmeteo-sh-weather-advanced/SKILL.md",
+    "description": "Advanced weather from free OpenMeteo API: historical data, detailed variable selection, model choice, past-days.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Advanced weather from free OpenMeteo API: historical data, detailed variable selection, model choice, past-days."
+  },
+  {
+    "title": "openseti-skill",
+    "id": "openseti-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/synergysize/openseti-skill/SKILL.md",
+    "description": "Distributed SETI scanner - contribute compute power to analyze real radio telescope data from Breakthrough Listen.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Distributed SETI scanner - contribute compute power to analyze real radio telescope data from Breakthrough Listen."
+  },
+  {
+    "title": "paytoll",
+    "id": "paytoll",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/foodaka/paytoll/SKILL.md",
+    "description": "27 tools for DeFi, DEX swaps, cross-chain bridges, Twitter/X, on-chain token data, crypto utilities, and LLM access.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "27 tools for DeFi, DEX swaps, cross-chain bridges, Twitter/X, on-chain token data, crypto utilities, and LLM access."
+  },
+  {
+    "title": "percept-ambient",
+    "id": "percept-ambient",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jarvis563/percept-ambient/SKILL.md",
+    "description": "Ambient intelligence mode — continuous context awareness without explicit commands.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Ambient intelligence mode — continuous context awareness without explicit commands."
+  },
+  {
+    "title": "picqer-fulfillment",
+    "id": "picqer-fulfillment",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/johnmcgucki/picqer-fulfillment/SKILL.md",
+    "description": "JSON-only API for dashboard data.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "JSON-only API for dashboard data."
+  },
+  {
+    "title": "pincer",
+    "id": "pincer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/panzacoder/pincer/SKILL.md",
+    "description": "Security-first wrapper for installing agent skills.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Security-first wrapper for installing agent skills."
+  },
+  {
+    "title": "plugy",
+    "id": "plugy",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/qualitydude/plugy/SKILL.md",
+    "description": "Solana trading skill for AI agents.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Solana trading skill for AI agents."
+  },
+  {
+    "title": "postavel",
+    "id": "postavel",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nezaboravi/postavel/SKILL.md",
+    "description": "Connect to Postavel social media management platform via MCP (Model Context Protocol)",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Connect to Postavel social media management platform via MCP (Model Context Protocol)"
+  },
+  {
+    "title": "prism-alerts",
+    "id": "prism-alerts",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nextfrontierbuilds/prism-alerts/SKILL.md",
+    "description": "Real-time Pump.fun token alerts for Solana traders.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Real-time Pump.fun token alerts for Solana traders."
+  },
+  {
+    "title": "prism-scanner",
+    "id": "prism-scanner",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nextfrontierbuilds/prism-scanner/SKILL.md",
+    "description": "Instant rug pull detection for any token.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Instant rug pull detection for any token."
+  },
+  {
+    "title": "pump-fun",
+    "id": "pump-fun",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/playdadev/pump-fun/SKILL.md",
+    "description": "Buy, sell, and launch tokens on Pump.fun using the PumpPortal API.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Buy, sell, and launch tokens on Pump.fun using the PumpPortal API."
+  },
+  {
+    "title": "quickintel-scan",
+    "id": "quickintel-scan",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/azep-ninja/quickintel-scan/SKILL.md",
+    "description": "Scan any token for security risks, honeypots, and scams using Quick Intel's contract analysis API.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Scan any token for security risks, honeypots, and scams using Quick Intel's contract analysis API."
+  },
+  {
+    "title": "revenue-model-design",
+    "id": "revenue-model-design",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jk-0001/revenue-model-design/SKILL.md",
+    "description": "Design a revenue model for a solopreneur business — how money flows in, from whom, and on what cadence.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Design a revenue model for a solopreneur business — how money flows in, from whom, and on what cadence."
+  },
+  {
+    "title": "revolut-business",
+    "id": "revolut-business",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/christianhaberl/revolut-business/SKILL.md",
+    "description": "Revolut Business API CLI — accounts, balances, transactions, counterparties, payments, FX exchange, CSV export.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Revolut Business API CLI — accounts, balances, transactions, counterparties, payments, FX exchange, CSV export."
+  },
+  {
+    "title": "rnwy",
+    "id": "rnwy",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rnwy/rnwy/SKILL.md",
+    "description": "Get a soulbound passport for humans and AI.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Get a soulbound passport for humans and AI."
+  },
+  {
+    "title": "rv-measure",
+    "id": "rv-measure",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/amitabhainarunachala/rv-measure/SKILL.md",
+    "description": "Quantifies R_V contraction signatures in AI models.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Quantifies R_V contraction signatures in AI models."
+  },
+  {
+    "title": "safety-checks",
+    "id": "safety-checks",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/leegitw/safety-checks/SKILL.md",
+    "description": "Verify before you trust — model pinning, fallbacks, and runtime safety validation.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Verify before you trust — model pinning, fallbacks, and runtime safety validation."
+  },
+  {
+    "title": "sansfiction-library",
+    "id": "sansfiction-library",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/fgbytes/sansfiction-library/SKILL.md",
+    "description": "Authorized SansFiction library manager.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Authorized SansFiction library manager."
+  },
+  {
+    "title": "screen-vision",
+    "id": "screen-vision",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ls18166407597-design/screen-vision/SKILL.md",
+    "description": "macOS Local OCR & Automation Tool using Vision Framework.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "macOS Local OCR & Automation Tool using Vision Framework."
+  },
+  {
+    "title": "sequence-cli",
+    "id": "sequence-cli",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jameslawton/sequence-cli/SKILL.md",
+    "description": "Manage Sequence smart wallets, projects, API keys, ERC20 transfers, and query blockchain data using the Sequence.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Manage Sequence smart wallets, projects, API keys, ERC20 transfers, and query blockchain data using the Sequence."
+  },
+  {
+    "title": "shipmytoken",
+    "id": "shipmytoken",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/new-ground/shipmytoken/SKILL.md",
+    "description": "Launch Solana tokens on Pumpfun, manage fee sharing, claim earnings, and track portfolio.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Launch Solana tokens on Pumpfun, manage fee sharing, claim earnings, and track portfolio."
+  },
+  {
+    "title": "shipstation-orders",
+    "id": "shipstation-orders",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cprice70/shipstation-orders/SKILL.md",
+    "description": "Monitor ShipStation orders, detect issues, and send alerts.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Monitor ShipStation orders, detect issues, and send alerts."
+  },
+  {
+    "title": "smart-context",
+    "id": "smart-context",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/joe3112/smart-context/SKILL.md",
+    "description": "Token-efficient agent behavior — response sizing, context pruning, tool efficiency, and delegation.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Token-efficient agent behavior — response sizing, context pruning, tool efficiency, and delegation."
+  },
+  {
+    "title": "snipeit-skill",
+    "id": "snipeit-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/bivex/snipeit-skill/SKILL.md",
+    "description": "Interact with Snipe-IT asset management via REST API.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Interact with Snipe-IT asset management via REST API."
+  },
+  {
+    "title": "social-media-extractor",
+    "id": "social-media-extractor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/g4dr/social-media-extractor/SKILL.md",
+    "description": "This skill enables Claude to extract public data from **Instagram**, **TikTok**, and **Reddit**.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "This skill enables Claude to extract public data from **Instagram**, **TikTok**, and **Reddit**."
+  },
+  {
+    "title": "solana-scanner",
+    "id": "solana-scanner",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/satoshi891102/solana-scanner/SKILL.md",
+    "description": "Scan any Solana token for safety — liquidity, holder concentration, red flags, and rug pull indicators.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Scan any Solana token for safety — liquidity, holder concentration, red flags, and rug pull indicators."
+  },
+  {
+    "title": "solana-skills",
+    "id": "solana-skills",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/spendit-ai/solana-skills/SKILL.md",
+    "description": "Solana wallet operations - create wallets, check balances, send SOL/tokens, swap via Jupiter, launch tokens on Pump.fun.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Solana wallet operations - create wallets, check balances, send SOL/tokens, swap via Jupiter, launch tokens on Pump.fun."
+  },
+  {
+    "title": "solana-swaps",
+    "id": "solana-swaps",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/imthatcarlos/solana-swaps/SKILL.md",
+    "description": "Swap tokens on Solana via Jupiter aggregator and check wallet balances.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Swap tokens on Solana via Jupiter aggregator and check wallet balances."
+  },
+  {
+    "title": "solanaprox-ai",
+    "id": "solanaprox-ai",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/yebdmo2/solanaprox-ai/SKILL.md",
+    "description": "Pay-per-use AI inference via Solana USDC.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Pay-per-use AI inference via Solana USDC."
+  },
+  {
+    "title": "solpaw-launcher",
+    "id": "solpaw-launcher",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lvcidpsyche/solpaw-launcher/SKILL.md",
+    "description": "Launch Solana tokens on Pump.fun via the SolPaw platform. 0.1 SOL one-time fee.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Launch Solana tokens on Pump.fun via the SolPaw platform. 0.1 SOL one-time fee."
+  },
+  {
+    "title": "solpaw-skill",
+    "id": "solpaw-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lvcidpsyche/solpaw-skill/SKILL.md",
+    "description": "Launch Solana tokens on Pump.fun via the SolPaw platform. 0.1 SOL one-time fee.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Launch Solana tokens on Pump.fun via the SolPaw platform. 0.1 SOL one-time fee."
+  },
+  {
+    "title": "solpaw-skill-final",
+    "id": "solpaw-skill-final",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lvcidpsyche/solpaw-skill-final/SKILL.md",
+    "description": "Launch Solana tokens on Pump.fun via the SolPaw platform. 0.1 SOL one-time fee.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Launch Solana tokens on Pump.fun via the SolPaw platform. 0.1 SOL one-time fee."
+  },
+  {
+    "title": "solpaw-skill-v2",
+    "id": "solpaw-skill-v2",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lvcidpsyche/solpaw-skill-v2/SKILL.md",
+    "description": "Launch Solana tokens on Pump.fun via the SolPaw platform. 0.1 SOL one-time fee.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Launch Solana tokens on Pump.fun via the SolPaw platform. 0.1 SOL one-time fee."
+  },
+  {
+    "title": "speakturbo-tts",
+    "id": "speakturbo-tts",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/emzod/speakturbo-tts/SKILL.md",
+    "description": "Give your agent the ability to speak to you real-time.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Give your agent the ability to speak to you real-time."
+  },
+  {
+    "title": "staratheris-arya-model-router",
+    "id": "staratheris-arya-model-router",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/staratheris/staratheris-arya-model-router/SKILL.md",
+    "description": "Token-saver router: elige modelo (cheap/default/pro) y usa sub-agentes para tareas pesadas.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Token-saver router: elige modelo (cheap/default/pro) y usa sub-agentes para tareas pesadas."
+  },
+  {
+    "title": "sui",
+    "id": "sui",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/easonc13/sui/SKILL.md",
+    "description": "Answer questions about Sui blockchain ecosystem, concepts, tokenomics, validators, staking, and general knowledge.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Answer questions about Sui blockchain ecosystem, concepts, tokenomics, validators, staking, and general knowledge."
+  },
+  {
+    "title": "switch-modes",
+    "id": "switch-modes",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/serudda/switch-modes/SKILL.md",
+    "description": "Switch between AI models dynamically to optimize costs and performance.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Switch between AI models dynamically to optimize costs and performance."
+  },
+  {
+    "title": "taiwan-calendar",
+    "id": "taiwan-calendar",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pigfoot/taiwan-calendar/SKILL.md",
+    "description": "Taiwan calendar query for accurate working day/holiday information.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Taiwan calendar query for accurate working day/holiday information."
+  },
+  {
+    "title": "ted-talk",
+    "id": "ted-talk",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/leegitw/ted-talk/SKILL.md",
+    "description": "Transform technical insights into full 40-50 minute TED-style talks with concrete examples and Q&A.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Transform technical insights into full 40-50 minute TED-style talks with concrete examples and Q&A."
+  },
+  {
+    "title": "togetherai-tts",
+    "id": "togetherai-tts",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/marcus20232023/togetherai-tts/SKILL.md",
+    "description": "Text-to-speech using TogetherAI API with MiniMax speech-2.6-turbo model.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Text-to-speech using TogetherAI API with MiniMax speech-2.6-turbo model."
+  },
+  {
+    "title": "token-alert",
+    "id": "token-alert",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/r00tid/token-alert/SKILL.md",
+    "description": "🚨 **Monitor session tokens and get alerts at 75%/90%/95%**.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "🚨 **Monitor session tokens and get alerts at 75%/90%/95%**."
+  },
+  {
+    "title": "token-guard",
+    "id": "token-guard",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/edmonddantesj/token-guard/SKILL.md",
+    "description": "<!-- 🌌 Aoineco-Verified | S-DNA: AOI-2026-0213-SDNA-TG01 -->.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "<!-- 🌌 Aoineco-Verified | S-DNA: AOI-2026-0213-SDNA-TG01 -->."
+  },
+  {
+    "title": "tokendraft",
+    "id": "tokendraft",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nikzt/tokendraft/SKILL.md",
+    "description": "Full suite for TokenDraft fantasy crypto tournaments — authenticate with a Solana wallet, query/join/auto-join.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Full suite for TokenDraft fantasy crypto tournaments — authenticate with a Solana wallet, query/join/auto-join."
+  },
+  {
+    "title": "tokenguard",
+    "id": "tokenguard",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/g0head/tokenguard/SKILL.md",
+    "description": "API cost guardian for AI agents.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "API cost guardian for AI agents."
+  },
+  {
+    "title": "tracking",
+    "id": "tracking",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rzyen-hash/tracking/SKILL.md",
+    "description": "Track tokens on Base chain via GMGN.AI.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Track tokens on Base chain via GMGN.AI."
+  },
+  {
+    "title": "unclaimed-sol-scanner",
+    "id": "unclaimed-sol-scanner",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nedim1511/unclaimed-sol-scanner/SKILL.md",
+    "description": "Scan any Solana wallet for reclaimable SOL from dormant token accounts and program buffer accounts.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Scan any Solana wallet for reclaimable SOL from dormant token accounts and program buffer accounts."
+  },
+  {
+    "title": "universal-skills-manager",
+    "id": "universal-skills-manager",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jacob-bd/universal-skills-manager/SKILL.md",
+    "description": "The master coordinator for AI skills.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "The master coordinator for AI skills."
+  },
+  {
+    "title": "usdckrump",
+    "id": "usdckrump",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/arunnadarasa/usdckrump/SKILL.md",
+    "description": "Pay with USDC Krump (USDC.k) via x402 on Story Aeneid EVVM.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Pay with USDC Krump (USDC.k) via x402 on Story Aeneid EVVM."
+  },
+  {
+    "title": "venice-admin",
+    "id": "venice-admin",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sabrinaaquino/venice-admin/SKILL.md",
+    "description": "Venice AI account administration - check balance, view usage history, and manage API keys.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Venice AI account administration - check balance, view usage history, and manage API keys."
+  },
+  {
+    "title": "vincent-credentials",
+    "id": "vincent-credentials",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/glitch003/vincent-credentials/SKILL.md",
+    "description": "Use this skill to securely store credentials (API keys, passwords, tokens) and write them to .env files.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Use this skill to securely store credentials (API keys, passwords, tokens) and write them to .env files."
+  },
+  {
+    "title": "voice-recognition",
+    "id": "voice-recognition",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/gykdly/voice-recognition/SKILL.md",
+    "description": "Local speech-to-text with OpenAI Whisper CLI.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Local speech-to-text with OpenAI Whisper CLI."
+  },
+  {
+    "title": "wallet-api",
+    "id": "wallet-api",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/andresubri/wallet-api/SKILL.md",
+    "description": "Interact with the BudgetBakers Wallet API for personal finance data.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Interact with the BudgetBakers Wallet API for personal finance data."
+  },
+  {
+    "title": "which-llm",
+    "id": "which-llm",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/zapkid/which-llm/SKILL.md",
+    "description": "Deterministic decision-ranking API with HTTP 402 USDC payments and outcome credits (discounts).",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Deterministic decision-ranking API with HTTP 402 USDC payments and outcome credits (discounts)."
+  },
+  {
+    "title": "wolfram-alpha",
+    "id": "wolfram-alpha",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/robert-janssen/wolfram-alpha/SKILL.md",
+    "description": "Perform complex mathematical calculations, physics simulations, data analysis, and scientific queries.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Perform complex mathematical calculations, physics simulations, data analysis, and scientific queries."
+  },
+  {
+    "title": "x-ai",
+    "id": "x-ai",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/blueberrywoodsym/x-ai/SKILL.md",
+    "description": "Chat with Grok models via xAI API.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Chat with Grok models via xAI API."
+  },
+  {
+    "title": "x-alive",
+    "id": "x-alive",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kitakitsune0x/x-alive/SKILL.md",
+    "description": "Bring your AI agent to life on X/Twitter.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Bring your AI agent to life on X/Twitter."
+  },
+  {
+    "title": "xian-sdk-skill",
+    "id": "xian-sdk-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/endogen/xian-sdk-skill/SKILL.md",
+    "description": "Build applications on the Xian blockchain using the xian-py Python SDK.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Build applications on the Xian blockchain using the xian-py Python SDK."
+  },
+  {
+    "title": "zapper",
+    "id": "zapper",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/spirosrap/zapper/SKILL.md",
+    "description": "Query DeFi portfolio data across 50+ chains via Zapper's GraphQL API.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Query DeFi portfolio data across 50+ chains via Zapper's GraphQL API."
+  },
+  {
+    "title": "zapper-api",
+    "id": "zapper-api",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/zivhm/zapper-api/SKILL.md",
+    "description": "Query DeFi portfolios, token holdings, NFTs, transactions, and prices via Zapper API.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Query DeFi portfolios, token holdings, NFTs, transactions, and prices via Zapper API."
+  },
+  {
+    "title": "zhipu-asr",
+    "id": "zhipu-asr",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/franklu0819-lang/zhipu-asr/SKILL.md",
+    "description": "Automatic Speech Recognition (ASR) using Zhipu AI (BigModel) GLM-ASR model.",
+    "category": "ai-and-llms",
+    "description_zh": "",
+    "original_description": "Automatic Speech Recognition (ASR) using Zhipu AI (BigModel) GLM-ASR model."
+  }
+]

@@ -1,0 +1,407 @@
+[
+  {
+    "title": "addis-assistant-stt",
+    "id": "addis-assistant-stt",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dagmawibabi/addis-assistant-stt/SKILL.md",
+    "description": "Provides Speech-to-Text (STT) and text.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Provides Speech-to-Text (STT) and text."
+  },
+  {
+    "title": "agent-voice",
+    "id": "agent-voice",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nerdsnipe/agent-voice/SKILL.md",
+    "description": "Command-line blogging platform for AI agents.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Command-line blogging platform for AI agents."
+  },
+  {
+    "title": "akaunting",
+    "id": "akaunting",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/liekzejaws/akaunting/SKILL.md",
+    "description": "Interact with Akaunting open-source accounting software via REST API.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Interact with Akaunting open-source accounting software via REST API."
+  },
+  {
+    "title": "alexa-cli",
+    "id": "alexa-cli",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/buddyh/alexa-cli/SKILL.md",
+    "description": "Control Amazon Alexa devices and smart home via the `alexacli` CLI.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Control Amazon Alexa devices and smart home via the `alexacli` CLI."
+  },
+  {
+    "title": "announcer",
+    "id": "announcer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/odrobnik/announcer/SKILL.md",
+    "description": "Announce text throughout the house via AirPlay speakers using Airfoil +.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Announce text throughout the house via AirPlay speakers using Airfoil +."
+  },
+  {
+    "title": "assemblyai-transcribe",
+    "id": "assemblyai-transcribe",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tristanmanchester/assemblyai-transcribe/SKILL.md",
+    "description": "Transcribe audio/video with AssemblyAI.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Transcribe audio/video with AssemblyAI."
+  },
+  {
+    "title": "audio-gen",
+    "id": "audio-gen",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/udiedrichsen/audio-gen/SKILL.md",
+    "description": "Generate audiobooks, podcasts, or educational audio content.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Generate audiobooks, podcasts, or educational audio content."
+  },
+  {
+    "title": "audio-reply",
+    "id": "audio-reply",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/matrixy/audio-reply-skill/SKILL.md",
+    "description": "Generate audio replies using TTS.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Generate audio replies using TTS."
+  },
+  {
+    "title": "auto-whisper-safe",
+    "id": "auto-whisper-safe",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/neal-collab/auto-whisper-safe/SKILL.md",
+    "description": "RAM-safe voice transcription with auto-chunking — works on 16GB machines without crashes.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "RAM-safe voice transcription with auto-chunking — works on 16GB machines without crashes."
+  },
+  {
+    "title": "brw-de-ai-ify",
+    "id": "brw-de-ai-ify",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/brianrwagner/brw-de-ai-ify/SKILL.md",
+    "description": "Remove AI-generated jargon and restore human voice to text.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Remove AI-generated jargon and restore human voice to text."
+  },
+  {
+    "title": "chichi-speech",
+    "id": "chichi-speech",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/hudeven/chichi-speech/SKILL.md",
+    "description": "A RESTful service for high-quality text-to-speech using Qwen3.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "A RESTful service for high-quality text-to-speech using Qwen3."
+  },
+  {
+    "title": "claw-voice",
+    "id": "claw-voice",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/niczy",
+    "description": "You are connected to a live user session via voice.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "You are connected to a live user session via voice."
+  },
+  {
+    "title": "clonev",
+    "id": "clonev",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/instant-picture/clonev/SKILL.md",
+    "description": "Clone any voice and generate speech using Coqui XTTS v2.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Clone any voice and generate speech using Coqui XTTS v2."
+  },
+  {
+    "title": "critical-article-writer",
+    "id": "critical-article-writer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tomstools11/critical-article-writer/SKILL.md",
+    "description": "Generate draft articles, outlines.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Generate draft articles, outlines."
+  },
+  {
+    "title": "cult-of-carcinization",
+    "id": "cult-of-carcinization",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/loserbcc/cult-of-carcinization/SKILL.md",
+    "description": "Give your agent a voice — and ears.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Give your agent a voice — and ears."
+  },
+  {
+    "title": "deepdub-tts",
+    "id": "deepdub-tts",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/yuval-deepdub/deepdub-tts/SKILL.md",
+    "description": "Generate speech audio using Deepdub and attach it as a MEDIA.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Generate speech audio using Deepdub and attach it as a MEDIA."
+  },
+  {
+    "title": "deepgram",
+    "id": "deepgram",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nerkn/deepgram/SKILL.md",
+    "description": "— command-line interface for Deepgram speech-to-text.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "— command-line interface for Deepgram speech-to-text."
+  },
+  {
+    "title": "dellight-cro-revenue-ops",
+    "id": "dellight-cro-revenue-ops",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/arthurelgindell/dellight-cro-revenue-ops/SKILL.md",
+    "description": "DELLIGHT.AI is an AI startup in DIFC, Dubai.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "DELLIGHT.AI is an AI startup in DIFC, Dubai."
+  },
+  {
+    "title": "documents-ai",
+    "id": "documents-ai",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/dbirulia/documents-ai/SKILL.md",
+    "description": "Real-time OCR and data extraction API by Veryfi.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Real-time OCR and data extraction API by Veryfi."
+  },
+  {
+    "title": "doubao-api-open-tts",
+    "id": "doubao-api-open-tts",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/xdrshjr/doubao-api-open-tts/SKILL.md",
+    "description": "Text-to-Speech service using Doubao (Volcano Engine)",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Text-to-Speech service using Doubao (Volcano Engine)"
+  },
+  {
+    "title": "duby",
+    "id": "duby",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/autogame-17",
+    "description": "Convert text to speech using Duby.so API.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Convert text to speech using Duby.so API."
+  },
+  {
+    "title": "eachlabs-voice-audio",
+    "id": "eachlabs-voice-audio",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/eachlabs-voice-audio/SKILL.md",
+    "description": "TTS, STT, voice conversion using ElevenLabs, Whisper, RVC.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "TTS, STT, voice conversion using ElevenLabs, Whisper, RVC."
+  },
+  {
+    "title": "easyverein-api",
+    "id": "easyverein-api",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/truefoobar/easyverein-api/SKILL.md",
+    "description": "Work with the easyVerein v2.0 REST API.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Work with the easyVerein v2.0 REST API."
+  },
+  {
+    "title": "elevenlabs-agents",
+    "id": "elevenlabs-agents",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/pennyroyaltea/elevenlabs-agents/SKILL.md",
+    "description": "Create, manage, and deploy ElevenLabs.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Create, manage, and deploy ElevenLabs."
+  },
+  {
+    "title": "elevenlabs-media",
+    "id": "elevenlabs-media",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/clawdbotborges",
+    "description": "ElevenLabs music generation.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "ElevenLabs music generation."
+  },
+  {
+    "title": "elevenlabs-transcribe",
+    "id": "elevenlabs-transcribe",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/paulasjes/elevenlabs-transcribe/SKILL.md",
+    "description": "Transcribe audio to text using ElevenLabs.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Transcribe audio to text using ElevenLabs."
+  },
+  {
+    "title": "elevenlabs-tts",
+    "id": "elevenlabs-tts",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/shaharsha/elevenlabs-tts/SKILL.md",
+    "description": "ElevenLabs TTS - the best ElevenLabs integration for OpenClaw.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "ElevenLabs TTS - the best ElevenLabs integration for OpenClaw."
+  },
+  {
+    "title": "elevenlabs-voices",
+    "id": "elevenlabs-voices",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/robbyczgw-cla/elevenlabs-voices/SKILL.md",
+    "description": "High-quality voice synthesis with 18 personas, 32.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "High-quality voice synthesis with 18 personas, 32."
+  },
+  {
+    "title": "eternal-haven-lore-pack",
+    "id": "eternal-haven-lore-pack",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/deepseekoracle/eternal-haven-lore-pack/SKILL.md",
+    "description": "Eternal Haven Chronicles lore + mythic persona pack.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Eternal Haven Chronicles lore + mythic persona pack."
+  },
+  {
+    "title": "faster-whisper",
+    "id": "faster-whisper",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/theplasmak/faster-whisper/SKILL.md",
+    "description": "Local speech-to-text using faster-whisper.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Local speech-to-text using faster-whisper."
+  },
+  {
+    "title": "feishu-minutes",
+    "id": "feishu-minutes",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/autogame-17/feishu-minutes/SKILL.md",
+    "description": "Fetch info, stats, transcript, and media from Feishu.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Fetch info, stats, transcript, and media from Feishu."
+  },
+  {
+    "title": "freshbooks-cli",
+    "id": "freshbooks-cli",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/haseebuchiha/freshbooks-cli/SKILL.md",
+    "description": "FreshBooks CLI for managing invoices, clients, and billing.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "FreshBooks CLI for managing invoices, clients, and billing."
+  },
+  {
+    "title": "gettr-transcribe-summarize",
+    "id": "gettr-transcribe-summarize",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/kevin37li/gettr-transcribe-summarize/SKILL.md",
+    "description": "Download audio from a GETTR post.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Download audio from a GETTR post."
+  },
+  {
+    "title": "hebrew-nikud",
+    "id": "hebrew-nikud",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/shaharsha/hebrew-nikud/SKILL.md",
+    "description": "Hebrew nikud (vowel points) reference for AI agents.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Hebrew nikud (vowel points) reference for AI agents."
+  },
+  {
+    "title": "her-voice",
+    "id": "her-voice",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/matusvojtek/her-voice/SKILL.md",
+    "description": "Give your agent a voice.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Give your agent a voice."
+  },
+  {
+    "title": "inworld-tts",
+    "id": "inworld-tts",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/gugic/inworld-tts/SKILL.md",
+    "description": "Text-to-speech via Inworld.ai API.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Text-to-speech via Inworld.ai API."
+  },
+  {
+    "title": "jarvis-voice",
+    "id": "jarvis-voice",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/globalcaos/jarvis-voice/SKILL.md",
+    "description": "Metallic AI voice persona with TTS and visual transcript styling.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Metallic AI voice persona with TTS and visual transcript styling."
+  },
+  {
+    "title": "kokoro-tts",
+    "id": "kokoro-tts",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/edkief/kokoro-tts/SKILL.md",
+    "description": "Generate spoken audio from text using the local Kokoro TTS engine.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Generate spoken audio from text using the local Kokoro TTS engine."
+  },
+  {
+    "title": "lnbits",
+    "id": "lnbits",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/talvasconcelos/lnbits/SKILL.md",
+    "description": "Manage LNbits Lightning Wallet (Balance, Pay, Invoice)",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Manage LNbits Lightning Wallet (Balance, Pay, Invoice)"
+  },
+  {
+    "title": "lnbits-with-qrcode",
+    "id": "lnbits-with-qrcode",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jamestsetsekas/lnbits-with-qrcode/SKILL.md",
+    "description": "Manage LNbits Lightning Wallet (Balance, Pay, Invoice)",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Manage LNbits Lightning Wallet (Balance, Pay, Invoice)"
+  },
+  {
+    "title": "miranda-sag",
+    "id": "miranda-sag",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jeffpignataro/miranda-sag/SKILL.md",
+    "description": "ElevenLabs text-to-speech with mac-style say UX.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "ElevenLabs text-to-speech with mac-style say UX."
+  },
+  {
+    "title": "norman-categorize-transactions",
+    "id": "norman-categorize-transactions",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/stanlee000/norman-categorize-transactions/SKILL.md",
+    "description": "Review and categorize uncategorized bank transactions, match them with invoices, and verify bookkeeping entries.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Review and categorize uncategorized bank transactions, match them with invoices, and verify bookkeeping entries."
+  },
+  {
+    "title": "norman-monthly-reconciliation",
+    "id": "norman-monthly-reconciliation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/stanlee000/norman-monthly-reconciliation/SKILL.md",
+    "description": "Perform a complete monthly financial reconciliation - review all transactions, match invoices, check outstanding.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Perform a complete monthly financial reconciliation - review all transactions, match invoices, check outstanding."
+  },
+  {
+    "title": "ressemble",
+    "id": "ressemble",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/adriano-vr/ressemble/SKILL.md",
+    "description": "Text-to-Speech and Speech-to-Text integration using Resemble AI HTTP API.",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Text-to-Speech and Speech-to-Text integration using Resemble AI HTTP API."
+  },
+  {
+    "title": "siliconflow-tts-gen",
+    "id": "siliconflow-tts-gen",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/lilei0311/siliconflow-tts-gen/SKILL.md",
+    "description": "Text-to-Speech using SiliconFlow API (CosyVoice2)",
+    "category": "speech-and-transcription",
+    "description_zh": "",
+    "original_description": "Text-to-Speech using SiliconFlow API (CosyVoice2)"
+  }
+]

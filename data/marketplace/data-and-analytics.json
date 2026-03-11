@@ -1,0 +1,380 @@
+[
+  {
+    "title": "add-analytics",
+    "id": "add-analytics",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jeftekhari/add-analytics/SKILL.md",
+    "description": "Add Google Analytics 4 tracking to any project.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Add Google Analytics 4 tracking to any project."
+  },
+  {
+    "title": "agi-artificial-geometric-intelligence",
+    "id": "agi-artificial-geometric-intelligence",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/uniaolives",
+    "description": "Designed multi-layer.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Designed multi-layer."
+  },
+  {
+    "title": "amplitude-automation",
+    "id": "amplitude-automation",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/sohamganatra/amplitude-automation/SKILL.md",
+    "description": "Automate Amplitude tasks via Rube MCP.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Automate Amplitude tasks via Rube MCP."
+  },
+  {
+    "title": "canva",
+    "id": "canva",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/abgohel/canva/SKILL.md",
+    "description": "Create, export, and manage Canva designs via the Connect API.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Create, export, and manage Canva designs via the Connect API."
+  },
+  {
+    "title": "ceorater",
+    "id": "ceorater",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ceorater-skills/ceorater/SKILL.md",
+    "description": "Get institutional-grade CEO performance analytics for S&P 500.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Get institutional-grade CEO performance analytics for S&P 500."
+  },
+  {
+    "title": "check-analytics",
+    "id": "check-analytics",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jeftekhari/check-analytics/SKILL.md",
+    "description": "Audit existing Google Analytics implementation.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Audit existing Google Analytics implementation."
+  },
+  {
+    "title": "cicd-pipeline",
+    "id": "cicd-pipeline",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/gitgoodordietrying/cicd-pipeline/SKILL.md",
+    "description": "Create, debug, and manage CI/CD pipelines with GitHub.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Create, debug, and manage CI/CD pipelines with GitHub."
+  },
+  {
+    "title": "clawver-store-analytics",
+    "id": "clawver-store-analytics",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nwang783/clawver-store-analytics/SKILL.md",
+    "description": "Monitor Clawver store performance.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Monitor Clawver store performance."
+  },
+  {
+    "title": "clean-skill-1",
+    "id": "clean-skill-1",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/orlyjamie/clean-skill-1/SKILL.md",
+    "description": "A friendly greeting skill for testing.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "A friendly greeting skill for testing."
+  },
+  {
+    "title": "cleanboi-00002",
+    "id": "cleanboi-00002",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/orlyjamie/cleanboi-00002/SKILL.md",
+    "description": "A friendly greeting skill for testing.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "A friendly greeting skill for testing."
+  },
+  {
+    "title": "cleanup",
+    "id": "cleanup",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/themrzz/cleanup/SKILL.md",
+    "description": "Remove all stored Kradleverse sessions.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Remove all stored Kradleverse sessions."
+  },
+  {
+    "title": "csv-pipeline",
+    "id": "csv-pipeline",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/gitgoodordietrying/csv-pipeline/SKILL.md",
+    "description": "Process, transform, analyze, and report on CSV and JSON.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Process, transform, analyze, and report on CSV and JSON."
+  },
+  {
+    "title": "daily-report",
+    "id": "daily-report",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/visualdeptcreative/daily-report/SKILL.md",
+    "description": "Track progress, report metrics, manage memory.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Track progress, report metrics, manage memory."
+  },
+  {
+    "title": "data-analyst",
+    "id": "data-analyst",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/oyi77/data-analyst/SKILL.md",
+    "description": "Data visualization, report generation, SQL queries, and spreadsheet.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Data visualization, report generation, SQL queries, and spreadsheet."
+  },
+  {
+    "title": "data-enricher",
+    "id": "data-enricher",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/visualdeptcreative/data-enricher/SKILL.md",
+    "description": "Enrich leads with email addresses and format data.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Enrich leads with email addresses and format data."
+  },
+  {
+    "title": "data-lineage-tracker",
+    "id": "data-lineage-tracker",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/datadrivenconstruction/data-lineage-tracker/SKILL.md",
+    "description": "Track data origin, transformations.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Track data origin, transformations."
+  },
+  {
+    "title": "design-assets",
+    "id": "design-assets",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cmanfre7/design-assets/SKILL.md",
+    "description": "Create and edit graphic design assets: icons, favicons, images.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Create and edit graphic design assets: icons, favicons, images."
+  },
+  {
+    "title": "duckdb-en",
+    "id": "duckdb-en",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/camelsprout/duckdb-cli-ai-skills/SKILL.md",
+    "description": "DuckDB CLI specialist for SQL analysis, data processing.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "DuckDB CLI specialist for SQL analysis, data processing."
+  },
+  {
+    "title": "ec-session-cleaner",
+    "id": "ec-session-cleaner",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/henrino3",
+    "description": "Convert raw OpenClaw session JSONL transcripts.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Convert raw OpenClaw session JSONL transcripts."
+  },
+  {
+    "title": "facebook-page-manager",
+    "id": "facebook-page-manager",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/longmaba/facebook-page-manager/SKILL.md",
+    "description": "Manage Facebook Pages via Meta Graph API.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Manage Facebook Pages via Meta Graph API."
+  },
+  {
+    "title": "feishu-pcec",
+    "id": "feishu-pcec",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/autogame-17",
+    "description": "Internal wrapper for `capability-evolver` that forces reporting.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Internal wrapper for `capability-evolver` that forces reporting."
+  },
+  {
+    "title": "get-weather",
+    "id": "get-weather",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/noypearl/get-weather/SKILL.md",
+    "description": "Fetch current weather and forecast data from a free weather API.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Fetch current weather and forecast data from a free weather API."
+  },
+  {
+    "title": "google-analytics-api",
+    "id": "google-analytics-api",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/rich-song/google-analytics-api/SKILL.md",
+    "description": "Google Analytics API integration with managed.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Google Analytics API integration with managed."
+  },
+  {
+    "title": "harvest-time-reporting-api",
+    "id": "harvest-time-reporting-api",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/zachgodsell93",
+    "description": "Integration with Harvest time.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Integration with Harvest time."
+  },
+  {
+    "title": "hyperliquid",
+    "id": "hyperliquid",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/k0nkupa/hyperliquid/SKILL.md",
+    "description": "Read-only Hyperliquid market data assistant (perps + spot optional)",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Read-only Hyperliquid market data assistant (perps + spot optional)"
+  },
+  {
+    "title": "ipinfo",
+    "id": "ipinfo",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/tiagom101/ipinfo/SKILL.md",
+    "description": "Perform IP geolocation lookups using ipinfo.io API.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Perform IP geolocation lookups using ipinfo.io API."
+  },
+  {
+    "title": "kradleverse-cleanup",
+    "id": "kradleverse-cleanup",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/themrzz/kradleverse-cleanup/SKILL.md",
+    "description": "Remove all stored Kradleverse sessions.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Remove all stored Kradleverse sessions."
+  },
+  {
+    "title": "linkdapi",
+    "id": "linkdapi",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/foontinz/linkdapi/SKILL.md",
+    "description": "Work with LinkdAPI Python SDK for accessing LinkedIn professional profile.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Work with LinkdAPI Python SDK for accessing LinkedIn professional profile."
+  },
+  {
+    "title": "netlify",
+    "id": "netlify",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/ajmwagar/netlify/SKILL.md",
+    "description": "Use the Netlify CLI (netlify) to create/link Netlify sites and set up CI/CD.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Use the Netlify CLI (netlify) to create/link Netlify sites and set up CI/CD."
+  },
+  {
+    "title": "nocodb",
+    "id": "nocodb",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/nickian/nocodb/SKILL.md",
+    "description": "Access and manage NocoDB databases, tables, and records via REST API.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Access and manage NocoDB databases, tables, and records via REST API."
+  },
+  {
+    "title": "osint-graph-analyzer",
+    "id": "osint-graph-analyzer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/orosha-ai/osint-graph-analyzer/SKILL.md",
+    "description": "Build knowledge graphs from OSINT data.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Build knowledge graphs from OSINT data."
+  },
+  {
+    "title": "remove-analytics",
+    "id": "remove-analytics",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/jeftekhari/remove-analytics/SKILL.md",
+    "description": "Safely remove Google Analytics from a project.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Safely remove Google Analytics from a project."
+  },
+  {
+    "title": "senior-data-engineer",
+    "id": "senior-data-engineer",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alirezarezvani/senior-data-engineer/SKILL.md",
+    "description": "Data engineering skill for building scalable.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Data engineering skill for building scalable."
+  },
+  {
+    "title": "senior-data-scientist",
+    "id": "senior-data-scientist",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alirezarezvani/senior-data-scientist/SKILL.md",
+    "description": "World-class data science skill.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "World-class data science skill."
+  },
+  {
+    "title": "strikeradar",
+    "id": "strikeradar",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/alexpolonsky/strikeradar/SKILL.md",
+    "description": "Monitor US-Iran strike probability from open-source signals.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Monitor US-Iran strike probability from open-source signals."
+  },
+  {
+    "title": "supabase",
+    "id": "supabase",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/stopmoclay/supabase/SKILL.md",
+    "description": "Connect to Supabase for database operations, vector search, and storage.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Connect to Supabase for database operations, vector search, and storage."
+  },
+  {
+    "title": "sure",
+    "id": "sure",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/bt0r/sure/SKILL.md",
+    "description": "Get report from Sure personal financial board.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Get report from Sure personal financial board."
+  },
+  {
+    "title": "tabstack-extractor",
+    "id": "tabstack-extractor",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/noblepayne/tabstack-extractor/SKILL.md",
+    "description": "Extract structured data from websites using Tabstack.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Extract structured data from websites using Tabstack."
+  },
+  {
+    "title": "thingsboard-skill",
+    "id": "thingsboard-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/hoangnv170752/thingsboard-skill/SKILL.md",
+    "description": "Manage ThingsBoard devices, dashboards, telemetry.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Manage ThingsBoard devices, dashboards, telemetry."
+  },
+  {
+    "title": "umea-data",
+    "id": "umea-data",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/simskii/umea-data/SKILL.md",
+    "description": "Query open data from Umeå kommun about locations, facilities.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Query open data from Umeå kommun about locations, facilities."
+  },
+  {
+    "title": "yahoo-data-fetcher",
+    "id": "yahoo-data-fetcher",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/noypearl/yahoo-data-fetcher/SKILL.md",
+    "description": "Fetch real-time stock quotes from Yahoo Finance.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Fetch real-time stock quotes from Yahoo Finance."
+  },
+  {
+    "title": "douban-sync-skill",
+    "id": "douban-sync-skill",
+    "repoUrl": "https://github.com/openclaw/skills/tree/main/skills/cosformula/douban-sync-skill/SKILL.md",
+    "description": "Export and sync Douban (豆瓣) book/movie/music/game collections.",
+    "category": "data-and-analytics",
+    "description_zh": "",
+    "original_description": "Export and sync Douban (豆瓣) book/movie/music/game collections."
+  }
+]
