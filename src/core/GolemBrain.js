@@ -2,7 +2,7 @@
 // 🧠 Golem Brain (Web Gemini) - Clean Architecture Facade
 // ============================================================
 const path = require('path');
-const { CONFIG, cleanEnv } = require('../config');
+const ConfigManager = require('../config');
 const DOMDoctor = require('../services/DOMDoctor');
 const BrowserMemoryDriver = require('../memory/BrowserMemoryDriver');
 const SystemQmdDriver = require('../memory/SystemQmdDriver');
@@ -12,13 +12,20 @@ const BrowserLauncher = require('./BrowserLauncher');
 const ProtocolFormatter = require('../services/ProtocolFormatter');
 const PageInteractor = require('./PageInteractor');
 const ChatLogManager = require('../managers/ChatLogManager');
+const SkillIndexManager = require('../managers/SkillIndexManager');
+const NodeRouter = require('./NodeRouter');
 const { URLS } = require('./constants');
 
 // ============================================================
 // 🧠 Golem Brain (Web Gemini) - Dual-Engine + Titan Protocol
 // ============================================================
 class GolemBrain {
-    constructor() {
+    constructor(options = {}) {
+        // ── 實體識別與設定 ──
+        this.golemId = options.golemId || 'default';
+        this.userDataDir = options.userDataDir || path.resolve(ConfigManager.CONFIG.USER_DATA_DIR || './golem_memory');
+        this.skillIndex = new SkillIndexManager(this.userDataDir);
+
         // ── 瀏覽器狀態 ──
         this.browser = null;
         this.page = null;
@@ -30,14 +37,17 @@ class GolemBrain {
         this.selectors = this.doctor.loadSelectors();
 
         // ── 記憶引擎 ──
-        const mode = cleanEnv(process.env.GOLEM_MEMORY_MODE || 'browser').toLowerCase();
-        console.log(`⚙️ [System] 記憶引擎模式: ${mode.toUpperCase()}`);
+        const mode = ConfigManager.cleanEnv(process.env.GOLEM_MEMORY_MODE || 'browser').toLowerCase();
+        console.log(`⚙️ [System] 記憶引擎模式: ${mode.toUpperCase()} (Golem: ${this.golemId})`);
         if (mode === 'qmd') this.memoryDriver = new SystemQmdDriver();
         else if (mode === 'native' || mode === 'system') this.memoryDriver = new SystemNativeDriver();
         else this.memoryDriver = new BrowserMemoryDriver(this);
 
         // ── 對話日誌 ──
-        this.chatLogManager = new ChatLogManager();
+        this.chatLogManager = new ChatLogManager({
+            golemId: this.golemId,
+            logDir: options.logDir || ConfigManager.LOG_BASE_DIR
+        });
     }
 
     // ─── Public API (向後相容) ─────────────────────────────
@@ -53,11 +63,10 @@ class GolemBrain {
 
         // 1. 啟動 / 連線瀏覽器
         if (!this.browser) {
-            const userDataDir = path.resolve(CONFIG.USER_DATA_DIR);
-            console.log(`📂 [System] Browser User Data Dir: ${userDataDir}`);
+            console.log(`📂 [System] Browser User Data Dir: ${this.userDataDir} (Golem: ${this.golemId})`);
 
             this.browser = await BrowserLauncher.launch({
-                userDataDir,
+                userDataDir: this.userDataDir,
                 headless: process.env.PUPPETEER_HEADLESS,
             });
         }
@@ -66,8 +75,30 @@ class GolemBrain {
         if (!this.page) {
             const pages = await this.browser.pages();
             this.page = pages.length > 0 ? pages[0] : await this.browser.newPage();
+            console.log(`🚀 [System] Browser Session Started (Golem: ${this.golemId})`);
             await this.page.goto(URLS.GEMINI_APP, { waitUntil: 'networkidle2' });
             isNewSession = true;
+        }
+
+        // 2.5 初始化日誌管理員 (建立目錄)
+        await this.chatLogManager.init();
+
+        // 2.6 同步技能索引到 SQLite (僅在完成建立/設定後才啟動)
+        try {
+            const personaManager = require('../skills/core/persona');
+            if (personaManager.exists(this.userDataDir)) {
+                // 獲取目前啟用的技能清單
+                const personaData = personaManager.get(this.userDataDir);
+                const personaSkills = personaData.skills || [];
+                const { resolveEnabledSkills } = require('../skills/skillsConfig');
+
+                const enabledSet = resolveEnabledSkills(process.env.OPTIONAL_SKILLS || '', personaSkills);
+                await this.skillIndex.sync(Array.from(enabledSet));
+            } else {
+                console.log(`⏸️ [Brain][${this.golemId}] 尚未完成設定 (Missing persona.json)，跳過技能索引同步。`);
+            }
+        } catch (e) {
+            console.warn('⚠️ [Brain] 技能索引同步失敗:', e.message);
         }
 
         // 3. 初始化記憶引擎 (含降級策略)
@@ -206,15 +237,25 @@ class GolemBrain {
      * @param {boolean} [isSystem=false] - 是否為系統訊息
      * @returns {Promise<string>} 清理後的 AI 回應
      */
-    async sendMessage(text, isSystem = false) {
+    async sendMessage(text, isSystem = false, options = {}) {
         if (!this.browser) await this.init();
         try { await this.page.bringToFront(); } catch (e) { }
         await this.setupCDP();
 
+        // ── [v9.1] Slash Command Interception ──
+        if (text.startsWith('/') || text.startsWith('GOLEM_SKILL::')) {
+            const commandResult = await NodeRouter.handle({ text, isAdmin: true }, this);
+            if (commandResult) {
+                console.log(`⚡ [Brain] 指令攔截器已處理: ${text}`);
+                // 模擬 AI 回應格式返回 (若有需要可以包裝成更複雜的格式)
+                return commandResult;
+            }
+        }
+
         const reqId = ProtocolFormatter.generateReqId();
         const startTag = ProtocolFormatter.buildStartTag(reqId);
         const endTag = ProtocolFormatter.buildEndTag(reqId);
-        const payload = ProtocolFormatter.buildEnvelope(text, reqId);
+        const payload = ProtocolFormatter.buildEnvelope(text, reqId, options);
 
         console.log(`📡 [Brain] 發送訊號: ${reqId} (含每回合強制洗腦引擎)`);
 
@@ -262,7 +303,10 @@ class GolemBrain {
      * @param {Object} entry - 日誌紀錄
      */
     _appendChatLog(entry) {
-        this.chatLogManager.append(entry);
+        // 確保在寫入前已初始化 (防呆)
+        this.chatLogManager.init().then(() => {
+            this.chatLogManager.append(entry);
+        });
     }
 
     // ─── Private Methods ─────────────────────────────────────
@@ -283,11 +327,11 @@ class GolemBrain {
         if (!process.argv.includes('dashboard')) return;
         try {
             const dashboard = require('../../dashboard');
-            dashboard.setContext(this, this.memoryDriver);
+            dashboard.setContext(this.golemId, this, this.memoryDriver);
         } catch (e) {
             try {
                 const dashboard = require('../../dashboard.js');
-                dashboard.setContext(this, this.memoryDriver);
+                dashboard.setContext(this.golemId, this, this.memoryDriver);
             } catch (err) {
                 console.error("Failed to link dashboard context:", err);
             }
@@ -295,19 +339,148 @@ class GolemBrain {
     }
 
     /**
+     * 🔄 對外公開：重新組裝技能書並注入 Gemini（開啟全新的聊天視窗）
+     * 供 Dashboard 的「注入技能書」按鈕使用
+     * ✅ [需求變更] 依據使用者要求，禁止即時熱注入，改為「重新開啟 Gemini 對話視窗」後再注入
+     */
+    async reloadSkills() {
+        // 1. 設定熱重載：從 .env 重新讀取配置 (包含 API Key, 模式, 選用技能等)
+        console.log(`🔄 [Brain][${this.golemId}] 正在執行設定熱重載 (Config Reload)...`);
+        ConfigManager.reloadConfig();
+
+        // 2. 技能同步：依據最新設定同步 SQLite 索引
+        console.log(`📡 [Brain][${this.golemId}] 正在同步技能索引 (Skill Sync)...`);
+        try {
+            const personaManager = require('../skills/core/persona');
+            const personaData = personaManager.get(this.userDataDir);
+            const personaSkills = personaData.skills || [];
+            const { resolveEnabledSkills } = require('../skills/skillsConfig');
+            
+            // 使用最新的 process.env.OPTIONAL_SKILLS
+            const enabledSet = resolveEnabledSkills(process.env.OPTIONAL_SKILLS || '', personaSkills);
+            await this.skillIndex.sync(Array.from(enabledSet));
+        } catch (e) {
+            console.warn(`⚠️ [Brain][${this.golemId}] 技能同步失敗:`, e.message);
+        }
+
+        // 3. 清除 ProtocolFormatter 快取，讓下次 build 時重新掃描
+        ProtocolFormatter._lastScanTime = 0;
+        console.log(`🔄 [Brain][${this.golemId}] 協議快取已清除，開始重新開啟對話視窗並注入...`);
+
+        // 4. 若瀏覽器還沒準備好，直接返回（表示本次注入會在下次 init 時生效）
+        if (!this.page) {
+            console.log(`⚠️ [Brain][${this.golemId}] 瀏覽器尚未初始化，技能將在下次啟動時自動載入。`);
+            return;
+        }
+
+        // 5. 重新開啟 Gemini 視窗 (New Chat) 後再注入
+        console.log(`🔄 [Brain][${this.golemId}] 正在開啟新的 Gemini 對話視窗...`);
+        const { URLS } = require('./constants');
+        await this.page.goto(URLS.GEMINI_APP, { waitUntil: 'networkidle2' });
+
+        await this._injectSystemPrompt(true);
+        console.log(`✅ [Brain][${this.golemId}] 完整重啟流程執行完畢 (Config + Skill + Protocol)。`);
+    }
+
+    /**
      * 組裝並發送系統 Prompt
      * @param {boolean} [forceRefresh=false]
      */
     async _injectSystemPrompt(forceRefresh = false) {
-        const { systemPrompt, skillMemoryText } = await ProtocolFormatter.buildSystemPrompt(forceRefresh);
+        let { systemPrompt, skillMemoryText } = await ProtocolFormatter.buildSystemPrompt(forceRefresh, {
+            userDataDir: this.userDataDir,
+            golemId: this.golemId
+        });
 
         if (skillMemoryText) {
             await this.memorize(skillMemoryText, { type: 'system_skills', source: 'boot_init' });
             console.log(`🧠 [Memory] 已成功將技能載入長期記憶中！`);
         }
 
+        // 🚀 [第一階段] 發送底層系統協議 (不含歷史摘要)
         const compressedPrompt = ProtocolFormatter.compress(systemPrompt);
-        await this.sendMessage(compressedPrompt, true);
+        await this.sendMessage(compressedPrompt, false); // ⚡ 改為 false：等待完整回應
+        console.log(`📡 [Brain] 階段一：底層協議注入完成。`);
+
+        // 🧠 [第二階段] 金字塔式多層記憶注入
+        if (this.chatLogManager) {
+            try {
+                let historicalMemory = "";
+
+                // 🏛️ Tier 4: 紀元里程碑 (最近 1 個)
+                const eraSummaries = this.chatLogManager.readTier('era', 1);
+                if (eraSummaries.length > 0) {
+                    eraSummaries.forEach(s => {
+                        historicalMemory += `\n=== [紀元回憶: ${s.date}] ===\n${s.content}\n`;
+                    });
+                }
+
+                // 🏛️ Tier 3: 年度回顧 (最近 1 個)
+                const yearlySummaries = this.chatLogManager.readTier('yearly', 1);
+                if (yearlySummaries.length > 0) {
+                    yearlySummaries.forEach(s => {
+                        historicalMemory += `\n=== [年度回顧: ${s.date}] ===\n${s.content}\n`;
+                    });
+                }
+
+                // 🏛️ Tier 2: 月度精華 (最近 3 個)
+                const monthlySummaries = this.chatLogManager.readTier('monthly', 3);
+                if (monthlySummaries.length > 0) {
+                    monthlySummaries.forEach(s => {
+                        historicalMemory += `\n--- [月度精華: ${s.date}] ---\n${s.content}\n`;
+                    });
+                }
+
+                // 🏛️ Tier 1: 每日摘要 (最近 7 天)
+                const dailySummaries = this.chatLogManager.readTier('daily', 7);
+                if (dailySummaries.length > 0) {
+                    dailySummaries.forEach(s => {
+                        historicalMemory += `\n--- [${s.date} 摘要] ---\n${s.content}\n`;
+                    });
+                }
+
+                if (historicalMemory) {
+                    const tierCounts = [
+                        eraSummaries.length > 0 ? `紀元×${eraSummaries.length}` : null,
+                        yearlySummaries.length > 0 ? `年度×${yearlySummaries.length}` : null,
+                        monthlySummaries.length > 0 ? `月度×${monthlySummaries.length}` : null,
+                        dailySummaries.length > 0 ? `每日×${dailySummaries.length}` : null,
+                    ].filter(Boolean);
+
+                    // ⚡ [Fix] Token 預算保護：超過 200K 字元時，從最舊 Tier 開始截斷
+                    const MAX_MEMORY_CHARS = 200000;
+                    if (historicalMemory.length > MAX_MEMORY_CHARS) {
+                        console.warn(`⚠️ [Brain] 歷史記憶超過 Token 預算 (${historicalMemory.length} chars > ${MAX_MEMORY_CHARS})，截斷較舊 Tier...`);
+                        historicalMemory = historicalMemory.slice(-MAX_MEMORY_CHARS);
+                    }
+
+                    // ⚡ [Fix] 動態生成注入說明，只列出實際有資料的層
+                    const tierDesc = tierCounts.length > 0
+                        ? `（涵蓋：${tierCounts.join(' → ')}）`
+                        : '';
+
+                    const memoryPulse = `【指令：載入長期記憶與背景壓縮】\n以下是你過去對話的多層次彙總精華${tierDesc}。請完整閱讀並內化這些背景，將其視為你目前已知的所有先驗知識與決策紀錄：\n${historicalMemory}`;
+                    await this.sendMessage(memoryPulse, false);
+                    console.log(`🧠 [Brain] 階段二：已注入多層記憶 (${tierCounts.join(', ')})。`);
+                } else {
+                    // 🕐 Tier 0 Fallback：無任何壓縮摘要時，直接載入全部 hourly 原始對話
+                    const rawMemory = this.chatLogManager.readRecentHourly();
+                    if (rawMemory) {
+                        const MAX_RAW_CHARS = 200000;
+                        const safeRaw = rawMemory.length > MAX_RAW_CHARS
+                            ? rawMemory.slice(-MAX_RAW_CHARS)
+                            : rawMemory;
+                        const rawPulse = `【指令：載入近期原始對話紀錄】\n目前尚無任何壓縮摘要，以下是你最近的完整對話原文。請完整閱讀並視為你已知的先驗背景：\n${safeRaw}`;
+                        await this.sendMessage(rawPulse, false);
+                        console.log(`🕐 [Brain] 階段二(Fallback)：已注入 Tier 0 原始 hourly 對話 (${safeRaw.length} chars)。`);
+                    } else {
+                        console.log(`ℹ️ [Brain] 階段二：無任何歷史記憶可注入 (全新會話)。`);
+                    }
+                }
+            } catch (e) {
+                console.warn(`⚠️ [Brain] 歷史記憶掃描或注入失敗: ${e.message}`);
+            }
+        }
     }
 }
 

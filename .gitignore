@@ -74,3 +74,6 @@ Thumbs.db
 temp/
 tmp/
 backups/
+golems.json
+moltbot_auth.json
+.golem.pid
