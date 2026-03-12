@@ -959,17 +959,27 @@ class WebServer {
         this.app.get('/api/persona/market', (req, res) => {
             try {
                 const { search, category, page = 1, limit = 20 } = req.query;
-                const personasFile = path.resolve(process.cwd(), 'data', 'marketplace', 'personas.json');
+                const personasDir = path.resolve(process.cwd(), 'data', 'marketplace', 'personas');
                 
-                if (!fs.existsSync(personasFile)) {
+                if (!fs.existsSync(personasDir)) {
                     return res.json({ personas: [], total: 0 });
                 }
 
-                const data = fs.readFileSync(personasFile, 'utf8');
-                let allPersonas = JSON.parse(data);
+                let allPersonas = [];
+                const files = fs.readdirSync(personasDir).filter(f => f.endsWith('.json'));
 
+                // Optimize: if category is specified, only read that file
                 if (category && category !== 'all') {
-                    allPersonas = allPersonas.filter(p => p.category === category);
+                    const catFile = path.join(personasDir, `${category}.json`);
+                    if (fs.existsSync(catFile)) {
+                        allPersonas = JSON.parse(fs.readFileSync(catFile, 'utf8'));
+                    }
+                } else {
+                    // Load all
+                    for (const file of files) {
+                        const data = fs.readFileSync(path.join(personasDir, file), 'utf8');
+                        allPersonas = allPersonas.concat(JSON.parse(data));
+                    }
                 }
 
                 if (search) {

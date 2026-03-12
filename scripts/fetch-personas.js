@@ -4,6 +4,7 @@ const path = require('path');
 
 const CSV_URL = 'https://raw.githubusercontent.com/f/awesome-chatgpt-prompts/main/prompts.csv';
 const ZH_JSON_URL = 'https://raw.githubusercontent.com/PlexPt/awesome-chatgpt-prompts-zh/main/prompts-zh-TW.json';
+const SHORTCUT_URL = 'https://raw.githubusercontent.com/rockbenben/ChatGPT-Shortcut/main/src/data/prompt_zh-Hant.json';
 const OUTPUT_DIR = path.join(__dirname, '..', 'data', 'marketplace');
 const OUTPUT_FILE = path.join(OUTPUT_DIR, 'personas.json');
 
@@ -111,13 +112,15 @@ async function main() {
   console.log('Fetching Chinese Translations from', ZH_JSON_URL);
 
   try {
-    const [csvData, zhJsonData] = await Promise.all([
+    const [csvData, zhJsonData, shortcutData] = await Promise.all([
       fetchUrl(CSV_URL),
-      fetchUrl(ZH_JSON_URL)
+      fetchUrl(ZH_JSON_URL),
+      fetchUrl(SHORTCUT_URL)
     ]);
     
     console.log('CSV downloaded, size:', csvData.length, 'bytes');
-    console.log('ZH JSON downloaded, size:', zhJsonData.length, 'bytes');
+    console.log('ZH JSON (PlexPt) downloaded, size:', zhJsonData.length, 'bytes');
+    console.log('SHORTCUT JSON (rockbenben) downloaded, size:', shortcutData.length, 'bytes');
 
     const rows = parseCSV(csvData);
     let zhArray = [];
@@ -139,39 +142,79 @@ async function main() {
       throw new Error('CSV must contain "act" and "prompt" columns');
     }
 
+    // Build translation maps
+    const translationMap = new Map(); // prompt -> { name_zh, description_zh, role_zh }
+
+    // 1. Process PlexPt (if it follows some usable pattern, although it usually only has act/prompt)
+    for (const item of zhArray) {
+        if (item.prompt) {
+            // We can't easily map PlexPt by prompt since it's already translated
+            // But we can map it by 'act' later
+        }
+    }
+
+    // 2. Process rockbenben (Better for mapping because it often contains English prompts)
+    let shortcutArray = [];
+    try {
+        shortcutArray = JSON.parse(shortcutData);
+        for (const item of shortcutArray) {
+            const hant = item['zh-Hant'];
+            if (hant && hant.prompt) {
+                // Some prompts are in English, some in Chinese.
+                // If the prompt contains English letters, it might be the original.
+                if (/[a-zA-Z]{5,}/.test(hant.prompt)) {
+                    translationMap.set(hant.prompt.trim(), {
+                        name_zh: hant.title,
+                        description_zh: hant.description,
+                        role_zh: hant.prompt // Note: this might be mixed or fully English
+                    });
+                }
+            }
+        }
+    } catch (e) {
+        console.error('Failed to parse Shortcut JSON');
+    }
+
     const personas = [];
-    // Process English Data
+    const processedPrompts = new Set();
+
+    // Process English Data and Merge Translations
     for (let i = 1; i < rows.length; i++) {
         const row = rows[i];
         if (row.length <= Math.max(actIdx, promptIdx)) continue;
         
         const act = row[actIdx];
-        const prompt = row[promptIdx];
+        const prompt = row[promptIdx].trim();
         if (!act || !prompt) continue;
 
+        const translation = translationMap.get(prompt);
         const description = prompt.split('.')[0] + '.';
         const catInfo = categorize(act, prompt);
 
         personas.push({
             id: generateSlug(act),
             name: act,
-            name_zh: '',
+            name_zh: translation ? translation.name_zh : '',
             description: description.substring(0, 150),
-            description_zh: '',
+            description_zh: translation ? translation.description_zh : '',
             role: prompt,
-            role_zh: '',
-            tags: ['market', 'en'],
+            role_zh: translation ? translation.role_zh : '',
+            tags: ['market', 'en', translation ? 'zh' : ''].filter(Boolean),
             category: catInfo.category,
             category_name: catInfo.name
         });
+        processedPrompts.add(prompt);
     }
 
-    // Process Chinese Data
+    // Merge Chinese-only personas from PlexPt
     for (const item of zhArray) {
         if (!item.act || !item.prompt) continue;
         const act = item.act;
         const prompt = item.prompt;
         
+        // Skip if already added via English list (by matching act name or prompt)
+        if (personas.some(p => p.name === act)) continue;
+
         const description_zh = prompt.split(/。|\./)[0] + '。';
         const catInfo = categorize(act, prompt);
 
@@ -189,12 +232,51 @@ async function main() {
         });
     }
 
-    if (!fs.existsSync(OUTPUT_DIR)) {
-      fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+    // Merge Chinese-only personas from rockbenben
+    for (const item of shortcutArray) {
+        const hant = item['zh-Hant'];
+        if (!hant || !hant.title || !hant.prompt) continue;
+        
+        // Skip if already added
+        if (processedPrompts.has(hant.prompt.trim()) || personas.some(p => p.name_zh === hant.title)) continue;
+
+        const description_zh = hant.description || (hant.prompt.split(/。|\./)[0] + '。');
+        const catInfo = categorize(hant.title, hant.prompt);
+
+        personas.push({
+            id: 'sb-' + generateSlug(hant.title),
+            name: hant.title,
+            name_zh: hant.title,
+            description: '',
+            description_zh: description_zh.substring(0, 150),
+            role: '',
+            role_zh: hant.prompt,
+            tags: ['market', 'zh'],
+            category: catInfo.category,
+            category_name: catInfo.name
+        });
     }
 
-    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(personas, null, 2));
-    console.log(`Successfully extracted ${personas.length} personas to ${OUTPUT_FILE}`);
+    // Group by category
+    const grouped = personas.reduce((acc, p) => {
+        const cat = p.category || 'other';
+        if (!acc[cat]) acc[cat] = [];
+        acc[cat].push(p);
+        return acc;
+    }, {});
+
+    const targetDir = path.resolve(process.cwd(), 'data', 'marketplace', 'personas');
+    if (!fs.existsSync(targetDir)) {
+        fs.mkdirSync(targetDir, { recursive: true });
+    }
+
+    // Save each category
+    for (const [cat, items] of Object.entries(grouped)) {
+        const filePath = path.join(targetDir, `${cat}.json`);
+        fs.writeFileSync(filePath, JSON.stringify(items, null, 2));
+    }
+
+    console.log(`Successfully extracted ${personas.length} personas into ${Object.keys(grouped).length} files in ${targetDir}`);
 
   } catch (error) {
     console.error('Error:', error);
