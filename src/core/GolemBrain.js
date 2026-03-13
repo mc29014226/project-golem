@@ -76,7 +76,7 @@ class GolemBrain {
             const pages = await this.browser.pages();
             this.page = pages.length > 0 ? pages[0] : await this.browser.newPage();
             console.log(`🚀 [System] Browser Session Started (Golem: ${this.golemId})`);
-            await this.page.goto(URLS.GEMINI_APP, { waitUntil: 'networkidle2' });
+            await this.page.goto(URLS.GEMINI_APP, { waitUntil: 'domcontentloaded' });
             isNewSession = true;
         }
 
