@@ -5,6 +5,7 @@ import { Terminal as TerminalIcon, AlertTriangle } from "lucide-react";
 import { LogStream } from "@/components/LogStream";
 import { MetricCard } from "@/components/MetricCard";
 import { socket } from "@/lib/socket";
+import { cn } from "@/lib/utils";
 
 export default function TerminalPage() {
     const [metrics, setMetrics] = useState({
@@ -95,8 +96,14 @@ export default function TerminalPage() {
                         <p className="text-xs text-muted-foreground mt-0.5 font-medium">Real-time Golem Core System Monitor</p>
                     </div>
                 </div>
-                <div className={`flex items-center space-x-2 text-[10px] uppercase tracking-widest font-bold bg-secondary/50 px-3 py-1.5 rounded-full border border-border ${isConnected ? "text-green-600 dark:text-emerald-500" : "text-destructive"}`}>
-                    <div className={`w-1.5 h-1.5 rounded-full animate-pulse ${isConnected ? "bg-green-500" : "bg-destructive"}`}></div>
+                <div className={cn(
+                    "flex items-center space-x-2 text-[10px] uppercase tracking-widest font-bold bg-secondary/50 px-3 py-1.5 rounded-full border border-border",
+                    isConnected ? "text-primary" : "text-destructive"
+                )}>
+                    <div className={cn(
+                        "w-1.5 h-1.5 rounded-full animate-pulse",
+                        isConnected ? "bg-primary shadow-[0_0_8px_rgba(var(--primary),0.5)]" : "bg-destructive"
+                    )}></div>
                     <span>{isConnected ? "System Online" : "System Offline"}</span>
                 </div>
             </div>
@@ -213,7 +220,7 @@ export default function TerminalPage() {
                             <ul className="space-y-2.5 ml-3 border-l border-border pl-4 py-1">
                                 <li className="flex justify-between hover:translate-x-1 transition-transform"><span className="text-muted-foreground">MODE:</span> <span className="text-foreground">BROWSER_ENV</span></li>
                                 <li className="flex justify-between hover:translate-x-1 transition-transform"><span className="text-muted-foreground">ENGINE:</span> <span className="text-foreground font-bold">MULTI_AGENT</span></li>
-                                <li className="flex justify-between hover:translate-x-1 transition-transform"><span className="text-muted-foreground">UPTIME:</span> <span className="text-green-600 dark:text-emerald-400">{metrics.uptime}</span></li>
+                                <li className="flex justify-between hover:translate-x-1 transition-transform"><span className="text-muted-foreground">UPTIME:</span> <span className="text-primary">{metrics.uptime}</span></li>
                             </ul>
                         </div>
                         <div>
@@ -222,7 +229,7 @@ export default function TerminalPage() {
                                 Active Subsystems
                             </div>
                             <ul className="space-y-2.5 ml-3 border-l border-border pl-4 py-1">
-                                <li className="flex justify-between"><span className="text-muted-foreground">Chronos:</span> <span className="text-green-600 dark:text-green-500">ONLINE</span></li>
+                                <li className="flex justify-between"><span className="text-muted-foreground">Chronos:</span> <span className="text-primary/80">ONLINE</span></li>
                                 <li className="flex justify-between"><span className="text-muted-foreground">Agents:</span> <span className="text-foreground font-medium">READY ({metrics.queueCount})</span></li>
                                 <li className="flex justify-between whitespace-nowrap overflow-hidden text-ellipsis"><span className="text-muted-foreground">Last:</span> <span className="text-muted-foreground text-[10px]">{metrics.lastSchedule}</span></li>
                             </ul>

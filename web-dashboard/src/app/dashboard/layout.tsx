@@ -41,14 +41,14 @@ function DashboardSidebar({
                         <h1 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-400 whitespace-nowrap overflow-hidden text-ellipsis">
                             Golem {version}
                         </h1>
-                        <p className="text-xs text-gray-500 mt-1 whitespace-nowrap">
+                        <p className="text-xs text-muted-foreground mt-1 whitespace-nowrap">
                             Bot Control Center
                         </p>
                     </div>
                 )}
                 <button
                     onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-                    className="p-1 hover:bg-gray-800 rounded text-gray-400 hover:text-white flex-shrink-0"
+                    className="p-1 hover:bg-accent rounded text-muted-foreground hover:text-accent-foreground flex-shrink-0"
                     title={isSidebarOpen ? "Collapse Sidebar" : "Expand Sidebar"}
                 >
                     {isSidebarOpen ? <ChevronLeft size={20} /> : <ChevronRight size={20} />}

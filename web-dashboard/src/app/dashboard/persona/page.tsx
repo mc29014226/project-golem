@@ -602,16 +602,16 @@ export default function PersonaPage() {
                             {!isEditing && (
                                 <div className="px-6 pb-6 grid grid-cols-1 sm:grid-cols-2 gap-3">
                                     <div className="bg-secondary/40 border border-border/60 rounded-xl px-4 py-3">
-                                        <p className="text-[10px] text-muted-foreground uppercase tracking-wider mb-1 font-medium">稱呼你為</p>
-                                        <p className="text-sm text-foreground/90">「{userName}」</p>
+                                        <p className="text-[10px] text-foreground/60 uppercase tracking-wider mb-1 font-bold">稱呼你為</p>
+                                        <p className="text-sm text-foreground font-medium">「{userName}」</p>
                                     </div>
                                     <div className="bg-secondary/40 border border-border/60 rounded-xl px-4 py-3">
-                                        <p className="text-[10px] text-muted-foreground uppercase tracking-wider mb-1 font-medium">語言風格</p>
-                                        <p className="text-sm text-foreground/90 line-clamp-1">{tone || "—"}</p>
+                                        <p className="text-[10px] text-foreground/60 uppercase tracking-wider mb-1 font-bold">語言風格</p>
+                                        <p className="text-sm text-foreground font-medium line-clamp-1">{tone || "—"}</p>
                                     </div>
                                     <div className="bg-secondary/40 border border-border/60 rounded-xl px-4 py-3 sm:col-span-2">
-                                        <p className="text-[10px] text-muted-foreground uppercase tracking-wider mb-1 font-medium">任務定位 &amp; 人設背景</p>
-                                        <p className="text-sm text-foreground/90 line-clamp-3">{role || "—"}</p>
+                                        <p className="text-[10px] text-foreground/60 uppercase tracking-wider mb-1 font-bold">任務定位 &amp; 人設背景</p>
+                                        <p className="text-sm text-foreground font-medium line-clamp-3">{role || "—"}</p>
                                     </div>
                                 </div>
                             )}
@@ -751,7 +751,7 @@ export default function PersonaPage() {
                                             <div className="flex items-start justify-between mb-3">
                                                 <div className={cn("p-2.5 rounded-xl transition-colors",
                                                     activePresetId === preset.id
-                                                        ? "bg-primary text-primary-foreground"
+                                                        ? "bg-primary text-primary-foreground dark:text-primary-foreground"
                                                         : "bg-secondary text-muted-foreground group-hover:text-primary")}>
                                                     {(() => { const I = ICON_MAP[preset.icon] || ICON_MAP.BrainCircuit; return <I className="w-5 h-5" />; })()}
                                                 </div>
@@ -762,7 +762,7 @@ export default function PersonaPage() {
                                                 )}
                                             </div>
                                             <h4 className={cn("font-bold mb-1 text-sm transition-colors",
-                                                activePresetId === preset.id ? "text-primary-foreground" : "text-foreground group-hover:text-primary")}>
+                                                activePresetId === preset.id ? "text-primary dark:text-primary-foreground text-base" : "text-foreground group-hover:text-primary text-sm")}>
                                                 {preset.name}
                                             </h4>
                                             <p className="text-xs text-muted-foreground leading-relaxed flex-1">{preset.description}</p>

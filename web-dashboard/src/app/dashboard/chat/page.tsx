@@ -6,6 +6,8 @@ import { socket } from "@/lib/socket";
 import { User, Bot, Send } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Typewriter } from "@/components/Typewriter";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 interface ChatMessage {
     id: string;
@@ -238,12 +240,19 @@ export default function DirectChatPage() {
                                                     ? "bg-secondary/50 border border-border rounded-tl-none text-foreground/90 shadow-sm"
                                                     : isUser
                                                         ? "bg-blue-600/10 text-blue-900 dark:text-blue-100 border border-blue-500/20 rounded-tr-none shadow-sm"
-                                                        : "bg-primary/10 text-primary-foreground dark:text-primary-foreground border border-primary/20 rounded-tl-none shadow-sm"
+                                                        : "bg-primary/10 text-foreground font-medium border border-primary/20 rounded-tl-none shadow-sm"
                                         )}
                                     >
                                         {msg.isThinking ? "思考中..." : (msg.isSystem && !msg.isHistory ?
                                             <Typewriter content={msg.content.replace(/\n{2,}/g, '\n\n').trim()} onComplete={() => handleTypingComplete(msg.id)} />
-                                            : msg.content.replace(/\n{2,}/g, '\n\n').trim())}
+                                            : (msg.isSystem ?
+                                                <div className="prose dark:prose-invert prose-sm max-w-none prose-p:m-0 prose-headings:my-1 prose-pre:my-1 prose-pre:bg-zinc-950 dark:prose-pre:bg-gray-950 prose-pre:border prose-pre:border-border dark:prose-pre:border-gray-800 prose-ul:list-disc prose-ul:ml-4 prose-ol:list-decimal prose-ol:ml-4 prose-li:m-0 leading-snug [&>*:first-child]:mt-0 [&>*:last-child]:mb-0">
+                                                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                                                        {msg.content.replace(/\n{2,}/g, '\n\n').trim()}
+                                                    </ReactMarkdown>
+                                                </div>
+                                                : msg.content.replace(/\n{2,}/g, '\n\n').trim()
+                                            ))}
                                     </div>
                                     {msg.actionData && Array.isArray(msg.actionData) && (!msg.isSystem || msg.isHistory || completedTypingMsgs.has(msg.id)) && (
                                         <div className="flex flex-wrap gap-2 mt-3">

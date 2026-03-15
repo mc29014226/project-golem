@@ -6,6 +6,7 @@ import {
     Eye, EyeOff, Lock, Users, Server, Activity, Cpu, HardDrive,
     DownloadCloud, Loader2
 } from "lucide-react";
+import { cn } from "@/lib/utils";
 import { io } from "socket.io-client";
 
 type GolemConfig = {
@@ -117,7 +118,7 @@ const SystemHealthDashboard = ({ systemStatus }: { systemStatus: SystemStatus | 
                             <HardDrive className="w-4 h-4" />
                             磁碟可用空間
                         </div>
-                        <span className="text-green-600 dark:text-emerald-400 font-bold">{system?.diskAvail || 'N/A'}</span>
+                        <span className="text-primary font-bold">{system?.diskAvail || 'N/A'}</span>
                     </div>
                 </div>
             </div>
@@ -317,7 +318,7 @@ const SystemUpdateSection = () => {
                 </div>
                 <button
                     onClick={() => { setShowModal(true); setUpdateDone(false); setIsUpdating(false); setStatusText(""); }}
-                    className="px-4 py-2 bg-primary/10 hover:bg-primary/20 text-primary border border-primary/30 rounded-lg text-sm transition-all font-medium"
+                    className="px-4 py-2 bg-primary/10 hover:bg-primary/20 text-primary border border-primary/20 rounded-lg text-sm transition-all font-medium"
                 >
                     檢查並更新系統 (Update)
                 </button>
@@ -325,9 +326,9 @@ const SystemUpdateSection = () => {
 
             {showModal && (
                 <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4 animate-in fade-in">
-                    <div className="bg-gray-900 border border-gray-700 rounded-xl shadow-2xl max-w-md w-full p-6 space-y-6">
-                        <h3 className="text-xl font-bold flex items-center gap-2 text-white">
-                            <DownloadCloud className="w-6 h-6 text-indigo-400" />
+                    <div className="bg-card border border-border rounded-xl shadow-2xl max-w-md w-full p-6 space-y-6">
+                        <h3 className="text-xl font-bold flex items-center gap-2 text-foreground">
+                            <DownloadCloud className="w-6 h-6 text-primary" />
                             系統一鍵更新
                         </h3>
 
@@ -339,13 +340,13 @@ const SystemUpdateSection = () => {
                                 </p>
 
                                 {updateInfo.installMode === 'git' && updateInfo.gitInfo && (
-                                    <div className="bg-gray-950 p-4 rounded-lg border border-gray-800 text-sm space-y-2">
-                                        <div className="flex items-center gap-2 text-indigo-400 font-semibold mb-2">
+                                    <div className="bg-secondary/30 p-4 rounded-lg border border-border text-sm space-y-2">
+                                        <div className="flex items-center gap-2 text-primary font-semibold mb-2">
                                             <Activity className="w-4 h-4" /> Git 版本差異分析
                                         </div>
                                         <div className="flex justify-between">
-                                            <span className="text-gray-500">當前分支:</span>
-                                            <span className="text-gray-300 bg-gray-800 px-1.5 rounded">{updateInfo.gitInfo.currentBranch}</span>
+                                            <span className="text-muted-foreground">當前分支:</span>
+                                            <span className="text-foreground bg-secondary px-1.5 rounded">{updateInfo.gitInfo.currentBranch}</span>
                                         </div>
                                         <div className="flex flex-col gap-1">
                                             <span className="text-gray-500">當前版本 (Current):</span>
@@ -388,35 +389,35 @@ const SystemUpdateSection = () => {
                                     </div>
                                 )}
 
-                                <div className="space-y-3 bg-black/30 p-4 rounded-lg border border-gray-800">
+                                <div className="space-y-3 bg-muted/30 p-4 rounded-lg border border-border">
                                     <label className="flex items-start gap-3 cursor-pointer group">
                                         <input type="checkbox" checked={keepMemory} onChange={(e) => setKeepMemory(e.target.checked)} className="mt-1" />
                                         <div className="text-sm">
-                                            <span className="text-gray-200 block group-hover:text-white transition-colors">保留 Golem 記憶與設定檔</span>
-                                            <span className="text-gray-500 text-xs mt-1 block">強制保留 `golem_memory` 與 `.env`，避免心血流失。（強烈建議勾選）</span>
+                                            <span className="text-foreground block group-hover:text-primary transition-colors">保留 Golem 記憶與設定檔</span>
+                                            <span className="text-muted-foreground text-xs mt-1 block">強制保留 `golem_memory` 與 `.env`，避免心血流失。（強烈建議勾選）</span>
                                         </div>
                                     </label>
 
                                     {updateInfo.installMode === 'zip' && (
-                                        <label className="flex items-start gap-3 cursor-pointer group pt-3 border-t border-gray-800">
+                                        <label className="flex items-start gap-3 cursor-pointer group pt-3 border-t border-border">
                                             <input type="checkbox" checked={keepOldData} onChange={(e) => setKeepOldData(e.target.checked)} className="mt-1" />
                                             <div className="text-sm">
-                                                <span className="text-gray-200 block group-hover:text-white transition-colors">建立完整系統備份</span>
-                                                <span className="text-gray-500 text-xs mt-1 block">更新前將現有檔案移至 `backup_` 資料夾以防萬一。若取消勾選則會直接覆蓋刪除。</span>
+                                                <span className="text-foreground block group-hover:text-primary transition-colors">建立完整系統備份</span>
+                                                <span className="text-muted-foreground text-xs mt-1 block">更新前將現有檔案移至 `backup_` 資料夾以防萬一。若取消勾選則會直接覆蓋刪除。</span>
                                             </div>
                                         </label>
                                     )}
                                 </div>
 
                                 <div className="flex gap-3 justify-end pt-2">
-                                    <button onClick={() => setShowModal(false)} className="px-4 py-2 hover:bg-gray-800 text-gray-400 rounded-lg text-sm transition-colors">取消</button>
+                                    <button onClick={() => setShowModal(false)} className="px-4 py-2 hover:bg-secondary text-muted-foreground rounded-lg text-sm transition-colors">取消</button>
                                     <button
                                         onClick={handleStartUpdate}
                                         disabled={
                                             (updateInfo.installMode === 'git' && updateInfo.gitInfo && updateInfo.gitInfo.behindCount === 0) ||
                                             (updateInfo.installMode === 'zip' && !updateInfo.isOutdated)
                                         }
-                                        className="px-5 py-2 bg-indigo-600 hover:bg-indigo-500 disabled:bg-indigo-900/50 disabled:text-gray-500 disabled:cursor-not-allowed text-white rounded-lg text-sm font-medium transition-colors"
+                                        className="px-5 py-2 bg-primary hover:bg-primary/90 disabled:bg-muted disabled:text-muted-foreground disabled:cursor-not-allowed text-primary-foreground rounded-lg text-sm font-medium transition-colors"
                                     >開始更新</button>
                                 </div>
                             </div>
@@ -424,23 +425,23 @@ const SystemUpdateSection = () => {
                             <div className="space-y-6 py-4">
                                 <div className="text-center space-y-2">
                                     {updateDone ? (
-                                        <CheckCircle2 className="w-12 h-12 text-emerald-500 mx-auto animate-bounce" />
+                                        <CheckCircle2 className="w-12 h-12 text-primary mx-auto animate-bounce" />
                                     ) : (
-                                        <Loader2 className="w-12 h-12 text-indigo-500 mx-auto animate-spin" />
+                                        <Loader2 className="w-12 h-12 text-primary mx-auto animate-spin" />
                                     )}
-                                    <p className="text-white font-medium">{statusText || "請稍候..."}</p>
+                                    <p className="text-foreground font-medium">{statusText || "請稍候..."}</p>
                                 </div>
 
                                 {!updateDone && (
-                                    <div className="h-2 w-full bg-gray-800 rounded-full overflow-hidden">
-                                        <div className="h-full bg-indigo-500 transition-all duration-500" style={{ width: `${progress}%` }} />
+                                    <div className="h-2 w-full bg-secondary rounded-full overflow-hidden">
+                                        <div className="h-full bg-primary transition-all duration-500" style={{ width: `${progress}%` }} />
                                     </div>
                                 )}
 
                                 {updateDone && (
                                     <div className="flex gap-3 justify-center pt-4">
-                                        <button onClick={() => setShowModal(false)} className="px-4 py-2 hover:bg-gray-800 text-gray-400 border border-gray-700 rounded-lg text-sm">稍後重啟</button>
-                                        <button onClick={handleRestart} className="px-6 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg text-sm font-bold shadow-lg shadow-emerald-900/50">立即重啟系統</button>
+                                        <button onClick={() => setShowModal(false)} className="px-4 py-2 hover:bg-secondary text-muted-foreground border border-border rounded-lg text-sm">稍後重啟</button>
+                                        <button onClick={handleRestart} className="px-6 py-2 bg-primary hover:bg-primary/90 text-primary-foreground rounded-lg text-sm font-bold shadow-lg">立即重啟系統</button>
                                     </div>
                                 )}
                             </div>
@@ -601,8 +602,8 @@ export default function SettingsPage() {
         return (
             <div className="flex-1 p-6 flex items-center justify-center">
                 <div className="flex flex-col items-center space-y-4">
-                    <RefreshCw className="w-8 h-8 text-cyan-500 animate-spin" />
-                    <p className="text-gray-400 font-mono text-sm">讀取總開關系統中...</p>
+                    <RefreshCw className="w-8 h-8 text-primary animate-spin" />
+                    <p className="text-muted-foreground font-mono text-sm">讀取總開關系統中...</p>
                 </div>
             </div>
         );
@@ -619,14 +620,14 @@ export default function SettingsPage() {
                             <Settings className="w-6 h-6 text-primary" />
                             系統配置總表 (System Settings)
                         </h1>
-                        <p className="text-sm text-gray-400 mt-1">
+                        <p className="text-sm text-muted-foreground mt-1">
                             管理 Golem 的全域配置與 API 金鑰。部分變數支援熱抽換，不需斷電即可生效。
                         </p>
                     </div>
                     <div className="flex items-center gap-3">
                         <button
                             onClick={handleRestartSystem}
-                            className="px-4 py-2 bg-gray-800 hover:bg-red-900/40 text-gray-300 hover:text-red-400 border border-gray-700 hover:border-red-800 rounded-lg text-sm transition-all flex items-center gap-2"
+                            className="px-4 py-2 bg-secondary hover:bg-destructive/10 text-muted-foreground hover:text-destructive border border-border hover:border-destructive/30 rounded-lg text-sm transition-all flex items-center gap-2"
                         >
                             <RefreshCw className="w-4 h-4" />
                             Restart System
@@ -634,10 +635,12 @@ export default function SettingsPage() {
                         <button
                             onClick={handleSave}
                             disabled={isSaving}
-                            className={`px-4 py-2 rounded-lg text-sm font-medium transition-all flex items-center gap-2 ${isSaving
-                                ? "bg-cyan-900/50 text-cyan-500 cursor-not-allowed border border-cyan-800/50"
-                                : "bg-cyan-500/10 text-cyan-400 hover:bg-cyan-500/20 border border-cyan-500/30 hover:border-cyan-500"
-                                }`}
+                            className={cn(
+                                "px-4 py-2 rounded-lg text-sm font-medium transition-all flex items-center gap-2",
+                                isSaving
+                                    ? "bg-muted text-muted-foreground cursor-not-allowed border border-border"
+                                    : "bg-primary/10 text-primary hover:bg-primary/20 border border-primary/30 hover:border-primary"
+                            )}
                         >
                             {isSaving ? <RefreshCw className="w-4 h-4 animate-spin" /> : <Save className="w-4 h-4" />}
                             {isSaving ? "Saving..." : "Save Settings"}

@@ -31,24 +31,24 @@ function ConfirmDialog({ open, onOpenChange, variant, onConfirm, isLoading }: Co
 
     const config = isRestart
         ? {
-            icon: <RefreshCcw className="w-5 h-5 text-amber-400" />,
-            iconBg: "bg-amber-500/10 border-amber-500/20",
+            icon: <RefreshCcw className="w-5 h-5 text-primary" />,
+            iconBg: "bg-primary/10 border-primary/20",
             title: "重新啟動 Golem？",
             description: "這將終止目前進程並立即重啟。前端會短暫斷線（約 3-5 秒）後自動重新連線。",
             warning: "進行中的對話將被中斷。",
             confirmLabel: "確認重啟",
             loadingLabel: "正在重啟...",
-            confirmClass: "bg-amber-600 hover:bg-amber-500 text-white",
+            confirmClass: "bg-primary hover:bg-primary/90 text-primary-foreground",
         }
         : {
-            icon: <PowerOff className="w-5 h-5 text-red-400" />,
-            iconBg: "bg-red-500/10 border-red-500/20",
+            icon: <PowerOff className="w-5 h-5 text-destructive" />,
+            iconBg: "bg-destructive/10 border-destructive/20",
             title: "關閉 Golem？",
             description: "這將完全終止後端進程。關閉後需手動在終端機執行 npm start 重新啟動。",
             warning: "所有運行中的任務將立即停止。",
             confirmLabel: "確認關閉",
             loadingLabel: "正在關閉...",
-            confirmClass: "bg-red-700 hover:bg-red-600 text-white",
+            confirmClass: "bg-destructive hover:bg-destructive/90 text-destructive-foreground",
         };
 
     return (
@@ -140,8 +140,8 @@ function DoneDialog({ open, onOpenChange, variant }: DoneDialogProps) {
                 {!isRestarted && (
                     <DialogFooter>
                         <Button
-                            variant="outline"
-                            className="w-full border-border text-muted-foreground hover:bg-accent hover:text-foreground"
+                            variant="secondary"
+                            className="w-full border-border"
                             onClick={() => onOpenChange(false)}
                         >
                             關閉
@@ -270,7 +270,7 @@ export default function DashboardPage() {
         return (
             <div className="h-full flex items-center justify-center p-6 bg-background">
                 <div className="max-w-md w-full text-center space-y-6 animate-in fade-in zoom-in-95 duration-500">
-                    <div className="inline-flex items-center justify-center w-24 h-24 bg-primary/10 border border-primary/20 rounded-[2rem] shadow-[0_0_40px_-10px_theme(colors.primary.900)] mb-2">
+                    <div className="inline-flex items-center justify-center w-24 h-24 bg-primary/10 border border-primary/20 rounded-[2rem] shadow-[0_0_40px_-10px_rgba(var(--primary),0.3)] mb-2">
                         <BrainCircuit className="w-12 h-12 text-primary" />
                     </div>
                     <div>
@@ -285,7 +285,7 @@ export default function DashboardPage() {
                             建立第一個 Golem
                         </Button>
                     </Link>
-                    <div className="pt-2 p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-600 dark:text-amber-200/50 text-[10px] text-left">
+                    <div className="pt-2 p-3 rounded-xl bg-muted border border-border text-muted-foreground text-[10px] text-left">
                         <p>💡 提示：系統向導將協助您快速設定 <code>.env</code> 文件。</p>
                     </div>
                 </div>
@@ -344,13 +344,13 @@ export default function DashboardPage() {
                         <button
                             onClick={() => openConfirm("restart")}
                             disabled={isBusy}
-                            className="w-full group flex items-center gap-3 px-4 py-2.5 rounded-lg border border-amber-500/20 bg-amber-500/5 hover:bg-amber-500/10 hover:border-amber-500/40 transition-all duration-150 disabled:opacity-40 disabled:cursor-not-allowed"
+                            className="w-full group flex items-center gap-3 px-4 py-2.5 rounded-lg border border-border bg-secondary/50 hover:bg-secondary transition-all duration-150 disabled:opacity-40 disabled:cursor-not-allowed"
                         >
-                            <div className="w-7 h-7 rounded-md bg-amber-500/10 border border-amber-500/20 flex items-center justify-center flex-shrink-0 group-hover:bg-amber-500/20 transition-colors">
-                                <RefreshCcw className="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" />
+                            <div className="w-7 h-7 rounded-md bg-primary/10 border border-primary/20 flex items-center justify-center flex-shrink-0 group-hover:bg-primary/20 transition-colors">
+                                <RefreshCcw className="w-3.5 h-3.5 text-primary" />
                             </div>
                             <div className="text-left">
-                                <p className="text-xs font-medium text-amber-600 dark:text-amber-300">重新啟動</p>
+                                <p className="text-xs font-medium text-foreground">重新啟動</p>
                                 <p className="text-[10px] text-muted-foreground">Hot-reload · 自動重連</p>
                             </div>
                         </button>
@@ -359,7 +359,7 @@ export default function DashboardPage() {
                         <button
                             onClick={() => openConfirm("shutdown")}
                             disabled={isBusy}
-                            className="w-full group flex items-center gap-3 px-4 py-2.5 rounded-lg border border-destructive/20 bg-destructive/5 hover:bg-destructive/10 hover:border-destructive/40 transition-all duration-150 disabled:opacity-40 disabled:cursor-not-allowed"
+                            className="w-full group flex items-center gap-3 px-4 py-2.5 rounded-lg border border-border bg-secondary/50 hover:bg-destructive/5 hover:border-destructive/20 transition-all duration-150 disabled:opacity-40 disabled:cursor-not-allowed"
                         >
                             <div className="w-7 h-7 rounded-md bg-destructive/10 border border-destructive/20 flex items-center justify-center flex-shrink-0 group-hover:bg-destructive/20 transition-colors">
                                 <PowerOff className="w-3.5 h-3.5 text-destructive" />

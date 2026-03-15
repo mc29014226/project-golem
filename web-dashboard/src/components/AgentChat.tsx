@@ -95,11 +95,11 @@ export function AgentChat() {
                                 <div className={cn("flex items-center space-x-2 mb-1", isUser && "flex-row-reverse space-x-reverse")}>
                                     <div className={cn(
                                         "w-6 h-6 rounded-full flex items-center justify-center border",
-                                        isUser ? "bg-primary/20 border-primary/30" : "bg-cyan-500/20 border-cyan-500/30"
+                                        isUser ? "bg-primary/20 border-primary/30" : "bg-primary/10 border-primary/20"
                                     )}>
-                                        {isUser ? <User className="w-3 h-3 text-primary" /> : <Bot className="w-3 h-3 text-cyan-500" />}
+                                        {isUser ? <User className="w-3 h-3 text-primary" /> : <Bot className="w-3 h-3 text-primary" />}
                                     </div>
-                                    <span className={cn("text-xs font-bold", isUser ? "text-primary" : "text-cyan-600 dark:text-cyan-400")}>{msg.sender}</span>
+                                    <span className={cn("text-xs font-bold", isUser ? "text-primary" : "text-foreground")}>{msg.sender}</span>
                                     <span className="text-[10px] text-muted-foreground">{msg.timestamp}</span>
                                 </div>
                             )}
@@ -109,8 +109,8 @@ export function AgentChat() {
                                     msg.isSystem
                                         ? "bg-muted text-muted-foreground text-xs border border-border"
                                         : isUser
-                                            ? "bg-primary/10 text-foreground border border-primary/20 rounded-tr-none"
-                                            : "bg-cyan-500/10 text-foreground border border-cyan-500/20 rounded-tl-none"
+                                            ? "bg-primary/10 text-foreground font-medium border border-primary/20 rounded-tr-none"
+                                            : "bg-secondary text-foreground font-medium border border-border rounded-tl-none"
                                 )}
                             >
                                 {msg.content}

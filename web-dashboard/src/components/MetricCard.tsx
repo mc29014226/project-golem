@@ -37,8 +37,8 @@ export function MetricCard({ title, value, icon: Icon, data, dataKey, color = "#
                                 <Area
                                     type="monotone"
                                     dataKey={dataKey || "value"}
-                                    stroke={color}
-                                    fill={color}
+                                    stroke="var(--color-primary)"
+                                    fill="var(--color-primary)"
                                     fillOpacity={0.2}
                                 />
                             </AreaChart>

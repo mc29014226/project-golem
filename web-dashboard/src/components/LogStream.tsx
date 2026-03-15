@@ -44,9 +44,9 @@ export function LogStream({ className, types, autoScroll = true }: { className?:
     const getLogColor = (type: LogMessage['type']) => {
         switch (type) {
             case 'error': return 'text-destructive';
-            case 'agent': return 'text-cyan-600 dark:text-cyan-400';
-            case 'chronos': return 'text-amber-600 dark:text-amber-400';
-            case 'queue': return 'text-purple-600 dark:text-purple-400';
+            case 'agent': return 'text-primary font-semibold';
+            case 'chronos': return 'text-muted-foreground italic';
+            case 'queue': return 'text-primary/70';
             case 'memory': return 'text-muted-foreground';
             default: return 'text-foreground';
         }
@@ -88,7 +88,7 @@ export function LogStream({ className, types, autoScroll = true }: { className?:
 
                     return (
                         <div key={i} className="flex border-b border-dashed border-border pb-1 mb-1 last:border-0">
-                            <span className="text-amber-600 dark:text-[#feca57] mr-2 flex-shrink-0">[{displayTime}]</span>
+                            <span className="text-muted-foreground mr-2 flex-shrink-0">[{displayTime}]</span>
                             <span className={cn(getLogColor(log.type), "break-words")}>
                                 {displayMsg}
                             </span>
