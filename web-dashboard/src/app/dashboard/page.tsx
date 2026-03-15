@@ -155,7 +155,7 @@ function DoneDialog({ open, onOpenChange, variant }: DoneDialogProps) {
 
 // ── 主頁面 ─────────────────────────────────────────────────────────────────
 export default function DashboardPage() {
-    const { hasGolems, isLoadingGolems, isSingleNode } = useGolem();
+    const { hasGolems, isLoadingGolems, isSingleNode, isBooting } = useGolem();
     const [metrics, setMetrics] = useState({
         uptime: "0h 0m",
         queueCount: 0,
@@ -266,7 +266,7 @@ export default function DashboardPage() {
     const isBusy = isLoading;
 
     // ── 主頁面開始 ──
-    if (!isLoadingGolems && !hasGolems) {
+    if (!isLoadingGolems && !hasGolems && !isBooting) {
         return (
             <div className="h-full flex items-center justify-center p-6 bg-gray-950">
                 <div className="max-w-md w-full text-center space-y-6 animate-in fade-in zoom-in-95 duration-500">

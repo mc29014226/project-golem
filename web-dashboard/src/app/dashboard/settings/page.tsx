@@ -276,9 +276,14 @@ const SystemUpdateSection = () => {
                 try {
                     const checkRes = await fetch("/api/system/status");
                     if (checkRes.ok) {
-                        clearInterval(pollInterval);
-                        setStatusText("重新啟動完成！頁面即將重新載入...");
-                        setTimeout(() => { window.location.reload(); }, 1000);
+                        const data = await checkRes.json();
+                        if (!data.isBooting) {
+                            clearInterval(pollInterval);
+                            setStatusText("重新啟動完成！頁面即將重新載入...");
+                            setTimeout(() => { window.location.reload(); }, 1500);
+                        } else {
+                            setStatusText("系統正在初始化中...");
+                        }
                     }
                 } catch (err) {
                     // Server is offline
@@ -792,6 +797,42 @@ export default function SettingsPage() {
                                 value={config.env.GOLEM_MEMORY_MODE || ""}
                                 onChange={(val) => handleChangeEnv("GOLEM_MEMORY_MODE", val)}
                             />
+
+                            <SettingField
+                                label="系統維護推播通知"
+                                keyName="ENABLE_LOG_NOTIFICATIONS"
+                                placeholder="false"
+                                desc="是否在 Telegram/Discord 接收『自動化日誌維護』彙整通知 (預設 false)"
+                                value={config.env.ENABLE_LOG_NOTIFICATIONS || ""}
+                                onChange={(val) => handleChangeEnv("ENABLE_LOG_NOTIFICATIONS", val)}
+                            />
+
+                            <SettingField
+                                label="日誌檢查間隔 (分)"
+                                keyName="ARCHIVE_CHECK_INTERVAL"
+                                placeholder="30"
+                                desc="自動檢查日誌壓縮狀態的間隔分鐘數 (預設 30)"
+                                value={config.env.ARCHIVE_CHECK_INTERVAL || ""}
+                                onChange={(val) => handleChangeEnv("ARCHIVE_CHECK_INTERVAL", val)}
+                            />
+
+                            <SettingField
+                                label="昨日歸檔門檻 (份)"
+                                keyName="ARCHIVE_THRESHOLD_YESTERDAY"
+                                placeholder="3"
+                                desc="昨日日誌需累積多少份才啟動歸檔 (預設 3)"
+                                value={config.env.ARCHIVE_THRESHOLD_YESTERDAY || ""}
+                                onChange={(val) => handleChangeEnv("ARCHIVE_THRESHOLD_YESTERDAY", val)}
+                            />
+
+                            <SettingField
+                                label="本日歸檔門檻 (份)"
+                                keyName="ARCHIVE_THRESHOLD_TODAY"
+                                placeholder="12"
+                                desc="本日日誌需累積多少份才提前啟動歸檔 (預設 12)"
+                                value={config.env.ARCHIVE_THRESHOLD_TODAY || ""}
+                                onChange={(val) => handleChangeEnv("ARCHIVE_THRESHOLD_TODAY", val)}
+                            />
                             <SettingField
                                 label="資料暫存路徑"
                                 keyName="USER_DATA_DIR"
@@ -928,7 +969,9 @@ export default function SettingsPage() {
                                     'GOLEM_MODE', 'GOLEM_MEMORY_MODE', 'GITHUB_REPO',
                                     'MOLTBOOK_API_KEY', 'MOLTBOOK_AGENT_NAME',
                                     'GOLEM_AWAKE_INTERVAL_MIN', 'GOLEM_AWAKE_INTERVAL_MAX',
-                                    'GOLEM_SLEEP_START', 'GOLEM_SLEEP_END', 'USER_INTERESTS', 'COMMAND_WHITELIST', 'CUSTOM_COMMANDS'
+                                    'GOLEM_SLEEP_START', 'GOLEM_SLEEP_END', 'USER_INTERESTS', 'COMMAND_WHITELIST', 'CUSTOM_COMMANDS',
+                                    'ENABLE_LOG_NOTIFICATIONS', 'ARCHIVE_CHECK_INTERVAL', 'ARCHIVE_THRESHOLD_YESTERDAY', 'ARCHIVE_THRESHOLD_TODAY',
+                                    'LOG_MAX_SIZE_MB', 'LOG_RETENTION_DAYS', 'ENABLE_SYSTEM_LOG'
                                 ].includes(k))
                                 .map(key => (
                                     <div key={key}>
