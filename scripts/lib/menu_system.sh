@@ -123,7 +123,16 @@ stop_system() {
         killed=1
     fi
 
-    # 4. Comprehensive regex kill for all related node/npm processes
+    # 4. Kill Backend API if running on 3001 (standard for backend when dash is on 3000)
+    local backend_pids
+    backend_pids=$(lsof -ti tcp:3001 2>/dev/null)
+    if [ -n "$backend_pids" ]; then
+        echo "$backend_pids" | xargs kill -9 2>/dev/null
+        echo -e "  ${GREEN}✅ Backend API (port 3001) 已停止${NC}"
+        killed=1
+    fi
+
+    # 5. Comprehensive regex kill for all related node/npm processes
     # Patterns: index.js, dashboard.js, migrateData.js, nodemon, next-dev
     local golem_pids
     golem_pids=$(pgrep -f 'node.*(index|dashboard|migrateData)\.js|nodemon|next-dev|npm.*(start|dev|dashboard)' 2>/dev/null)
