@@ -15,21 +15,25 @@ class SystemLogger {
         const originalWarn = console.warn;
 
         console.log = (...args) => {
-            originalLog(...args);
+            const ts = new Date().toLocaleTimeString('zh-TW', { hour12: false });
+            originalLog(`\x1b[90m[${ts}]\x1b[0m`, ...args);
             this._write('INFO', ...args);
         };
 
         console.error = (...args) => {
-            originalError(...args);
+            const ts = new Date().toLocaleTimeString('zh-TW', { hour12: false });
+            originalError(`\x1b[90m[${ts}]\x1b[0m`, ...args);
             this._write('ERROR', ...args);
         };
 
         console.warn = (...args) => {
-            originalWarn(...args);
+            const ts = new Date().toLocaleTimeString('zh-TW', { hour12: false });
+            originalWarn(`\x1b[90m[${ts}]\x1b[0m`, ...args);
             this._write('WARN', ...args);
         };
 
         this.initialized = true;
+        this._isLogging = false; // 🔄 遞迴鎖 (Recursion Guard)
     }
 
     static _ensureDirectory(dir) {
@@ -45,8 +49,17 @@ class SystemLogger {
     static _write(level, ...args) {
         if (!this.logFile) return;
 
-        // 檢查是否手動關閉了系統日誌
-        if (process.env.ENABLE_SYSTEM_LOG === 'false') return;
+        // 🛡️ [Recursion Guard] 防止 console.error 觸發輪替失敗時又呼叫 console.error 導致無限循環
+        if (this._isLogging) return;
+        this._isLogging = true;
+
+        try {
+            // 檢查是否手動關閉了系統日誌
+            if (process.env.ENABLE_SYSTEM_LOG === 'false') return;
+        } catch (e) {
+            this._isLogging = false;
+            return;
+        }
 
         const now = new Date();
         const dateString = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
@@ -102,7 +115,9 @@ class SystemLogger {
         try {
             fs.appendFileSync(this.logFile, logLine);
         } catch (e) {
-            // 防止遞迴報錯
+            // 防止遞迴報錯 (雙重保險)
+        } finally {
+            this._isLogging = false; // 解鎖
         }
     }
 

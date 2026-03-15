@@ -30,6 +30,12 @@ process.on('unhandledRejection', (reason, promise) => {
     console.error('Reason:', reason);
 });
 
+const ConfigManager = require('./src/config');
+const SystemLogger = require('./src/utils/SystemLogger');
+
+// 🚀 初始化系統日誌持久化 (必須在 Dashboard 之前，確保攔截順序正確)
+SystemLogger.init(ConfigManager.LOG_BASE_DIR);
+
 // Dashboard 強制啟用
 try {
     require('./dashboard');
@@ -45,11 +51,6 @@ const os = require('os');
 const { spawn } = require('child_process');
 const TelegramBot = require('node-telegram-bot-api');
 const { Client, GatewayIntentBits, Partials } = require('discord.js');
-
-const ConfigManager = require('./src/config');
-const SystemLogger = require('./src/utils/SystemLogger');
-
-// 🚀 初始化系統日誌持久化已移至 ensureCoreServices (按需啟動)
 
 const GolemBrain = require('./src/core/GolemBrain');
 const TaskController = require('./src/core/TaskController');
@@ -129,7 +130,7 @@ function getOrCreateGolem() {
     async function ensureCoreServices() {
         if (_isCoreInitialized) return;
 
-        // 🚀 初始化系統日誌持久化 (按需啟動)
+        // 🚀 初始化系統日誌持久化 (確保服務啟動時日誌功能就緒)
         SystemLogger.init(ConfigManager.LOG_BASE_DIR);
         console.log('📡 [Config] 運行模式: 單機 (Single-Golem Architecture)');
 
@@ -283,7 +284,7 @@ function getOrCreateGolem() {
             const instance = getOrCreateGolem();
             await ensureCoreServices();
             if (typeof instance.brain._linkDashboard === 'function') {
-                instance.brain._linkDashboard();
+                instance.brain._linkDashboard(instance.autonomy);
             }
 
             // [V9.0.9 Fix]: Verify persona.json to decide actual status
@@ -664,6 +665,18 @@ async function handleUnifiedCallback(ctx, actionData) {
                 await ctx.reply("⚠️ 解析失敗：無法辨認指令格式。請重新對 Golem 下達指令。");
                 return;
             }
+
+            // 🛡️ [Security Safeguard] 指令安全檢查
+            const safeguard = require('./src/utils/CommandSafeguard');
+            // 已由使用者手動核准，故跳過硬編碼的正則白名單檢查 (skipWhitelist = true)
+            // 僅保留黑名單關鍵字與格式校準
+            const validation = safeguard.validate(cmd, true);
+            if (!validation.safe) {
+                console.error(`🛡️ [Safeguard] 攔截危險指令: ${cmd} | 原因: ${validation.reason}`);
+                await ctx.reply(`🛡️ **安全警告**：偵測到潛在危險指令！\n執行權限已自動攔截。\n原因：${validation.reason}`);
+                return;
+            }
+            cmd = validation.sanitizedCmd;
 
             if (cmd.includes('reincarnate.js')) {
                 await ctx.reply("🔄 收到轉生指令！正在將記憶注入核心並準備重啟大腦...");

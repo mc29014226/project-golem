@@ -92,6 +92,7 @@ class WebServer {
         this.golemFactory = null; // Injected from index.js for dynamic Golem creation
 
         this.init();
+        this.isBooting = true;
         this.logBuffer = []; // Store last 200 logs
         this.chatHistory = new Map(); // Store chat history per golem
     }
@@ -136,16 +137,19 @@ class WebServer {
                     }
                 } catch (e) {
                     console.error(`❌ [WebServer] Failed to auto-start Golem:`, e);
+                } finally {
+                    this.isBooting = false;
                 }
             } else {
                 console.log(`⏸️ [WebServer] Golem skipped auto-start (Missing persona.json).`);
+                this.isBooting = false;
             }
-        }, 2000);
+        }, 500);
     }
 
-    setContext(golemId, brain, memory) {
-        this.contexts.set(golemId, { brain, memory });
-        console.log(`🔗 [WebServer] Context linked: Brain & Memory for Golem [${golemId}]`);
+    setContext(golemId, brain, memory, autonomy) {
+        this.contexts.set(golemId, { brain, memory, autonomy });
+        console.log(`🔗 [WebServer] Context linked: Brain, Memory & Autonomy for Golem [${golemId}]`);
     }
 
     init() {
@@ -164,7 +168,7 @@ class WebServer {
             }));
         } else {
             console.log('🚧 [WebServer] Dashboard Dev Mode active — skipping static file serving.');
-            
+
             // In Dev Mode, show a helpful message if user hits the backend port directly
             this.app.get('/', (req, res) => {
                 res.status(200).send(`
@@ -798,7 +802,7 @@ class WebServer {
                 if (MANDATORY_SKILLS.includes(safeId) || enabledSkills.has(safeId)) {
                     const SkillIndexManager = require('../src/managers/SkillIndexManager');
                     const { MEMORY_BASE_DIR } = require('../src/config');
-                    
+
                     const idx = new SkillIndexManager(MEMORY_BASE_DIR);
                     idx.addSkill(safeId).catch(e => console.error(`[SkillIndex] Update-Add Error for ${safeId}:`, e.message));
                 }
@@ -817,7 +821,7 @@ class WebServer {
                 if (!id) return res.status(400).json({ error: 'Missing skill ID' });
 
                 const safeId = id.replace(/[^a-z0-9_-]/gi, '_').toLowerCase();
-                
+
                 // 1. 安全檢查：禁止刪除強制性技能
                 if (MANDATORY_SKILLS.includes(safeId)) {
                     return res.status(403).json({ error: `Cannot delete mandatory skill '${safeId}'` });
@@ -986,7 +990,7 @@ class WebServer {
             try {
                 const { search, category, page = 1, limit = 20 } = req.query;
                 const personasDir = path.resolve(process.cwd(), 'data', 'marketplace', 'personas');
-                
+
                 if (!fs.existsSync(personasDir)) {
                     return res.json({ personas: [], total: 0 });
                 }
@@ -1010,8 +1014,8 @@ class WebServer {
 
                 if (search) {
                     const term = search.toLowerCase();
-                    allPersonas = allPersonas.filter(p => 
-                        (p.name && p.name.toLowerCase().includes(term)) || 
+                    allPersonas = allPersonas.filter(p =>
+                        (p.name && p.name.toLowerCase().includes(term)) ||
                         (p.name_zh && p.name_zh.toLowerCase().includes(term)) ||
                         (p.description && p.description.toLowerCase().includes(term)) ||
                         (p.description_zh && p.description_zh.toLowerCase().includes(term)) ||
@@ -1036,10 +1040,10 @@ class WebServer {
             try {
                 const EnvManager = require('../src/utils/EnvManager');
                 const envVars = EnvManager.readEnv();
-                
+
                 let golemsData = [];
                 const hasToken = envVars.TELEGRAM_TOKEN || envVars.DISCORD_TOKEN;
-                
+
                 if (hasToken) {
                     const id = 'golem_A';
                     const context = this.contexts.get(id);
@@ -1147,6 +1151,7 @@ class WebServer {
                     liveCount,
                     configuredCount,
                     isSystemConfigured,
+                    isBooting: this.isBooting,
                     runtime,
                     health,
                     system
@@ -1163,7 +1168,7 @@ class WebServer {
             try {
                 const EnvManager = require('../src/utils/EnvManager');
                 const envVars = EnvManager.readEnv();
-                
+
                 // Read version from package.json
                 let version = 'v9.0';
                 try {
@@ -1207,6 +1212,13 @@ class WebServer {
 
                     // 觸發熱重載
                     ConfigManager.reloadConfig();
+
+                    // ✨ [v10.10] 通知 AutonomyManager 即時更新檢查排程
+                    for (const ctx of this.contexts.values()) {
+                        if (ctx.autonomy && typeof ctx.autonomy.scheduleNextArchive === 'function') {
+                            ctx.autonomy.scheduleNextArchive();
+                        }
+                    }
 
                     return res.json({ success: true, message: 'Configuration saved and reloaded.' });
                 }
@@ -1270,11 +1282,20 @@ class WebServer {
 
         this.app.post('/api/system/restart', (req, res) => {
             try {
-                console.log("🔄 [System] Restart requested by user. Terminating process...");
-                res.json({ success: true, message: "Restarting system..." });
-                setTimeout(() => {
-                    process.exit(0);
-                }, 1000);
+                console.log("🔄 [System] Restart requested by user. Triggering hard restart...");
+                res.json({ success: true, message: "Restarting system... Full re-initialization in progress." });
+                
+                if (typeof global.gracefulRestart === 'function') {
+                    setTimeout(() => {
+                        global.gracefulRestart().catch(err => {
+                            console.error("❌ [System] Restart error:", err);
+                            process.exit(1);
+                        });
+                    }, 1000);
+                } else {
+                    console.warn("⚠️ [System] global.gracefulRestart not found, falling back to process.exit()");
+                    setTimeout(() => process.exit(0), 1000);
+                }
             } catch (e) {
                 return res.status(500).json({ error: e.message });
             }
@@ -1705,7 +1726,7 @@ class WebServer {
                 if (!id) return res.status(400).json({ success: false, error: 'Missing persona ID' });
 
                 const safeId = id.replace(/[^a-z0-9_-]/gi, '_').toLowerCase();
-                
+
                 // 1. 安全檢查：禁止刪除內建人格
                 const BUILTIN_PERSONAS = ['standard', 'expert', 'analyst', 'coach', 'creative', 'storyteller', 'translator'];
                 if (BUILTIN_PERSONAS.includes(safeId)) {
@@ -1732,12 +1753,19 @@ class WebServer {
 
         this.app.post('/api/system/reload', (req, res) => {
             console.log("🔄 [WebServer] Received reload request. Restarting system...");
-            res.json({ success: true, message: "System is restarting..." });
+            res.json({ success: true, message: "System is restarting with full re-initialization..." });
 
-            // Inform the user that a manual restart is required
-            setTimeout(() => {
-                console.log("📢 [WebServer] Update applied. Manual restart requested via UI.");
-            }, 500);
+            if (typeof global.gracefulRestart === 'function') {
+                setTimeout(() => {
+                    global.gracefulRestart().catch(err => {
+                        console.error("❌ [System] Reload error:", err);
+                        process.exit(1);
+                    });
+                }, 1000);
+            } else {
+                console.warn("⚠️ [System] global.gracefulRestart not found, falling back to process.exit()");
+                setTimeout(() => process.exit(0), 1000);
+            }
         });
 
         this.app.post('/api/system/shutdown', (req, res) => {
