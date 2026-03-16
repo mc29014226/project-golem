@@ -121,7 +121,7 @@
 
 ### ⚡ 最推薦：一鍵安裝與啟動模式 (Magic Mode)
 我們為初次使用者準備了無腦全自動裝機腳本。
-雙擊專案目錄下的 `Start-Golem.command` (Mac/Linux) 或 `setup.bat` (Windows)，即會自動下載依賴並啟動 Node 伺服器與 Dashboard。
+雙擊專案目錄下的 `Start-Golem.command` (Mac/Linux)，即會自動下載依賴並啟動 Node 伺服器與 Dashboard。
 
 **🔨 CLI 手動模式 (Terminal)**
 ```bash

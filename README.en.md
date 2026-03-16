@@ -121,7 +121,7 @@ To help you better monitor and manage your Golem, we provide a fully functional 
 
 ### ⚡ Recommended: One-click Magic Mode
 For first-time users, we provide a fully automated setup script.
-Double-click `Start-Golem.command` (Mac/Linux) or `setup.bat` (Windows) in the project directory. It will automatically download dependencies and start the Node server and Dashboard.
+Double-click `Start-Golem.command` (Mac/Linux) in the project directory. It will automatically download dependencies and start the Node server and Dashboard.
 
 **🔨 Manual Operation (Terminal)**
 ```bash
