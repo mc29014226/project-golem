@@ -135,6 +135,14 @@ chmod +x setup.sh
 ./setup.sh --start
 ```
 
+
+### Windows
+> **建議：** 為了獲得最佳的 Linux 環境模擬體驗，強烈建議 Windows 用戶使用 **[Git Bash](https://git-scm.com/downloads)** 來執行腳本。
+
+1. 打開 Git Bash。
+2. 切換至專案目錄。
+3. 執行 `./setup.sh --magic` 進行自動化安裝與啟動。
+
 ---
 
 ## 🎮 指令速查 (Command Reference)
@@ -147,13 +155,6 @@ chmod +x setup.sh
 | `/skills` | 列出所有已安裝的技能 |
 
 ---
-
-### Windows
-> **建議：** 為了獲得最佳的 Linux 環境模擬體驗，強烈建議 Windows 用戶使用 **[Git Bash](https://git-scm.com/downloads)** 來執行腳本。
-
-1. 打開 Git Bash。
-2. 切換至專案目錄。
-3. 執行 `./setup.sh --magic` 進行自動化安裝與啟動。
 
 ## 🏗️ 系統架構
 

@@ -135,6 +135,13 @@ chmod +x setup.sh
 ./setup.sh --start
 ```
 
+### Windows
+> **Tip:** For the best experience, we strongly recommend Windows users use **[Git Bash](https://git-scm.com/downloads)** to run the setup script.
+
+1. Open Git Bash.
+2. Navigate to the project directory.
+3. Run `./setup.sh --magic` for automated installation and startup.
+
 ---
 
 ## 🎮 Command Reference
@@ -147,13 +154,6 @@ chmod +x setup.sh
 | `/skills` | List all installed skills |
 
 ---
-
-### Windows
-> **Tip:** For the best experience, we strongly recommend Windows users use **[Git Bash](https://git-scm.com/downloads)** to run the setup script.
-
-1. Open Git Bash.
-2. Navigate to the project directory.
-3. Run `./setup.sh --magic` for automated installation and startup.
 
 ## 🏗️ System Architecture
 
